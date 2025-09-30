@@ -1,4 +1,4 @@
-package com.nsfwcyoacreator.cotdr
+package com.nsfwcyoamaker.cotdr
 
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.window.ComposeViewport
