@@ -16,6 +16,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.SpanStyle
@@ -25,6 +26,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
 import churchofthedivinerodcyoa.presentation.generated.resources.Res
+import churchofthedivinerodcyoa.presentation.generated.resources.cathedral_02_preprocessed
 import churchofthedivinerodcyoa.presentation.generated.resources.intro
 import churchofthedivinerodcyoa.presentation.generated.resources.intro_highlighted_part
 import churchofthedivinerodcyoa.presentation.generated.resources.intro_priestess
@@ -45,6 +47,13 @@ fun App() {
             color = MaterialTheme.colorScheme.background,
             modifier = Modifier.fillMaxSize(),
         ) {
+            Image(
+                contentDescription = null,
+                painter = painterResource(Res.drawable.cathedral_02_preprocessed),
+                modifier = Modifier.fillMaxSize(),
+                contentScale = ContentScale.Crop,
+            )
+
             LazyColumn(
                 modifier = Modifier.fillMaxSize(),
                 horizontalAlignment = Alignment.CenterHorizontally,
@@ -55,13 +64,14 @@ fun App() {
                         text = stringResource(Res.string.title),
                         style = TextStyle(
                             fontSize = 58.sp,
+                            color = Color.White,
                         )
                     )
                 }
 
                 item {
                     Row(
-                        verticalAlignment = Alignment.Top,
+                        verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(12.dp),
                         modifier = Modifier
                             .fillMaxWidth()
@@ -90,8 +100,11 @@ fun App() {
 
                         Text(
                             text = text,
-                            fontSize = 28.sp,
-                            lineHeight = 28.sp,
+                            style = TextStyle(
+                                fontSize = 28.sp,
+                                lineHeight = 28.sp,
+                                color = Color.White,
+                            ),
                             modifier = Modifier.weight(1f),
                         )
 
