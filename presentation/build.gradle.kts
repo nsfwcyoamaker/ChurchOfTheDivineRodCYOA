@@ -51,6 +51,10 @@ kotlin {
             implementation(libs.voyager.screenmodel)
             implementation(libs.voyager.transitions)
 
+            implementation(libs.composeIcons.feather)
+            implementation(libs.composeIcons.tabler)
+            implementation(libs.composeIcons.fontAwesome)
+
             implementation(projects.domain)
         }
     }
@@ -62,6 +66,13 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
+    }
+}
+
+compose {
+    resources {
+        publicResClass = true
+        packageOfResClass = "com.nsfwcyoamaker.cotdr.resources"
     }
 }
 
