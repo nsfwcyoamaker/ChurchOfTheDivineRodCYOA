@@ -41,9 +41,6 @@ kotlin {
 
             implementation(projects.presentation)
         }
-        commonTest.dependencies {
-            implementation(libs.kotlin.test)
-        }
     }
 }
 

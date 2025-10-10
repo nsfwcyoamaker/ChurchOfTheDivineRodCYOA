@@ -10,14 +10,12 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.draw.scale
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.rememberVectorPainter
-import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.nsfwcyoamaker.cotdr.presentation.svg.Sword
+import com.nsfwcyoamaker.cotdr.presentation.theme.sectionTitleTextStyle
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @Composable
@@ -27,9 +25,6 @@ fun SectionTitle(
 ) {
     val iconSize = 64.dp
     val iconColor = Color.White
-
-    val textSize = 48.sp
-    val textColor = Color.White
 
     Row(
         verticalAlignment = Alignment.CenterVertically,
@@ -51,11 +46,7 @@ fun SectionTitle(
         Text(
             text = title,
             maxLines = 1,
-            style = TextStyle(
-                color = textColor,
-                fontSize = textSize,
-                lineHeight = textSize,
-            ),
+            style = sectionTitleTextStyle,
         )
 
         Box(
@@ -79,7 +70,7 @@ fun SectionTitle(
 @Composable
 private fun SectionTitlePreview() {
     SectionTitle(
-        title = "Priestess",
+        title = "Priestesses",
         modifier = Modifier.background(Color.Black)
     )
 }
