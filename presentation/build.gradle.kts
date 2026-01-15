@@ -56,6 +56,7 @@ kotlin {
             implementation(libs.composeIcons.fontAwesome)
 
             implementation(projects.domain)
+            implementation(projects.composableTextFlow)
         }
     }
 }

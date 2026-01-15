@@ -21,11 +21,11 @@ val mainTitleTextStyle: TextStyle
     get() = TextStyle(
         fontFamily = AngloTextFontFamily,
         color = Color.White,
-        fontSize = 80.sp,
+        fontSize = 126.sp,
         shadow = Shadow(
             color = Color.White,
             offset = Offset.Zero,
-            blurRadius = 12f,
+            blurRadius = 24f,
         )
     )
 
