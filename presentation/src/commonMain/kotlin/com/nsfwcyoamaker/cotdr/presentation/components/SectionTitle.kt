@@ -70,7 +70,7 @@ fun SectionTitle(
 @Composable
 private fun SectionTitlePreview() {
     SectionTitle(
-        title = "Priestesses",
+        title = "Followers",
         modifier = Modifier.background(Color.Black)
     )
 }
