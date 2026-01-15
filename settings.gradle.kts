@@ -28,6 +28,7 @@ dependencyResolutionManagement {
     }
 }
 
+include(":composableTextFlow")
 include(":composeApp")
 include(":data")
 include(":domain")
