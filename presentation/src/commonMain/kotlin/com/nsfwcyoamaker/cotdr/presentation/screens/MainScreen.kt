@@ -20,8 +20,10 @@ import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
 import com.nsfwcyoamaker.cotdr.composableTextFlow.TextFlow
 import com.nsfwcyoamaker.cotdr.composableTextFlow.TextWrapPlacement
+import com.nsfwcyoamaker.cotdr.presentation.components.FollowerIntroduction
 import com.nsfwcyoamaker.cotdr.presentation.components.SectionTitle
 import com.nsfwcyoamaker.cotdr.presentation.components.shadowBorder
+import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroduction
 import com.nsfwcyoamaker.cotdr.presentation.theme.acerolaTextStyle
 import com.nsfwcyoamaker.cotdr.presentation.theme.mainTitleTextStyle
 import com.nsfwcyoamaker.cotdr.resources.*
@@ -83,10 +85,28 @@ fun MainScreen() {
 
                 val acerolaSpanStyle = acerolaTextStyle.toSpanStyle()
 
-                val introText = remember {
+                val introText = remember(
+                    intro_paragraph_1_part_1_bigger,
+                    intro_paragraph_1_part_2,
+                    intro_paragraph_2_part_1_normal,
+                    intro_paragraph_2_part_2_acerola,
+                    intro_paragraph_3_part_1_normal,
+                    intro_paragraph_3_part_2_acerola,
+                    intro_paragraph_3_part_3_acerola_bold,
+                    intro_paragraph_3_part_4_acerola,
+                    intro_paragraph_3_part_5_acerola_bold,
+                    intro_paragraph_3_part_6_acerola,
+                    intro_paragraph_3_part_7_acerola_bold,
+                    intro_paragraph_3_part_8_acerola,
+                    intro_paragraph_4_part_1_acerola,
+                    intro_paragraph_4_part_2_normal,
+                    intro_paragraph_4_part_3_acerola,
+                    intro_paragraph_5_part_1_acerola,
+                    intro_paragraph_5_part_2_normal,
+                ) {
                     buildAnnotatedString {
                         withStyle(ParagraphStyle()) {
-                            withStyle(SpanStyle(fontSize = (1.4).em)) {
+                            withStyle(SpanStyle(fontSize = (1.1).em)) {
                                 append(intro_paragraph_1_part_1_bigger)
                             }
                             append(intro_paragraph_1_part_2)
@@ -113,11 +133,11 @@ fun MainScreen() {
                                     append(intro_paragraph_3_part_3_acerola_bold)
                                 }
                                 append(intro_paragraph_3_part_4_acerola)
-                                withStyle(SpanStyle(fontSize = (1.3).em, fontWeight = FontWeight.Bold, fontStyle = FontStyle.Normal)) {
+                                withStyle(SpanStyle(fontSize = (1.1).em, fontWeight = FontWeight.Bold, fontStyle = FontStyle.Normal)) {
                                     append(intro_paragraph_3_part_5_acerola_bold)
                                 }
                                 append(intro_paragraph_3_part_6_acerola)
-                                withStyle(SpanStyle(fontSize = (1.3).em, fontWeight = FontWeight.Bold, fontStyle = FontStyle.Normal)) {
+                                withStyle(SpanStyle(fontSize = (1.1).em, fontWeight = FontWeight.Bold, fontStyle = FontStyle.Normal)) {
                                     append(intro_paragraph_3_part_7_acerola_bold)
                                 }
                                 append(intro_paragraph_3_part_8_acerola)
@@ -153,14 +173,14 @@ fun MainScreen() {
                 TextFlow(
                     introText,
                     modifier = Modifier
-                        .fillMaxWidth(0.8f)
+                        .fillMaxWidth(0.95f)
                         .padding(horizontal = 80.dp),
                     placement = TextWrapPlacement.TopEnd,
                     horizontalGap = 12.dp,
                     verticalGap = 4.dp,
                     style = TextStyle(
                         fontSize = 16.sp,
-                        lineHeight = 16.sp,
+                        lineHeight = 20.sp,
                         color = Color.White,
                     ),
                     component = {
@@ -181,7 +201,7 @@ fun MainScreen() {
                 SectionTitle(
                     title = stringResource(Res.string.section_followers_title),
                     modifier = Modifier
-                        .fillMaxWidth(0.8f)
+                        .fillMaxWidth(0.95f)
                         .padding(horizontal = 80.dp),
                 )
             }
@@ -200,12 +220,23 @@ fun MainScreen() {
 
                 val acerolaSpanStyle = acerolaTextStyle.toSpanStyle()
 
-                val sectionText = remember {
+                val sectionText = remember(
+                    section_followers_description_paragraph_1_part_1_acerola,
+                    section_followers_description_paragraph_1_part_2_acerola_bold,
+                    section_followers_description_paragraph_1_part_3_acerola,
+                    section_followers_description_paragraph_2_part_1_acerola_bold,
+                    section_followers_description_paragraph_2_part_2_acerola,
+                    section_followers_description_paragraph_2_part_3_acerola_bold,
+                    section_followers_description_paragraph_2_part_4_acerola,
+                    section_followers_description_paragraph_2_part_5_acerola_bold,
+                    section_followers_description_paragraph_2_part_6_acerola,
+                    section_followers_description_paragraph_3_part_1_normal,
+                ) {
                     buildAnnotatedString {
                         withStyle(ParagraphStyle()) {
                             withStyle(acerolaSpanStyle) {
                                 append(section_followers_description_paragraph_1_part_1_acerola)
-                                withStyle(SpanStyle(fontSize = (1.2).em, fontWeight = FontWeight.Bold, fontStyle = FontStyle.Normal)) {
+                                withStyle(SpanStyle(fontSize = (1.1).em, fontWeight = FontWeight.Bold, fontStyle = FontStyle.Normal)) {
                                     append(section_followers_description_paragraph_1_part_2_acerola_bold)
                                 }
                                 append(section_followers_description_paragraph_1_part_3_acerola)
@@ -216,19 +247,19 @@ fun MainScreen() {
 
                         withStyle(ParagraphStyle()) {
                             withStyle(acerolaSpanStyle) {
-                                withStyle(SpanStyle(fontSize = (1.2).em, fontWeight = FontWeight.Bold, fontStyle = FontStyle.Normal)) {
+                                withStyle(SpanStyle(fontSize = (1.1).em, fontWeight = FontWeight.Bold, fontStyle = FontStyle.Normal)) {
                                     append(section_followers_description_paragraph_2_part_1_acerola_bold)
                                 }
                                 append(section_followers_description_paragraph_2_part_2_acerola)
                                 append("\n")
 
-                                withStyle(SpanStyle(fontSize = (1.2).em, fontWeight = FontWeight.Bold, fontStyle = FontStyle.Normal)) {
+                                withStyle(SpanStyle(fontSize = (1.1).em, fontWeight = FontWeight.Bold, fontStyle = FontStyle.Normal)) {
                                     append(section_followers_description_paragraph_2_part_3_acerola_bold)
                                 }
                                 append(section_followers_description_paragraph_2_part_4_acerola)
                                 append("\n")
 
-                                withStyle(SpanStyle(fontSize = (1.2).em, fontWeight = FontWeight.Bold, fontStyle = FontStyle.Normal)) {
+                                withStyle(SpanStyle(fontSize = (1.1).em, fontWeight = FontWeight.Bold, fontStyle = FontStyle.Normal)) {
                                     append(section_followers_description_paragraph_2_part_5_acerola_bold)
                                 }
                                 append(section_followers_description_paragraph_2_part_6_acerola)
@@ -249,13 +280,47 @@ fun MainScreen() {
                     text = sectionText,
                     style = TextStyle(
                         fontSize = 16.sp,
-                        lineHeight = 16.sp,
+                        lineHeight = 20.sp,
                         color = Color.White,
                     ),
                     modifier = Modifier
-                        .fillMaxWidth(0.8f)
+                        .fillMaxWidth(0.95f)
                         .padding(horizontal = 80.dp),
                 )
+            }
+
+            item {
+                val priestessesByRow = remember { PriestessIntroduction.entries.chunked(3) }
+
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.spacedBy(24.dp),
+                    modifier = Modifier
+                        .fillMaxWidth(0.95f)
+                        .padding(horizontal = 80.dp),
+                ) {
+                    priestessesByRow.forEach { priestessesRow ->
+                        Row(
+                            horizontalArrangement = Arrangement.spacedBy(24.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(IntrinsicSize.Min)
+                        ) {
+                            priestessesRow.forEach { priestess ->
+                                FollowerIntroduction(
+                                    title = priestess.getTitleText(),
+                                    titleStyle = priestess.getTitleStyle(),
+                                    image = priestess.image,
+                                    description = priestess.getDescription(),
+                                    modifier = Modifier
+                                        .weight(1f)
+                                        .fillMaxHeight(),
+                                )
+                            }
+                        }
+                    }
+                }
             }
         }
     }

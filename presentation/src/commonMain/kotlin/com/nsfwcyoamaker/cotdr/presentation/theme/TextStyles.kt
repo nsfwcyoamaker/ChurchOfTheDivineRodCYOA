@@ -9,13 +9,13 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import com.nsfwcyoamaker.cotdr.resources.Anglo_Text
+import com.nsfwcyoamaker.cotdr.resources.AngloText
 import com.nsfwcyoamaker.cotdr.resources.Res
 import org.jetbrains.compose.resources.Font
 
 @get:Composable
 val AngloTextFontFamily
-    get() = FontFamily(Font(Res.font.Anglo_Text, weight = FontWeight.Normal))
+    get() = FontFamily(Font(Res.font.AngloText, weight = FontWeight.Normal))
 
 @get:Composable
 val mainTitleTextStyle: TextStyle
@@ -41,7 +41,70 @@ val sectionTitleTextStyle: TextStyle
 @get:Composable
 val acerolaTextStyle: TextStyle
     get() = TextStyle(
-        //todo font family
         fontStyle = FontStyle.Italic,
         color = AcerolaColor,
     )
+
+@get:Composable
+val celesteTextStyle: TextStyle
+    get() = TextStyle(
+        fontStyle = FontStyle.Italic,
+        color = CelesteColor,
+    )
+
+@get:Composable
+val desuriTextStyle: TextStyle
+    get() = TextStyle(
+        fontStyle = FontStyle.Italic,
+        color = DesuriColor,
+    )
+
+@get:Composable
+val erinaTextStyle: TextStyle
+    get() = TextStyle(
+        fontStyle = FontStyle.Italic,
+        color = ErinaColor,
+    )
+
+@get:Composable
+val helenaTextStyle: TextStyle
+    get() = TextStyle(
+        fontStyle = FontStyle.Italic,
+        color = HelenaColor,
+    )
+
+@Composable
+private fun priestessTitleTextStyle(
+    shadowColor: Color
+): TextStyle = mainTitleTextStyle.copy(
+    fontSize = 48.sp,
+    shadow = Shadow(
+        color = shadowColor,
+        offset = Offset.Zero,
+        blurRadius = 24f,
+    )
+)
+
+@get:Composable
+val genericPriestessTitleTextStyle: TextStyle
+    get() = priestessTitleTextStyle(Color.White)
+
+@get:Composable
+val acerolaTitleTextStyle: TextStyle
+    get() = priestessTitleTextStyle(AcerolaColor)
+
+@get:Composable
+val celesteTitleTextStyle: TextStyle
+    get() = priestessTitleTextStyle(DesuriColor)
+
+@get:Composable
+val desuriTitleTextStyle: TextStyle
+    get() = priestessTitleTextStyle(CelesteColor)
+
+@get:Composable
+val erinaTitleTextStyle: TextStyle
+    get() = priestessTitleTextStyle(ErinaColor)
+
+@get:Composable
+val helenaTitleTextStyle: TextStyle
+    get() = priestessTitleTextStyle(HelenaColor)
