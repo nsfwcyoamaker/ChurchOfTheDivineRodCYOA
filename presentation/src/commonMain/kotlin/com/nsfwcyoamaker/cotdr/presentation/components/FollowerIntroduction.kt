@@ -2,24 +2,24 @@ package com.nsfwcyoamaker.cotdr.presentation.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.aspectRatio
-import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.wrapContentWidth
+import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroduction
 import com.nsfwcyoamaker.cotdr.presentation.theme.ChoiceBackgroundColor
 import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.painterResource
+import org.jetbrains.compose.ui.tooling.preview.Preview
+import org.jetbrains.compose.ui.tooling.preview.PreviewParameter
+import org.jetbrains.compose.ui.tooling.preview.PreviewParameterProvider
 
 @Composable
 fun FollowerIntroduction(
@@ -31,12 +31,12 @@ fun FollowerIntroduction(
 ) {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center,
+        verticalArrangement = Arrangement.spacedBy(4.dp, Alignment.Top),
         modifier = modifier
             .cornerBracketBorder()
             .padding(12.dp)
             .background(ChoiceBackgroundColor)
-            .padding(horizontal = 28.dp)
+            .padding(horizontal = 10.dp, vertical = 4.dp)
     ) {
         Text(
             text = title,
@@ -46,7 +46,8 @@ fun FollowerIntroduction(
         Box(
             contentAlignment = Alignment.Center,
             modifier = Modifier
-                .aspectRatio(1f, matchHeightConstraintsFirst = false),
+                .aspectRatio(1f, matchHeightConstraintsFirst = false)
+                .padding(horizontal = 18.dp),
         ) {
             Image(
                 painter = painterResource(image),
@@ -59,6 +60,37 @@ fun FollowerIntroduction(
             )
         }
 
-        Text(text = description)
+        Text(
+            text = description,
+            style = TextStyle(
+                fontSize = 12.sp,
+                lineHeight = 16.sp,
+                color = Color.White,
+            ),
+        )
     }
+}
+
+private object PriestessParameter: PreviewParameterProvider<PriestessIntroduction> {
+    override val values: Sequence<PriestessIntroduction>
+        get() = PriestessIntroduction.entries.asSequence()
+}
+
+@Preview(
+    widthDp = 1920,
+    heightDp = 1080,
+)
+@Composable
+private fun FollowerIntroductionPreview(
+    @PreviewParameter(PriestessParameter::class) priestessIntroduction: PriestessIntroduction,
+) {
+    FollowerIntroduction(
+        title = priestessIntroduction.getTitleText(),
+        titleStyle = priestessIntroduction.getTitleStyle(),
+        image = priestessIntroduction.image,
+        description = priestessIntroduction.getDescription(),
+        modifier = Modifier
+            .requiredWidth(300.dp)
+            .wrapContentHeight()
+    )
 }

@@ -95,11 +95,11 @@ val acerolaTitleTextStyle: TextStyle
 
 @get:Composable
 val celesteTitleTextStyle: TextStyle
-    get() = priestessTitleTextStyle(DesuriColor)
+    get() = priestessTitleTextStyle(CelesteColor)
 
 @get:Composable
 val desuriTitleTextStyle: TextStyle
-    get() = priestessTitleTextStyle(CelesteColor)
+    get() = priestessTitleTextStyle(DesuriColor)
 
 @get:Composable
 val erinaTitleTextStyle: TextStyle

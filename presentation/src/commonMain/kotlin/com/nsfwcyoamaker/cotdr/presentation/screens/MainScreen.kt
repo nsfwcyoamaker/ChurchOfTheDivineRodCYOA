@@ -20,10 +20,9 @@ import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
 import com.nsfwcyoamaker.cotdr.composableTextFlow.TextFlow
 import com.nsfwcyoamaker.cotdr.composableTextFlow.TextWrapPlacement
-import com.nsfwcyoamaker.cotdr.presentation.components.FollowerIntroduction
+import com.nsfwcyoamaker.cotdr.presentation.components.PriestessesIntroductionGrid
 import com.nsfwcyoamaker.cotdr.presentation.components.SectionTitle
 import com.nsfwcyoamaker.cotdr.presentation.components.shadowBorder
-import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroduction
 import com.nsfwcyoamaker.cotdr.presentation.theme.acerolaTextStyle
 import com.nsfwcyoamaker.cotdr.presentation.theme.mainTitleTextStyle
 import com.nsfwcyoamaker.cotdr.resources.*
@@ -189,13 +188,15 @@ fun MainScreen() {
                             contentDescription = null,
                             contentScale = ContentScale.FillWidth,
                             modifier = Modifier
-                                .width(360.dp)
+                                .fillMaxWidth(0.22f)
                                 .wrapContentHeight()
                                 .shadowBorder(),
                         )
                     },
                 )
             }
+
+            item { Spacer(modifier = Modifier.height(4.dp)) }
 
             item {
                 SectionTitle(
@@ -205,6 +206,8 @@ fun MainScreen() {
                         .padding(horizontal = 80.dp),
                 )
             }
+
+            item { Spacer(modifier = Modifier.height(4.dp)) }
 
             item {
                 val section_followers_description_paragraph_1_part_1_acerola = stringResource(Res.string.section_followers_description_paragraph_1_part_1_acerola)
@@ -289,39 +292,21 @@ fun MainScreen() {
                 )
             }
 
-            item {
-                val priestessesByRow = remember { PriestessIntroduction.entries.chunked(3) }
+            item { Spacer(modifier = Modifier.height(6.dp)) }
 
-                Column(
-                    horizontalAlignment = Alignment.CenterHorizontally,
-                    verticalArrangement = Arrangement.spacedBy(24.dp),
-                    modifier = Modifier
+            item {
+                PriestessesIntroductionGrid(
+                    Modifier
                         .fillMaxWidth(0.95f)
                         .padding(horizontal = 80.dp),
-                ) {
-                    priestessesByRow.forEach { priestessesRow ->
-                        Row(
-                            horizontalArrangement = Arrangement.spacedBy(24.dp),
-                            verticalAlignment = Alignment.CenterVertically,
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .height(IntrinsicSize.Min)
-                        ) {
-                            priestessesRow.forEach { priestess ->
-                                FollowerIntroduction(
-                                    title = priestess.getTitleText(),
-                                    titleStyle = priestess.getTitleStyle(),
-                                    image = priestess.image,
-                                    description = priestess.getDescription(),
-                                    modifier = Modifier
-                                        .weight(1f)
-                                        .fillMaxHeight(),
-                                )
-                            }
-                        }
-                    }
-                }
+                )
             }
+
+            item { Spacer(modifier = Modifier.height(6.dp)) }
+
+            //todo
+
+            item { Spacer(modifier = Modifier.height(260.dp)) }
         }
     }
 }
