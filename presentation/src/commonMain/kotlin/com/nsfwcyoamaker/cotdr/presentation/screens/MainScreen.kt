@@ -43,7 +43,7 @@ fun MainScreen() {
     ) {
         Image(
             contentDescription = null,
-            painter = painterResource(Res.drawable.cathedral_02_preprocessed),
+            painter = painterResource(Res.drawable.cathedral_bg_preprocessed),
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop,
         )
