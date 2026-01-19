@@ -9,28 +9,33 @@ fun String.parseRichText(
     val text = this
     return buildAnnotatedString {
         val tagStack = ArrayDeque<TagInfo>()
-
         val queuedStyles = mutableListOf<QueuedStyle>()
-
         var currentIndex = 0
+
         val tagRegex = Regex("""(?:<|\[)(/?)(\w+)([\s\S]*?)(?:>|\])""")
 
         tagRegex.findAll(text).forEach { matchResult ->
             val (fullMatch, closingSlash, tagName, rawAttrs) = matchResult.groupValues
 
+            // 1. Append text before the tag
             if (matchResult.range.first > currentIndex) {
                 append(text.substring(currentIndex, matchResult.range.first))
             }
 
+            // Track if we just closed a tag that forces a new line (ParagraphStyle)
+            var isParagraphClosing = false
+
             if (closingSlash.isNotBlank()) {
                 // --- CLOSING TAG ---
-                // Find the opening tag in the stack
                 val lastOpenIndex = tagStack.indexOfLast { it.name == tagName }
                 if (lastOpenIndex != -1) {
                     val tagInfo = tagStack.removeAt(lastOpenIndex)
 
-                    // Queue the style with its start/end range
-                    // Note: 'length' is the current position in the builder
+                    // Check if this tag was a Paragraph Style
+                    if (tagInfo.style.paragraphStyle != null) {
+                        isParagraphClosing = true
+                    }
+
                     queuedStyles.add(
                         QueuedStyle(
                             style = tagInfo.style,
@@ -43,20 +48,32 @@ fun String.parseRichText(
                 // --- OPENING TAG ---
                 val handler = handlers[tagName]
                 if (handler != null) {
-                    val attributes = parseAttributes(rawAttrs)
+                    val attributes = parseAttributes(rawAttrs) // helper function
                     val style = handler.resolve(attributes)
                     if (style != null) {
                         tagStack.addLast(TagInfo(tagName, length, style))
                     }
                 }
             }
-            currentIndex = matchResult.range.last + 1
+
+            // 2. Advance Current Index
+            val endOfTagIndex = matchResult.range.last + 1
+
+            // CRITICAL CHANGE:
+            // If we just closed a paragraph tag AND the very next char is a newline, swallow it.
+            if (isParagraphClosing && endOfTagIndex < text.length && text[endOfTagIndex] == '\n') {
+                currentIndex = endOfTagIndex + 1
+            } else {
+                currentIndex = endOfTagIndex
+            }
         }
 
+        // 3. Append remaining text
         if (currentIndex < text.length) {
             append(text.substring(currentIndex))
         }
 
+        // 4. Apply Styles (Sorted: Outer/Longest tags first)
         queuedStyles.sortByDescending { it.end - it.start }
 
         queuedStyles.forEach { item ->
