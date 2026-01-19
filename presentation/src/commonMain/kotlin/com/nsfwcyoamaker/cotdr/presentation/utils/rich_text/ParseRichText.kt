@@ -1,23 +1,17 @@
 package com.nsfwcyoamaker.cotdr.presentation.utils.rich_text
 
 import androidx.compose.ui.text.AnnotatedString
-import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 
 fun String.parseRichText(
-    handlers: Map<String, RichStyleTag>
+    handlers: Map<String, TagHandler>
 ): AnnotatedString {
     val text = this
     return buildAnnotatedString {
         val tagStack = ArrayDeque<TagInfo>()
         var currentIndex = 0
 
-        // Regex Explanation:
-        // (?:<|\[)      : Start with < or [
-        // (/?)          : Group 1 - Closing slash (optional)
-        // (\w+)         : Group 2 - Tag Name
-        // ([\s\S]*?)    : Group 3 - Raw Attributes (lazy match until end)
-        // (?:>|\])      : End with > or ]
+        // Same Regex as before: Matches <tag> or [tag] with attributes
         val tagRegex = Regex("""(?:<|\[)(/?)(\w+)([\s\S]*?)(?:>|\])""")
 
         tagRegex.findAll(text).forEach { matchResult ->
@@ -29,18 +23,26 @@ fun String.parseRichText(
             }
 
             if (closingSlash.isNotBlank()) {
-                // --- CLOSING TAG </tag> ---
+                // --- CLOSING TAG ---
                 val lastOpenIndex = tagStack.indexOfLast { it.name == tagName }
                 if (lastOpenIndex != -1) {
                     val tagInfo = tagStack.removeAt(lastOpenIndex)
-                    addStyle(tagInfo.style, tagInfo.startIndex, length)
+                    val (span, paragraph) = tagInfo.style
+
+                    // Apply SpanStyle (Color, Size, Bold)
+                    if (span != null) {
+                        addStyle(span, tagInfo.startIndex, length)
+                    }
+                    // Apply ParagraphStyle (Indents, Alignment)
+                    if (paragraph != null) {
+                        addStyle(paragraph, tagInfo.startIndex, length)
+                    }
                 }
             } else {
-                // --- OPENING TAG <tag attr="..."> ---
+                // --- OPENING TAG ---
                 val handler = handlers[tagName]
                 if (handler != null) {
-                    // Parse attributes and ask handler for the style
-                    val attributes = parseAttributes(rawAttrs)
+                    val attributes = parseAttributes(rawAttrs) // Use the helper from previous step
                     val style = handler.resolve(attributes)
 
                     if (style != null) {
@@ -58,7 +60,7 @@ fun String.parseRichText(
     }
 }
 
-private data class TagInfo(val name: String, val startIndex: Int, val style: SpanStyle)
+private data class TagInfo(val name: String, val startIndex: Int, val style: RichTextStyle)
 
 private fun parseAttributes(rawAttributes: String): Map<String, String> {
     if (rawAttributes.isBlank()) return emptyMap()

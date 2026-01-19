@@ -2,14 +2,18 @@ package com.nsfwcyoamaker.cotdr.presentation.theme
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
+import androidx.compose.ui.text.ParagraphStyle
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextIndent
 import androidx.compose.ui.unit.em
-import com.nsfwcyoamaker.cotdr.presentation.utils.rich_text.RichStyleTag
+import androidx.compose.ui.unit.sp
+import com.nsfwcyoamaker.cotdr.presentation.utils.rich_text.RichTextStyle
+import com.nsfwcyoamaker.cotdr.presentation.utils.rich_text.TagHandler
 
 @Composable
-fun makeRichTextStylesMap(): Map<String, RichStyleTag> {
+fun makeRichTextStylesMap(): Map<String, TagHandler> {
     val acerolaStyle = acerolaTextStyle.toSpanStyle()
     val celesteStyle = celesteTextStyle.toSpanStyle()
     val desuriStyle = desuriTextStyle.toSpanStyle()
@@ -24,33 +28,45 @@ fun makeRichTextStylesMap(): Map<String, RichStyleTag> {
         helenaStyle,
     ) {
         mapOf(
-            "weight" to RichStyleTag { attributes ->
+            "weight" to TagHandler { attributes ->
                 val value = attributes["value"]
                 val weight = when(value) {
                     "b" -> FontWeight.Bold
                     "n" -> FontWeight.Normal
                     else -> FontWeight.Normal
                 }
-                SpanStyle(fontWeight = weight)
+                RichTextStyle(spanStyle = SpanStyle(fontWeight = weight))
             },
-            "style" to RichStyleTag { attributes ->
+            "style" to TagHandler { attributes ->
                 val value = attributes["value"]
                 val style = when(value) {
                     "i" -> FontStyle.Italic
                     "n" -> FontStyle.Normal
                     else -> FontStyle.Normal
                 }
-                SpanStyle(fontStyle = style)
+                RichTextStyle(spanStyle = SpanStyle(fontStyle = style))
             },
-            "size" to RichStyleTag { attributes ->
+            "size" to TagHandler { attributes ->
                 val value = attributes["value"]?.toFloatOrNull() ?: 1f
-                SpanStyle(fontSize = value.em)
+                RichTextStyle(spanStyle = SpanStyle(fontSize = value.em))
             },
-            "acerolaSpeech" to RichStyleTag { acerolaStyle },
-            "celesteSpeech" to RichStyleTag { celesteStyle },
-            "desuriSpeech" to RichStyleTag { desuriStyle },
-            "erinaSpeech" to RichStyleTag { erinaStyle },
-            "helenaSpeech" to RichStyleTag { helenaStyle },
+            "indent" to TagHandler { attributes ->
+                val depth = attributes["depth"]?.toDoubleOrNull() ?: 20.0
+
+                RichTextStyle(
+                    paragraphStyle = ParagraphStyle(
+                        textIndent = TextIndent(
+                            firstLine = 0.sp,
+                            restLine = depth.sp
+                        )
+                    )
+                )
+            },
+            "acerolaSpeech" to TagHandler { RichTextStyle(spanStyle = acerolaStyle) },
+            "celesteSpeech" to TagHandler { RichTextStyle(spanStyle = celesteStyle) },
+            "desuriSpeech" to TagHandler { RichTextStyle(spanStyle = desuriStyle) },
+            "erinaSpeech" to TagHandler { RichTextStyle(spanStyle = erinaStyle) },
+            "helenaSpeech" to TagHandler { RichTextStyle(spanStyle = helenaStyle) },
         )
     }
 }
