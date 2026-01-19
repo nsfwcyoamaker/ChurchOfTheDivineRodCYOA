@@ -1,4 +1,4 @@
-package com.nsfwcyoamaker.cotdr.presentation.components
+package com.nsfwcyoamaker.cotdr.presentation.components.sections.priestesses_introduction
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -42,7 +42,7 @@ fun PriestessesIntroductionGrid(
                             .height(IntrinsicSize.Min)
                     ) {
                         priestessesRow.forEach { priestess ->
-                            FollowerIntroduction(
+                            PriestessIntroductionBox(
                                 title = priestess.getTitleText(),
                                 titleStyle = priestess.getTitleStyle(),
                                 image = priestess.image,
@@ -67,7 +67,7 @@ fun PriestessesIntroductionGrid(
                 val priestesses = remember { PriestessIntroduction.entries.toList() }
 
                 priestesses.forEach { priestess ->
-                    FollowerIntroduction(
+                    PriestessIntroductionBox(
                         title = priestess.getTitleText(),
                         titleStyle = priestess.getTitleStyle(),
                         image = priestess.image,

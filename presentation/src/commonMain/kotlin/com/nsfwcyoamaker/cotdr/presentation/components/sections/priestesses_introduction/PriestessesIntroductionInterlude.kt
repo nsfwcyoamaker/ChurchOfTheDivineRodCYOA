@@ -1,25 +1,16 @@
-package com.nsfwcyoamaker.cotdr.presentation.components
+package com.nsfwcyoamaker.cotdr.presentation.components.sections.priestesses_introduction
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.wrapContentHeight
-import androidx.compose.foundation.layout.wrapContentWidth
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.text.*
-import androidx.compose.ui.text.font.FontStyle
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.em
-import androidx.compose.ui.unit.sp
-import com.nsfwcyoamaker.cotdr.presentation.theme.acerolaTextStyle
-import com.nsfwcyoamaker.cotdr.resources.*
+import com.nsfwcyoamaker.cotdr.presentation.components.HighlightCenter
+import com.nsfwcyoamaker.cotdr.presentation.components.shadowBorder
+import com.nsfwcyoamaker.cotdr.resources.Res
+import com.nsfwcyoamaker.cotdr.resources.priestess_introduction_interlude
 import org.jetbrains.compose.resources.painterResource
-import org.jetbrains.compose.resources.stringResource
 
 @Composable
 fun PriestessIntroductionInterlude(

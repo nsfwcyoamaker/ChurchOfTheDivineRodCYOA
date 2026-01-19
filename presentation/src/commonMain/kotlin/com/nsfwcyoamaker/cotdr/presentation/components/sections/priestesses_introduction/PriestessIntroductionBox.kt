@@ -1,7 +1,6 @@
-package com.nsfwcyoamaker.cotdr.presentation.components
+package com.nsfwcyoamaker.cotdr.presentation.components.sections.priestesses_introduction
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -13,8 +12,9 @@ import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.nsfwcyoamaker.cotdr.presentation.components.choiceContour
+import com.nsfwcyoamaker.cotdr.presentation.components.shadowBorder
 import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroduction
-import com.nsfwcyoamaker.cotdr.presentation.theme.ChoiceBackgroundColor
 import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
@@ -22,7 +22,7 @@ import org.jetbrains.compose.ui.tooling.preview.PreviewParameter
 import org.jetbrains.compose.ui.tooling.preview.PreviewParameterProvider
 
 @Composable
-fun FollowerIntroduction(
+fun PriestessIntroductionBox(
     title: String,
     titleStyle: TextStyle,
     image: DrawableResource,
@@ -32,11 +32,7 @@ fun FollowerIntroduction(
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(4.dp, Alignment.Top),
-        modifier = modifier
-            .cornerBracketBorder()
-            .padding(12.dp)
-            .background(ChoiceBackgroundColor)
-            .padding(horizontal = 10.dp, vertical = 4.dp)
+        modifier = modifier.choiceContour()
     ) {
         Text(
             text = title,
@@ -81,10 +77,10 @@ private object PriestessParameter: PreviewParameterProvider<PriestessIntroductio
     heightDp = 1080,
 )
 @Composable
-private fun FollowerIntroductionPreview(
+private fun PriestessIntroductionBoxPreview(
     @PreviewParameter(PriestessParameter::class) priestessIntroduction: PriestessIntroduction,
 ) {
-    FollowerIntroduction(
+    PriestessIntroductionBox(
         title = priestessIntroduction.getTitleText(),
         titleStyle = priestessIntroduction.getTitleStyle(),
         image = priestessIntroduction.image,
