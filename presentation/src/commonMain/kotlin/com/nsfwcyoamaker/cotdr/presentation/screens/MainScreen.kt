@@ -3,6 +3,7 @@ package com.nsfwcyoamaker.cotdr.presentation.screens
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyItemScope
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -13,6 +14,9 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.components.MainIntroduction
 import com.nsfwcyoamaker.cotdr.presentation.components.PriestessIntroductionDescription
+import com.nsfwcyoamaker.cotdr.presentation.components.PriestessIntroductionExtra
+import com.nsfwcyoamaker.cotdr.presentation.components.PriestessIntroductionExtra2
+import com.nsfwcyoamaker.cotdr.presentation.components.PriestessIntroductionInterlude
 import com.nsfwcyoamaker.cotdr.presentation.components.PriestessesIntroductionGrid
 import com.nsfwcyoamaker.cotdr.presentation.components.SectionTitle
 import com.nsfwcyoamaker.cotdr.presentation.theme.mainTitleTextStyle
@@ -98,7 +102,37 @@ fun MainScreen() {
 
             item { Spacer(modifier = Modifier.height(6.dp)) }
 
-            //todo
+            item {
+                PriestessIntroductionExtra(
+                    modifier = Modifier
+                        .fillMaxWidth(0.95f)
+                        .padding(horizontal = 80.dp),
+                )
+            }
+
+            item { Spacer(modifier = Modifier.height(6.dp)) }
+
+            item {
+                PriestessIntroductionInterlude(
+                    modifier = Modifier
+                        .fillMaxWidth(0.95f)
+                        .padding(horizontal = 80.dp),
+                )
+            }
+
+            item { Spacer(modifier = Modifier.height(6.dp)) }
+
+            item {
+                PriestessIntroductionExtra2(
+                    modifier = Modifier
+                        .fillMaxWidth(0.95f)
+                        .padding(horizontal = 80.dp),
+                )
+            }
+
+            item { Spacer(modifier = Modifier.height(6.dp)) }
+
+            //TODO
 
             item { Spacer(modifier = Modifier.height(260.dp)) }
         }

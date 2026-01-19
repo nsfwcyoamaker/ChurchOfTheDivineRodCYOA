@@ -23,43 +23,12 @@ fun SectionTitle(
     title: String,
     modifier: Modifier = Modifier,
 ) {
-    val iconSize = 64.dp
-    val iconColor = Color.White
-
-    Row(
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(12.dp),
-        modifier = modifier,
-    ) {
-        Box(
-            modifier = Modifier.weight(1f),
-            contentAlignment = Alignment.CenterEnd,
-        ) {
-            Icon(
-                painter = rememberVectorPainter(Sword),
-                contentDescription = null,
-                modifier = Modifier.height(iconSize),
-                tint = iconColor,
-            )
-        }
-
+    HighlightCenter(modifier = modifier) {
         Text(
             text = title,
             maxLines = 1,
             style = sectionTitleTextStyle,
         )
-
-        Box(
-            modifier = Modifier.weight(1f),
-            contentAlignment = Alignment.CenterStart,
-        ) {
-            Icon(
-                painter = rememberVectorPainter(Sword),
-                contentDescription = null,
-                modifier = Modifier.height(iconSize).scale(scaleX = -1f, scaleY = 1f),
-                tint = iconColor,
-            )
-        }
     }
 }
 
