@@ -9,42 +9,42 @@ fun String.parseRichText(
     val text = this
     return buildAnnotatedString {
         val tagStack = ArrayDeque<TagInfo>()
-        var currentIndex = 0
 
-        // Same Regex as before: Matches <tag> or [tag] with attributes
+        val queuedStyles = mutableListOf<QueuedStyle>()
+
+        var currentIndex = 0
         val tagRegex = Regex("""(?:<|\[)(/?)(\w+)([\s\S]*?)(?:>|\])""")
 
         tagRegex.findAll(text).forEach { matchResult ->
             val (fullMatch, closingSlash, tagName, rawAttrs) = matchResult.groupValues
 
-            // 1. Append text before the tag
             if (matchResult.range.first > currentIndex) {
                 append(text.substring(currentIndex, matchResult.range.first))
             }
 
             if (closingSlash.isNotBlank()) {
                 // --- CLOSING TAG ---
+                // Find the opening tag in the stack
                 val lastOpenIndex = tagStack.indexOfLast { it.name == tagName }
                 if (lastOpenIndex != -1) {
                     val tagInfo = tagStack.removeAt(lastOpenIndex)
-                    val (span, paragraph) = tagInfo.style
 
-                    // Apply SpanStyle (Color, Size, Bold)
-                    if (span != null) {
-                        addStyle(span, tagInfo.startIndex, length)
-                    }
-                    // Apply ParagraphStyle (Indents, Alignment)
-                    if (paragraph != null) {
-                        addStyle(paragraph, tagInfo.startIndex, length)
-                    }
+                    // Queue the style with its start/end range
+                    // Note: 'length' is the current position in the builder
+                    queuedStyles.add(
+                        QueuedStyle(
+                            style = tagInfo.style,
+                            start = tagInfo.startIndex,
+                            end = length
+                        )
+                    )
                 }
             } else {
                 // --- OPENING TAG ---
                 val handler = handlers[tagName]
                 if (handler != null) {
-                    val attributes = parseAttributes(rawAttrs) // Use the helper from previous step
+                    val attributes = parseAttributes(rawAttrs)
                     val style = handler.resolve(attributes)
-
                     if (style != null) {
                         tagStack.addLast(TagInfo(tagName, length, style))
                     }
@@ -53,14 +53,28 @@ fun String.parseRichText(
             currentIndex = matchResult.range.last + 1
         }
 
-        // 2. Append remaining text
         if (currentIndex < text.length) {
             append(text.substring(currentIndex))
+        }
+
+        queuedStyles.sortByDescending { it.end - it.start }
+
+        queuedStyles.forEach { item ->
+            val (span, paragraph) = item.style
+
+            if (span != null) {
+                addStyle(span, item.start, item.end)
+            }
+            if (paragraph != null) {
+                addStyle(paragraph, item.start, item.end)
+            }
         }
     }
 }
 
+// Helper classes
 private data class TagInfo(val name: String, val startIndex: Int, val style: RichTextStyle)
+private data class QueuedStyle(val style: RichTextStyle, val start: Int, val end: Int)
 
 private fun parseAttributes(rawAttributes: String): Map<String, String> {
     if (rawAttributes.isBlank()) return emptyMap()

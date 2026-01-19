@@ -62,6 +62,10 @@ fun makeRichTextStylesMap(): Map<String, TagHandler> {
                     )
                 )
             },
+            "emphasis" to TagHandler { attributes ->
+                val size = attributes["size"]?.toDoubleOrNull() ?: 1.1
+                RichTextStyle(SpanStyle(fontSize = size.em, fontWeight = FontWeight.Bold, fontStyle = FontStyle.Normal))
+            },
             "acerolaSpeech" to TagHandler { RichTextStyle(spanStyle = acerolaStyle) },
             "celesteSpeech" to TagHandler { RichTextStyle(spanStyle = celesteStyle) },
             "desuriSpeech" to TagHandler { RichTextStyle(spanStyle = desuriStyle) },
