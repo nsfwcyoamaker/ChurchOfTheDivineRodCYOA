@@ -6,15 +6,16 @@ import androidx.compose.ui.Modifier
 import com.nsfwcyoamaker.cotdr.presentation.PreviewScope
 import com.nsfwcyoamaker.cotdr.presentation.utils.rich_text.rememberRichTextResource
 import com.nsfwcyoamaker.cotdr.resources.Res
-import com.nsfwcyoamaker.cotdr.resources.priestesses_introduction_extra_2
+import com.nsfwcyoamaker.cotdr.resources.priestesses_introduction_extra_1
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
+
 @Composable
-fun PriestessIntroductionExtra2(
+fun PriestessIntroductionExtra1(
     modifier: Modifier = Modifier,
 ) {
     Text(
-        text = rememberRichTextResource(Res.string.priestesses_introduction_extra_2),
+        text = rememberRichTextResource(Res.string.priestesses_introduction_extra_1),
         modifier = modifier,
     )
 }
@@ -24,8 +25,8 @@ fun PriestessIntroductionExtra2(
     heightDp = 1080,
 )
 @Composable
-fun PriestessIntroductionExtra2Preview() {
+fun PriestessIntroductionExtraPreview() {
     PreviewScope {
-        PriestessIntroductionExtra2()
+        PriestessIntroductionExtra1()
     }
 }

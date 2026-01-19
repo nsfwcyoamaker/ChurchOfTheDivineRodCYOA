@@ -88,7 +88,7 @@ fun MainScreen() {
             item { Spacer(modifier = Modifier.height(6.dp)) }
 
             item {
-                PriestessIntroductionExtra(
+                PriestessIntroductionExtra1(
                     modifier = Modifier
                         .fillMaxWidth(0.95f)
                         .padding(horizontal = 80.dp),
