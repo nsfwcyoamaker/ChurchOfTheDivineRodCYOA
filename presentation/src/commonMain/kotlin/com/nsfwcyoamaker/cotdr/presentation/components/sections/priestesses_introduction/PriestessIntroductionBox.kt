@@ -6,14 +6,12 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.nsfwcyoamaker.cotdr.presentation.components.choiceContour
 import com.nsfwcyoamaker.cotdr.presentation.components.shadowBorder
 import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroduction
+import com.nsfwcyoamaker.cotdr.presentation.theme.smallerTextStyle
 import com.nsfwcyoamaker.cotdr.presentation.utils.rich_text.rememberRichTextResource
 import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.StringResource
@@ -57,11 +55,7 @@ fun PriestessIntroductionBox(
 
         Text(
             text = rememberRichTextResource(description),
-            style = TextStyle(
-                fontSize = 12.sp,
-                lineHeight = 16.sp,
-                color = Color.White,
-            ),
+            style = smallerTextStyle,
         )
     }
 }

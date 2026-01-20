@@ -6,11 +6,8 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.nsfwcyoamaker.cotdr.composableTextFlow.TextFlow
 import com.nsfwcyoamaker.cotdr.composableTextFlow.TextWrapPlacement
 import com.nsfwcyoamaker.cotdr.presentation.PreviewScope
@@ -32,11 +29,6 @@ fun MainIntroduction(
         placement = TextWrapPlacement.TopEnd,
         horizontalGap = 12.dp,
         verticalGap = 4.dp,
-        style = TextStyle(
-            fontSize = 16.sp,
-            lineHeight = 20.sp,
-            color = Color.White,
-        ),
         component = {
             Image(
                 painter = painterResource(Res.drawable.intro_priestess),

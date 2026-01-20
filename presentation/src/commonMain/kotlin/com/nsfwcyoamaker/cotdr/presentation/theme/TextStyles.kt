@@ -13,6 +13,18 @@ import com.nsfwcyoamaker.cotdr.resources.AngloText
 import com.nsfwcyoamaker.cotdr.resources.Res
 import org.jetbrains.compose.resources.Font
 
+val defaultTextStyle = TextStyle(
+    fontSize = 16.sp,
+    lineHeight = 20.sp,
+    color = Color.White,
+)
+
+val smallerTextStyle = TextStyle(
+    fontSize = 12.sp,
+    lineHeight = 16.sp,
+    color = Color.White,
+)
+
 @get:Composable
 val AngloTextFontFamily
     get() = FontFamily(Font(Res.font.AngloText, weight = FontWeight.Normal))

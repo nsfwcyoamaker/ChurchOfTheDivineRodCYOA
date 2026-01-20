@@ -29,24 +29,8 @@ fun makeRichTextStylesMap(): Map<String, TagHandler> {
         helenaStyle,
     ) {
         mapOf(
-            "weight" to TagHandler { attributes ->
-                val value = attributes["value"]
-                val weight = when(value) {
-                    "b" -> FontWeight.Bold
-                    "n" -> FontWeight.Normal
-                    else -> FontWeight.Normal
-                }
-                RichTextStyle(spanStyle = SpanStyle(fontWeight = weight))
-            },
-            "style" to TagHandler { attributes ->
-                val value = attributes["value"]
-                val style = when(value) {
-                    "i" -> FontStyle.Italic
-                    "n" -> FontStyle.Normal
-                    else -> FontStyle.Normal
-                }
-                RichTextStyle(spanStyle = SpanStyle(fontStyle = style))
-            },
+            "b" to TagHandler { RichTextStyle(spanStyle = SpanStyle(fontWeight = FontWeight.Bold)) },
+            "i" to TagHandler { RichTextStyle(spanStyle = SpanStyle(fontStyle = FontStyle.Italic)) },
             "size" to TagHandler { attributes ->
                 val value = attributes["value"]?.toFloatOrNull() ?: 1f
                 RichTextStyle(spanStyle = SpanStyle(fontSize = value.em))
