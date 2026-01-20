@@ -11,12 +11,7 @@ import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.components.main.CathedralBackground
 import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage1
 import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage2
-import org.jetbrains.compose.ui.tooling.preview.Preview
 
-@Preview(
-    widthDp = 1920,
-    heightDp = 1080,
-)
 @Composable
 fun MainScreen() {
     Surface(
