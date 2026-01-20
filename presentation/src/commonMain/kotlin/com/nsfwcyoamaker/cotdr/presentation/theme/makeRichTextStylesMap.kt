@@ -15,6 +15,7 @@ import com.nsfwcyoamaker.cotdr.presentation.utils.rich_text.TagHandler
 @Composable
 fun makeRichTextStylesMap(): Map<String, TagHandler> {
     val acerolaStyle = acerolaTextStyle.toSpanStyle()
+    val acerolaTitleStyle = acerolaTitleTextStyle.toSpanStyle()
     val celesteStyle = celesteTextStyle.toSpanStyle()
     val desuriStyle = desuriTextStyle.toSpanStyle()
     val erinaStyle = erinaTextStyle.toSpanStyle()
@@ -67,6 +68,8 @@ fun makeRichTextStylesMap(): Map<String, TagHandler> {
                 RichTextStyle(SpanStyle(fontSize = size.em, fontWeight = FontWeight.Bold, fontStyle = FontStyle.Normal))
             },
             "acerolaSpeech" to TagHandler { RichTextStyle(spanStyle = acerolaStyle) },
+            //"acerolaTitle" to TagHandler { RichTextStyle(spanStyle = acerolaTitleStyle) },
+
             "celesteSpeech" to TagHandler { RichTextStyle(spanStyle = celesteStyle) },
             "desuriSpeech" to TagHandler { RichTextStyle(spanStyle = desuriStyle) },
             "erinaSpeech" to TagHandler { RichTextStyle(spanStyle = erinaStyle) },

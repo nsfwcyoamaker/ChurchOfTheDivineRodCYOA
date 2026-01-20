@@ -9,11 +9,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.components.main.CathedralBackground
-import com.nsfwcyoamaker.cotdr.presentation.components.main.MainIntroduction
-import com.nsfwcyoamaker.cotdr.presentation.components.main.MainTitle
-import com.nsfwcyoamaker.cotdr.presentation.components.sections.fervor.FervorDescription
-import com.nsfwcyoamaker.cotdr.presentation.components.sections.fervor.FervorTitle
-import com.nsfwcyoamaker.cotdr.presentation.components.sections.priestesses_introduction.*
+import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage1
+import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage2
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @Preview(
@@ -30,113 +27,21 @@ fun MainScreen() {
             Modifier.fillMaxSize(),
         )
 
+        val itemsModifier = Modifier
+            .fillMaxWidth(0.95f)
+            .padding(horizontal = 80.dp)
+
         LazyColumn(
             modifier = Modifier.fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Top,
         ) {
             item { Spacer(modifier = Modifier.height(60.dp)) }
-
-            item {
-                MainTitle(
-                    modifier = Modifier
-                        .fillMaxWidth(0.95f)
-                        .padding(horizontal = 80.dp)
-                )
-            }
-
-            item { Spacer(modifier = Modifier.height(16.dp)) }
-
-            item {
-                MainIntroduction(
-                    modifier = Modifier
-                        .fillMaxWidth(0.95f)
-                        .padding(horizontal = 80.dp)
-                )
-            }
-
-            item { Spacer(modifier = Modifier.height(4.dp)) }
-
-            item {
-                PriestessesIntroductionTitle(
-                    modifier = Modifier
-                        .fillMaxWidth(0.95f)
-                        .padding(horizontal = 80.dp),
-                )
-            }
-
-            item { Spacer(modifier = Modifier.height(4.dp)) }
-
-            item {
-                PriestessIntroductionDescription(
-                    modifier = Modifier
-                        .fillMaxWidth(0.95f)
-                        .padding(horizontal = 80.dp),
-                )
-            }
-
-            item { Spacer(modifier = Modifier.height(6.dp)) }
-
-            item {
-                PriestessesIntroductionGrid(
-                    Modifier
-                        .fillMaxWidth(0.95f)
-                        .padding(horizontal = 80.dp),
-                )
-            }
-
-            item { Spacer(modifier = Modifier.height(6.dp)) }
-
-            item {
-                PriestessIntroductionExtra1(
-                    modifier = Modifier
-                        .fillMaxWidth(0.95f)
-                        .padding(horizontal = 80.dp),
-                )
-            }
-
-            item { Spacer(modifier = Modifier.height(6.dp)) }
-
-            item {
-                PriestessIntroductionInterlude(
-                    modifier = Modifier
-                        .fillMaxWidth(0.95f)
-                        .padding(horizontal = 80.dp),
-                )
-            }
-
-            item { Spacer(modifier = Modifier.height(6.dp)) }
-
-            item {
-                PriestessIntroductionExtra2(
-                    modifier = Modifier
-                        .fillMaxWidth(0.95f)
-                        .padding(horizontal = 80.dp),
-                )
-            }
-
+            MainPage1(itemsModifier)
             item { Spacer(modifier = Modifier.height(60.dp)) }
-
-            item {
-                FervorTitle(
-                    modifier = Modifier
-                        .fillMaxWidth(0.95f)
-                        .padding(horizontal = 80.dp),
-                )
-            }
-
-            item { Spacer(modifier = Modifier.height(6.dp)) }
-
-            item {
-                FervorDescription(
-                    modifier = Modifier
-                        .fillMaxWidth(0.95f)
-                        .padding(horizontal = 80.dp)
-                )
-            }
-
-            item { Spacer(modifier = Modifier.height(6.dp)) }
-
+            MainPage2(itemsModifier)
+            item { Spacer(modifier = Modifier.height(60.dp)) }
+            // todo
             item { Spacer(modifier = Modifier.height(260.dp)) }
         }
     }
