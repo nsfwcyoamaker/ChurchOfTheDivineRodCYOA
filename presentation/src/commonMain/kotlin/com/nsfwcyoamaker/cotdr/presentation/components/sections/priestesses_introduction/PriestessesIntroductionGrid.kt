@@ -43,10 +43,9 @@ fun PriestessesIntroductionGrid(
                     ) {
                         priestessesRow.forEach { priestess ->
                             PriestessIntroductionBox(
-                                title = priestess.getTitleText(),
-                                titleStyle = priestess.getTitleStyle(),
+                                title = priestess.title,
                                 image = priestess.image,
-                                description = priestess.getDescription(),
+                                description = priestess.description,
                                 modifier = Modifier
                                     .weight(1f)
                                     .fillMaxHeight(),
@@ -68,10 +67,9 @@ fun PriestessesIntroductionGrid(
 
                 priestesses.forEach { priestess ->
                     PriestessIntroductionBox(
-                        title = priestess.getTitleText(),
-                        titleStyle = priestess.getTitleStyle(),
+                        title = priestess.title,
                         image = priestess.image,
-                        description = priestess.getDescription(),
+                        description = priestess.description,
                         modifier = Modifier
                             .requiredWidth(minItemWidth)
                             .fillMaxRowHeight(),

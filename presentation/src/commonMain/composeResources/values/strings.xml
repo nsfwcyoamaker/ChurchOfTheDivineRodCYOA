@@ -28,7 +28,7 @@ Not seeing much other option, and definitely interested in the sex, you nod. Ace
         ]]>
     </string>
 
-    <string name="section_followers_title">Followers</string>
+    <string name="priestesses_introduction_title">Followers</string>
 
     <string name="section_priestesses_introduction_description">
         <![CDATA[
@@ -45,76 +45,96 @@ With a quick wave, she beckons the others to begin approaching one at a time to 
         ]]>
     </string>
 
-    <string name="section_followers_acerola_title">Acerola, the Loyal</string>
-    <string name="section_followers_celeste_title">Celeste, the Zealous</string>
-    <string name="section_followers_desuri_title">Desuri, the Inspired</string>
-    <string name="section_followers_erina_title">Erina, the Ardent</string>
-    <string name="section_followers_helena_title">Helena, the Adored</string>
-    <string name="section_followers_consorts_title">Consorts</string>
+    <string name="priestess_introduction_acerola_title">Acerola, the Loyal</string>
+    <string name="priestess_introduction_celeste_title">Celeste, the Zealous</string>
+    <string name="priestess_introduction_desuri_title">Desuri, the Inspired</string>
+    <string name="priestess_introduction_erina_title">Erina, the Ardent</string>
+    <string name="priestess_introduction_helena_title">Helena, the Adored</string>
+    <string name="priestess_introduction_consorts_title">Consorts</string>
 
-    <string name="priestess_introduction_acerola_self">As I said, I am the High Priestess! I lead the day to day operations of the church, play divine diplomat, and coordinate the other Priestesses. Most of my work is administrative, so I treasure the time I can take to practice my faith. I'm very excited to be able to pray and worship you directly now, with you right in front of me! I cannot wait to show you the depths of my devotion personally!</string>
-    <string name="priestess_introduction_acerola_normal">Acerola is capable and collected, the ever reliable face of the Church who all the followers look up to. Whether in her private life or when playing with her pussy alone she maintains composure, even in the midst of orgasm. Your cock will be the only thing that can truly make her lose herself to pleasure.
+    <string name="priestess_introduction_acerola">
+        <![CDATA[
+<acerolaSpeech>As I said, I am the High Priestess! I lead the day to day operations of the church, play divine diplomat, and coordinate the other Priestesses. Most of my work is administrative, so I treasure the time I can take to practice my faith. I'm very excited to be able to pray and worship you directly now, with you right in front of me! I cannot wait to show you the depths of my devotion personally!</acerolaSpeech>
+
+Acerola is capable and collected, the ever reliable face of the Church who all the followers look up to. Whether in her private life or when playing with her pussy alone she maintains composure, even in the midst of orgasm. Your cock will be the only thing that can truly make her lose herself to pleasure.
 
 Acerola claims to have no particular preferences in the bedroom, performing all acts of service with equally great enthusiasm, as long as they are with you.
 That said, she does enjoy inviting her fellow followers to join her in servicing you, especially stubborn cases such as Celeste who may need a bit of help getting their wants and needs across.
 Acerola's body is picturesque, a highly proportional figure that is more beautiful than erotic. Her breasts are firm and hand-filling, her hips a smooth curve, and there's a subtle bounce to her ass. A body in perfect harmony.
 
-Acerola enjoys debating the merits of sex with her fellow followers, but her own preferred veneration is of satisfaction. To Acerola, the afterglow and fulfillment from sex is the finest experience one can have.</string>
+Acerola enjoys debating the merits of sex with her fellow followers, but her own preferred veneration is of satisfaction. To Acerola, the afterglow and fulfillment from sex is the finest experience one can have.
+        ]]>
+    </string>
 
-    <string name="priestess_introduction_celeste_self">Hail lord! I, Celeste the Silver Blade, am at your command. My sworn duty is to hunt down the foul demons and heretics that try to pervert the faith. I will strive to ensure my blade serves you well. And… if you find yourself lacking a partner, I will… will be… um… glad to help you locate one! Yes…</string>
-    <string name="priestess_introduction_celeste_normal">Celeste is serious and vigilant, harshly rebuking any weakness or lack of faith she sees. To her loyal sisters, she is stern but fair, an unshakable pillar of loyalty and faith, and to her enemies she is a merciless angel, here to smite them for their sins and stomp on their delicate parts.
+    <string name="priestess_introduction_celeste">
+        <![CDATA[
+<celesteSpeech>Hail lord! I, Celeste the Silver Blade, am at your command. My sworn duty is to hunt down the foul demons and heretics that try to pervert the faith. I will strive to ensure my blade serves you well. And… if you find yourself lacking a partner, I will… will be… um… glad to help you locate one! Yes…</celesteSpeech>
+
+Celeste is serious and vigilant, harshly rebuking any weakness or lack of faith she sees. To her loyal sisters, she is stern but fair, an unshakable pillar of loyalty and faith, and to her enemies she is a merciless angel, here to smite them for their sins and stomp on their delicate parts.
 
 Celeste tries to hide it, but she has a bonfire of a libido. She uses regimented exercise and training to suppress her desire, along with weekly sessions of jilling herself insensate. Without all these, she quickly burns up with heat and lust, her mind clouded by its need for release, much to her consternation.
 Fully entrusting herself to you and being able to burn off her libido the proper way would be a dream come true if only she felt herself worthy to ask.
 Celeste's body is toned, trim, and strong, as expected. Despite her constant exercise, her breasts refuse to give in, maintaining the modest but shapely curve on her chest. While not especially sensitive, they are her favorite spot.
 
-Celeste has a very maidenlike view of sex, venerating the intimate connection between lovers. As the space between two bodies crawls to zero, their hearts and souls become one in a way unlike any other. She daydreams of this a lot.</string>
+Celeste has a very maidenlike view of sex, venerating the intimate connection between lovers. As the space between two bodies crawls to zero, their hearts and souls become one in a way unlike any other. She daydreams of this a lot.
+        ]]>
+    </string>
 
-    <string name="priestess_introduction_desuri_self">Hello~o there! I could feel it in my Brands the moment you arrived, but you're even better in person~! Mm, I am the church's Head Inscriptionist, Desuri.
-I lead and train our inscriptors, manage the Church's archives, and research Brands, new and old. Oooh, Iam positively tingling at the possibilities now that your divinity is properly flowing through our bodies again!</string>
-    <string name="priestess_introduction_desuri_normal">Desuri is flirtatious and artistic, with her interests and skills spread across a wide variety of subjects. Her most common hobbies include magic formation theory, sketching scenes in the church, poring over reports on sexual research, and studying magical biology, anatomy, and physiology for Brand work. More than any other Priestess, she's a veritable renaissance woman.
+    <string name="priestess_introduction_desuri">
+        <![CDATA[
+<desuriSpeech>Hello~o there! I could feel it in my Brands the moment you arrived, but you're even better in person~! Mm, I am the church's Head Inscriptionist, Desuri.
+I lead and train our inscriptors, manage the Church's archives, and research Brands, new and old. Oooh, Iam positively tingling at the possibilities now that your divinity is properly flowing through our bodies again!</desuriSpeech>
+
+Desuri is flirtatious and artistic, with her interests and skills spread across a wide variety of subjects. Her most common hobbies include magic formation theory, sketching scenes in the church, poring over reports on sexual research, and studying magical biology, anatomy, and physiology for Brand work. More than any other Priestess, she's a veritable renaissance woman.
 
 Desuri is very open with her sexuality, happy to indulge your desires at any place and time, and enjoys when you try to keep her on her toes. Her Brands are surprisingly few and simple, but far more sensitive than the norm, so she keeps them carefully covered to prevent moan-inducing accidents.
 Desuri is markedly tall and busty, the largest of everyone in the Church in both categories, and with a few inches on the average man as well. Her chest is huge, warm, and plush, bouncing with every movement.
 
-Desuri's veneration sounds carnal at first, but is really more kinetic. She adores the interplay of the body itself; the positioning of limbs, the impacts of flesh, the skin against skin, the mixing of fluids… all a wonderful symphony.</string>
+Desuri's veneration sounds carnal at first, but is really more kinetic. She adores the interplay of the body itself; the positioning of limbs, the impacts of flesh, the skin against skin, the mixing of fluids… all a wonderful symphony.
+        ]]>
+    </string>
 
-    <string name="priestess_introduction_erina_self">Haah, h-haaah… O-oh jeez… just seeing you bare… My lord, my master, your cock looks… immaculate… it wouldn't hurt to just… take one little taste… H-huh? Oh, yes, um, Iam Erina! I lead services here, singing your praises and preaching your precepts as the God of Sex, and make sure the… the faith among followers stays strong. strong and hard. and long, thick… and hot…</string>
-    <string name="priestess_introduction_erina_normal">Erina is lustful and straightforward, with a surprising amount of intellect that is usually spent chasing a new and greater sexual thrill, though rarely the sense to do things in moderation. She is always happy to discuss both carnal matters and divine magical theory, and delights in combining the two.
+    <string name="priestess_introduction_erina">
+        <![CDATA[
+<erinaSpeech>Haah, h-haaah… O-oh jeez… just seeing you bare… My lord, my master, your cock looks… immaculate… it wouldn't hurt to just… take one little taste… H-huh? Oh, yes, um, Iam Erina! I lead services here, singing your praises and preaching your precepts as the God of Sex, and make sure the… the faith among followers stays strong. strong and hard. and long, thick… and hot…</erinaSpeech>
+
+Erina is lustful and straightforward, with a surprising amount of intellect that is usually spent chasing a new and greater sexual thrill, though rarely the sense to do things in moderation. She is always happy to discuss both carnal matters and divine magical theory, and delights in combining the two.
 
 Erina will practically throw herself at you, eager to explore every fetish both of you are able. She wants you to use and abuse her, slaking your thirsts on her aching body and staining her whole world white. However, she has an addictive personality so she'll need someone to reign her in from time to time, lest she let herself get out of control and end up hurt by it.
 Erina is the shortest Priestess with a decently large chest for her height, but her greatest asset is easily her rear. Her heart-shaped battleship of an ass is a joy to grope and begs to be slapped, eliciting noises of delight every time.
 
-Erina's veneration is simple: pleasure. It's our body's way of saying something is good, so why try to deny or fight it? More pleasure is more good, so she chases as much pleasure as she can! Naive? Perhaps, but maybe not wrong.</string>
+Erina's veneration is simple: pleasure. It's our body's way of saying something is good, so why try to deny or fight it? More pleasure is more good, so she chases as much pleasure as she can! Naive? Perhaps, but maybe not wrong.
+        ]]>
+    </string>
 
-    <string name="priestess_introduction_helena_self">Lord… It, it really is you… After all these years, it's us who're the lucky ones to see your return. Heh, Iam Helena, the Church's head of outreach. My group are basically the missionaries, bringing your presence to far off lands, and spreading the faith here at home. We also throw great parties, and are supremely pretty~</string>
-    <string name="priestess_introduction_helena_normal">Helena is gregarious and friendly, always happy to chat and able to make fast friends with nearly anyone. No small number of people, including many among your own followers, have been charmed by Helena and her winning personality and beauty, though despite that she only truly has eyes for you.
+    <string name="priestess_introduction_helena">
+        <![CDATA[
+<helenaSpeech>Lord… It, it really is you… After all these years, it's us who're the lucky ones to see your return. Heh, Iam Helena, the Church's head of outreach. My group are basically the missionaries, bringing your presence to far off lands, and spreading the faith here at home. We also throw great parties, and are supremely pretty~</helenaSpeech>
+
+Helena is gregarious and friendly, always happy to chat and able to make fast friends with nearly anyone. No small number of people, including many among your own followers, have been charmed by Helena and her winning personality and beauty, though despite that she only truly has eyes for you.
 
 Helena is a textbook extrovert and very casual with her sexuality. She never shies away from her needs or desires while also not glorifying them, seeing it as simply how she is and nothing special. Of course, "how she is" is liking to fuck twice a day and being the most bisexual of all your Priestesses. She'll readily satisfy herself with the help of eager followers, but the only thing that will make her heart truly race is your attention.
 Helena is a bit on the tall side, with a busty, curvy figure that catches the eyes as she passes. Her legs are the true stars of the show, long and firm with seductive curves, a dynamite figure that radiates erotic sensuality and grace.
 
-Helena's veneration of sex is around the fun of it. Sex should be an enjoyable, joyful activity for both (or all) participants, and Helena luxuriates in the sense of all people having a good time with each other, in the horizontal sense.</string>
+Helena's veneration of sex is around the fun of it. Sex should be an enjoyable, joyful activity for both (or all) participants, and Helena luxuriates in the sense of all people having a good time with each other, in the horizontal sense.
+        ]]>
+    </string>
 
-    <string name="priestess_introduction_consorts_part_1_acerola">There is also technically a level above Priestess, which is your </string>
-    <string name="priestess_introduction_consorts_part_2_acerola_bold">Consort</string>
-    <string name="priestess_introduction_consorts_part_3_acerola">. There is usually only one at a time, and they're… well, basically your head wife. Multiple wives is the norm for you, of course, but the Consort stands above.
+    <string name="priestess_introduction_consorts">
+        <![CDATA[
+<acerolaSpeech>There is also technically a level above Priestess, which is your <emphasis>Consort</emphasis>. There is usually only one at a time, and they're… well, basically your head wife. Multiple wives is the norm for you, of course, but the Consort stands above.
 
 A Consort is your most trusted confidante and lover, holding near-supreme authority over the church, second only to your own. They also gain a measure of access to your divine might, letting them enact miracles and blessings.
 Though that requires a connection to your heaven, which even now seems to be blocked off… So it is mostly a position of honor at the moment.
 
 Only Priestesses are eligible for selection as Consort, which limits it to us five until we can find more worthy candidates.
 Also… It is apparently quite taxing on Fervor to do so, but it IS possible to have multiple consorts. The cost grows with each Consort taken, but if you desire it we have ways to recoup the cost… N-not that I'm trying to sway your opinion, and of course take your time deciding!
-But it, </string>
-    <string name="priestess_introduction_consorts_part_4_acerola_smaller_1">would be… </string>
-    <string name="priestess_introduction_consorts_part_5_acerola_smaller_2">really very nice </string>
-    <string name="priestess_introduction_consorts_part_6_acerola_smaller_3">to have everyone… </string>
-    <string name="priestess_introduction_consorts_part_7_acerola_smaller_4">together… </string>
-    <string name="priestess_introduction_consorts_part_8_acerola_smaller_5">with you.</string>
+But it, <size value="0.9">would be… </size><size value="0.8">really very nice </size><size value="0.7">to have everyone… </size><size value="0.6">together… </size><size value="0.6">with you.</size></acerolaSpeech>
 
-    <string name="priestess_introduction_consorts_part_9_normal">You can take Priestesses as your Consort, designating them as your main wife (or wives), with corresponding prestige. Your Consort(s) need not be chosen now, but at least one must be selected by the end. The first is free, but each Consort past that costs </string>
-    <string name="priestess_introduction_consorts_part_10_normal_bold">1 Fervor</string>
-    <string name="priestess_introduction_consorts_part_11_normal"> more than the last.
-(Total Cost: 0, 1, 3, 6, 10…)</string>
+You can take Priestesses as your Consort, designating them as your main wife (or wives), with corresponding prestige. Your Consort(s) need not be chosen now, but at least one must be selected by the end. The first is free, but each Consort past that costs <weight value="b">1 Fervor</weight> more than the last.
+(Total Cost: 0, 1, 3, 6, 10…)
+        ]]>
+    </string>
 
     <string name="priestesses_introduction_extra_1">
         <![CDATA[

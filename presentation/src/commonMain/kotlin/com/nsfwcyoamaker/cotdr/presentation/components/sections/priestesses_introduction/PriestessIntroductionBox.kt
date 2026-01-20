@@ -8,14 +8,15 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.nsfwcyoamaker.cotdr.presentation.components.choiceContour
 import com.nsfwcyoamaker.cotdr.presentation.components.shadowBorder
 import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroduction
+import com.nsfwcyoamaker.cotdr.presentation.utils.rich_text.rememberRichTextResource
 import org.jetbrains.compose.resources.DrawableResource
+import org.jetbrains.compose.resources.StringResource
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
 import org.jetbrains.compose.ui.tooling.preview.PreviewParameter
@@ -23,10 +24,9 @@ import org.jetbrains.compose.ui.tooling.preview.PreviewParameterProvider
 
 @Composable
 fun PriestessIntroductionBox(
-    title: String,
-    titleStyle: TextStyle,
+    title: StringResource,
     image: DrawableResource,
-    description: AnnotatedString,
+    description: StringResource,
     modifier: Modifier = Modifier,
 ) {
     Column(
@@ -35,8 +35,7 @@ fun PriestessIntroductionBox(
         modifier = modifier.choiceContour()
     ) {
         Text(
-            text = title,
-            style = titleStyle,
+            text = rememberRichTextResource(title),
         )
 
         Box(
@@ -57,7 +56,7 @@ fun PriestessIntroductionBox(
         }
 
         Text(
-            text = description,
+            text = rememberRichTextResource(description),
             style = TextStyle(
                 fontSize = 12.sp,
                 lineHeight = 16.sp,
@@ -81,10 +80,9 @@ private fun PriestessIntroductionBoxPreview(
     @PreviewParameter(PriestessParameter::class) priestessIntroduction: PriestessIntroduction,
 ) {
     PriestessIntroductionBox(
-        title = priestessIntroduction.getTitleText(),
-        titleStyle = priestessIntroduction.getTitleStyle(),
+        title = priestessIntroduction.title,
         image = priestessIntroduction.image,
-        description = priestessIntroduction.getDescription(),
+        description = priestessIntroduction.description,
         modifier = Modifier
             .requiredWidth(300.dp)
             .wrapContentHeight()
