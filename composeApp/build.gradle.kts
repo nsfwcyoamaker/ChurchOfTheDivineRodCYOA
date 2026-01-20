@@ -15,6 +15,8 @@ kotlin {
         }
     }
 
+    jvm("desktop")
+
     js {
         browser()
         binaries.executable()
@@ -27,10 +29,8 @@ kotlin {
     }
 
     sourceSets {
-        androidMain.dependencies {
-            implementation(compose.preview)
-            implementation(libs.androidx.activity.compose)
-        }
+        val desktopMain by getting
+
         commonMain.dependencies {
             implementation(compose.runtime)
             implementation(compose.foundation)
@@ -40,6 +40,15 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
 
             implementation(projects.presentation)
+        }
+
+        androidMain.dependencies {
+            implementation(compose.preview)
+            implementation(libs.androidx.activity.compose)
+        }
+
+        desktopMain.dependencies {
+            implementation(compose.desktop.currentOs)
         }
     }
 }

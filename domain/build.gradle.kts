@@ -13,6 +13,8 @@ kotlin {
         }
     }
 
+    jvm("desktop")
+
     js {
         browser()
         binaries.executable()
