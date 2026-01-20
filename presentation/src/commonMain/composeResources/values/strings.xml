@@ -1,5 +1,5 @@
 <resources>
-    <string name="title">Church of the Divine Rod</string>
+    <string name="title"><![CDATA[<angloGlow>Church of the Divine Rod</angloGlow>]]></string>
 
     <string name="main_intro">
         <![CDATA[
@@ -28,7 +28,7 @@ Not seeing much other option, and definitely interested in the sex, you nod. Ace
         ]]>
     </string>
 
-    <string name="priestesses_introduction_title">Followers</string>
+    <string name="priestesses_introduction_title"><![CDATA[<anglo>Followers</anglo>]]></string>
 
     <string name="section_priestesses_introduction_description">
         <![CDATA[
@@ -45,12 +45,12 @@ With a quick wave, she beckons the others to begin approaching one at a time to 
         ]]>
     </string>
 
-    <string name="priestess_introduction_acerola_title">Acerola, the Loyal</string>
-    <string name="priestess_introduction_celeste_title">Celeste, the Zealous</string>
-    <string name="priestess_introduction_desuri_title">Desuri, the Inspired</string>
-    <string name="priestess_introduction_erina_title">Erina, the Ardent</string>
-    <string name="priestess_introduction_helena_title">Helena, the Adored</string>
-    <string name="priestess_introduction_consorts_title">Consorts</string>
+    <string name="priestess_introduction_acerola_title"><![CDATA[<acerolaTitle>Acerola, the Loyal</acerolaTitle>]]></string>
+    <string name="priestess_introduction_celeste_title"><![CDATA[<celesteTitle>Celeste, the Zealous</celesteTitle>]]></string>
+    <string name="priestess_introduction_desuri_title"><![CDATA[<desuriTitle>Desuri, the Inspired</desuriTitle>]]></string>
+    <string name="priestess_introduction_erina_title"><![CDATA[<erinaTitle>Erina, the Ardent</erinaTitle>]]></string>
+    <string name="priestess_introduction_helena_title"><![CDATA[<helenaTitle>Helena, the Adored</helenaTitle>]]></string>
+    <string name="priestess_introduction_consorts_title"><![CDATA[<angloGlow>Consorts</angloGlow>]]></string>
 
     <string name="priestess_introduction_acerola">
         <![CDATA[
@@ -153,7 +153,7 @@ Mmm… since the others are out for a while, <size value="0.8">and I don't think
         ]]>
     </string>
 
-    <string name="section_fervor_title">Fervor</string>
+    <string name="section_fervor_title"><![CDATA[<anglo>Fervor</anglo>]]></string>
 
     <string name="section_fervor_description">
         <![CDATA[

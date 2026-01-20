@@ -14,19 +14,36 @@ import com.nsfwcyoamaker.cotdr.presentation.utils.rich_text.TagHandler
 
 @Composable
 fun makeRichTextStylesMap(): Map<String, TagHandler> {
+    val angloStyle = angloTextStyle.toSpanStyle()
+    val angloGlowStyle = angloGlowTextStyle.toSpanStyle()
+
     val acerolaStyle = acerolaTextStyle.toSpanStyle()
-    val acerolaTitleStyle = acerolaTitleTextStyle.toSpanStyle()
     val celesteStyle = celesteTextStyle.toSpanStyle()
     val desuriStyle = desuriTextStyle.toSpanStyle()
     val erinaStyle = erinaTextStyle.toSpanStyle()
     val helenaStyle = helenaTextStyle.toSpanStyle()
 
+    val acerolaTitleStyle = acerolaTitleTextStyle.toSpanStyle()
+    val celesteTitleStyle = celesteTitleTextStyle.toSpanStyle()
+    val desuriTitleStyle = desuriTitleTextStyle.toSpanStyle()
+    val erinaTitleStyle = erinaTitleTextStyle.toSpanStyle()
+    val helenaTitleStyle = helenaTitleTextStyle.toSpanStyle()
+
     return remember(
+        angloStyle,
+        angloGlowStyle,
+
         acerolaStyle,
         celesteStyle,
         desuriStyle,
         erinaStyle,
         helenaStyle,
+
+        acerolaTitleStyle,
+        celesteTitleStyle,
+        desuriTitleStyle,
+        erinaTitleStyle,
+        helenaTitleStyle,
     ) {
         mapOf(
             "b" to TagHandler { RichTextStyle(spanStyle = SpanStyle(fontWeight = FontWeight.Bold)) },
@@ -51,13 +68,21 @@ fun makeRichTextStylesMap(): Map<String, TagHandler> {
                 val size = attributes["size"]?.toDoubleOrNull() ?: 1.1
                 RichTextStyle(SpanStyle(fontSize = size.em, fontWeight = FontWeight.Bold, fontStyle = FontStyle.Normal))
             },
-            "acerolaSpeech" to TagHandler { RichTextStyle(spanStyle = acerolaStyle) },
-            //"acerolaTitle" to TagHandler { RichTextStyle(spanStyle = acerolaTitleStyle) },
 
+            "anglo" to TagHandler { RichTextStyle(spanStyle = angloStyle) },
+            "angloGlow" to TagHandler { RichTextStyle(spanStyle = angloGlowStyle) },
+
+            "acerolaSpeech" to TagHandler { RichTextStyle(spanStyle = acerolaStyle) },
             "celesteSpeech" to TagHandler { RichTextStyle(spanStyle = celesteStyle) },
             "desuriSpeech" to TagHandler { RichTextStyle(spanStyle = desuriStyle) },
             "erinaSpeech" to TagHandler { RichTextStyle(spanStyle = erinaStyle) },
             "helenaSpeech" to TagHandler { RichTextStyle(spanStyle = helenaStyle) },
+
+            "acerolaTitle" to TagHandler { RichTextStyle(spanStyle = acerolaTitleStyle) },
+            "celesteTitle" to TagHandler { RichTextStyle(spanStyle = celesteTitleStyle) },
+            "desuriTitle" to TagHandler { RichTextStyle(spanStyle = desuriTitleStyle) },
+            "erinaTitle" to TagHandler { RichTextStyle(spanStyle = erinaTitleStyle) },
+            "helenaTitle" to TagHandler { RichTextStyle(spanStyle = helenaTitleStyle) },
         )
     }
 }

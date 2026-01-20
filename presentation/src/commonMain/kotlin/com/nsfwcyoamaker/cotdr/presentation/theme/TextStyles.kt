@@ -19,6 +19,24 @@ val defaultTextStyle = TextStyle(
     color = Color.White,
 )
 
+val bigTitleTextStyle = TextStyle(
+    fontSize = 126.sp,
+    lineHeight = 132.sp,
+    color = Color.White,
+)
+
+val mediumTitleTextStyle = TextStyle(
+    fontSize = 68.sp,
+    lineHeight = 74.sp,
+    color = Color.White,
+)
+
+val smallTitleTextStyle = TextStyle(
+    fontSize = 48.sp,
+    lineHeight = 52.sp,
+    color = Color.White,
+)
+
 val smallerTextStyle = TextStyle(
     fontSize = 12.sp,
     lineHeight = 16.sp,
@@ -26,28 +44,24 @@ val smallerTextStyle = TextStyle(
 )
 
 @get:Composable
-val AngloTextFontFamily
+private val AngloTextFontFamily
     get() = FontFamily(Font(Res.font.AngloText, weight = FontWeight.Normal))
 
 @get:Composable
-val mainTitleTextStyle: TextStyle
+val angloTextStyle: TextStyle
     get() = TextStyle(
         fontFamily = AngloTextFontFamily,
-        color = Color.White,
-        fontSize = 126.sp,
+    )
+
+@get:Composable
+val angloGlowTextStyle: TextStyle
+    get() = TextStyle(
+        fontFamily = AngloTextFontFamily,
         shadow = Shadow(
             color = Color.White,
             offset = Offset.Zero,
             blurRadius = 24f,
         )
-    )
-
-@get:Composable
-val sectionTitleTextStyle: TextStyle
-    get() = TextStyle(
-        fontFamily = AngloTextFontFamily,
-        color = Color.White,
-        fontSize = 68.sp,
     )
 
 @get:Composable
@@ -88,18 +102,13 @@ val helenaTextStyle: TextStyle
 @Composable
 private fun priestessTitleTextStyle(
     shadowColor: Color
-): TextStyle = mainTitleTextStyle.copy(
-    fontSize = 48.sp,
+): TextStyle = angloTextStyle.copy(
     shadow = Shadow(
         color = shadowColor,
         offset = Offset.Zero,
         blurRadius = 24f,
     )
 )
-
-@get:Composable
-val genericPriestessTitleTextStyle: TextStyle
-    get() = priestessTitleTextStyle(Color.White)
 
 @get:Composable
 val acerolaTitleTextStyle: TextStyle
