@@ -10,38 +10,58 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.nsfwcyoamaker.cotdr.resources.AngloText
+import com.nsfwcyoamaker.cotdr.resources.MinionPro
 import com.nsfwcyoamaker.cotdr.resources.Res
 import org.jetbrains.compose.resources.Font
 
-val defaultTextStyle = TextStyle(
-    fontSize = 16.sp,
-    lineHeight = 20.sp,
-    color = Color.White,
-)
+@get:Composable
+private val MinioProFontFamily
+    get() = FontFamily(Font(Res.font.MinionPro, weight = FontWeight.Normal))
 
-val bigTitleTextStyle = TextStyle(
-    fontSize = 126.sp,
-    lineHeight = 132.sp,
-    color = Color.White,
-)
+@get:Composable
+val defaultTextStyle
+    get() = TextStyle(
+        fontSize = 16.sp,
+        lineHeight = 20.sp,
+        color = Color.White,
+        fontFamily = MinioProFontFamily,
+    )
 
-val mediumTitleTextStyle = TextStyle(
-    fontSize = 68.sp,
-    lineHeight = 74.sp,
-    color = Color.White,
-)
+@get:Composable
+val bigTitleTextStyle
+    get() = TextStyle(
+        fontSize = 126.sp,
+        lineHeight = 132.sp,
+        color = Color.White,
+        fontFamily = MinioProFontFamily,
+    )
 
-val smallTitleTextStyle = TextStyle(
-    fontSize = 48.sp,
-    lineHeight = 52.sp,
-    color = Color.White,
-)
+@get:Composable
+val mediumTitleTextStyle
+    get() = TextStyle(
+        fontSize = 68.sp,
+        lineHeight = 74.sp,
+        color = Color.White,
+        fontFamily = MinioProFontFamily,
+    )
 
-val smallerTextStyle = TextStyle(
-    fontSize = 12.sp,
-    lineHeight = 16.sp,
-    color = Color.White,
-)
+@get:Composable
+val smallTitleTextStyle
+    get() = TextStyle(
+        fontSize = 48.sp,
+        lineHeight = 52.sp,
+        color = Color.White,
+        fontFamily = MinioProFontFamily,
+    )
+
+@get:Composable
+val smallerTextStyle
+    get() = TextStyle(
+        fontSize = 12.sp,
+        lineHeight = 16.sp,
+        color = Color.White,
+        fontFamily = MinioProFontFamily,
+    )
 
 @get:Composable
 private val AngloTextFontFamily
