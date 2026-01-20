@@ -3,11 +3,11 @@ package com.nsfwcyoamaker.cotdr.presentation.components.sections.priestesses_int
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.remember
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.nsfwcyoamaker.cotdr.presentation.PreviewScope
 import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroduction
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
@@ -42,10 +42,8 @@ fun PriestessesIntroductionGrid(
                             .height(IntrinsicSize.Min)
                     ) {
                         priestessesRow.forEach { priestess ->
-                            PriestessIntroductionBox(
-                                title = priestess.title,
-                                image = priestess.image,
-                                description = priestess.description,
+                            Priestess(
+                                priestess = priestess,
                                 modifier = Modifier
                                     .weight(1f)
                                     .fillMaxHeight(),
@@ -66,10 +64,8 @@ fun PriestessesIntroductionGrid(
                 val priestesses = remember { PriestessIntroduction.entries.toList() }
 
                 priestesses.forEach { priestess ->
-                    PriestessIntroductionBox(
-                        title = priestess.title,
-                        image = priestess.image,
-                        description = priestess.description,
+                    Priestess(
+                        priestess = priestess,
                         modifier = Modifier
                             .requiredWidth(minItemWidth)
                             .fillMaxRowHeight(),
@@ -80,16 +76,36 @@ fun PriestessesIntroductionGrid(
     }
 }
 
+@Composable
+private fun Priestess(
+    priestess: PriestessIntroduction,
+    modifier: Modifier = Modifier,
+) {
+    //todo hoist state
+    var isSelected by remember { mutableStateOf(false) }
+
+    SelectablePriestessCard(
+        title = priestess.title,
+        image = priestess.image,
+        description = priestess.description,
+        isSelected = isSelected,
+        onSelected = { isSelected = !isSelected },
+        modifier = modifier,
+    )
+}
+
 @Preview(
     widthDp = 1920,
     heightDp = 1080,
 )
 @Composable
 private fun PriestessesIntroductionGridPreview() {
-    PriestessesIntroductionGrid(
-        modifier = Modifier
-            .fillMaxWidth(0.95f)
-            .padding(horizontal = 80.dp)
-            .verticalScroll(rememberScrollState())
-    )
+    PreviewScope {
+        PriestessesIntroductionGrid(
+            modifier = Modifier
+                .fillMaxWidth(0.95f)
+                .padding(horizontal = 80.dp)
+                .verticalScroll(rememberScrollState())
+        )
+    }
 }
