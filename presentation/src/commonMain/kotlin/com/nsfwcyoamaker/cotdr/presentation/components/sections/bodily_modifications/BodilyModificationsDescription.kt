@@ -1,4 +1,4 @@
-package com.nsfwcyoamaker.cotdr.presentation.components.sections.priestesses_introduction
+package com.nsfwcyoamaker.cotdr.presentation.components.sections.bodily_modifications
 
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -6,15 +6,15 @@ import androidx.compose.ui.Modifier
 import com.nsfwcyoamaker.cotdr.composableRichText.rememberRichTextResource
 import com.nsfwcyoamaker.cotdr.presentation.PreviewScope
 import com.nsfwcyoamaker.cotdr.resources.Res
-import com.nsfwcyoamaker.cotdr.resources.priestesses_introduction_extra_2
+import com.nsfwcyoamaker.cotdr.resources.section_bodily_modifications_description
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @Composable
-fun PriestessIntroductionExtra2(
+fun BodilyModificationsDescription(
     modifier: Modifier = Modifier,
 ) {
     Text(
-        text = rememberRichTextResource(Res.string.priestesses_introduction_extra_2),
+        text = rememberRichTextResource(Res.string.section_bodily_modifications_description),
         modifier = modifier,
     )
 }
@@ -24,8 +24,8 @@ fun PriestessIntroductionExtra2(
     heightDp = 1080,
 )
 @Composable
-private fun PriestessIntroductionExtra2Preview() {
+private fun BodilyModificationsDescriptionPreview() {
     PreviewScope {
-        PriestessIntroductionExtra2()
+        BodilyModificationsDescription()
     }
 }

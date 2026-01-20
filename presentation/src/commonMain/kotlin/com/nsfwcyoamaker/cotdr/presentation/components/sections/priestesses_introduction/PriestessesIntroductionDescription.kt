@@ -24,7 +24,7 @@ fun PriestessIntroductionDescription(
     heightDp = 1080,
 )
 @Composable
-fun PriestessIntroductionDescriptionPreview() {
+private fun PriestessIntroductionDescriptionPreview() {
     PreviewScope {
         PriestessIntroductionDescription()
     }

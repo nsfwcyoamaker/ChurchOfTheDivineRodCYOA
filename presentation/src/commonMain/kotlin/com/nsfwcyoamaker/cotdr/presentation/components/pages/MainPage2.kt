@@ -8,6 +8,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.PreviewScope
+import com.nsfwcyoamaker.cotdr.presentation.components.sections.bodily_modifications.BodilyModificationsDescription
+import com.nsfwcyoamaker.cotdr.presentation.components.sections.bodily_modifications.BodilyModificationsTitle
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.fervor.FervorDescription
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.fervor.FervorTitle
 import org.jetbrains.compose.ui.tooling.preview.Preview
@@ -20,6 +22,14 @@ fun LazyListScope.MainPage2(
     item { Spacer(modifier = Modifier.height(6.dp)) }
 
     item { FervorDescription(modifier = itemsModifier) }
+
+    item { Spacer(modifier = Modifier.height(6.dp)) }
+
+    item { BodilyModificationsTitle(modifier = itemsModifier) }
+
+    item { Spacer(modifier = Modifier.height(6.dp)) }
+
+    item { BodilyModificationsDescription(modifier = itemsModifier) }
 
     item { Spacer(modifier = Modifier.height(6.dp)) }
 

@@ -48,7 +48,7 @@ fun MainIntroduction(
     heightDp = 1080,
 )
 @Composable
-fun MainIntroductionPreview() {
+private fun MainIntroductionPreview() {
     PreviewScope {
         MainIntroduction(
             modifier = Modifier.fillMaxSize(),
