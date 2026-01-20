@@ -29,6 +29,7 @@ dependencyResolutionManagement {
 }
 
 include(":composableTextFlow")
+include(":composableRichText")
 include(":composeApp")
 include(":data")
 include(":domain")

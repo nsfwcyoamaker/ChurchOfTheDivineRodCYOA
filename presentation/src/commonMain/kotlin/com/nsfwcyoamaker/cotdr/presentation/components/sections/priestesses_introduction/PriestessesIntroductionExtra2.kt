@@ -3,8 +3,8 @@ package com.nsfwcyoamaker.cotdr.presentation.components.sections.priestesses_int
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import com.nsfwcyoamaker.cotdr.composableRichText.rememberRichTextResource
 import com.nsfwcyoamaker.cotdr.presentation.PreviewScope
-import com.nsfwcyoamaker.cotdr.presentation.utils.rich_text.rememberRichTextResource
 import com.nsfwcyoamaker.cotdr.resources.Res
 import com.nsfwcyoamaker.cotdr.resources.priestesses_introduction_extra_2
 import org.jetbrains.compose.ui.tooling.preview.Preview

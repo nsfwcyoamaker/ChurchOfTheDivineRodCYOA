@@ -1,4 +1,4 @@
-package com.nsfwcyoamaker.cotdr.presentation.utils.rich_text
+package com.nsfwcyoamaker.cotdr.composableRichText
 
 fun String.smartTrim(): String {
     return this.lines()

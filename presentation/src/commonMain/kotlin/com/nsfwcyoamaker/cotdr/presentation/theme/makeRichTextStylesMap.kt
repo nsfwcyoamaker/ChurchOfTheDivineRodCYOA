@@ -9,8 +9,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextIndent
 import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
-import com.nsfwcyoamaker.cotdr.presentation.utils.rich_text.RichTextStyle
-import com.nsfwcyoamaker.cotdr.presentation.utils.rich_text.TagHandler
+import com.nsfwcyoamaker.cotdr.composableRichText.RichTextStyle
+import com.nsfwcyoamaker.cotdr.composableRichText.TagHandler
 
 @Composable
 fun makeRichTextStylesMap(): Map<String, TagHandler> {

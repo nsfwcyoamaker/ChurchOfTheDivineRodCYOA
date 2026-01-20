@@ -1,4 +1,4 @@
-package com.nsfwcyoamaker.cotdr.presentation.utils.rich_text
+package com.nsfwcyoamaker.cotdr.composableRichText
 
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.buildAnnotatedString

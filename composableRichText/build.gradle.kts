@@ -38,32 +38,12 @@ kotlin {
             implementation(compose.ui)
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
-
-            implementation(libs.kotlinx.coroutines.core)
-
-            implementation(project.dependencies.platform(libs.koin.bom))
-            implementation(libs.koin.core)
-            implementation(libs.koin.compose)
-
-            implementation(libs.arrow.core)
-
-            implementation(libs.voyager.navigator)
-            implementation(libs.voyager.screenmodel)
-            implementation(libs.voyager.transitions)
-
-            implementation(libs.composeIcons.feather)
-            implementation(libs.composeIcons.tabler)
-            implementation(libs.composeIcons.fontAwesome)
-
-            implementation(projects.domain)
-            implementation(projects.composableTextFlow)
-            implementation(projects.composableRichText)
         }
     }
 }
 
 android {
-    namespace = "com.nsfwcyoamaker.cotdr.presentation"
+    namespace = "com.nsfwcyoamaker.cotdr.composableRichText"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -74,7 +54,7 @@ android {
 compose {
     resources {
         publicResClass = true
-        packageOfResClass = "com.nsfwcyoamaker.cotdr.resources"
+        packageOfResClass = "com.nsfwcyoamaker.cotdr.composableRichText"
     }
 }
 

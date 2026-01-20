@@ -8,10 +8,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.scale
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
+import com.nsfwcyoamaker.cotdr.composableRichText.rememberRichTextResource
 import com.nsfwcyoamaker.cotdr.composableTextFlow.TextFlow
 import com.nsfwcyoamaker.cotdr.composableTextFlow.TextWrapPlacement
 import com.nsfwcyoamaker.cotdr.presentation.components.shadowBorder
-import com.nsfwcyoamaker.cotdr.presentation.utils.rich_text.rememberRichTextResource
 import com.nsfwcyoamaker.cotdr.resources.Res
 import com.nsfwcyoamaker.cotdr.resources.fervor_intro
 import com.nsfwcyoamaker.cotdr.resources.section_fervor_description

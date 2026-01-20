@@ -5,8 +5,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import com.nsfwcyoamaker.cotdr.composableRichText.rememberRichTextResource
 import com.nsfwcyoamaker.cotdr.presentation.theme.mediumTitleTextStyle
-import com.nsfwcyoamaker.cotdr.presentation.utils.rich_text.rememberRichTextResource
 import com.nsfwcyoamaker.cotdr.resources.Res
 import com.nsfwcyoamaker.cotdr.resources.section_fervor_title
 import org.jetbrains.compose.resources.StringResource
