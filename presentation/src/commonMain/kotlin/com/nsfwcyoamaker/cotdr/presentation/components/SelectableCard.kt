@@ -1,18 +1,19 @@
-package com.nsfwcyoamaker.cotdr.presentation.components.sections.priestesses_introduction
+package com.nsfwcyoamaker.cotdr.presentation.components
 
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.spring
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsHoveredAsState
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxScope
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
@@ -22,27 +23,18 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.BlurredEdgeTreatment
 import androidx.compose.ui.draw.blur
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.ColorFilter
-import androidx.compose.ui.graphics.ColorMatrix
 import androidx.compose.ui.graphics.graphicsLayer
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
-import com.nsfwcyoamaker.cotdr.composableRichText.rememberRichTextResource
-import com.nsfwcyoamaker.cotdr.presentation.components.cornerBracketBorder
-import com.nsfwcyoamaker.cotdr.presentation.components.shadowBorder
-import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroductionOption
 import com.nsfwcyoamaker.cotdr.presentation.theme.ChoiceBackgroundColor
-import com.nsfwcyoamaker.cotdr.presentation.theme.smallTitleTextStyle
-import com.nsfwcyoamaker.cotdr.presentation.theme.smallerTextStyle
-import org.jetbrains.compose.resources.painterResource
 
 @Composable
-fun SelectablePriestessCard(
-    priestess: PriestessIntroductionOption,
-    isClickable: Boolean,
+fun SelectableCard(
     isSelected: Boolean,
+    isClickable: Boolean,
     onSelected: () -> Unit,
     modifier: Modifier = Modifier,
+    glowColor: Color = Color(0x97FFEF64),
+    content: @Composable BoxScope.() -> Unit,
 ) {
     val interactionSource = remember { MutableInteractionSource() }
     val isHovered by interactionSource.collectIsHoveredAsState()
@@ -93,12 +85,6 @@ fun SelectablePriestessCard(
         }
     }
 
-    val colorMatrix = remember(isSelected, isHovered) {
-        if (isSelected) ColorMatrix().apply { setToSaturation(1.4f) }
-        else if (isHovered) ColorMatrix().apply { setToSaturation(1.12f) }
-        else ColorMatrix().apply { setToSaturation(1.0f) }
-    }
-
     Box(
         contentAlignment = Alignment.Center,
         modifier = modifier
@@ -129,17 +115,15 @@ fun SelectablePriestessCard(
                 )
                 .border(
                     width = glowSize,
-                    color = Color(0x97FFEF64),
+                    color = glowColor,
                     shape = RoundedCornerShape(2.dp) // Shape must be here
                 )
         )
 
-        Column(
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.spacedBy(4.dp, Alignment.Top),
+        Box(
+            content = content,
             modifier = Modifier
                 .fillMaxWidth()
-                .fillMaxHeight()
                 .graphicsLayer {
                     scaleX = scale
                     scaleY = scale
@@ -148,29 +132,6 @@ fun SelectablePriestessCard(
                 .padding(contentPadding)
                 .background(ChoiceBackgroundColor)
                 .padding(horizontal = 10.dp, vertical = 4.dp)
-        ) {
-            Text(
-                text = rememberRichTextResource(priestess.title),
-                style = smallTitleTextStyle,
-            )
-
-            Image(
-                painter = painterResource(priestess.image),
-                contentDescription = null,
-                contentScale = ContentScale.FillHeight,
-                colorFilter = ColorFilter.colorMatrix(colorMatrix),
-                modifier = Modifier
-                    .aspectRatio(1f, matchHeightConstraintsFirst = false)
-                    .padding(horizontal = 18.dp)
-                    .fillMaxHeight()
-                    .wrapContentWidth()
-                    .shadowBorder()
-            )
-
-            Text(
-                text = rememberRichTextResource(priestess.description),
-                style = smallerTextStyle,
-            )
-        }
+        )
     }
 }

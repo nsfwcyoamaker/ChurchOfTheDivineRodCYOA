@@ -31,7 +31,7 @@ fun LazyListScope.PriestessesIntroductionGridItem(
                     .height(IntrinsicSize.Min)
             ) {
                 priestessesRow.forEach { priestessState ->
-                    SelectablePriestessCard(
+                    PriestessIntroductionCard(
                         priestess = priestessState.priestessIntroductionOption,
                         isClickable = priestessState.isClickable,
                         isSelected = priestessState.isSelected,
