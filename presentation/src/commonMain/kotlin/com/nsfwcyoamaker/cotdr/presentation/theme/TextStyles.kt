@@ -9,14 +9,21 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import com.nsfwcyoamaker.cotdr.resources.AngloText
-import com.nsfwcyoamaker.cotdr.resources.MinionPro
-import com.nsfwcyoamaker.cotdr.resources.Res
+import com.nsfwcyoamaker.cotdr.resources.*
 import org.jetbrains.compose.resources.Font
 
 @get:Composable
 private val MinioProFontFamily
-    get() = FontFamily(Font(Res.font.MinionPro, weight = FontWeight.Normal))
+    get() = FontFamily(
+        Font(Res.font.MinionPro_Bold, weight = FontWeight.Bold, style = FontStyle.Normal),
+        Font(Res.font.MinionPro_BoldIt, weight = FontWeight.Bold, style = FontStyle.Italic),
+        Font(Res.font.MinionPro_It, weight = FontWeight.Normal, style = FontStyle.Italic),
+        Font(Res.font.MinionPro_Medium, weight = FontWeight.Medium, style = FontStyle.Normal),
+        Font(Res.font.MinionPro_MediumIt, weight = FontWeight.Medium, style = FontStyle.Italic),
+        Font(Res.font.MinionPro_Regular, weight = FontWeight.Normal, style = FontStyle.Normal),
+        Font(Res.font.MinionPro_Semibold, weight = FontWeight.SemiBold, style = FontStyle.Normal),
+        Font(Res.font.MinionPro_SemiboldIt, weight = FontWeight.SemiBold, style = FontStyle.Italic),
+    )
 
 @get:Composable
 val defaultTextStyle
