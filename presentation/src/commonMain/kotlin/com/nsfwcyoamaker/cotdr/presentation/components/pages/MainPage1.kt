@@ -16,35 +16,56 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 fun LazyListScope.MainPage1(
     itemsModifier: Modifier = Modifier,
 ) {
-    item { MainTitle(modifier = itemsModifier) }
+    item(
+        key = "MainTitle",
+        contentType = "MainTitle"
+    ) { MainTitle(modifier = itemsModifier) }
 
     item { Spacer(modifier = Modifier.height(16.dp)) }
 
-    item { MainIntroduction(modifier = itemsModifier) }
+    item(
+        key = "MainIntroduction",
+        contentType = "MainIntroduction"
+    ) { MainIntroduction(modifier = itemsModifier) }
 
     item { Spacer(modifier = Modifier.height(4.dp)) }
 
-    item { PriestessesIntroductionTitle(modifier = itemsModifier) }
+    item(
+        key = "PriestessesIntroductionTitle",
+        contentType = "PriestessesIntroductionTitle"
+    ) { PriestessesIntroductionTitle(modifier = itemsModifier) }
 
     item { Spacer(modifier = Modifier.height(4.dp)) }
 
-    item { PriestessIntroductionDescription(modifier = itemsModifier) }
+    item(
+        key = "PriestessIntroductionDescription",
+        contentType = "PriestessIntroductionDescription"
+    ) { PriestessIntroductionDescription(modifier = itemsModifier) }
 
     item { Spacer(modifier = Modifier.height(6.dp)) }
 
-    item { PriestessesIntroductionGrid(modifier = itemsModifier) }
+    PriestessesIntroductionGridItem(itemsModifier)
 
     item { Spacer(modifier = Modifier.height(6.dp)) }
 
-    item { PriestessIntroductionExtra1(modifier = itemsModifier) }
+    item(
+        key = "PriestessIntroductionExtra1",
+        contentType = "PriestessIntroductionExtra1"
+    ) { PriestessIntroductionExtra1(modifier = itemsModifier) }
 
     item { Spacer(modifier = Modifier.height(6.dp)) }
 
-    item { PriestessIntroductionInterlude(modifier = itemsModifier) }
+    item(
+        key = "PriestessIntroductionInterlude",
+        contentType = "PriestessIntroductionInterlude"
+    ) { PriestessIntroductionInterlude(modifier = itemsModifier) }
 
     item { Spacer(modifier = Modifier.height(6.dp)) }
 
-    item { PriestessIntroductionExtra2(modifier = itemsModifier) }
+    item(
+        key = "PriestessIntroductionExtra2",
+        contentType = "PriestessIntroductionExtra2"
+    ) { PriestessIntroductionExtra2(modifier = itemsModifier) }
 }
 
 @Preview(

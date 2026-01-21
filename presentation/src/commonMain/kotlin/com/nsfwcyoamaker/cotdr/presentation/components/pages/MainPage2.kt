@@ -17,19 +17,31 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 fun LazyListScope.MainPage2(
     itemsModifier: Modifier = Modifier,
 ) {
-    item { FervorTitle(modifier = itemsModifier) }
+    item(
+        key = "FervorTitle",
+        contentType = "FervorTitle"
+    ) { FervorTitle(modifier = itemsModifier) }
 
     item { Spacer(modifier = Modifier.height(6.dp)) }
 
-    item { FervorDescription(modifier = itemsModifier) }
+    item(
+        key = "FervorDescription",
+        contentType = "FervorDescription"
+    ) { FervorDescription(modifier = itemsModifier) }
 
     item { Spacer(modifier = Modifier.height(6.dp)) }
 
-    item { BodilyModificationsTitle(modifier = itemsModifier) }
+    item(
+        key = "BodilyModificationsTitle",
+        contentType = "BodilyModificationsTitle"
+    ) { BodilyModificationsTitle(modifier = itemsModifier) }
 
     item { Spacer(modifier = Modifier.height(6.dp)) }
 
-    item { BodilyModificationsDescription(modifier = itemsModifier) }
+    item(
+        key = "BodilyModificationsDescription",
+        contentType = "BodilyModificationsDescription"
+    ) { BodilyModificationsDescription(modifier = itemsModifier) }
 
     item { Spacer(modifier = Modifier.height(6.dp)) }
 
