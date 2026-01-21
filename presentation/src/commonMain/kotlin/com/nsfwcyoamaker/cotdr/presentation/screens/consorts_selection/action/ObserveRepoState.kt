@@ -5,7 +5,6 @@ import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroductionState
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionActionDependencies
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionState
-import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionViewModel.Companion.toPriestess
 import com.nsfwcyoamaker.cotdr.presentationToadHandler.ActionScope
 
 data object ObserveRepoState: ConsortsSelectionAction {
@@ -17,12 +16,10 @@ data object ObserveRepoState: ConsortsSelectionAction {
             scope.setState {
                 ConsortsSelectionState(
                     PriestessIntroductionOption.entries.map {
-                        val priestess = it.toPriestess()
                         PriestessIntroductionState(
-                            priestess = priestess,
                             priestessIntroductionOption = it,
                             isClickable = it != PriestessIntroductionOption.Consorts,
-                            isSelected = priestess in repoData,
+                            isSelected = it.priestess in repoData,
                         )
                     }.chunked(3)
                 )
