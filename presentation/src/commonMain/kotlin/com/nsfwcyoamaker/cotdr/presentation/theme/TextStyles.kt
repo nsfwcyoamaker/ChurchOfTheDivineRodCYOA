@@ -35,6 +35,33 @@ val defaultTextStyle
     )
 
 @get:Composable
+val captionTextStyle
+    get() = TextStyle(
+        fontSize = 14.sp,
+        lineHeight = 18.sp,
+        color = Color.White,
+        fontFamily = MinioProFontFamily,
+    )
+
+@get:Composable
+val smallTextStyle
+    get() = TextStyle(
+        fontSize = 12.sp,
+        lineHeight = 16.sp,
+        color = Color.White,
+        fontFamily = MinioProFontFamily,
+    )
+
+@get:Composable
+val headerTextStyle
+    get() = TextStyle(
+        fontSize = 24.sp,
+        lineHeight = 28.sp,
+        color = Color.White,
+        fontFamily = MinioProFontFamily,
+    )
+
+@get:Composable
 val bigTitleTextStyle
     get() = TextStyle(
         fontSize = 126.sp,

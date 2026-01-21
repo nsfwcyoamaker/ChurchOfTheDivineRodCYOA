@@ -2,13 +2,16 @@ package com.nsfwcyoamaker.cotdr.presentation.screens
 
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
+import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.koin.koinScreenModel
+import com.nsfwcyoamaker.cotdr.presentation.components.main.CyoaBottomBar
 import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage1
 import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage2
 
@@ -17,17 +20,23 @@ object MainScreen: Screen {
     override fun Content() {
         val screenModel = koinScreenModel<MainScreenModel>()
 
+        val fervor by screenModel.totalFervorFlow.collectAsState(0)
         val consortsState by screenModel.consortsState.collectAsState()
 
-        MainScreenList {
-            MainPage1(
-                consortsState = consortsState,
-                onConsortsAction = screenModel::runConsortsAction,
-            )
-            item { Spacer(modifier = Modifier.height(60.dp)) }
-            MainPage2()
-            item { Spacer(modifier = Modifier.height(60.dp)) }
-            // todo
+        Scaffold(
+            containerColor = Color.Transparent,
+            bottomBar = { CyoaBottomBar(currentFervor = fervor) }
+        ) {
+            MainScreenList {
+                MainPage1(
+                    consortsState = consortsState,
+                    onConsortsAction = screenModel::runConsortsAction,
+                )
+                item { Spacer(modifier = Modifier.height(60.dp)) }
+                MainPage2()
+                item { Spacer(modifier = Modifier.height(60.dp)) }
+                // todo
+            }
         }
     }
 }
