@@ -199,7 +199,187 @@ Ah, and there is one other effect for us followers. Whenever we pleasure you, we
 Anyway, to go back to your body, that's all just what comes for free. If you want, you can make more exotic and exciting changes to your form. Some will cost Fervor to manifest, but you could also make some changes more for our sake than yours, which would generate Fervor for you to use on other things! In fact, I think I already see some taking shape…</acerolaSpeech>
         ]]>
     </string>
-    
+
+    <string name="mod_body_remodeling_title"><![CDATA[<anglo>Body Remodeling</anglo>]]></string>
+    <string name="mod_body_remodeling_desc">
+        <![CDATA[
+<acerolaSpeech>I'm sure you could have guessed, but you have complete control over your form. You can freely edit and pass any traits you want. You can create scales, horns, fur, maws, increase or decrease muscle mass or fat reserves, change height, hair color, eye color, etc. Basically, if you can imagine a humanoid form, you can take it.</acerolaSpeech>
+
+Obviously, this is great if you want to fix things you don't like about yourself, but it goes deeper. You can completely change your <b>aesthetic</b> to fit a theme, mimic others, or just optimize for specific tasks.
+    ]]>
+    </string>
+    <string name="mod_body_remodeling_cost"><![CDATA[<b>-2 Fervor</b>]]></string>
+
+    <string name="mod_dual_wield_title"><![CDATA[<anglo>Dual Wield</anglo>]]></string>
+    <string name="mod_dual_wield_desc">
+        <![CDATA[
+<acerolaSpeech>Why settle for one when you can have two? Or three? This allows you to grow extra sets of genitals, breasts, or other sexual characteristics. They are fully functional and you have complete control over them.</acerolaSpeech>
+
+This allows for some... creative plumbing. You can have both sets of genitals, multiple pairs of breasts, or even more exotic arrangements. Great for <b>multi-tasking</b> or satisfying multiple partners at once.
+    ]]>
+    </string>
+    <string name="mod_dual_wield_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
+
+    <string name="mod_zweihander_title"><![CDATA[<anglo>Zweihander</anglo>]]></string>
+    <string name="mod_zweihander_desc">
+        <![CDATA[
+<acerolaSpeech>Bigger is better, right? At least, that's what they say. This modification ensures your "equipment" is significantly larger than average. Impressively so.</acerolaSpeech>
+
+Your genitals, breasts, or whatever else you want are <b>remarkably large</b>. You have a natural grace with them, so they don't get in the way, and you can adjust them slightly for compatibility, but the "wow" factor remains.
+    ]]>
+    </string>
+    <string name="mod_zweihander_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
+
+    <string name="mod_miniature_title"><![CDATA[<anglo>Miniature</anglo>]]></string>
+    <string name="mod_miniature_desc">
+        <![CDATA[
+<acerolaSpeech>Sometimes the best things come in small packages. You can shrink your stature down significantly while retaining your adult proportions.</acerolaSpeech>
+
+You are naturally <b>petite and light</b>, making you easier to carry and fit into small spaces. You retain your adult curves but on a much smaller, lighter scale.
+    ]]>
+    </string>
+    <string name="mod_miniature_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
+
+    <string name="mod_towering_title"><![CDATA[<anglo>Towering</anglo>]]></string>
+    <string name="mod_towering_desc">
+        <![CDATA[
+<acerolaSpeech>You loom over the masses, a pillar of strength and awe. Your height is greatly increased, giving you a commanding presence wherever you go.</acerolaSpeech>
+
+You are exceptionally tall and imposing. Your size grants you natural advantages in <b>physical tasks</b> and intimidation, radiating an aura of pure strength.
+    ]]>
+    </string>
+    <string name="mod_towering_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
+
+    <string name="mod_amplified_touch_title"><![CDATA[<anglo>Amplified Womb</anglo>]]></string>
+    <string name="mod_amplified_touch_desc">
+        <![CDATA[
+<acerolaSpeech>Your body is a temple of life, optimized for creation. Your reproductive system operates at peak efficiency.</acerolaSpeech>
+
+You are extremely fertile and your pregnancies are always safe and healthy. You can control your <b>fertility</b> at will, ensuring conception only happens when you desire it.
+    ]]>
+    </string>
+    <string name="mod_amplified_touch_cost"><![CDATA[<b>-2 Fervor</b>]]></string>
+
+    <string name="mod_all_in_title"><![CDATA[<anglo>All In</anglo>]]></string>
+    <string name="mod_all_in_desc">
+        <![CDATA[
+<acerolaSpeech>Why let anything go to waste? You can absorb fluids through your skin and orifices, gaining sustenance and energy from them.</acerolaSpeech>
+
+This allows you to go without food or drink as long as you have a <b>source</b>. Every drop is utilized to fuel your body and stamina.
+    ]]>
+    </string>
+    <string name="mod_all_in_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
+
+    <string name="mod_synchronized_title"><![CDATA[<anglo>Synchronized</anglo>]]></string>
+    <string name="mod_synchronized_desc">
+        <![CDATA[
+<acerolaSpeech>Two hearts beating as one. You can share sensations with your partners, creating a feedback loop of pleasure.</acerolaSpeech>
+
+What you feel, they feel, and vice versa. This creates a deep <b>empathic bond</b> and heightens intimacy to spiritual levels.
+    ]]>
+    </string>
+    <string name="mod_synchronized_cost"><![CDATA[<b>-2 Fervor</b>]]></string>
+
+    <string name="mod_maximum_load_title"><![CDATA[<anglo>Maximum Load</anglo>]]></string>
+    <string name="mod_maximum_load_desc">
+        <![CDATA[
+<acerolaSpeech>You just keep going, and going, and going. Your stamina is effectively limitless, allowing you to endure anything.</acerolaSpeech>
+
+You can engage in strenuous activity for hours without tiring. Your <b>recovery time</b> is nearly instantaneous, meaning you are always ready for round two (or ten).
+    ]]>
+    </string>
+    <string name="mod_maximum_load_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
+
+    <string name="mod_tenfold_title"><![CDATA[<anglo>Tenfold</anglo>]]></string>
+    <string name="mod_tenfold_desc">
+        <![CDATA[
+<acerolaSpeech>Every nerve ending is on fire. Your sensitivity is dialed up to eleven... or rather, ten times the norm.</acerolaSpeech>
+
+Every touch is electric. Pleasure is magnified to an <b>overwhelming degree</b>. You might need to be careful, as overstimulation is a very real possibility.
+    ]]>
+    </string>
+    <string name="mod_tenfold_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
+
+    <string name="mod_super_armor_title"><![CDATA[<anglo>Super Armor</anglo>]]></string>
+    <string name="mod_super_armor_desc">
+        <![CDATA[
+<acerolaSpeech>Sticks and stones may break bones, but not yours. Your skin is as tough as steel, yet remains soft to the touch.</acerolaSpeech>
+
+Physical attacks bounce off you, and you are <b>immune to disease and poison</b>. You are practically indestructible while maintaining your softness.
+    ]]>
+    </string>
+    <string name="mod_super_armor_cost"><![CDATA[<b>-2 Fervor</b>]]></string>
+
+    <string name="mod_vast_depths_title"><![CDATA[<anglo>Vast Depths</anglo>]]></string>
+    <string name="mod_vast_depths_desc">
+        <![CDATA[
+<acerolaSpeech>Like a bag of holding, but biological. Your internal capacity defies the laws of physics and biology alike.</acerolaSpeech>
+
+You can accommodate any size or quantity without discomfort or harm. Your internals are <b>seemingly infinite</b>.
+    ]]>
+    </string>
+    <string name="mod_vast_depths_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
+
+    <string name="mod_rip_and_tear_title"><![CDATA[<anglo>Rip and Tear</anglo>]]></string>
+    <string name="mod_rip_and_tear_desc">
+        <![CDATA[
+<acerolaSpeech>Sometimes you need to get a little rough. You possess natural weapons that can be deployed at will.</acerolaSpeech>
+
+You have natural claws or fangs that can <b>cut through almost anything</b>. They can be retracted when not in use to appear completely normal.
+    ]]>
+    </string>
+    <string name="mod_rip_and_tear_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
+
+    <string name="mod_ammo_switcher_title"><![CDATA[<anglo>Kuno Switcher</anglo>]]></string>
+    <string name="mod_ammo_switcher_desc">
+        <![CDATA[
+<acerolaSpeech>Fluidity is the essence of life. You can swap your biological sex at the snap of a finger.</acerolaSpeech>
+
+This process is <b>instant and painless</b>. You can also mix and match features to create a hermaphroditic form or anything in between.
+    ]]>
+    </string>
+    <string name="mod_ammo_switcher_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
+
+    <string name="mod_comfort_layer_title"><![CDATA[<anglo>Comfort Layer</anglo>]]></string>
+    <string name="mod_comfort_layer_desc">
+        <![CDATA[
+<acerolaSpeech>You are always fresh, always clean. Your body maintains a perfect equilibrium regardless of the environment.</acerolaSpeech>
+
+Your body is naturally <b>self-cleaning</b> and maintains a perfect temperature. You always smell pleasant and your skin is always smooth and blemish-free.
+    ]]>
+    </string>
+    <string name="mod_comfort_layer_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
+
+    <string name="mod_group_dynamic_title"><![CDATA[<anglo>Group Dynamic</anglo>]]></string>
+    <string name="mod_group_dynamic_desc">
+        <![CDATA[
+<acerolaSpeech>The more, the merrier. You feed off the energy of the crowd, becoming more than the sum of your parts.</acerolaSpeech>
+
+Your performance and energy levels increase the more people are involved. You have an innate ability to <b>coordinate and lead</b> group activities.
+    ]]>
+    </string>
+    <string name="mod_group_dynamic_cost"><![CDATA[<b>-2 Fervor</b>]]></string>
+
+    <string name="mod_sustained_highs_title"><![CDATA[<anglo>Sustained Highs</anglo>]]></string>
+    <string name="mod_sustained_highs_desc">
+        <![CDATA[
+<acerolaSpeech>Why come down? You can ride the wave of ecstasy for as long as you desire.</acerolaSpeech>
+
+You can maintain a state of arousal or ecstasy <b>indefinitely</b> without crashing. The "afterglow" lasts as long as you want it to.
+    ]]>
+    </string>
+    <string name="mod_sustained_highs_cost"><![CDATA[<b>-2 Fervor</b>]]></string>
+
+    <string name="mod_rapunzel_title"><![CDATA[<anglo>Rapunzel</anglo>]]></string>
+    <string name="mod_rapunzel_desc">
+        <![CDATA[
+<acerolaSpeech>Your locks are more than just decoration. They are an extension of your will.</acerolaSpeech>
+
+Your hair is <b>prehensile</b> and can be controlled like an extra limb. It is incredibly strong and can grow or shrink at command.
+    ]]>
+    </string>
+    <string name="mod_rapunzel_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
+    <string name="mod_make_permanent"><![CDATA[make <b>Permanent</b>]]></string>
     
 
 </resources>

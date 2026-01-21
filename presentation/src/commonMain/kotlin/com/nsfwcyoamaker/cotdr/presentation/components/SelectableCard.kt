@@ -131,7 +131,7 @@ fun SelectableCard(
                 }
                 .padding(contentPadding)
                 .background(ChoiceBackgroundColor)
-                .padding(horizontal = 10.dp, vertical = 4.dp)
+                .padding(10.dp)
         )
     }
 }

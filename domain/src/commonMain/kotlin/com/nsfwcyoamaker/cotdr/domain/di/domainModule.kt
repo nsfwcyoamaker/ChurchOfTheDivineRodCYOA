@@ -1,5 +1,6 @@
 package com.nsfwcyoamaker.cotdr.domain.di
 
+import com.nsfwcyoamaker.cotdr.domain.usecase.GetCurrentBodilyModificationsFlowUseCase
 import com.nsfwcyoamaker.cotdr.domain.usecase.GetCurrentConsortsFlowUseCase
 import com.nsfwcyoamaker.cotdr.domain.usecase.GetTotalFervorFlowUseCase
 import com.nsfwcyoamaker.cotdr.domain.usecase.ToggleConsortUseCase
@@ -11,4 +12,6 @@ fun domainModule() = module {
 
     factoryOf(::GetCurrentConsortsFlowUseCase)
     factoryOf(::ToggleConsortUseCase)
+
+    factoryOf(::GetCurrentBodilyModificationsFlowUseCase)
 }
