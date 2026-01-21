@@ -11,7 +11,7 @@ import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.composableRichText.rememberRichTextResource
 import com.nsfwcyoamaker.cotdr.composableTextFlow.TextFlow
 import com.nsfwcyoamaker.cotdr.composableTextFlow.TextWrapPlacement
-import com.nsfwcyoamaker.cotdr.presentation.PreviewScope
+import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.presentation.components.shadowBorder
 import com.nsfwcyoamaker.cotdr.resources.Res
 import com.nsfwcyoamaker.cotdr.resources.intro_priestess
@@ -49,7 +49,7 @@ fun MainIntroduction(
 )
 @Composable
 private fun MainIntroductionPreview() {
-    PreviewScope {
+    AppScope {
         MainIntroduction(
             modifier = Modifier.fillMaxSize(),
         )

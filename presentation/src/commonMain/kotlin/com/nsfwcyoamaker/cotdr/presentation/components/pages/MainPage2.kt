@@ -7,7 +7,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.nsfwcyoamaker.cotdr.presentation.PreviewScope
+import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.bodily_modifications.BodilyModificationsDescription
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.bodily_modifications.BodilyModificationsTitle
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.fervor.FervorDescription
@@ -42,7 +42,7 @@ fun LazyListScope.MainPage2(
 )
 @Composable
 private fun MainPage1Preview() {
-    PreviewScope {
+    AppScope {
         val itemsModifier = Modifier
             .fillMaxWidth(0.95f)
             .padding(horizontal = 80.dp)

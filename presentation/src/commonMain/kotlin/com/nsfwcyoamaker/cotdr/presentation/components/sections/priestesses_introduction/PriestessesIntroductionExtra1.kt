@@ -4,7 +4,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import com.nsfwcyoamaker.cotdr.composableRichText.rememberRichTextResource
-import com.nsfwcyoamaker.cotdr.presentation.PreviewScope
+import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.resources.Res
 import com.nsfwcyoamaker.cotdr.resources.priestesses_introduction_extra_1
 import org.jetbrains.compose.ui.tooling.preview.Preview
@@ -26,7 +26,7 @@ fun PriestessIntroductionExtra1(
 )
 @Composable
 private fun PriestessIntroductionExtraPreview() {
-    PreviewScope {
+    AppScope {
         PriestessIntroductionExtra1()
     }
 }

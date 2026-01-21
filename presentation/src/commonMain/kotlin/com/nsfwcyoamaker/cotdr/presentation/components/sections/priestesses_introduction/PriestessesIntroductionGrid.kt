@@ -7,7 +7,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.nsfwcyoamaker.cotdr.presentation.PreviewScope
+import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroduction
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
@@ -100,7 +100,7 @@ private fun Priestess(
 )
 @Composable
 private fun PriestessesIntroductionGridPreview() {
-    PreviewScope {
+    AppScope {
         PriestessesIntroductionGrid(
             modifier = Modifier
                 .fillMaxWidth(0.95f)
