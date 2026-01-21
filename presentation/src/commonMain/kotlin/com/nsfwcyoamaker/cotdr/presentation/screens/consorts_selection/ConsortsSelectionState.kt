@@ -1,0 +1,21 @@
+package com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection
+
+import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroductionOption
+import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroductionState
+import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionViewModel.Companion.toPriestess
+import com.nsfwcyoamaker.cotdr.presentationToadHandler.ViewState
+
+data class ConsortsSelectionState(
+    val priestessesState: List<List<PriestessIntroductionState>> = defaultState(),
+): ViewState {
+    companion object {
+        fun defaultState() = PriestessIntroductionOption.entries.map {
+            PriestessIntroductionState(
+                priestess = it.toPriestess(),
+                priestessIntroductionOption = it,
+                isClickable = it != PriestessIntroductionOption.Consorts,
+                isSelected = false,
+            )
+        }.chunked(3)
+    }
+}

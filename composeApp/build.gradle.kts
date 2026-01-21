@@ -39,6 +39,11 @@ kotlin {
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
 
+            implementation(project.dependencies.platform(libs.koin.bom))
+            implementation(libs.koin.core)
+
+            implementation(projects.data)
+            implementation(projects.domain)
             implementation(projects.presentation)
         }
 

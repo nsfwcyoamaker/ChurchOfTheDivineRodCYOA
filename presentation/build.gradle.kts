@@ -50,6 +50,7 @@ kotlin {
             implementation(libs.voyager.navigator)
             implementation(libs.voyager.screenmodel)
             implementation(libs.voyager.transitions)
+            implementation(libs.voyager.koin)
 
             implementation(libs.composeIcons.feather)
             implementation(libs.composeIcons.tabler)
@@ -58,6 +59,7 @@ kotlin {
             implementation(projects.domain)
             implementation(projects.composableTextFlow)
             implementation(projects.composableRichText)
+            implementation(projects.presentationToadHandler)
         }
 
         androidMain.dependencies {

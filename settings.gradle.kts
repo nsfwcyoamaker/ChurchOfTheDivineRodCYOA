@@ -28,9 +28,13 @@ dependencyResolutionManagement {
     }
 }
 
-include(":composableTextFlow")
-include(":composableRichText")
 include(":composeApp")
+
 include(":data")
 include(":domain")
 include(":presentation")
+
+include(":composableTextFlow")
+include(":composableRichText")
+
+include(":presentationToadHandler")

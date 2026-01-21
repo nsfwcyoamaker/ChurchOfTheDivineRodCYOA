@@ -1,0 +1,5 @@
+package com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection
+
+import com.nsfwcyoamaker.cotdr.presentationToadHandler.ViewAction
+
+interface ConsortsSelectionAction: ViewAction<ConsortsSelectionActionDependencies, ConsortsSelectionState, Nothing>

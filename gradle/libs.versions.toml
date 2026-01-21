@@ -19,10 +19,10 @@ kotlinx-coroutines-swing = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-
 koin-bom = { module = "io.insert-koin:koin-bom", version.ref = "koin-bom" }
 koin-core = { module = "io.insert-koin:koin-core" }
 koin-compose = { module = "io.insert-koin:koin-compose" }
-koin-android = { module = "io.insert-koin:koin-android" }
 voyager-navigator = { module = "cafe.adriel.voyager:voyager-navigator", version.ref = "voyager"}
 voyager-screenmodel = { module = "cafe.adriel.voyager:voyager-screenmodel", version.ref = "voyager"}
 voyager-transitions = { module = "cafe.adriel.voyager:voyager-transitions", version.ref = "voyager"}
+voyager-koin = { module = "cafe.adriel.voyager:voyager-koin", version.ref = "voyager" }
 composeIcons-feather = { module = "br.com.devsrsouza.compose.icons:feather", version.ref = "composeIcons"}
 composeIcons-tabler = { module = "br.com.devsrsouza.compose.icons:tabler-icons", version.ref = "composeIcons"}
 composeIcons-fontAwesome = { module = "br.com.devsrsouza.compose.icons:font-awesome", version.ref = "composeIcons" }

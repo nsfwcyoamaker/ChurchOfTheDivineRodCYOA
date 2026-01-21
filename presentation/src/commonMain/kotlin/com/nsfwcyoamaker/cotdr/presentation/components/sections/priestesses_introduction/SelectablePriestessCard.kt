@@ -30,18 +30,16 @@ import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.composableRichText.rememberRichTextResource
 import com.nsfwcyoamaker.cotdr.presentation.components.cornerBracketBorder
 import com.nsfwcyoamaker.cotdr.presentation.components.shadowBorder
+import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroductionOption
 import com.nsfwcyoamaker.cotdr.presentation.theme.ChoiceBackgroundColor
 import com.nsfwcyoamaker.cotdr.presentation.theme.smallTitleTextStyle
 import com.nsfwcyoamaker.cotdr.presentation.theme.smallerTextStyle
-import org.jetbrains.compose.resources.DrawableResource
-import org.jetbrains.compose.resources.StringResource
 import org.jetbrains.compose.resources.painterResource
 
 @Composable
 fun SelectablePriestessCard(
-    title: StringResource,
-    image: DrawableResource,
-    description: StringResource,
+    priestess: PriestessIntroductionOption,
+    isClickable: Boolean,
     isSelected: Boolean,
     onSelected: () -> Unit,
     modifier: Modifier = Modifier,
@@ -104,7 +102,11 @@ fun SelectablePriestessCard(
     Box(
         contentAlignment = Alignment.Center,
         modifier = modifier
-            .clickable(interactionSource = interactionSource, indication = null) { onSelected() }
+            .clickable(
+                enabled = isClickable,
+                interactionSource = interactionSource,
+                indication = null,
+            ) { onSelected() }
     ) {
         Box(
             modifier = Modifier
@@ -148,12 +150,12 @@ fun SelectablePriestessCard(
                 .padding(horizontal = 10.dp, vertical = 4.dp)
         ) {
             Text(
-                text = rememberRichTextResource(title),
+                text = rememberRichTextResource(priestess.title),
                 style = smallTitleTextStyle,
             )
 
             Image(
-                painter = painterResource(image),
+                painter = painterResource(priestess.image),
                 contentDescription = null,
                 contentScale = ContentScale.FillHeight,
                 colorFilter = ColorFilter.colorMatrix(colorMatrix),
@@ -166,7 +168,7 @@ fun SelectablePriestessCard(
             )
 
             Text(
-                text = rememberRichTextResource(description),
+                text = rememberRichTextResource(priestess.description),
                 style = smallerTextStyle,
             )
         }

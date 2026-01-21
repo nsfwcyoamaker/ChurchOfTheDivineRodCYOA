@@ -11,7 +11,7 @@ import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.composableRichText.rememberRichTextResource
 import com.nsfwcyoamaker.cotdr.presentation.components.choiceContour
 import com.nsfwcyoamaker.cotdr.presentation.components.shadowBorder
-import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroduction
+import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroductionOption
 import com.nsfwcyoamaker.cotdr.presentation.theme.smallTitleTextStyle
 import com.nsfwcyoamaker.cotdr.presentation.theme.smallerTextStyle
 import org.jetbrains.compose.resources.DrawableResource
@@ -62,9 +62,9 @@ fun PriestessIntroductionBox(
     }
 }
 
-private object PriestessParameter: PreviewParameterProvider<PriestessIntroduction> {
-    override val values: Sequence<PriestessIntroduction>
-        get() = PriestessIntroduction.entries.asSequence()
+private object PriestessParameter: PreviewParameterProvider<PriestessIntroductionOption> {
+    override val values: Sequence<PriestessIntroductionOption>
+        get() = PriestessIntroductionOption.entries.asSequence()
 }
 
 @Preview(
@@ -73,7 +73,7 @@ private object PriestessParameter: PreviewParameterProvider<PriestessIntroductio
 )
 @Composable
 private fun PriestessIntroductionBoxPreview(
-    @PreviewParameter(PriestessParameter::class) priestessIntroduction: PriestessIntroduction,
+    @PreviewParameter(PriestessParameter::class) priestessIntroduction: PriestessIntroductionOption,
 ) {
     PriestessIntroductionBox(
         title = priestessIntroduction.title,

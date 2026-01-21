@@ -4,7 +4,7 @@ import com.nsfwcyoamaker.cotdr.resources.*
 import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.StringResource
 
-enum class PriestessIntroduction(
+enum class PriestessIntroductionOption(
     val title: StringResource,
     val image: DrawableResource,
     val description: StringResource,

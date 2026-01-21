@@ -4,6 +4,8 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
+    alias(libs.plugins.composeMultiplatform)
+    alias(libs.plugins.composeCompiler)
 }
 
 kotlin {
@@ -27,19 +29,33 @@ kotlin {
     }
 
     sourceSets {
+        val desktopMain by getting
+
         commonMain.dependencies {
+            implementation(compose.runtime)
+            implementation(compose.foundation)
+            implementation(compose.material3)
+            implementation(compose.ui)
+            implementation(compose.components.resources)
+            implementation(compose.components.uiToolingPreview)
+
             implementation(libs.kotlinx.coroutines.core)
+        }
 
-            implementation(project.dependencies.platform(libs.koin.bom))
-            implementation(libs.koin.core)
+        androidMain.dependencies {
+            implementation(compose.preview)
+            implementation(libs.androidx.activity.compose)
+        }
 
-            implementation(libs.arrow.core)
+        desktopMain.dependencies {
+            implementation(compose.desktop.currentOs)
+            implementation(libs.kotlinx.coroutines.swing)
         }
     }
 }
 
 android {
-    namespace = "com.nsfwcyoamaker.cotdr.domain"
+    namespace = "com.nsfwcyoamaker.cotdr.presentationToadHandler"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11

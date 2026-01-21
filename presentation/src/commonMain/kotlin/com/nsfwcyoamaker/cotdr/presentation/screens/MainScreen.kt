@@ -1,31 +1,33 @@
 package com.nsfwcyoamaker.cotdr.presentation.screens
 
-import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import cafe.adriel.voyager.core.screen.Screen
+import cafe.adriel.voyager.koin.koinScreenModel
 import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage1
 import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage2
 
-@Composable
-fun MainScreen() {
-    val itemsModifier = Modifier
-        .fillMaxWidth(0.95f)
-        .padding(horizontal = 80.dp)
+object MainScreen: Screen {
+    @Composable
+    override fun Content() {
+        val screenModel = koinScreenModel<MainScreenModel>()
 
-    LazyColumn(
-        modifier = Modifier.fillMaxSize(),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Top,
-    ) {
-        item { Spacer(modifier = Modifier.height(60.dp)) }
-        MainPage1(itemsModifier)
-        item { Spacer(modifier = Modifier.height(60.dp)) }
-        MainPage2(itemsModifier)
-        item { Spacer(modifier = Modifier.height(60.dp)) }
-        // todo
-        item { Spacer(modifier = Modifier.height(260.dp)) }
+        val consortsState by screenModel.consortsState.collectAsState()
+
+        MainScreenList {
+            MainPage1(
+                consortsState = consortsState,
+                onConsortsAction = screenModel::runConsortsAction,
+            )
+            item { Spacer(modifier = Modifier.height(60.dp)) }
+            MainPage2()
+            item { Spacer(modifier = Modifier.height(60.dp)) }
+            // todo
+        }
     }
 }
