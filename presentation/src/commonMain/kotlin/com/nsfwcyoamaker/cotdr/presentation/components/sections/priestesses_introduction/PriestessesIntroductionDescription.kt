@@ -6,7 +6,7 @@ import androidx.compose.ui.Modifier
 import com.nsfwcyoamaker.cotdr.composableRichText.rememberRichTextResource
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.resources.Res
-import com.nsfwcyoamaker.cotdr.resources.section_priestesses_introduction_description
+import com.nsfwcyoamaker.cotdr.resources.priestesses_introduction_description
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @Composable
@@ -14,7 +14,7 @@ fun PriestessIntroductionDescription(
     modifier: Modifier = Modifier,
 ) {
     Text(
-        text = rememberRichTextResource(Res.string.section_priestesses_introduction_description),
+        text = rememberRichTextResource(Res.string.priestesses_introduction_description),
         modifier = modifier,
     )
 }
