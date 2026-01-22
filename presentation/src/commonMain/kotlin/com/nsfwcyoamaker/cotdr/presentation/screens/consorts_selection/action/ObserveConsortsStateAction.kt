@@ -7,7 +7,7 @@ import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsS
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionState
 import com.nsfwcyoamaker.cotdr.presentationToadHandler.ActionScope
 
-data object ObserveRepoState: ConsortsSelectionAction {
+data object ObserveConsortsStateAction: ConsortsSelectionAction {
     override suspend fun execute(
         dependencies: ConsortsSelectionActionDependencies,
         scope: ActionScope<ConsortsSelectionState, Nothing>
