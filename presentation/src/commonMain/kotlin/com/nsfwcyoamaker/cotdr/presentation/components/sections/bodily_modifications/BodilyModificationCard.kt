@@ -1,13 +1,11 @@
 package com.nsfwcyoamaker.cotdr.presentation.components.sections.bodily_modifications
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.composableRichText.rememberRichTextResource
@@ -38,15 +36,15 @@ fun BodilyModificationCard(
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.spacedBy(6.dp),
+            verticalAlignment = Alignment.Top,
         ) {
             Image(
                 painter = painterResource(state.bodilyModificationOption.image),
                 contentDescription = null,
                 contentScale = ContentScale.FillWidth,
                 modifier = Modifier
-                    .background(color = Color.Black)
                     .weight(1f)
-                    .fillMaxHeight()
+                    .wrapContentHeight()
                     .shadowBorder()
             )
 
