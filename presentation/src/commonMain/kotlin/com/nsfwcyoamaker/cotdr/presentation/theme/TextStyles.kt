@@ -28,7 +28,7 @@ private val MinioProFontFamily
 @get:Composable
 val defaultTextStyle
     get() = TextStyle(
-        fontSize = 16.sp,
+        fontSize = 18.sp,
         lineHeight = 20.sp,
         color = Color.White,
         fontFamily = MinioProFontFamily,
@@ -37,7 +37,7 @@ val defaultTextStyle
 @get:Composable
 val captionTextStyle
     get() = TextStyle(
-        fontSize = 14.sp,
+        fontSize = 15.sp,
         lineHeight = 18.sp,
         color = Color.White,
         fontFamily = MinioProFontFamily,
@@ -46,7 +46,7 @@ val captionTextStyle
 @get:Composable
 val smallTextStyle
     get() = TextStyle(
-        fontSize = 12.sp,
+        fontSize = 13.sp,
         lineHeight = 16.sp,
         color = Color.White,
         fontFamily = MinioProFontFamily,
