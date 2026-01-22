@@ -61,10 +61,6 @@ fun LazyListScope.MainPage2(
         key = "BodilyModificationsExtra",
         contentType = "BodilyModificationsExtra"
     ) { BodilyModificationsExtra() }
-
-    item { Spacer(modifier = Modifier.height(12.dp)) }
-
-    //todo
 }
 
 @Preview(
