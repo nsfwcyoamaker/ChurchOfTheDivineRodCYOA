@@ -8,6 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.bodily_modifications.BodilyModificationsDescription
+import com.nsfwcyoamaker.cotdr.presentation.components.sections.bodily_modifications.BodilyModificationsExtra
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.bodily_modifications.BodilyModificationsGridItem
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.bodily_modifications.BodilyModificationsTitle
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.fervor.FervorDescription
@@ -53,6 +54,13 @@ fun LazyListScope.MainPage2(
         bodilyModificationsState,
         onBodilyModificationAction,
     )
+
+    item { Spacer(modifier = Modifier.height(12.dp)) }
+
+    item(
+        key = "BodilyModificationsExtra",
+        contentType = "BodilyModificationsExtra"
+    ) { BodilyModificationsExtra() }
 
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
