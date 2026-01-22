@@ -85,7 +85,7 @@ object ObserveBodilyModificationsSelectionStateAction: BodilyModificationsSelect
                     listOfNotNull(
                         BodilyModificationsSelectionState.Row.ChoicesRow(row.map { it.first }),
                         row.map { it.second }
-                            .takeIf { it.filterIsInstance<BodilyModificationExtraState.EmptyOption>().isNotEmpty() }
+                            .takeIf { options -> options.any { it !is BodilyModificationExtraState.EmptyOption } }
                             ?.let { BodilyModificationsSelectionState.Row.ExtrasRow(it) },
                     )
                 }
