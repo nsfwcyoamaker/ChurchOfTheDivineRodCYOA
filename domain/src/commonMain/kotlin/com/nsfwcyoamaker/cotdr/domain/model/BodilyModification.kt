@@ -11,7 +11,7 @@ enum class BodilyModification(
 ): Choice {
     BodyRemodeling(Simple(-2)),
     DualWield(MultiBuy(+8, calculationOverride = ::dualWieldCostOverride)),
-    Zweihander(Simple(-3)),
+    Zweihander(Simple(+3)),
     Miniature(
         strategy = Upgradable(-2, +3),
         upgradeRequirements = { ctx -> !ctx.hasUpgrade(Towering) }

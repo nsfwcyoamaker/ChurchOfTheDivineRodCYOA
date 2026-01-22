@@ -203,182 +203,208 @@ Anyway, to go back to your body, that's all just what comes for free. If you wan
     <string name="mod_body_remodeling_title"><![CDATA[<anglo>Body Remodeling</anglo>]]></string>
     <string name="mod_body_remodeling_desc">
         <![CDATA[
-<acerolaSpeech>I'm sure you could have guessed, but you have complete control over your form. You can freely edit and pass any traits you want. You can create scales, horns, fur, maws, increase or decrease muscle mass or fat reserves, change height, hair color, eye color, etc. Basically, if you can imagine a humanoid form, you can take it.</acerolaSpeech>
+Your body is remade to suit your ideal form. Any human sex, size, shape, appearance, and coloration is possible, but no matter the form you will always have your cock.
+Attributes covered by other options are not included.
 
-Obviously, this is great if you want to fix things you don't like about yourself, but it goes deeper. You can completely change your <b>aesthetic</b> to fit a theme, mimic others, or just optimize for specific tasks.
-    ]]>
+<acerolaSpeech>I didn't see you enter the church myself, so I don't know if your body is the same as it was before. The apotheosis may have reshaped it to match your desires.
+The good news is, we definitely all like what we see now~</acerolaSpeech>
+        ]]>
     </string>
     <string name="mod_body_remodeling_cost"><![CDATA[<b>-2 Fervor</b>]]></string>
 
     <string name="mod_dual_wield_title"><![CDATA[<anglo>Dual Wield</anglo>]]></string>
     <string name="mod_dual_wield_desc">
         <![CDATA[
-<acerolaSpeech>Why settle for one when you can have two? Or three? This allows you to grow extra sets of genitals, breasts, or other sexual characteristics. They are fully functional and you have complete control over them.</acerolaSpeech>
+You grow a second dick, right next to the first. It is identical to the first dick aside from placement, and each works independently of the other(s).
+Can be taken multiple times, Fervor gain decreases each time (8, 4, 2, 1, O…)
 
-This allows for some... creative plumbing. You can have both sets of genitals, multiple pairs of breasts, or even more exotic arrangements. Great for <b>multi-tasking</b> or satisfying multiple partners at once.
-    ]]>
+<acerolaSpeech>I, um, don't know if you realize it but, since your cock is your bodily symbol of divinity, having multiple of them…
+W-well, everyone is going to be VERY excited to see this. In fact, I should probably help test them, to make sure they all work properly… for safety!</acerolaSpeech>
+        ]]>
     </string>
-    <string name="mod_dual_wield_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
+    <string name="mod_dual_wield_cost"><![CDATA[<b>+8 Fervor</b>]]></string>
 
     <string name="mod_zweihander_title"><![CDATA[<anglo>Zweihander</anglo>]]></string>
     <string name="mod_zweihander_desc">
         <![CDATA[
-<acerolaSpeech>Bigger is better, right? At least, that's what they say. This modification ensures your "equipment" is significantly larger than average. Impressively so.</acerolaSpeech>
+Your cock grows, from a foot long to at least twice that, with a proportional girth. You can make it even larger if you wish.
 
-Your genitals, breasts, or whatever else you want are <b>remarkably large</b>. You have a natural grace with them, so they don't get in the way, and you can adjust them slightly for compatibility, but the "wow" factor remains.
-    ]]>
+<acerolaSpeech>Holy-
+Uhm. Well. How to put this…
+Lord, while your followers all do daily stretching exercises to accommodate your normal, expected size, this is…
+Well, no amount of normal stretching could ever be enough to fit all of THIS.
+We'll have to resort to magical means.</acerolaSpeech>
+        ]]>
     </string>
-    <string name="mod_zweihander_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
+    <string name="mod_zweihander_cost"><![CDATA[<b>+3 Fervor</b>]]></string>
 
     <string name="mod_miniature_title"><![CDATA[<anglo>Miniature</anglo>]]></string>
     <string name="mod_miniature_desc">
         <![CDATA[
-<acerolaSpeech>Sometimes the best things come in small packages. You can shrink your stature down significantly while retaining your adult proportions.</acerolaSpeech>
+You gain the ability to shrink down to 2/3 your normal size at smallest, though your cock will stay its full size.
+Optionally, you can also have your body take a youthful form while shrunken. Cost becomes <b>+3 Fervor</b> if you make the shrunken form permanent.
 
-You are naturally <b>petite and light</b>, making you easier to carry and fit into small spaces. You retain your adult curves but on a much smaller, lighter scale.
-    ]]>
+<acerolaSpeech>I can imagine a lot of the more forward followers will enjoy this form and teasing you in it.
+My quarters are always open if you need a place to hide out! I promise I won't be as insistent as the others!</acerolaSpeech>
+        ]]>
     </string>
-    <string name="mod_miniature_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
+    <string name="mod_miniature_cost"><![CDATA[<b>-2 Fervor</b>]]></string>
 
     <string name="mod_towering_title"><![CDATA[<anglo>Towering</anglo>]]></string>
     <string name="mod_towering_desc">
         <![CDATA[
-<acerolaSpeech>You loom over the masses, a pillar of strength and awe. Your height is greatly increased, giving you a commanding presence wherever you go.</acerolaSpeech>
+You gain the ability to grow to 1.5x your normal size at largest, with your cock growing to match. Optionally, you can also have your body bulk up to a strong, muscular form while giant.
+Cost becomes <b>+2 Fervor</b> if you make the giant form permanent. Towering and Miniature's permanent height changes are mutually exclusive.
 
-You are exceptionally tall and imposing. Your size grants you natural advantages in <b>physical tasks</b> and intimidation, radiating an aura of pure strength.
-    ]]>
+<acerolaSpeech>I've caught Erina talking about something like this, being gripped and used like an, "own-a-hole"? I'm not certain what that is.</acerolaSpeech>
+        ]]>
     </string>
-    <string name="mod_towering_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
+    <string name="mod_towering_cost"><![CDATA[<b>-2 Fervor</b>]]></string>
 
-    <string name="mod_amplified_touch_title"><![CDATA[<anglo>Amplified Womb</anglo>]]></string>
+    <string name="mod_amplified_touch_title"><![CDATA[<anglo>Amplified Touch</anglo>]]></string>
     <string name="mod_amplified_touch_desc">
         <![CDATA[
-<acerolaSpeech>Your body is a temple of life, optimized for creation. Your reproductive system operates at peak efficiency.</acerolaSpeech>
+Your entire body becomes more sensitive, with your holes all becoming erogenous zones.
 
-You are extremely fertile and your pregnancies are always safe and healthy. You can control your <b>fertility</b> at will, ensuring conception only happens when you desire it.
-    ]]>
+<acerolaSpeech>This is a great opportunity to understand your followers better!
+What better way to get closer to us than to share in our struggles, enduring the endless fight against your own shivering, licentious flesh, craving a sensual touch across every inch of your skin?
+It's nice!</acerolaSpeech>
+        ]]>
     </string>
-    <string name="mod_amplified_touch_cost"><![CDATA[<b>-2 Fervor</b>]]></string>
+    <string name="mod_amplified_touch_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
 
     <string name="mod_all_in_title"><![CDATA[<anglo>All In</anglo>]]></string>
     <string name="mod_all_in_desc">
         <![CDATA[
-<acerolaSpeech>Why let anything go to waste? You can absorb fluids through your skin and orifices, gaining sustenance and energy from them.</acerolaSpeech>
+Your cock will be unable to reach orgasm unless it is inside a partner's hole. Even just the head is enough, but if you try to pull out then the orgasm will halt mid-spurt until it's put back in.
+If stimulated outside of a partner, the pleasure will build and just stay teetering at the edge of orgasm until put into a hole.
 
-This allows you to go without food or drink as long as you have a <b>source</b>. Every drop is utilized to fuel your body and stamina.
-    ]]>
+<acerolaSpeech>Your seed is one of the greatest gifts you can give, so making sure that it always ends up inside one of us where it can be most appreciated is truly a blessing!</acerolaSpeech>
+        ]]>
     </string>
-    <string name="mod_all_in_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
+    <string name="mod_all_in_cost"><![CDATA[<b>+4 Fervor</b>]]></string>
 
     <string name="mod_synchronized_title"><![CDATA[<anglo>Synchronized</anglo>]]></string>
     <string name="mod_synchronized_desc">
         <![CDATA[
-<acerolaSpeech>Two hearts beating as one. You can share sensations with your partners, creating a feedback loop of pleasure.</acerolaSpeech>
+You become unable to reach orgasm unless your partner is either just about to or has just orgasmed. If you reach your limit without a partner, then you will stay on the edge of orgasm until your partner is ready.
+If having sex with multiple partners, any of them work for the window of opportunity.
 
-What you feel, they feel, and vice versa. This creates a deep <b>empathic bond</b> and heightens intimacy to spiritual levels.
-    ]]>
+<acerolaSpeech>Your consideration is truly boundless, refusing to achieve your own pleasure unless your followers do as well.</acerolaSpeech>
+        ]]>
     </string>
-    <string name="mod_synchronized_cost"><![CDATA[<b>-2 Fervor</b>]]></string>
+    <string name="mod_synchronized_cost"><![CDATA[<b>+4 Fervor</b>]]></string>
 
     <string name="mod_maximum_load_title"><![CDATA[<anglo>Maximum Load</anglo>]]></string>
     <string name="mod_maximum_load_desc">
         <![CDATA[
-<acerolaSpeech>You just keep going, and going, and going. Your stamina is effectively limitless, allowing you to endure anything.</acerolaSpeech>
+Your cum is enhanced, making your loads huge and voluminous, and your cum itself will stay hot for hours even in the open air.
+Take this a second time, and your cum will constantly shift and flow in any large amounts, causing stimulation for whoever it's touching.
 
-You can engage in strenuous activity for hours without tiring. Your <b>recovery time</b> is nearly instantaneous, meaning you are always ready for round two (or ten).
-    ]]>
+<acerolaSpeech>Mm, just imagining how this would feel on my skin or my face… wonderful. Or, even more lovely, inside of me…
+I bet I could orgasm from that sensation alone.</acerolaSpeech>
+        ]]>
     </string>
-    <string name="mod_maximum_load_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
+    <string name="mod_maximum_load_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
 
     <string name="mod_tenfold_title"><![CDATA[<anglo>Tenfold</anglo>]]></string>
     <string name="mod_tenfold_desc">
         <![CDATA[
-<acerolaSpeech>Every nerve ending is on fire. Your sensitivity is dialed up to eleven... or rather, ten times the norm.</acerolaSpeech>
+The stimulation your erogenous zones receive is doubled. Can be taken up to five times, each doubling the amount of stimulation (2x, 4x, 8x, 16x, 32x). At its maximum, the slightest touch will be a wave of pleasure and sex will be mind melting without a counter-balance.
 
-Every touch is electric. Pleasure is magnified to an <b>overwhelming degree</b>. You might need to be careful, as overstimulation is a very real possibility.
-    ]]>
+<acerolaSpeech>The divine contract states that as we are pleasured, so do we pleasure our lord. I've always felt that we got the bigger side of the exchange, but this can even the scales back out! Of course, too much can be difficult to handle, so take care.</acerolaSpeech>
+        ]]>
     </string>
     <string name="mod_tenfold_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
 
     <string name="mod_super_armor_title"><![CDATA[<anglo>Super Armor</anglo>]]></string>
     <string name="mod_super_armor_desc">
         <![CDATA[
-<acerolaSpeech>Sticks and stones may break bones, but not yours. Your skin is as tough as steel, yet remains soft to the touch.</acerolaSpeech>
+Your refractory period no longer causes overstimulation and you feel pleasure normally during it. You can't cum during the period, but pleasure can still accumulate towards orgasm, potentially leading to a strange edging where you're ready to cum but simply unable to until the period ends.
+Take this a second time to entirely remove your refractory period.
 
-Physical attacks bounce off you, and you are <b>immune to disease and poison</b>. You are practically indestructible while maintaining your softness.
-    ]]>
+<acerolaSpeech>Your divinity doesn't mitigate a need for rest by default, but that doesn't mean it can't be done!</acerolaSpeech>
+        ]]>
     </string>
     <string name="mod_super_armor_cost"><![CDATA[<b>-2 Fervor</b>]]></string>
 
     <string name="mod_vast_depths_title"><![CDATA[<anglo>Vast Depths</anglo>]]></string>
     <string name="mod_vast_depths_desc">
         <![CDATA[
-<acerolaSpeech>Like a bag of holding, but biological. Your internal capacity defies the laws of physics and biology alike.</acerolaSpeech>
+Your threshold for reaching orgasm is doubled, making it take more stimulation to cum. Can be taken up to five times, each doubling the amount of stimulation needed (2x, 4x, 8x, 16x, 32x).
+Each level of <b>Tenfold</b> taken reduces the gain of the corresponding level of <b>Vast Depths</b> to <b>+1 Fervor</b>.
 
-You can accommodate any size or quantity without discomfort or harm. Your internals are <b>seemingly infinite</b>.
-    ]]>
+<acerolaSpeech>Iam happy that you wish to avoid having to take breaks with us, but I also fear that this will reduce how much cum we can receive…</acerolaSpeech>
+        ]]>
     </string>
-    <string name="mod_vast_depths_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
+    <string name="mod_vast_depths_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
 
     <string name="mod_rip_and_tear_title"><![CDATA[<anglo>Rip and Tear</anglo>]]></string>
     <string name="mod_rip_and_tear_desc">
         <![CDATA[
-<acerolaSpeech>Sometimes you need to get a little rough. You possess natural weapons that can be deployed at will.</acerolaSpeech>
+If you have sex with anyone wearing more than lingerie and accessories, you'll feel an instinctive desire to rip their clothes and expose their body during sex.
+If they're wearing a choker, you'll also have the irresistible urge to snap it through rough oral sex.
 
-You have natural claws or fangs that can <b>cut through almost anything</b>. They can be retracted when not in use to appear completely normal.
-    ]]>
+<acerolaSpeech>Our vestments are certainly not free, but I think the raw animal appeal of having them literally ripped offof us is worth the cost, now and again at least.</acerolaSpeech>
+        ]]>
     </string>
-    <string name="mod_rip_and_tear_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
+    <string name="mod_rip_and_tear_cost"><![CDATA[<b>+3 Fervor</b>]]></string>
 
-    <string name="mod_ammo_switcher_title"><![CDATA[<anglo>Kuno Switcher</anglo>]]></string>
+    <string name="mod_ammo_switcher_title"><![CDATA[<anglo>Ammo Switcher</anglo>]]></string>
     <string name="mod_ammo_switcher_desc">
         <![CDATA[
-<acerolaSpeech>Fluidity is the essence of life. You can swap your biological sex at the snap of a finger.</acerolaSpeech>
+You gain control over your own fertility, able to dial it from guaranteed impregnation from a drop of cum to absolutely incapable of creating a baby.
+If you've taken <b>Body Remodeling</b>, you can also set the sex and appearance of any child you sire at the time of impregnation, with the same limits.
 
-This process is <b>instant and painless</b>. You can also mix and match features to create a hermaphroditic form or anything in between.
-    ]]>
+<acerolaSpeech>This is a very wise choice. Some followers have strong opinions about limiting how much you, ahem, 'gift us with child', but it's absolutely not an action to be taken lightly.</acerolaSpeech>
+        ]]>
     </string>
-    <string name="mod_ammo_switcher_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
+    <string name="mod_ammo_switcher_cost"><![CDATA[<b>-3 Fervor</b>]]></string>
 
     <string name="mod_comfort_layer_title"><![CDATA[<anglo>Comfort Layer</anglo>]]></string>
     <string name="mod_comfort_layer_desc">
         <![CDATA[
-<acerolaSpeech>You are always fresh, always clean. Your body maintains a perfect equilibrium regardless of the environment.</acerolaSpeech>
+Your body will maintain comfortable conditions around it at all time, including temperature, pressure, humidity, and stickiness. This will also affect anything you touch and your partners, and can be enabled/disabled at will.
 
-Your body is naturally <b>self-cleaning</b> and maintains a perfect temperature. You always smell pleasant and your skin is always smooth and blemish-free.
-    ]]>
+<acerolaSpeech>This sounds simple, but don't underestimate the value of comfort, cold, wet sheets can be an absolute mood killer in the middle of lovemaking!
+It also means almost any discrete location is a good spot for a quickie!</acerolaSpeech>
+        ]]>
     </string>
     <string name="mod_comfort_layer_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
 
     <string name="mod_group_dynamic_title"><![CDATA[<anglo>Group Dynamic</anglo>]]></string>
     <string name="mod_group_dynamic_desc">
         <![CDATA[
-<acerolaSpeech>The more, the merrier. You feed off the energy of the crowd, becoming more than the sum of your parts.</acerolaSpeech>
+You can only have sex with partners either one-on-one, or only in groups of 2 or more.
+Which mode is active cycles back and forth on a regular schedule (every 4 hours, daily, 3 times a week, ete). The schedule can be changed once a month. Can be taken twice to stay in one of the modes permanently.
 
-Your performance and energy levels increase the more people are involved. You have an innate ability to <b>coordinate and lead</b> group activities.
-    ]]>
+<acerolaSpeech>Limiting yourself is inspiring to us! Ifour lord can temper themself with restriction, then surely we can as well.</acerolaSpeech>
+        ]]>
     </string>
-    <string name="mod_group_dynamic_cost"><![CDATA[<b>-2 Fervor</b>]]></string>
+    <string name="mod_group_dynamic_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
 
     <string name="mod_sustained_highs_title"><![CDATA[<anglo>Sustained Highs</anglo>]]></string>
     <string name="mod_sustained_highs_desc">
         <![CDATA[
-<acerolaSpeech>Why come down? You can ride the wave of ecstasy for as long as you desire.</acerolaSpeech>
+When having sex with multiple partners, the pleasure they feel is maintained when you switch off one and focus on another. They can be kept at a pleasant thrum or on the edge of orgasm until it's their turn again.
+Anyone else pleasuring them while they wait will feel like a second, distinct line of pleasure.
 
-You can maintain a state of arousal or ecstasy <b>indefinitely</b> without crashing. The "afterglow" lasts as long as you want it to.
-    ]]>
+<acerolaSpeech>How thoughtful of you! It really is such a disappointment when your partner switches their attention and you're left high and dry for a bit, ruins the mood.</acerolaSpeech>
+        ]]>
     </string>
-    <string name="mod_sustained_highs_cost"><![CDATA[<b>-2 Fervor</b>]]></string>
+    <string name="mod_sustained_highs_cost"><![CDATA[<b>-3 Fervor</b>]]></string>
 
     <string name="mod_rapunzel_title"><![CDATA[<anglo>Rapunzel</anglo>]]></string>
     <string name="mod_rapunzel_desc">
         <![CDATA[
-<acerolaSpeech>Your locks are more than just decoration. They are an extension of your will.</acerolaSpeech>
+Your hair will grow extremely fast, depending on how long it is. Shaved bald you grow 2 feet of hair a day, scaling all the way down to human normal rate at floor-length.
 
-Your hair is <b>prehensile</b> and can be controlled like an extra limb. It is incredibly strong and can grow or shrink at command.
-    ]]>
+<acerolaSpeech>Well this is a surprise, but a pleasant one! Don't worry, I'Il organize a rotation for the followers trim your hair, they'Il ADORE pampering you.
+And as a bonus, materials from your divine body make for fantastic ritual components!</acerolaSpeech>
+        ]]>
     </string>
-    <string name="mod_rapunzel_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
+    <string name="mod_rapunzel_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
+    
     <string name="mod_make_permanent"><![CDATA[make <b>permanent</b>]]></string>
     
 
