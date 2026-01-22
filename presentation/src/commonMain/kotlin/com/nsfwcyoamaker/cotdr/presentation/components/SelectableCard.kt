@@ -34,6 +34,7 @@ fun SelectableCard(
     onSelected: () -> Unit,
     modifier: Modifier = Modifier,
     glowColor: Color = Color(0x97FFEF64),
+    cornerBracketsVisible: Boolean = true,
     content: @Composable BoxScope.() -> Unit,
 ) {
     val interactionSource = remember { MutableInteractionSource() }
@@ -98,7 +99,13 @@ fun SelectableCard(
             modifier = Modifier
                 .matchParentSize()
                 .padding(bracketsOffset.coerceAtLeast(0.dp))
-                .cornerBracketBorder()
+                .then(
+                    if(cornerBracketsVisible) {
+                        Modifier.cornerBracketBorder()
+                    } else {
+                        Modifier
+                    }
+                )
         )
         Box(
             modifier = Modifier

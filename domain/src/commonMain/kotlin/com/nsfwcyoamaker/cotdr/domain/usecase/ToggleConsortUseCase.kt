@@ -13,6 +13,6 @@ class ToggleConsortUseCase(
             ?.isSelected
             ?: false
 
-        return repository.setChoiceState(priestess, ChoiceState(isSelected = true).takeIf { !selected })
+        repository.setChoiceState(priestess, ChoiceState(isSelected = true).takeIf { !selected })
     }
 }

@@ -13,9 +13,14 @@ import com.nsfwcyoamaker.cotdr.presentation.components.sections.bodily_modificat
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.fervor.FervorDescription
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.fervor.FervorTitle
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
+import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionAction
+import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionState
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
-fun LazyListScope.MainPage2() {
+fun LazyListScope.MainPage2(
+    bodilyModificationsState: BodilyModificationsSelectionState,
+    onBodilyModificationAction: (BodilyModificationsSelectionAction) -> Unit
+) {
     item(
         key = "FervorTitle",
         contentType = "FervorTitle"
@@ -44,7 +49,10 @@ fun LazyListScope.MainPage2() {
 
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
-    BodilyModificationsGridItem()
+    BodilyModificationsGridItem(
+        bodilyModificationsState,
+        onBodilyModificationAction,
+    )
 
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
@@ -59,7 +67,10 @@ fun LazyListScope.MainPage2() {
 private fun MainPage1Preview() {
     AppScope {
         MainScreenList {
-            MainPage2()
+            MainPage2(
+                bodilyModificationsState = BodilyModificationsSelectionState(),
+                onBodilyModificationAction = {},
+            )
         }
     }
 }

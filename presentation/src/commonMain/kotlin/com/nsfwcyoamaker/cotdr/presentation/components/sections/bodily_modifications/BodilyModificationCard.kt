@@ -15,6 +15,9 @@ import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.presentation.components.SelectableCard
 import com.nsfwcyoamaker.cotdr.presentation.components.shadowBorder
 import com.nsfwcyoamaker.cotdr.presentation.model.BodilyModificationOption
+import com.nsfwcyoamaker.cotdr.presentation.model.BodilyModificationState
+import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionAction
+import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.action.BodilyModificationClickedAction
 import com.nsfwcyoamaker.cotdr.presentation.theme.smallTitleTextStyle
 import com.nsfwcyoamaker.cotdr.presentation.theme.smallerTextStyle
 import org.jetbrains.compose.resources.painterResource
@@ -22,16 +25,14 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @Composable
 fun BodilyModificationCard(
-    bodilyModification: BodilyModificationOption,
-    isSelected: Boolean,
-    isClickable: Boolean,
-    onSelected: () -> Unit,
+    state: BodilyModificationState,
+    onAction: (BodilyModificationsSelectionAction) -> Unit,
     modifier: Modifier = Modifier,
 ) {
     SelectableCard(
-        isSelected = isSelected,
-        isClickable = isClickable,
-        onSelected = onSelected,
+        isSelected = state.isSelected,
+        isClickable = state.isEnabled,
+        onSelected = { onAction(BodilyModificationClickedAction(state.bodilyModificationOption.bodilyModification)) },
         modifier = modifier,
     ) {
         Row(
@@ -39,7 +40,7 @@ fun BodilyModificationCard(
             horizontalArrangement = Arrangement.spacedBy(6.dp),
         ) {
             Image(
-                painter = painterResource(bodilyModification.image),
+                painter = painterResource(state.bodilyModificationOption.image),
                 contentDescription = null,
                 contentScale = ContentScale.FillWidth,
                 modifier = Modifier
@@ -54,19 +55,19 @@ fun BodilyModificationCard(
                 verticalArrangement = Arrangement.spacedBy(4.dp),
             ) {
                 Text(
-                    text = rememberRichTextResource(bodilyModification.title),
+                    text = rememberRichTextResource(state.bodilyModificationOption.title),
                     style = smallTitleTextStyle,
                 )
 
                 Text(
-                    text = rememberRichTextResource(bodilyModification.description),
+                    text = rememberRichTextResource(state.bodilyModificationOption.description),
                     style = smallerTextStyle,
                 )
 
                 Box(modifier = Modifier.weight(1f))
 
                 Text(
-                    text = rememberRichTextResource(bodilyModification.cost),
+                    text = rememberRichTextResource(state.bodilyModificationOption.cost),
                 )
             }
         }
@@ -85,10 +86,8 @@ private fun BodilyModificationCardPreview() {
             contentAlignment = Alignment.Center,
         ) {
             BodilyModificationCard(
-                bodilyModification = BodilyModificationOption.BodyRemodeling,
-                isSelected = false,
-                isClickable = false,
-                onSelected = {},
+                state = BodilyModificationState(BodilyModificationOption.BodyRemodeling),
+                onAction = {},
                 modifier = Modifier
                     .fillMaxWidth(0.2f)
                     .wrapContentHeight(),

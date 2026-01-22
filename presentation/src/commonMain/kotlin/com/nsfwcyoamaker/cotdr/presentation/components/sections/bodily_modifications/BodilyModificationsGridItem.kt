@@ -7,14 +7,18 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
-import com.nsfwcyoamaker.cotdr.presentation.model.BodilyModificationOption
+import com.nsfwcyoamaker.cotdr.presentation.model.BodilyModificationExtraState
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
+import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionAction
+import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionState
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @OptIn(ExperimentalLayoutApi::class)
-fun LazyListScope.BodilyModificationsGridItem() {
-    val chinked = BodilyModificationOption.entries.chunked(3)
-    chinked.forEachIndexed { index, bodilyModificationsRow ->
+fun LazyListScope.BodilyModificationsGridItem(
+    bodilyModificationsState: BodilyModificationsSelectionState,
+    onBodilyModificationAction: (BodilyModificationsSelectionAction) -> Unit
+) {
+    bodilyModificationsState.bodilyModifications.forEachIndexed { index, bodilyModificationsRow ->
         item(
             key = "bodily_modifications_row_$index",
             contentType = "bodily_modifications_row"
@@ -26,22 +30,60 @@ fun LazyListScope.BodilyModificationsGridItem() {
                     .fillMaxWidth()
                     .height(IntrinsicSize.Min)
             ) {
-                bodilyModificationsRow.forEach { bodilyModification ->
-                    BodilyModificationCard(
-                        bodilyModification = bodilyModification,
-                        isClickable = false,
-                        isSelected = false,
-                        onSelected = { /**/ },
-                        modifier = Modifier
-                            .weight(1f)
-                            .fillMaxHeight(),
-                    )
+                when(bodilyModificationsRow) {
+                    is BodilyModificationsSelectionState.Row.ChoicesRow -> {
+                        bodilyModificationsRow.choices.forEach { bodilyModification ->
+                            BodilyModificationCard(
+                                state = bodilyModification,
+                                onAction = onBodilyModificationAction,
+                                modifier = Modifier
+                                    .weight(1f)
+                                    .fillMaxHeight(),
+                            )
+                        }
+                    }
+
+                    is BodilyModificationsSelectionState.Row.ExtrasRow -> {
+                        bodilyModificationsRow.extras.forEach { bodilyModificationExtra ->
+                            when(bodilyModificationExtra) {
+                                is BodilyModificationExtraState.EmptyOption -> {
+                                    Box(
+                                        modifier = Modifier
+                                            .weight(1f)
+                                            .fillMaxHeight(),
+                                    )
+                                }
+                                is BodilyModificationExtraState.MultiBuyOption -> {
+                                    BodilyModificationMultiBuyCard(
+                                        state = bodilyModificationExtra,
+                                        onAction = onBodilyModificationAction,
+                                        modifier = Modifier
+                                            .weight(1f)
+                                            .fillMaxHeight(),
+                                    )
+                                }
+                                is BodilyModificationExtraState.UpgradeOption -> {
+                                    BodilyModificationUpgradeCard(
+                                        state = bodilyModificationExtra,
+                                        onAction = onBodilyModificationAction,
+                                        modifier = Modifier
+                                            .weight(1f)
+                                            .fillMaxHeight(),
+                                    )
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
 
-        if(index < (chinked.size - 1)) {
-            item { Spacer(modifier = Modifier.height(24.dp)) }
+        if(index < (bodilyModificationsState.bodilyModifications.size - 1)) {
+            if(bodilyModificationsState.bodilyModifications[index + 1] is BodilyModificationsSelectionState.Row.ChoicesRow) {
+                item { Spacer(modifier = Modifier.height(24.dp)) }
+            } else {
+                item { Spacer(modifier = Modifier.height(8.dp)) }
+            }
         }
     }
 }
@@ -54,7 +96,10 @@ fun LazyListScope.BodilyModificationsGridItem() {
 private fun BodilyModificationsGridItemPreview() {
     AppScope {
         MainScreenList {
-            BodilyModificationsGridItem()
+            BodilyModificationsGridItem(
+                bodilyModificationsState = BodilyModificationsSelectionState(),
+                onBodilyModificationAction = {},
+            )
         }
     }
 }

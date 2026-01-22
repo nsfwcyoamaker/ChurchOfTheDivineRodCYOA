@@ -379,7 +379,7 @@ Your hair is <b>prehensile</b> and can be controlled like an extra limb. It is i
     ]]>
     </string>
     <string name="mod_rapunzel_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
-    <string name="mod_make_permanent"><![CDATA[make <b>Permanent</b>]]></string>
+    <string name="mod_make_permanent"><![CDATA[make <b>permanent</b>]]></string>
     
 
 </resources>

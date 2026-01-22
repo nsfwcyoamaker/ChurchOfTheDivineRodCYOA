@@ -20,8 +20,9 @@ object MainScreen: Screen {
     override fun Content() {
         val screenModel = koinScreenModel<MainScreenModel>()
 
-        val fervor by screenModel.totalFervorFlow.collectAsState(0)
+        val fervor by screenModel.totalFervorFlow.collectAsState()
         val consortsState by screenModel.consortsState.collectAsState()
+        val bodilyModificationsState by screenModel.bodilyModificationsState.collectAsState()
 
         Scaffold(
             containerColor = Color.Transparent,
@@ -33,7 +34,10 @@ object MainScreen: Screen {
                     onConsortsAction = screenModel::runConsortsAction,
                 )
                 item { Spacer(modifier = Modifier.height(60.dp)) }
-                MainPage2()
+                MainPage2(
+                    bodilyModificationsState = bodilyModificationsState,
+                    onBodilyModificationAction = screenModel::runBodilyModificationsAction,
+                )
                 item { Spacer(modifier = Modifier.height(60.dp)) }
                 // todo
             }

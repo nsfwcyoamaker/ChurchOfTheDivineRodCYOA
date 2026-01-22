@@ -1,0 +1,5 @@
+package com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications
+
+import com.nsfwcyoamaker.cotdr.presentationToadHandler.ViewAction
+
+interface BodilyModificationsSelectionAction: ViewAction<BodilyModificationsSelectionActionDependencies, BodilyModificationsSelectionState, Nothing>
