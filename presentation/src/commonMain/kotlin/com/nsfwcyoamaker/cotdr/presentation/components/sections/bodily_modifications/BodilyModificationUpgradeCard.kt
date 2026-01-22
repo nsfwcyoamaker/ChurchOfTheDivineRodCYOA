@@ -8,6 +8,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.text.style.TextAlign
 import com.nsfwcyoamaker.cotdr.composableRichText.rememberRichTextResource
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
@@ -32,7 +33,8 @@ fun BodilyModificationUpgradeCard(
         isClickable = state.upgradeEnabled,
         onSelected = { onAction(UpgradeBodilyModificationClickedAction(state.bodilyModificationOption.bodilyModification)) },
         cornerBracketsVisible = false,
-        modifier = modifier,
+        modifier = modifier
+            .alpha(if (state.upgradeEnabled) 1f else 0.3f),
     ) {
         Text(
             text = rememberRichTextResource(state.upgradeText),
