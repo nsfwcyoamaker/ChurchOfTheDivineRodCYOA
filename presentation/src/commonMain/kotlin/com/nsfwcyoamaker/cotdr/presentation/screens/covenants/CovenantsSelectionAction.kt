@@ -1,0 +1,5 @@
+package com.nsfwcyoamaker.cotdr.presentation.screens.covenants
+
+import com.nsfwcyoamaker.cotdr.presentationToadHandler.ViewAction
+
+interface CovenantsSelectionAction: ViewAction<CovenantsSelectionActionDependencies, CovenantsSelectionState, Nothing>

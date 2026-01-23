@@ -14,6 +14,7 @@ import cafe.adriel.voyager.koin.koinScreenModel
 import com.nsfwcyoamaker.cotdr.presentation.components.main.CyoaBottomBar
 import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage1
 import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage2
+import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage3
 
 object MainScreen: Screen {
     @Composable
@@ -23,6 +24,7 @@ object MainScreen: Screen {
         val fervor by screenModel.totalFervorFlow.collectAsState()
         val consortsState by screenModel.consortsState.collectAsState()
         val bodilyModificationsState by screenModel.bodilyModificationsState.collectAsState()
+        val covenantState by screenModel.covenantsState.collectAsState()
 
         Scaffold(
             containerColor = Color.Transparent,
@@ -39,7 +41,12 @@ object MainScreen: Screen {
                     onBodilyModificationAction = screenModel::runBodilyModificationsAction,
                 )
                 item { Spacer(modifier = Modifier.height(60.dp)) }
-                // todo
+                MainPage3(
+                    covenantState = covenantState,
+                    onCovenantsAction = screenModel::runCovenantsAction,
+                )
+                item { Spacer(modifier = Modifier.height(60.dp)) }
+                //TODO
             }
         }
     }

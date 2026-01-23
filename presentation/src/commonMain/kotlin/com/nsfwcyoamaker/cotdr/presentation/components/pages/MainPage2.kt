@@ -68,7 +68,7 @@ fun LazyListScope.MainPage2(
     heightDp = 1080,
 )
 @Composable
-private fun MainPage1Preview() {
+private fun MainPage2Preview() {
     AppScope {
         MainScreenList {
             MainPage2(

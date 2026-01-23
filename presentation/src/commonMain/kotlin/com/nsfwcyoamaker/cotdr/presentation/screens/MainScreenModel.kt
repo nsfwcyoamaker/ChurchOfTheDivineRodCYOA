@@ -8,6 +8,8 @@ import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyM
 import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionViewModel
+import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelectionAction
+import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelectionViewModel
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.map
@@ -29,4 +31,8 @@ class MainScreenModel: ScreenModel, KoinComponent {
     private val bodilyModificationsViewModel by inject<BodilyModificationsSelectionViewModel> { parametersOf(screenModelScope) }
     val bodilyModificationsState = bodilyModificationsViewModel.state
     fun runBodilyModificationsAction(action: BodilyModificationsSelectionAction) = bodilyModificationsViewModel.runAction(action)
+
+    private val covenantsSelectionViewModel by inject<CovenantsSelectionViewModel> { parametersOf(screenModelScope) }
+    val covenantsState = covenantsSelectionViewModel.state
+    fun runCovenantsAction(action: CovenantsSelectionAction) = covenantsSelectionViewModel.runAction(action)
 }
