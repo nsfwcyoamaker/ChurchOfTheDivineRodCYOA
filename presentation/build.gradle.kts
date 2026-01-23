@@ -57,6 +57,7 @@ kotlin {
             implementation(libs.composeIcons.fontAwesome)
 
             implementation(projects.domain)
+            implementation(projects.domain.engine)
             implementation(projects.composableTextFlow)
             implementation(projects.composableRichText)
             implementation(projects.presentationToadHandler)

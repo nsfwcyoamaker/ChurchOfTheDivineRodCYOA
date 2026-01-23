@@ -34,15 +34,12 @@ kotlin {
             implementation(libs.koin.core)
 
             implementation(libs.arrow.core)
-
-            implementation(projects.domain)
-            implementation(projects.domain.engine)
         }
     }
 }
 
 android {
-    namespace = "com.nsfwcyoamaker.cotdr.data"
+    namespace = "com.nsfwcyoamaker.cotdr.domain.engine"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11

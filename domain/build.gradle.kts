@@ -34,6 +34,8 @@ kotlin {
             implementation(libs.koin.core)
 
             implementation(libs.arrow.core)
+
+            implementation(projects.domain.engine)
         }
     }
 }

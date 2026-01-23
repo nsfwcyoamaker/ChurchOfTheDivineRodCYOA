@@ -2,7 +2,7 @@ package com.nsfwcyoamaker.cotdr.presentation.screens
 
 import cafe.adriel.voyager.core.model.ScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
-import com.nsfwcyoamaker.cotdr.domain.usecase.GetTotalFervorFlowUseCase
+import com.nsfwcyoamaker.cotdr.domain.engine.usecase.GetTotalScoreFlowUseCase
 import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionAction
@@ -15,7 +15,7 @@ import org.koin.core.component.inject
 import org.koin.core.parameter.parametersOf
 
 class MainScreenModel: ScreenModel, KoinComponent {
-    private val getTotalFervorFlowUseCase by inject<GetTotalFervorFlowUseCase>()
+    private val getTotalFervorFlowUseCase by inject<GetTotalScoreFlowUseCase>()
     val totalFervorFlow: StateFlow<Int> = getTotalFervorFlowUseCase().stateIn(screenModelScope, SharingStarted.Eagerly, 0)
 
     private val consortsSelectionViewModel by inject<ConsortsSelectionViewModel> { parametersOf(screenModelScope) }

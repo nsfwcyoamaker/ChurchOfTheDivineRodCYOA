@@ -11,6 +11,6 @@ data class BodilyModificationClickedAction(val bodilyModification: BodilyModific
         dependencies: BodilyModificationsSelectionActionDependencies,
         scope: ActionScope<BodilyModificationsSelectionState, Nothing>
     ) {
-        dependencies.bodilyModificationClickedUseCase(bodilyModification)
+        dependencies.toggleChoiceUseCase(bodilyModification)
     }
 }

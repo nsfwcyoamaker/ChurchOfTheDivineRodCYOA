@@ -11,6 +11,6 @@ data class IncreaseBodilyModificationBuyTimesAction(val bodilyModification: Bodi
         dependencies: BodilyModificationsSelectionActionDependencies,
         scope: ActionScope<BodilyModificationsSelectionState, Nothing>
     ) {
-        dependencies.increaseBodilyModificationBuyTimesUseCase(bodilyModification)
+        dependencies.increaseChoiceBuyTimesUseCase(bodilyModification)
     }
 }

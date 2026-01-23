@@ -1,4 +1,4 @@
-package com.nsfwcyoamaker.cotdr.domain.model
+package com.nsfwcyoamaker.cotdr.domain.engine.model
 
 data class ChoiceState(
     val isSelected: Boolean = false,

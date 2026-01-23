@@ -1,7 +1,7 @@
-package com.nsfwcyoamaker.cotdr.domain.model
+package com.nsfwcyoamaker.cotdr.domain.engine.model
 
 class CalculationContext(
-    private val selections: Map<Choice, ChoiceState>
+    val selections: Map<Choice, ChoiceState>
 ) {
     fun has(mod: Choice): Boolean {
         return selections[mod]?.isSelected == true

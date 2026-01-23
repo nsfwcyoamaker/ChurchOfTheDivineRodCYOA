@@ -1,25 +1,21 @@
 package com.nsfwcyoamaker.cotdr.domain.model
 
+import com.nsfwcyoamaker.cotdr.domain.engine.model.CalculationContext
+import com.nsfwcyoamaker.cotdr.domain.engine.model.Choice
+import com.nsfwcyoamaker.cotdr.domain.engine.model.ChoiceState
+import com.nsfwcyoamaker.cotdr.domain.engine.rules.CostStrategy
+import com.nsfwcyoamaker.cotdr.domain.engine.rules.CostStrategy.*
 import com.nsfwcyoamaker.cotdr.domain.model.BodilyModification.Tenfold
-import com.nsfwcyoamaker.cotdr.domain.rules.CostStrategy
-import com.nsfwcyoamaker.cotdr.domain.rules.CostStrategy.*
 
 enum class BodilyModification(
     override val strategy: CostStrategy,
     override val requirements: (CalculationContext) -> Boolean = { true },
-    override val upgradeRequirements: (CalculationContext) -> Boolean = { true }
 ): Choice {
     BodyRemodeling(Simple(-2)),
     DualWield(MultiBuy(+8, calculationOverride = ::dualWieldCostOverride)),
     Zweihander(Simple(+3)),
-    Miniature(
-        strategy = Upgradable(-2, +3),
-        upgradeRequirements = { ctx -> !ctx.hasUpgrade(Towering) }
-    ),
-    Towering(
-        strategy = Upgradable(-2, +2),
-        upgradeRequirements = { ctx -> !ctx.hasUpgrade(Miniature) }
-    ),
+    Miniature(Upgradable(-2, +3, upgradeRequirements = { ctx -> !ctx.hasUpgrade(Towering) })),
+    Towering(Upgradable(-2, +2, upgradeRequirements = { ctx -> !ctx.hasUpgrade(Miniature) })),
     AmplifiedTouch(Simple(+2)),
     AllIn(Simple(+4)),
     Synchronized(Simple(+4)),
@@ -33,6 +29,9 @@ enum class BodilyModification(
     GroupDynamic(MultiBuy(+2, max = 2)),
     SustainedHeights(Simple(-3)),
     Rapunzel(Simple(+2));
+
+    val upgradeRequirements: (CalculationContext) -> Boolean
+        get() = (strategy as? Upgradable)?.upgradeRequirements ?: { true }
 }
 
 private fun dualWieldCostOverride(

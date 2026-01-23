@@ -1,7 +1,7 @@
 package com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection
 
+import com.nsfwcyoamaker.cotdr.domain.engine.usecase.ToggleChoiceUseCase
 import com.nsfwcyoamaker.cotdr.domain.usecase.GetCurrentConsortsFlowUseCase
-import com.nsfwcyoamaker.cotdr.domain.usecase.ToggleConsortUseCase
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.action.ObserveConsortsStateAction
 import com.nsfwcyoamaker.cotdr.presentationToadHandler.ToadViewModel
 import kotlinx.coroutines.CoroutineScope
@@ -9,7 +9,7 @@ import kotlinx.coroutines.CoroutineScope
 class ConsortsSelectionViewModel(
     private val scope: CoroutineScope,
     private val getCurrentConsortsFlowUseCase: GetCurrentConsortsFlowUseCase,
-    private val toggleConsortUseCase: ToggleConsortUseCase,
+    private val toggleChoiceUseCase: ToggleChoiceUseCase,
 ): ToadViewModel<ConsortsSelectionState, Nothing>(
     initialState = ConsortsSelectionState(),
     scope = scope,
@@ -17,7 +17,7 @@ class ConsortsSelectionViewModel(
     override val dependencies = ConsortsSelectionActionDependencies(
         scope,
         getCurrentConsortsFlowUseCase,
-        toggleConsortUseCase,
+        toggleChoiceUseCase,
     )
 
     init {

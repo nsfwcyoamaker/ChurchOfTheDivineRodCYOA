@@ -1,7 +1,7 @@
 package com.nsfwcyoamaker.cotdr.domain.usecase
 
+import com.nsfwcyoamaker.cotdr.domain.engine.repository.GameStateRepository
 import com.nsfwcyoamaker.cotdr.domain.model.Priestess
-import com.nsfwcyoamaker.cotdr.domain.repository.GameStateRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 

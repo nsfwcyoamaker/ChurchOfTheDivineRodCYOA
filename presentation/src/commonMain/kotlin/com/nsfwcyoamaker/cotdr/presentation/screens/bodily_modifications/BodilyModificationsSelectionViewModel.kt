@@ -1,6 +1,6 @@
 package com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications
 
-import com.nsfwcyoamaker.cotdr.domain.usecase.*
+import com.nsfwcyoamaker.cotdr.domain.engine.usecase.*
 import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.action.ObserveBodilyModificationsSelectionStateAction
 import com.nsfwcyoamaker.cotdr.presentationToadHandler.ToadViewModel
 import kotlinx.coroutines.CoroutineScope
@@ -8,10 +8,10 @@ import kotlinx.coroutines.CoroutineScope
 class BodilyModificationsSelectionViewModel(
     private val scope: CoroutineScope,
     private val getCurrentChoicesFlowUseCase: GetCurrentChoicesFlowUseCase,
-    private val bodilyModificationClickedUseCase: BodilyModificationClickedUseCase,
-    private val upgradeBodilyModificationClickedUseCase: UpgradeBodilyModificationClickedUseCase,
-    private val increaseBodilyModificationBuyTimesUseCase: IncreaseBodilyModificationBuyTimesUseCase,
-    private val decreaseBodilyModificationBuyTimesUseCase: DecreaseBodilyModificationBuyTimesUseCase,
+    private val toggleChoiceUseCase: ToggleChoiceUseCase,
+    private val toggleChoiceUpgradeUseCase: ToggleChoiceUpgradeUseCase,
+    private val increaseChoiceBuyTimesUseCase: IncreaseChoiceBuyTimesUseCase,
+    private val decreaseChoiceBuyTimesUseCase: DecreaseChoiceBuyTimesUseCase,
 ): ToadViewModel<BodilyModificationsSelectionState, Nothing>(
     initialState = BodilyModificationsSelectionState(),
     scope = scope,
@@ -19,10 +19,10 @@ class BodilyModificationsSelectionViewModel(
     override val dependencies = BodilyModificationsSelectionActionDependencies(
         scope,
         getCurrentChoicesFlowUseCase,
-        bodilyModificationClickedUseCase,
-        upgradeBodilyModificationClickedUseCase,
-        increaseBodilyModificationBuyTimesUseCase,
-        decreaseBodilyModificationBuyTimesUseCase,
+        toggleChoiceUseCase,
+        toggleChoiceUpgradeUseCase,
+        increaseChoiceBuyTimesUseCase,
+        decreaseChoiceBuyTimesUseCase,
     )
 
     init {

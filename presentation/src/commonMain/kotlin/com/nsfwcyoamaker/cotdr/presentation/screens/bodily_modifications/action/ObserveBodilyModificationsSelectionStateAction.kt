@@ -1,7 +1,7 @@
 package com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.action
 
-import com.nsfwcyoamaker.cotdr.domain.model.CalculationContext
-import com.nsfwcyoamaker.cotdr.domain.rules.CostStrategy
+import com.nsfwcyoamaker.cotdr.domain.engine.model.CalculationContext
+import com.nsfwcyoamaker.cotdr.domain.engine.rules.CostStrategy
 import com.nsfwcyoamaker.cotdr.presentation.model.BodilyModificationExtraState
 import com.nsfwcyoamaker.cotdr.presentation.model.BodilyModificationOption
 import com.nsfwcyoamaker.cotdr.presentation.model.BodilyModificationState

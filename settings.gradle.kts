@@ -37,4 +37,6 @@ include(":presentation")
 include(":composableTextFlow")
 include(":composableRichText")
 
+include(":domain:engine")
+
 include(":presentationToadHandler")
