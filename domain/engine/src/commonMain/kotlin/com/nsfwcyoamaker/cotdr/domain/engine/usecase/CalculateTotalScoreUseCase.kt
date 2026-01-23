@@ -2,25 +2,26 @@ package com.nsfwcyoamaker.cotdr.domain.engine.usecase
 
 import com.nsfwcyoamaker.cotdr.domain.engine.model.CalculationContext
 import com.nsfwcyoamaker.cotdr.domain.engine.model.ChoiceState
+import com.nsfwcyoamaker.cotdr.domain.engine.model.Resources
 import com.nsfwcyoamaker.cotdr.domain.engine.repository.ChoiceRegistry
 import com.nsfwcyoamaker.cotdr.domain.engine.repository.GameStateRepository
 import com.nsfwcyoamaker.cotdr.domain.engine.repository.GlobalRuleRegistry
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
-class GetTotalScoreFlowUseCase(
+class CalculateTotalScoreUseCase(
     private val repository: GameStateRepository,
     private val choiceRegistry: ChoiceRegistry,
     private val ruleRegistry: GlobalRuleRegistry
 ) {
-    operator fun invoke(): Flow<Int> {
+    operator fun invoke(): Flow<Resources> {
         val allChoices = choiceRegistry.getAllChoices()
         val allRules = ruleRegistry.getRules()
 
         return repository.selectedChoicesStateFlow
             .map { selections ->
                 val context = CalculationContext(selections)
-                var totalPoints = 0
+                var totalPoints = Resources.Empty
 
                 allChoices.forEach { choice ->
                     val state = selections[choice] ?: ChoiceState.Empty

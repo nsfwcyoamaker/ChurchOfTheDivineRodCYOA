@@ -2,6 +2,7 @@ package com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.action
 
 import com.nsfwcyoamaker.cotdr.domain.engine.model.CalculationContext
 import com.nsfwcyoamaker.cotdr.domain.engine.rules.CostStrategy
+import com.nsfwcyoamaker.cotdr.domain.model.CotdrCurrency
 import com.nsfwcyoamaker.cotdr.presentation.model.BodilyModificationExtraState
 import com.nsfwcyoamaker.cotdr.presentation.model.BodilyModificationOption
 import com.nsfwcyoamaker.cotdr.presentation.model.BodilyModificationState
@@ -31,7 +32,7 @@ object ObserveBodilyModificationsSelectionStateAction: BodilyModificationsSelect
                         ) to BodilyModificationExtraState.EmptyOption
                     }
 
-                    val fervorContribution = option.bodilyModification.strategy.calculateCost(state, context)
+                    val fervorContribution = option.bodilyModification.strategy.calculateCost(state, context)[CotdrCurrency.Fervor]
 
                     val item = BodilyModificationState(
                         bodilyModificationOption = option,

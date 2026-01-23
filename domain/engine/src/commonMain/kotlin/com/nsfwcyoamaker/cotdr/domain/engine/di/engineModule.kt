@@ -12,7 +12,7 @@ fun engineModule() = module {
 
     factoryOf(::DecreaseChoiceBuyTimesUseCase)
     factoryOf(::GetCurrentChoicesFlowUseCase)
-    factoryOf(::GetTotalScoreFlowUseCase)
+    factoryOf(::CalculateTotalScoreUseCase)
     factoryOf(::IncreaseChoiceBuyTimesUseCase)
     factoryOf(::ToggleChoiceUpgradeUseCase)
     factoryOf(::ToggleChoiceUseCase)
