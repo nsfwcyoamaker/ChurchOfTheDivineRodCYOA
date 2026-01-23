@@ -8,6 +8,7 @@ import com.nsfwcyoamaker.cotdr.presentation.components.ChoicesGrid
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
 import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelectionState
+import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.action.CovenantClickedAction
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @OptIn(ExperimentalLayoutApi::class)
@@ -21,7 +22,10 @@ fun LazyListScope.CovenantsGridItem(
         key = "covenants_row",
         contentType = "covenants_row",
         itemContent = { item ->
-            //todo
+            CovenantCard(
+                state = item,
+                onSelected = { onCovenantsAction(CovenantClickedAction(item.option.choice)) },
+            )
         },
     )
 }
