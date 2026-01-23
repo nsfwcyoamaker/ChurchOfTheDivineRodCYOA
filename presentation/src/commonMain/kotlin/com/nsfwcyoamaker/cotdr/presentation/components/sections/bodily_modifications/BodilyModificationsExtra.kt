@@ -5,7 +5,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.scale
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.composableRichText.rememberRichTextResource
@@ -36,8 +35,7 @@ fun BodilyModificationsExtra(
                 modifier = Modifier
                     .fillMaxWidth(0.22f)
                     .wrapContentHeight()
-                    .shadowBorder()
-                    .scale(scaleX = -1f, scaleY = 1f),
+                    .shadowBorder(),
             )
         },
     )
