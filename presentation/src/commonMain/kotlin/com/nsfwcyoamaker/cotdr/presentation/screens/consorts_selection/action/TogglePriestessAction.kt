@@ -13,6 +13,6 @@ data class TogglePriestessAction(
         dependencies: ConsortsSelectionActionDependencies,
         scope: ActionScope<ConsortsSelectionState, Nothing>
     ) {
-        priestessOption.priestess?.let { dependencies.toggleChoiceUseCase(it) }
+        dependencies.toggleChoiceUseCase(priestessOption.choice)
     }
 }

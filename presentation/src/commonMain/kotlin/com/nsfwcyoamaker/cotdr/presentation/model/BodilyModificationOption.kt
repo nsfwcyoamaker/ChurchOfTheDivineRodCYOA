@@ -6,13 +6,13 @@ import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.StringResource
 
 enum class BodilyModificationOption(
-    val bodilyModification: BodilyModification,
+    override val choice: BodilyModification,
     val title: StringResource,
     val description: StringResource,
     val cost: StringResource,
     val image: DrawableResource,
-    val upgradeText: StringResource? = null,
-) {
+    override val upgradeText: StringResource? = null,
+): UiOption {
     BodyRemodeling(
         BodilyModification.BodyRemodeling,
         Res.string.mod_body_remodeling_title,

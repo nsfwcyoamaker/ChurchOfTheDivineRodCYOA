@@ -16,11 +16,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.presentation.components.SelectableCard
-import com.nsfwcyoamaker.cotdr.presentation.model.BodilyModificationExtraState
-import com.nsfwcyoamaker.cotdr.presentation.model.BodilyModificationOption
-import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionAction
-import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.action.DecreaseBodilyModificationBuyTimesAction
-import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.action.IncreaseBodilyModificationBuyTimesAction
+import com.nsfwcyoamaker.cotdr.presentation.model.UiControlState
 import com.nsfwcyoamaker.cotdr.presentation.theme.headerTextStyle
 import compose.icons.FeatherIcons
 import compose.icons.feathericons.Minus
@@ -29,8 +25,9 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @Composable
 fun BodilyModificationMultiBuyCard(
-    state: BodilyModificationExtraState.MultiBuyOption,
-    onAction: (BodilyModificationsSelectionAction) -> Unit,
+    state: UiControlState.MultiBuy,
+    onBuyMore: () -> Unit,
+    onBuyLess: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
     SelectableCard(
@@ -53,12 +50,10 @@ fun BodilyModificationMultiBuyCard(
                 modifier = Modifier
                     .requiredSize(iconSize)
                     .clip(CircleShape)
-                    .clickable {
-                        onAction(DecreaseBodilyModificationBuyTimesAction(state.bodilyModificationOption.bodilyModification))
-                    }
+                    .clickable(onClick = onBuyLess)
             )
             Text(
-                text = state.boughtTimes.toString() + if(state.maxBuyTimes != null) "/" + state.maxBuyTimes.toString() else "",
+                text = state.count.toString() + if(state.max != null) "/" + state.max.toString() else "",
                 style = headerTextStyle.copy(
                     fontWeight = FontWeight.Bold,
                 ),
@@ -72,9 +67,7 @@ fun BodilyModificationMultiBuyCard(
                     .requiredSize(iconSize)
                     .clip(CircleShape)
                     .alpha(if(state.canBuyMore) 1f else 0.3f)
-                    .clickable(enabled = state.canBuyMore) {
-                        onAction(IncreaseBodilyModificationBuyTimesAction(state.bodilyModificationOption.bodilyModification))
-                    }
+                    .clickable(enabled = state.canBuyMore, onClick = onBuyMore)
             )
         }
     }
@@ -92,12 +85,13 @@ private fun BodilyModificationCardPreview() {
             contentAlignment = Alignment.Center,
         ) {
             BodilyModificationMultiBuyCard(
-                state = BodilyModificationExtraState.MultiBuyOption(
-                    BodilyModificationOption.Tenfold,
-                    maxBuyTimes = 3,
-                    canBuyMore = false,
+                state = UiControlState.MultiBuy(
+                    count = 1,
+                    max = 4,
+                    canBuyMore = true,
                 ),
-                onAction = {},
+                onBuyMore = {},
+                onBuyLess = {},
                 modifier = Modifier
                     .fillMaxWidth(0.2f)
                     .wrapContentHeight(),

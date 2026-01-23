@@ -6,7 +6,7 @@ import kotlinx.coroutines.CoroutineScope
 
 data class BodilyModificationsSelectionActionDependencies(
     override val coroutineScope: CoroutineScope,
-    val getCurrentChoicesFlowUseCase: GetCurrentChoicesFlowUseCase,
+    val getComputedChoicesUseCase: GetComputedChoicesUseCase,
     val toggleChoiceUseCase: ToggleChoiceUseCase,
     val toggleChoiceUpgradeUseCase: ToggleChoiceUpgradeUseCase,
     val increaseChoiceBuyTimesUseCase: IncreaseChoiceBuyTimesUseCase,

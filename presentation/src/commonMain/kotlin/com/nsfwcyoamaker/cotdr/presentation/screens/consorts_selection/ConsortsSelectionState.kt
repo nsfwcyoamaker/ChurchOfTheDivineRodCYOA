@@ -11,7 +11,7 @@ data class ConsortsSelectionState(
         fun defaultState() = PriestessIntroductionOption.entries.map {
             PriestessIntroductionState(
                 priestessIntroductionOption = it,
-                isClickable = it != PriestessIntroductionOption.Consorts,
+                isClickable = true,
                 isSelected = false,
             )
         }.chunked(3)

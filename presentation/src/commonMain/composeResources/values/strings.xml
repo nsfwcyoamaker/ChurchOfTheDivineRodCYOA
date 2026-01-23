@@ -404,8 +404,10 @@ And as a bonus, materials from your divine body make for fantastic ritual compon
         ]]>
     </string>
     <string name="mod_rapunzel_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
-    
+
     <string name="mod_make_permanent"><![CDATA[make <b>permanent</b>]]></string>
+
+    <string name="default_upgrade_text"><![CDATA[<b>Upgrade</b>]]></string>
 
     <string name="bodily_modifications_extra">
         <![CDATA[

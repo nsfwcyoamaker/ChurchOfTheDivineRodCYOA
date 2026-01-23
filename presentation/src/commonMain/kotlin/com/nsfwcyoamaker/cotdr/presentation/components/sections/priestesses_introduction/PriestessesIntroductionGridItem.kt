@@ -7,6 +7,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
+import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroductionOption
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionState
@@ -32,10 +33,22 @@ fun LazyListScope.PriestessesIntroductionGridItem(
             ) {
                 priestessesRow.forEach { priestessState ->
                     PriestessIntroductionCard(
-                        priestess = priestessState.priestessIntroductionOption,
+                        priestessUi = priestessState.priestessIntroductionOption.ui,
                         isClickable = priestessState.isClickable,
                         isSelected = priestessState.isSelected,
                         onSelected = { onConsortsAction(TogglePriestessAction(priestessState.priestessIntroductionOption)) },
+                        modifier = Modifier
+                            .weight(1f)
+                            .fillMaxHeight(),
+                    )
+                }
+
+                if(index == consortsState.priestessesState.size - 1) {
+                    PriestessIntroductionCard(
+                        priestessUi = PriestessIntroductionOption.consortsUi,
+                        isClickable = false,
+                        isSelected = false,
+                        onSelected = {},
                         modifier = Modifier
                             .weight(1f)
                             .fillMaxHeight(),

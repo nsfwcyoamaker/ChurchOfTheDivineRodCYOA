@@ -18,8 +18,8 @@ data object ObserveConsortsStateAction: ConsortsSelectionAction {
                     PriestessIntroductionOption.entries.map {
                         PriestessIntroductionState(
                             priestessIntroductionOption = it,
-                            isClickable = it != PriestessIntroductionOption.Consorts,
-                            isSelected = it.priestess in repoData,
+                            isClickable = true,
+                            isSelected = it.choice in repoData,
                         )
                     }.chunked(3)
                 )

@@ -14,8 +14,6 @@ import com.nsfwcyoamaker.cotdr.presentation.components.SelectableCard
 import com.nsfwcyoamaker.cotdr.presentation.components.shadowBorder
 import com.nsfwcyoamaker.cotdr.presentation.model.BodilyModificationOption
 import com.nsfwcyoamaker.cotdr.presentation.model.BodilyModificationState
-import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionAction
-import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.action.BodilyModificationClickedAction
 import com.nsfwcyoamaker.cotdr.presentation.theme.smallTitleTextStyle
 import com.nsfwcyoamaker.cotdr.presentation.theme.smallerTextStyle
 import org.jetbrains.compose.resources.painterResource
@@ -24,13 +22,13 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 @Composable
 fun BodilyModificationCard(
     state: BodilyModificationState,
-    onAction: (BodilyModificationsSelectionAction) -> Unit,
+    onSelected: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
     SelectableCard(
         isSelected = state.isSelected,
         isClickable = state.isEnabled,
-        onSelected = { onAction(BodilyModificationClickedAction(state.bodilyModificationOption.bodilyModification)) },
+        onSelected = onSelected,
         modifier = modifier,
     ) {
         Row(
@@ -39,7 +37,7 @@ fun BodilyModificationCard(
             verticalAlignment = Alignment.Top,
         ) {
             Image(
-                painter = painterResource(state.bodilyModificationOption.image),
+                painter = painterResource(state.option.image),
                 contentDescription = null,
                 contentScale = ContentScale.FillWidth,
                 modifier = Modifier
@@ -53,19 +51,19 @@ fun BodilyModificationCard(
                 verticalArrangement = Arrangement.spacedBy(4.dp),
             ) {
                 Text(
-                    text = rememberRichTextResource(state.bodilyModificationOption.title),
+                    text = rememberRichTextResource(state.option.title),
                     style = smallTitleTextStyle,
                 )
 
                 Text(
-                    text = rememberRichTextResource(state.bodilyModificationOption.description),
+                    text = rememberRichTextResource(state.option.description),
                     style = smallerTextStyle,
                 )
 
                 Box(modifier = Modifier.weight(1f))
 
                 Text(
-                    text = rememberRichTextResource(state.bodilyModificationOption.cost),
+                    text = rememberRichTextResource(state.option.cost),
                 )
             }
         }
@@ -85,7 +83,7 @@ private fun BodilyModificationCardPreview() {
         ) {
             BodilyModificationCard(
                 state = BodilyModificationState(BodilyModificationOption.BodyRemodeling),
-                onAction = {},
+                onSelected = {},
                 modifier = Modifier
                     .fillMaxWidth(0.2f)
                     .wrapContentHeight(),

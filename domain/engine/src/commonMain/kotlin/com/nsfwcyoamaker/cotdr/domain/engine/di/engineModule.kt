@@ -10,10 +10,13 @@ fun engineModule() = module {
     factoryOf(::GameStateManager)
     factoryOf(::GameStateValidator)
 
-    factoryOf(::DecreaseChoiceBuyTimesUseCase)
     factoryOf(::GetCurrentChoicesFlowUseCase)
+    factoryOf(::GetComputedChoicesUseCase)
+
     factoryOf(::CalculateTotalScoreUseCase)
-    factoryOf(::IncreaseChoiceBuyTimesUseCase)
-    factoryOf(::ToggleChoiceUpgradeUseCase)
+
     factoryOf(::ToggleChoiceUseCase)
+    factoryOf(::ToggleChoiceUpgradeUseCase)
+    factoryOf(::DecreaseChoiceBuyTimesUseCase)
+    factoryOf(::IncreaseChoiceBuyTimesUseCase)
 }

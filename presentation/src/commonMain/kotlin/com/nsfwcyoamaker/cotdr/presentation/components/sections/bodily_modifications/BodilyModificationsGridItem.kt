@@ -1,16 +1,21 @@
 package com.nsfwcyoamaker.cotdr.presentation.components.sections.bodily_modifications
 
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
-import com.nsfwcyoamaker.cotdr.presentation.model.BodilyModificationExtraState
+import com.nsfwcyoamaker.cotdr.presentation.components.ChoicesGrid
+import com.nsfwcyoamaker.cotdr.presentation.model.UiControlState
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
 import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionState
+import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.action.BodilyModificationClickedAction
+import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.action.DecreaseBodilyModificationBuyTimesAction
+import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.action.IncreaseBodilyModificationBuyTimesAction
+import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.action.UpgradeBodilyModificationClickedAction
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @OptIn(ExperimentalLayoutApi::class)
@@ -18,74 +23,38 @@ fun LazyListScope.BodilyModificationsGridItem(
     bodilyModificationsState: BodilyModificationsSelectionState,
     onBodilyModificationAction: (BodilyModificationsSelectionAction) -> Unit
 ) {
-    bodilyModificationsState.bodilyModifications.forEachIndexed { index, bodilyModificationsRow ->
-        item(
-            key = "bodily_modifications_row_$index",
-            contentType = "bodily_modifications_row"
-        ) {
-            Row(
-                horizontalArrangement = Arrangement.spacedBy(24.dp),
-                verticalAlignment = Alignment.CenterVertically,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(IntrinsicSize.Min)
-            ) {
-                when(bodilyModificationsRow) {
-                    is BodilyModificationsSelectionState.Row.ChoicesRow -> {
-                        bodilyModificationsRow.choices.forEach { bodilyModification ->
-                            BodilyModificationCard(
-                                state = bodilyModification,
-                                onAction = onBodilyModificationAction,
-                                modifier = Modifier
-                                    .weight(1f)
-                                    .fillMaxHeight(),
-                            )
-                        }
-                    }
-
-                    is BodilyModificationsSelectionState.Row.ExtrasRow -> {
-                        bodilyModificationsRow.extras.forEach { bodilyModificationExtra ->
-                            when(bodilyModificationExtra) {
-                                is BodilyModificationExtraState.EmptyOption -> {
-                                    Box(
-                                        modifier = Modifier
-                                            .weight(1f)
-                                            .fillMaxHeight(),
-                                    )
-                                }
-                                is BodilyModificationExtraState.MultiBuyOption -> {
-                                    BodilyModificationMultiBuyCard(
-                                        state = bodilyModificationExtra,
-                                        onAction = onBodilyModificationAction,
-                                        modifier = Modifier
-                                            .weight(1f)
-                                            .fillMaxHeight(),
-                                    )
-                                }
-                                is BodilyModificationExtraState.UpgradeOption -> {
-                                    BodilyModificationUpgradeCard(
-                                        state = bodilyModificationExtra,
-                                        onAction = onBodilyModificationAction,
-                                        modifier = Modifier
-                                            .weight(1f)
-                                            .fillMaxHeight(),
-                                    )
-                                }
-                            }
-                        }
-                    }
+    ChoicesGrid(
+        items = bodilyModificationsState.items,
+        columns = 3,
+        key = "bodily_modifications_row",
+        contentType = "bodily_modifications_row",
+        itemContent = { item ->
+            BodilyModificationCard(
+                state = item,
+                onSelected = { onBodilyModificationAction(BodilyModificationClickedAction(item.option.choice)) },
+            )
+        },
+        extraContent = { item ->
+            when (val controlState = item.control) {
+                is UiControlState.MultiBuy -> {
+                    BodilyModificationMultiBuyCard(
+                        state = controlState,
+                        onBuyLess = { onBodilyModificationAction(DecreaseBodilyModificationBuyTimesAction(item.option.choice)) },
+                        onBuyMore = { onBodilyModificationAction(IncreaseBodilyModificationBuyTimesAction(item.option.choice)) },
+                        modifier = Modifier.fillMaxWidth().wrapContentHeight(),
+                    )
                 }
+                is UiControlState.Upgrade -> {
+                    BodilyModificationUpgradeCard(
+                        state = controlState,
+                        onUpgrade = { onBodilyModificationAction(UpgradeBodilyModificationClickedAction(item.option.choice)) },
+                        modifier = Modifier.fillMaxWidth().wrapContentHeight(),
+                    )
+                }
+                is UiControlState.None -> {}
             }
         }
-
-        if(index < (bodilyModificationsState.bodilyModifications.size - 1)) {
-            if(bodilyModificationsState.bodilyModifications[index + 1] is BodilyModificationsSelectionState.Row.ChoicesRow) {
-                item { Spacer(modifier = Modifier.height(24.dp)) }
-            } else {
-                item { Spacer(modifier = Modifier.height(8.dp)) }
-            }
-        }
-    }
+    )
 }
 
 @Preview(

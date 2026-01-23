@@ -18,7 +18,7 @@ import org.jetbrains.compose.resources.painterResource
 
 @Composable
 fun PriestessIntroductionCard(
-    priestess: PriestessIntroductionOption,
+    priestessUi: PriestessIntroductionOption.Ui,
     isSelected: Boolean,
     isClickable: Boolean,
     onSelected: () -> Unit,
@@ -36,12 +36,12 @@ fun PriestessIntroductionCard(
             modifier = Modifier.fillMaxSize()
         ) {
             Text(
-                text = rememberRichTextResource(priestess.title),
+                text = rememberRichTextResource(priestessUi.title),
                 style = smallTitleTextStyle,
             )
 
             Image(
-                painter = painterResource(priestess.image),
+                painter = painterResource(priestessUi.image),
                 contentDescription = null,
                 contentScale = ContentScale.FillHeight,
                 modifier = Modifier
@@ -53,7 +53,7 @@ fun PriestessIntroductionCard(
             )
 
             Text(
-                text = rememberRichTextResource(priestess.description),
+                text = rememberRichTextResource(priestessUi.description),
                 style = smallerTextStyle,
             )
         }
