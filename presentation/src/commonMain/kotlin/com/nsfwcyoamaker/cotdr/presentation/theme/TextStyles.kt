@@ -98,19 +98,19 @@ val smallerTextStyle
     )
 
 @get:Composable
-private val AngloTextFontFamily
-    get() = FontFamily(Font(Res.font.AngloText, weight = FontWeight.Normal))
+private val AnglicanTextFontFamily
+    get() = FontFamily(Font(Res.font.Anglican_Regular, weight = FontWeight.Normal))
 
 @get:Composable
 val angloTextStyle: TextStyle
     get() = TextStyle(
-        fontFamily = AngloTextFontFamily,
+        fontFamily = AnglicanTextFontFamily,
     )
 
 @get:Composable
 val angloGlowTextStyle: TextStyle
     get() = TextStyle(
-        fontFamily = AngloTextFontFamily,
+        fontFamily = AnglicanTextFontFamily,
         shadow = Shadow(
             color = Color.White,
             offset = Offset.Zero,
