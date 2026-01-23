@@ -8,6 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.covenants.CovenantsDescription
+import com.nsfwcyoamaker.cotdr.presentation.components.sections.covenants.CovenantsExtra
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.covenants.CovenantsGridItem
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.covenants.CovenantsTitle
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
@@ -39,6 +40,11 @@ fun LazyListScope.MainPage3(
     )
 
     item { Spacer(modifier = Modifier.height(12.dp)) }
+
+    item(
+        key = "CovenantsExtra",
+        contentType = "CovenantsExtra"
+    ) { CovenantsExtra() }
 }
 
 @Preview(
