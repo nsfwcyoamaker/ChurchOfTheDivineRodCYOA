@@ -1,4 +1,4 @@
-package com.nsfwcyoamaker.cotdr.presentation.components.main
+package com.nsfwcyoamaker.cotdr.presentation.components.sections.main
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.fillMaxSize

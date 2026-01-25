@@ -11,10 +11,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.koin.koinScreenModel
-import com.nsfwcyoamaker.cotdr.presentation.components.main.CyoaBottomBar
 import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage1
 import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage2
 import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage3
+import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage4
+import com.nsfwcyoamaker.cotdr.presentation.components.sections.main.CyoaBottomBar
 
 object MainScreen: Screen {
     @Composable
@@ -45,6 +46,8 @@ object MainScreen: Screen {
                     covenantState = covenantState,
                     onCovenantsAction = screenModel::runCovenantsAction,
                 )
+                item { Spacer(modifier = Modifier.height(60.dp)) }
+                MainPage4()
                 item { Spacer(modifier = Modifier.height(60.dp)) }
                 //TODO
             }

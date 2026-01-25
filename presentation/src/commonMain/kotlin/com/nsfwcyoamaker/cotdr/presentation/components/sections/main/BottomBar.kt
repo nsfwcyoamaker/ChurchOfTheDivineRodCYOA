@@ -1,4 +1,4 @@
-package com.nsfwcyoamaker.cotdr.presentation.components.main
+package com.nsfwcyoamaker.cotdr.presentation.components.sections.main
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateFloatAsState
@@ -11,6 +11,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.drawBehind
+import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
@@ -132,14 +133,14 @@ fun FervorGauge(
                 drawRoundRect(
                     brush = gradientBrush,
                     size = size,
-                    cornerRadius = androidx.compose.ui.geometry.CornerRadius(6.dp.toPx())
+                    cornerRadius = CornerRadius(6.dp.toPx())
                 )
 
                 // Track Border
                 drawRoundRect(
                     color = Color.Black.copy(alpha = 0.6f),
                     size = size,
-                    cornerRadius = androidx.compose.ui.geometry.CornerRadius(6.dp.toPx()),
+                    cornerRadius = CornerRadius(6.dp.toPx()),
                     style = Stroke(width = 1.dp.toPx())
                 )
 

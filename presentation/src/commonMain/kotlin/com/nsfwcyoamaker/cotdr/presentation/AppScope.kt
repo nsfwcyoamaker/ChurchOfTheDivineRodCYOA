@@ -8,7 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Modifier
 import com.nsfwcyoamaker.cotdr.composableRichText.LocalRichTextStyles
-import com.nsfwcyoamaker.cotdr.presentation.components.main.CathedralBackground
+import com.nsfwcyoamaker.cotdr.presentation.components.sections.main.CathedralBackground
 import com.nsfwcyoamaker.cotdr.presentation.theme.defaultTextStyle
 import com.nsfwcyoamaker.cotdr.presentation.theme.makeRichTextStylesMap
 

@@ -7,8 +7,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
-import com.nsfwcyoamaker.cotdr.presentation.components.main.MainIntroduction
-import com.nsfwcyoamaker.cotdr.presentation.components.main.MainTitle
+import com.nsfwcyoamaker.cotdr.presentation.components.sections.main.MainIntroduction
+import com.nsfwcyoamaker.cotdr.presentation.components.sections.main.MainTitle
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.priestesses_introduction.*
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionAction

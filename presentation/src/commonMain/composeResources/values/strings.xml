@@ -665,4 +665,51 @@ She staggers back to her feet, gives you a quick peck on the cheek, then teeters
         ]]>
     </string>
 
+    <string name="section_history_title"><![CDATA[<anglo>History</anglo>]]></string>
+    <string name="section_history_description">
+        <![CDATA[
+<desuriSpeech>Glad you're acclimating well~.
+I hope Erina didn't frighten you there. She's got a sharp mind and a ferocious libido, but is... very very clumsy in matters of affection. Be firm with her and give her some more experience getting dicked from an actual person, and she'll sort herself out soon enough.
+Or hey, if you want it, cuddle up and show her some lovin'! With your position, it'd be strange for you to NOT have a bunch of wives!
+Anyway, let's go to my workshop. I can properly show you off the Brands there, and give a quick history lesson!</desuriSpeech>
+
+Desuri leads you out and through the halls of the church. It's your first time seeing them properly, and you're all but certain it's larger inside than it is on the outside. The two of you pass by several followers in your walk through the warm, slightly smokey halls, who are sent into stunned silence or giddy whispering at your (still nude) passing. You're not sure whether to feel embarrassed or proud.
+Before long you reach the promised workshop, a cluttered room that looks like a cross between a tattoo parlor and an alchemist's laboratory, with vials of ingredients and wild alchemical tube and beaker systems strewn among artistic prints of tattoo patterns and anatomy charts.
+Desuri invites you to a padded tattooing chair while she looks over one of the messes of papers on a nearby desk.
+
+<desuriSpeech>Don't worry, no ink for you today, hehe. So before I get into Brands, let's get you some overall context, since I'm sure you're still pretty shocked by all this. I mean hell, you just learned magic is real, that alone will take a few weeks to sink in. Let alone your new life as a sex god.
+My position as Head Inscriptionist concerns the Brands, but I wear other hats too. Namely I am primary lorekeeper for the church, so aside from Acerola I'm the best one to tell you about the past. And boy oh boy, is there some history to go over...
+
+You, the High God of Sex, have been around since... oh, I don't even know, probably as long as gods have existed. There are other gods by the way, but interacting with them is more Acerola's department. Anyway, been around for years, and with you has been the Church. It's gone by different names over the years, but the deity behind it has been the same and it's followed the same cycle. The Lord manifests into a mortal body, becoming the living avatar of Sex and the leader and icon of the Church. When you felt like you'd lived enough, you'd retire from life and return to your heaven to rest for a bit. Followers go there too after they pass, but it's been damn hard to get in contact with them from down here.
+Usually you'd appear to us in your new incarnation, stay on Earth for a century or two, retire for a few years, then repeat. Except... you've been missing since the early 1600's.
+
+In the late Renaissance era, the meteoric rise of artifice and the power of Mankind was looking more and more like the magical and divine factions would be left in the dust, or even worse, vilified. Some groups hid, others were wiped out, others just... died off. What YOU did in that era was use up your body early to enact a great blessing upon the Church. A grand spell that would hide us from eyes that didn't align with our tenets, letting us exist in plain sight as an ordinary religious order, while anyone who would be willing to join could see us for what we really were. But obviously, something went wrong. Oh, the spell still works to this day, but... you vanished without a peep, and never come back.
+
+Well... with our god gone for centuries and recruitment drying up, the Church declined. We and our predecessors have been staving it off as best we can, but without true Divine inspiration, there's only so much we can do. Thankfully... You're back~</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="section_brands_title"><![CDATA[<anglo>Brands</anglo>]]></string>
+    <string name="section_brands_description">
+        <![CDATA[
+<desuriSpeech>So, Brands! My very favorite thing! In the simplest possible words, they're magic lewd tattoos.
+To be specific, they're a direct conduit through which your divinity can flow which has a few effects; it gives us a connection to you, serves as a way for your power to fuel Covenants and other magical or divine effects on us, and most notably, each has its own individual effect on the bearer, usually an erotic one!
+
+There's two generic effects that all Brands also have. Firstly the Brand itself becomes a weak erogenous zone, and secondly there'll be... well, it kind of feels like there's a warm, gentle touch on the Brand at all times from you, in an ethereal way. Not really sexual, mostly just comforting. Like you're always with us, which is true in a way. Not distracting, easy to forget about, but nice. Especially with a bunch of them.
+Then there's the specific effect. It may surprise you, but the shape or design of the tattoo is actually pretty irrelevant, it's mostly in the location. Specifically, the mana meridians in the body that the Brand intersect and interact with, but that just boils down to location. Different locations give different effects. We can also tie in specific enchantments while tattooing, to enable more complex ones or add modifiers to any Brand.
+
+Also, followers can only take so many Brands without overloading themselves, but the limit thankfully goes up with exposure to your divinity, ie the ranks in the Church. And up at the top, us Priestesses are acclimated enough to not have a limit!
+Followers can take <b>1 Brand for each 6 months</b> of being an active follower, and <b>Priestesses have no limit</b>.
+
+While we can only bear so many Brands based on our time in the Church, we also don't really have many to use right now. The classic Womb tattoo, and a handful of others. That's it.
+A lot of the knowledge on the Church's art and science of Branding is lost thanks to that rough few centuries. The good news is, with research and some testing, I can rediscover it!
+It might take a bit of Fervor though, to convince followers to be test subjects and fuel the exploratory research.
+So where you come in is, how do you want us to get inked up? You could define a full "uniform" of markings, with or without the Brand magic, or establish a minimum set and let people choose what they want on top of that, or even just tell me what to research and let everyone choose for themselves.</desuriSpeech>
+
+You have the Womb Brand unlocked to start, and can choose two more normal Brands to unlock for free. To unlock more Brands past that costs -1 Fervor per Brand.
+Followers can have any normal tattoos they (or you) want, and can upgrade them to Brands later, if the Brand for that location is unlocked.
+You can take any unlocked Brands on your own body, with no limit to number, and are able to enable and disable their effects at will.
+        ]]>
+    </string>
+
 </resources>
