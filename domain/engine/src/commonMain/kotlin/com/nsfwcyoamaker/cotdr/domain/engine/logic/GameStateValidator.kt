@@ -14,12 +14,12 @@ class GameStateValidator(
         val allChoices = choiceRegistry.getAllChoices()
 
         var hasChanged = false
-        val newSelections = currentSelections.toMutableMap()
         
-        val context = CalculationContext(newSelections)
+        val context = CalculationContext(currentSelections)
+        val newSelections = currentSelections.toMutableMap()
 
         allChoices.forEach { choice ->
-            val state = newSelections[choice] ?: return@forEach
+            val state = currentSelections[choice] ?: return@forEach
 
             if (!choice.requirements(context)) {
                 newSelections.remove(choice)
