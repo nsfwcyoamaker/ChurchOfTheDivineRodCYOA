@@ -1,4 +1,4 @@
-package com.nsfwcyoamaker.cotdr.presentation.components.sections.main
+package com.nsfwcyoamaker.cotdr.presentation.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.runtime.Composable

@@ -1,4 +1,4 @@
-package com.nsfwcyoamaker.cotdr.presentation.components.sections.main
+package com.nsfwcyoamaker.cotdr.presentation.components
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateFloatAsState
@@ -91,7 +91,7 @@ fun FervorGauge(
 ) {
     // Normalize value to 0..1 float for the slider position
     val range = max - min
-    val normalized = (value - min).toFloat() / range
+    val normalized = (value.coerceIn(min .. max) - min).toFloat() / range
     val animatedProgress by animateFloatAsState(targetValue = normalized)
     val animatedTextColor by animateColorAsState(targetValue = if(value > 0) CyoaColors.FervorHot else if(value < 0) CyoaColors.FervorCold else CyoaColors.FervorNeutral)
 
