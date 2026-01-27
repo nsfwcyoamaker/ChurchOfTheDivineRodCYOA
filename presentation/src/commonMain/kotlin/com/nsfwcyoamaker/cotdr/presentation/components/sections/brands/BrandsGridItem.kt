@@ -8,6 +8,7 @@ import com.nsfwcyoamaker.cotdr.presentation.components.ChoicesGrid
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
 import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionState
+import com.nsfwcyoamaker.cotdr.presentation.screens.brands.action.ToggleBrandAction
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @OptIn(ExperimentalLayoutApi::class)
@@ -23,7 +24,7 @@ fun LazyListScope.BrandsGridItem(
         itemContent = { item ->
             BrandCard(
                 state = item,
-                onSelected = {},
+                onSelected = { onBrandAction(ToggleBrandAction(item.option.choice)) },
             )
         },
     )
