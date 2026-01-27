@@ -14,7 +14,7 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 @OptIn(ExperimentalLayoutApi::class)
 fun LazyListScope.CovenantsGridItem(
     covenantsSelectionState: CovenantsSelectionState,
-    onCovenantsAction: (CovenantsSelectionAction) -> Unit
+    onCovenantAction: (CovenantsSelectionAction) -> Unit
 ) {
     ChoicesGrid(
         items = covenantsSelectionState.items,
@@ -24,7 +24,7 @@ fun LazyListScope.CovenantsGridItem(
         itemContent = { item ->
             CovenantCard(
                 state = item,
-                onSelected = { onCovenantsAction(CovenantClickedAction(item.option.choice)) },
+                onSelected = { onCovenantAction(CovenantClickedAction(item.option.choice)) },
             )
         },
     )

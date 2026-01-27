@@ -6,6 +6,8 @@ import com.nsfwcyoamaker.cotdr.domain.engine.usecase.CalculateTotalScoreUseCase
 import com.nsfwcyoamaker.cotdr.domain.model.CotdrCurrency
 import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionViewModel
+import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionAction
+import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelectionAction
@@ -35,4 +37,8 @@ class MainScreenModel: ScreenModel, KoinComponent {
     private val covenantsSelectionViewModel by inject<CovenantsSelectionViewModel> { parametersOf(screenModelScope) }
     val covenantsState = covenantsSelectionViewModel.state
     fun runCovenantsAction(action: CovenantsSelectionAction) = covenantsSelectionViewModel.runAction(action)
+
+    private val brandsSelectionViewModel by inject<BrandsSelectionViewModel> { parametersOf(screenModelScope) }
+    val brandsState = brandsSelectionViewModel.state
+    fun runBrandsAction(action: BrandsSelectionAction) = brandsSelectionViewModel.runAction(action)
 }

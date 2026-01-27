@@ -3,6 +3,8 @@ package com.nsfwcyoamaker.cotdr.presentation.di
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionActionDependencies
 import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionViewModel
+import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionActionDependencies
+import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelectionActionDependencies
 import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelectionViewModel
@@ -16,4 +18,6 @@ fun presentationModule() = module {
     factoryOf(::BodilyModificationsSelectionActionDependencies)
     factoryOf(::CovenantsSelectionViewModel)
     factoryOf(::CovenantsSelectionActionDependencies)
+    factoryOf(::BrandsSelectionViewModel)
+    factoryOf(::BrandsSelectionActionDependencies)
 }

@@ -25,7 +25,8 @@ object MainScreen: Screen {
         val fervor by screenModel.totalFervorFlow.collectAsState()
         val consortsState by screenModel.consortsState.collectAsState()
         val bodilyModificationsState by screenModel.bodilyModificationsState.collectAsState()
-        val covenantState by screenModel.covenantsState.collectAsState()
+        val covenantsState by screenModel.covenantsState.collectAsState()
+        val brandsState by screenModel.brandsState.collectAsState()
 
         Scaffold(
             containerColor = Color.Transparent,
@@ -43,11 +44,14 @@ object MainScreen: Screen {
                 )
                 item { Spacer(modifier = Modifier.height(60.dp)) }
                 MainPage3(
-                    covenantState = covenantState,
-                    onCovenantsAction = screenModel::runCovenantsAction,
+                    covenantsState = covenantsState,
+                    onCovenantAction = screenModel::runCovenantsAction,
                 )
                 item { Spacer(modifier = Modifier.height(60.dp)) }
-                MainPage4()
+                MainPage4(
+                    brandsState = brandsState,
+                    onBrandAction = screenModel::runBrandsAction,
+                )
                 item { Spacer(modifier = Modifier.height(60.dp)) }
                 //TODO
             }

@@ -8,13 +8,19 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.brands.BrandsDescription
+import com.nsfwcyoamaker.cotdr.presentation.components.sections.brands.BrandsGridItem
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.brands.BrandsTitle
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.history.HistoryDescription
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.history.HistoryTitle
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
+import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionAction
+import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionState
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
-fun LazyListScope.MainPage4() {
+fun LazyListScope.MainPage4(
+    brandsState: BrandsSelectionState,
+    onBrandAction: (BrandsSelectionAction) -> Unit
+) {
     item(
         key = "HistoryTitle",
         contentType = "HistoryTitle"
@@ -42,6 +48,15 @@ fun LazyListScope.MainPage4() {
     ) { BrandsDescription() }
 
     item { Spacer(modifier = Modifier.height(12.dp)) }
+
+    BrandsGridItem(
+        brandsState,
+        onBrandAction
+    )
+
+    item { Spacer(modifier = Modifier.height(12.dp)) }
+
+    //todo
 }
 
 @Preview(
@@ -52,7 +67,10 @@ fun LazyListScope.MainPage4() {
 private fun MainPage4Preview() {
     AppScope {
         MainScreenList {
-            MainPage4()
+            MainPage4(
+                BrandsSelectionState(),
+                {},
+            )
         }
     }
 }

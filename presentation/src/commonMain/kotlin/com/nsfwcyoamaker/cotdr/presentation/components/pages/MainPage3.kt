@@ -17,8 +17,8 @@ import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelection
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 fun LazyListScope.MainPage3(
-    covenantState: CovenantsSelectionState,
-    onCovenantsAction: (CovenantsSelectionAction) -> Unit
+    covenantsState: CovenantsSelectionState,
+    onCovenantAction: (CovenantsSelectionAction) -> Unit
 ) {
     item(
         key = "CovenantsTitle",
@@ -35,8 +35,8 @@ fun LazyListScope.MainPage3(
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
     CovenantsGridItem(
-        covenantState,
-        onCovenantsAction,
+        covenantsState,
+        onCovenantAction,
     )
 
     item { Spacer(modifier = Modifier.height(12.dp)) }
