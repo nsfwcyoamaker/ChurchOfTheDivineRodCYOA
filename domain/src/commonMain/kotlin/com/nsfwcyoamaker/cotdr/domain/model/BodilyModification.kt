@@ -3,43 +3,41 @@ package com.nsfwcyoamaker.cotdr.domain.model
 import com.nsfwcyoamaker.cotdr.domain.engine.model.CalculationContext
 import com.nsfwcyoamaker.cotdr.domain.engine.model.Choice
 import com.nsfwcyoamaker.cotdr.domain.engine.model.ChoiceState
-import com.nsfwcyoamaker.cotdr.domain.engine.model.Resources
 import com.nsfwcyoamaker.cotdr.domain.engine.rules.CostStrategy
-import com.nsfwcyoamaker.cotdr.domain.engine.rules.CostStrategy.*
 import com.nsfwcyoamaker.cotdr.domain.model.BodilyModification.Tenfold
+import com.nsfwcyoamaker.cotdr.domain.CostStrategyBuilder.multiFervor as multi
+import com.nsfwcyoamaker.cotdr.domain.CostStrategyBuilder.simpleFervor as simple
+import com.nsfwcyoamaker.cotdr.domain.CostStrategyBuilder.upgradableFervor as upgradable
 
 enum class BodilyModification(
     override val strategy: CostStrategy,
     override val requirements: (CalculationContext) -> Boolean = { true },
 ): Choice {
-    BodyRemodeling(Simple(Resources(CotdrCurrency.Fervor, -2))),
-    DualWield(MultiBuy(Resources(CotdrCurrency.Fervor, +8), calculationOverride = ::dualWieldCostOverride)),
-    Zweihander(Simple(Resources(CotdrCurrency.Fervor, +3))),
-    Miniature(Upgradable(Resources(CotdrCurrency.Fervor, -1), Resources(CotdrCurrency.Fervor, +3), upgradeRequirements = { ctx -> !ctx.hasUpgrade(Towering) })),
-    Towering(Upgradable(Resources(CotdrCurrency.Fervor, -2), Resources(CotdrCurrency.Fervor, +2), upgradeRequirements = { ctx -> !ctx.hasUpgrade(Miniature) })),
-    AmplifiedTouch(Simple(Resources(CotdrCurrency.Fervor, +2))),
-    AllIn(Simple(Resources(CotdrCurrency.Fervor, +4))),
-    Synchronized(Simple(Resources(CotdrCurrency.Fervor, +4))),
-    MaximumLoad(MultiBuy(Resources(CotdrCurrency.Fervor, +2), max = 2)),
-    Tenfold(MultiBuy(Resources(CotdrCurrency.Fervor, +2), max = 5)),
-    SuperArmor(MultiBuy(Resources(CotdrCurrency.Fervor, -2), max = 2)),
-    VastDepths(MultiBuy(Resources(CotdrCurrency.Fervor, +2), max = 5, calculationOverride = ::vastDepthsCostOverride)),
-    RipAndTear(Simple(Resources(CotdrCurrency.Fervor, +3))),
-    AmmoSwitcher(Simple(Resources(CotdrCurrency.Fervor, -3))),
-    ComfortLayer(Simple(Resources(CotdrCurrency.Fervor, -1))),
-    GroupDynamic(MultiBuy(Resources(CotdrCurrency.Fervor, +2), max = 2)),
-    SustainedHeights(Simple(Resources(CotdrCurrency.Fervor, -3))),
-    Rapunzel(Simple(Resources(CotdrCurrency.Fervor, +2)));
-
-    val upgradeRequirements: (CalculationContext) -> Boolean
-        get() = (strategy as? Upgradable)?.upgradeRequirements ?: { true }
+    BodyRemodeling(simple(-2)),
+    DualWield(multi(+8, calculationOverride = ::dualWieldCostOverride)),
+    Zweihander(simple(+3)),
+    Miniature(upgradable(-1, +3, upgradeRequirements = { ctx -> !ctx.hasUpgrade(Towering) })),
+    Towering(upgradable(-2, +2, upgradeRequirements = { ctx -> !ctx.hasUpgrade(Miniature) })),
+    AmplifiedTouch(simple(+2)),
+    AllIn(simple(+4)),
+    Synchronized(simple(+4)),
+    MaximumLoad(multi(+2, max = 2)),
+    Tenfold(multi(+2, max = 5)),
+    SuperArmor(multi(-2, max = 2)),
+    VastDepths(multi(+2, max = 5, calculationOverride = ::vastDepthsCostOverride)),
+    RipAndTear(simple(+3)),
+    AmmoSwitcher(simple(-3)),
+    ComfortLayer(simple(-1)),
+    GroupDynamic(multi(+2, max = 2)),
+    SustainedHeights(simple(-3)),
+    Rapunzel(simple(+2));
 }
 
 private fun dualWieldCostOverride(
     state: ChoiceState,
     context: CalculationContext,
-): Resources {
-    if (!state.isSelected) return Resources.Empty
+): Int {
+    if (!state.isSelected) return 0
     val base = +8
     var total = 0
     var currentCost = base
@@ -48,14 +46,14 @@ private fun dualWieldCostOverride(
         total += currentCost
         currentCost /= 2
     }
-    return Resources(CotdrCurrency.Fervor, total)
+    return total
 }
 
 private fun vastDepthsCostOverride(
     state: ChoiceState,
     context: CalculationContext,
-): Resources {
-    if (!state.isSelected) return Resources.Empty
+): Int {
+    if (!state.isSelected) return 0
     val actualQ = state.quantity.coerceAtMost(5)
     val tenfoldAmount = context.quantityOf(Tenfold).coerceAtMost(5)
 
@@ -64,5 +62,5 @@ private fun vastDepthsCostOverride(
 
     val total = (reducedAmount * (+1)) + (fullAmount * (+2))
 
-    return Resources(CotdrCurrency.Fervor, total)
+    return total
 }

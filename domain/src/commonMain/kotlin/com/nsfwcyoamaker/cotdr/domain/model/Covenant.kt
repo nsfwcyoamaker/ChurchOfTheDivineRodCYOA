@@ -2,8 +2,8 @@ package com.nsfwcyoamaker.cotdr.domain.model
 
 import com.nsfwcyoamaker.cotdr.domain.engine.model.CalculationContext
 import com.nsfwcyoamaker.cotdr.domain.engine.model.Choice
-import com.nsfwcyoamaker.cotdr.domain.engine.model.Resources
 import com.nsfwcyoamaker.cotdr.domain.engine.rules.CostStrategy
+import com.nsfwcyoamaker.cotdr.domain.CostStrategyBuilder.simpleFervor as simple
 
 enum class Covenant: Choice {
     TheHorn,
@@ -25,6 +25,6 @@ enum class Covenant: Choice {
     ThePromise,
     TheTamer;
 
-    override val strategy: CostStrategy = CostStrategy.Simple(Resources(CotdrCurrency.Fervor, +4))
+    override val strategy: CostStrategy = simple(+4)
     override val requirements: (CalculationContext) -> Boolean = { true }
 }
