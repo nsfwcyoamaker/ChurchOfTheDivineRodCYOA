@@ -1,9 +1,10 @@
 package com.nsfwcyoamaker.cotdr.domain.engine.model
 
-import com.nsfwcyoamaker.cotdr.domain.engine.rules.CostStrategy
-
 
 interface Choice {
-    val strategy: CostStrategy
-    val requirements: (CalculationContext) -> Boolean
+    fun getDefaultState(): ChoiceState
+    fun getValidState(ctx: CalculationContext): ChoiceState?
+    fun requirementsMet(ctx: CalculationContext): Boolean
+    fun calculateCost(ctx: CalculationContext): Resources
+    fun getComputedChoice(ctx: CalculationContext): ComputedChoice
 }

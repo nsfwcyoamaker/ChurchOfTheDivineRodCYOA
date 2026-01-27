@@ -21,7 +21,7 @@ object ObserveCovenantsAction: CovenantsSelectionAction {
             makeState = { computed, option ->
                 CovenantState(
                     option = option,
-                    isSelected = computed.state.isSelected,
+                    isSelected = computed.state != null,
                     isEnabled = computed.isAvailable,
                 )
             }

@@ -1,5 +1,6 @@
 package com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.action
 
+import com.nsfwcyoamaker.cotdr.domain.engine.model.UpgradableChoice
 import com.nsfwcyoamaker.cotdr.domain.model.BodilyModification
 import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionActionDependencies
@@ -11,6 +12,8 @@ data class UpgradeBodilyModificationClickedAction(val bodilyModification: Bodily
         dependencies: BodilyModificationsSelectionActionDependencies,
         scope: ActionScope<BodilyModificationsSelectionState, Nothing>
     ) {
-        dependencies.toggleChoiceUpgradeUseCase(bodilyModification)
+        (bodilyModification as? UpgradableChoice)?.let {
+            dependencies.toggleChoiceUpgradeUseCase(it)
+        }
     }
 }

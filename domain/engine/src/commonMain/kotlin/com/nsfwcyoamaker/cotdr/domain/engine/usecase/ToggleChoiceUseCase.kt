@@ -8,11 +8,11 @@ class ToggleChoiceUseCase(
     private val gameStateManager: GameStateManager
 ) {
     operator fun invoke(choice: Choice) {
-        gameStateManager.updateChoice(choice) { currentState ->
-            if (currentState.isSelected) {
-                null
+        gameStateManager.updateChoice<Choice, ChoiceState>(choice) { currentState ->
+            if (currentState == null) {
+                choice.getDefaultState()
             } else {
-                ChoiceState(isSelected = true, quantity = 1)
+                null
             }
         }
     }

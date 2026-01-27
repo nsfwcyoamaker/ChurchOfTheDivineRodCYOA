@@ -9,7 +9,7 @@ import com.nsfwcyoamaker.cotdr.domain.model.Priestess
 object StaticChoiceRegistry : ChoiceRegistry {
     private val allChoices: List<Choice> = listOf(
         Priestess.entries,
-        BodilyModification.entries,
+        BodilyModification.all,
         Covenant.entries,
     ).flatten()
 

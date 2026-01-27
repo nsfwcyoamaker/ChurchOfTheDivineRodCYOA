@@ -16,15 +16,14 @@ object ObserveBodilyModificationsAction: BodilyModificationsSelectionAction {
         scope: ActionScope<BodilyModificationsSelectionState, Nothing>
     ) {
         UiChoiceMapper.mapStateFor(
-            items = BodilyModification.entries,
+            items = BodilyModification.all,
             options = BodilyModificationOption.entries,
             getComputedChoicesUseCase = dependencies.getComputedChoicesUseCase,
             makeState = { computed, option ->
                 BodilyModificationState(
                     option = option,
-                    isSelected = computed.state.isSelected,
+                    isSelected = computed.state != null,
                     isEnabled = computed.isAvailable,
-                    costPreview = computed.cost,
                     control = UiControlMapper.map(computed, option.upgradeText)
                 )
             }

@@ -19,18 +19,14 @@ class GameStateValidator(
         val newSelections = currentSelections.toMutableMap()
 
         allChoices.forEach { choice ->
-            val state = currentSelections[choice] ?: return@forEach
+            val state = choice.getValidState(context)
 
-            if (!choice.requirements(context)) {
-                newSelections.remove(choice)
-                hasChanged = true
-                return@forEach
-            }
-
-            val validatedState = choice.strategy.validate(state, context)
-
-            if (validatedState != state) {
-                newSelections[choice] = validatedState
+            if (context.selections[choice] != state) {
+                if(state == null) {
+                    newSelections.remove(choice)
+                } else {
+                    newSelections[choice] = state
+                }
                 hasChanged = true
             }
         }

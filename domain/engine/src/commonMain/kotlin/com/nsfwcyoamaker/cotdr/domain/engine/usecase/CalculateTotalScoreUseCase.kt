@@ -1,7 +1,6 @@
 package com.nsfwcyoamaker.cotdr.domain.engine.usecase
 
 import com.nsfwcyoamaker.cotdr.domain.engine.model.CalculationContext
-import com.nsfwcyoamaker.cotdr.domain.engine.model.ChoiceState
 import com.nsfwcyoamaker.cotdr.domain.engine.model.Resources
 import com.nsfwcyoamaker.cotdr.domain.engine.repository.ChoiceRegistry
 import com.nsfwcyoamaker.cotdr.domain.engine.repository.GameStateRepository
@@ -24,10 +23,7 @@ class CalculateTotalScoreUseCase(
                 var totalPoints = Resources.Empty
 
                 allChoices.forEach { choice ->
-                    val state = selections[choice] ?: ChoiceState.Empty
-                    if (choice.requirements(context)) {
-                        totalPoints += choice.strategy.calculateCost(state, context)
-                    }
+                    totalPoints += choice.calculateCost(context)
                 }
 
                 allRules.forEach { rule ->
