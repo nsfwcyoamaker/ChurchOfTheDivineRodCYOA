@@ -12,6 +12,7 @@ import com.nsfwcyoamaker.cotdr.composableRichText.rememberRichTextResource
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.presentation.components.SelectableCard
 import com.nsfwcyoamaker.cotdr.presentation.components.shadowBorder
+import com.nsfwcyoamaker.cotdr.presentation.model.BrandOption
 import com.nsfwcyoamaker.cotdr.presentation.model.BrandState
 import com.nsfwcyoamaker.cotdr.presentation.theme.smallTitleTextStyle
 import com.nsfwcyoamaker.cotdr.presentation.theme.smallerTextStyle
@@ -85,7 +86,6 @@ private fun BrandCardPreview() {
             modifier = Modifier.fillMaxSize(),
             contentAlignment = Alignment.Center,
         ) {
-            /* TODO need one brand to preview
             BrandCard(
                 state = BrandState(BrandOption.Womb),
                 onSelected = {},
@@ -93,8 +93,6 @@ private fun BrandCardPreview() {
                     .fillMaxWidth(0.2f)
                     .wrapContentHeight(),
             )
-
-             */
         }
     }
 }
