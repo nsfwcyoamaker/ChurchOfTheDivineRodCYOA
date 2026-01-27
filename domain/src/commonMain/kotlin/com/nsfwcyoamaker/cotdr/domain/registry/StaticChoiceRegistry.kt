@@ -3,6 +3,7 @@ package com.nsfwcyoamaker.cotdr.domain.registry
 import com.nsfwcyoamaker.cotdr.domain.engine.model.Choice
 import com.nsfwcyoamaker.cotdr.domain.engine.repository.ChoiceRegistry
 import com.nsfwcyoamaker.cotdr.domain.model.BodilyModification
+import com.nsfwcyoamaker.cotdr.domain.model.Brand
 import com.nsfwcyoamaker.cotdr.domain.model.Covenant
 import com.nsfwcyoamaker.cotdr.domain.model.Priestess
 
@@ -11,6 +12,7 @@ object StaticChoiceRegistry : ChoiceRegistry {
         Priestess.entries,
         BodilyModification.all,
         Covenant.entries,
+        Brand.all,
     ).flatten()
 
     override fun getAllChoices(): List<Choice> = allChoices

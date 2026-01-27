@@ -6,7 +6,7 @@ import com.nsfwcyoamaker.cotdr.domain.engine.rules.GlobalScoreRule
 import com.nsfwcyoamaker.cotdr.domain.model.CotdrCurrency
 import com.nsfwcyoamaker.cotdr.domain.model.Priestess
 
-object PriestessScalingRule : GlobalScoreRule {
+object PriestessesScalingRule : GlobalScoreRule {
     override fun calculateScore(context: CalculationContext): Resources {
         val count = context.selections.keys.count { it is Priestess }
 
