@@ -45,14 +45,16 @@ fun BrandCard(
                     style = smallTitleTextStyle,
                 )
 
-                Image(
-                    painter = painterResource(state.option.image),
-                    contentDescription = null,
-                    contentScale = ContentScale.FillWidth,
-                    modifier = Modifier
-                        .wrapContentHeight()
-                        .shadowBorder()
-                )
+                state.option.image?.let {
+                    Image(
+                        painter = painterResource(it),
+                        contentDescription = null,
+                        contentScale = ContentScale.FillWidth,
+                        modifier = Modifier
+                            .wrapContentHeight()
+                            .shadowBorder()
+                    )
+                }
 
                 Box(modifier = Modifier.weight(1f))
             }
