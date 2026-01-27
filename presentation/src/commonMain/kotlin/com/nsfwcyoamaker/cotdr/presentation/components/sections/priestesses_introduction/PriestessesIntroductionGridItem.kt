@@ -9,9 +9,9 @@ import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroductionOption
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
-import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionAction
-import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionState
-import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.action.TogglePriestessAction
+import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.ConsortsSelectionAction
+import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.ConsortsSelectionState
+import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.action.TogglePriestessAction
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @OptIn(ExperimentalLayoutApi::class)

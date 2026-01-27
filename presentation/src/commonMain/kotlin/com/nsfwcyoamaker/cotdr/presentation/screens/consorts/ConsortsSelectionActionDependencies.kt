@@ -1,4 +1,4 @@
-package com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection
+package com.nsfwcyoamaker.cotdr.presentation.screens.consorts
 
 import com.nsfwcyoamaker.cotdr.domain.engine.usecase.ToggleChoiceUseCase
 import com.nsfwcyoamaker.cotdr.domain.usecase.GetCurrentConsortsFlowUseCase

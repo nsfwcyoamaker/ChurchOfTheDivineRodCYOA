@@ -8,8 +8,8 @@ import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyM
 import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionViewModel
-import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionAction
-import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionViewModel
+import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.ConsortsSelectionAction
+import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.ConsortsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelectionViewModel
 import kotlinx.coroutines.flow.SharingStarted

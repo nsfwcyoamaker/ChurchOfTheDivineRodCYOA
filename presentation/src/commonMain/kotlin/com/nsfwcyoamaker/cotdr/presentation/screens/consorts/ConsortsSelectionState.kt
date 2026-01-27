@@ -1,4 +1,4 @@
-package com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection
+package com.nsfwcyoamaker.cotdr.presentation.screens.consorts
 
 import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroductionOption
 import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroductionState

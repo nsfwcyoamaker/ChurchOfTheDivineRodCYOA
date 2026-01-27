@@ -11,8 +11,8 @@ import com.nsfwcyoamaker.cotdr.presentation.components.sections.main.MainIntrodu
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.main.MainTitle
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.priestesses_introduction.*
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
-import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionAction
-import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionState
+import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.ConsortsSelectionAction
+import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.ConsortsSelectionState
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 fun LazyListScope.MainPage1(

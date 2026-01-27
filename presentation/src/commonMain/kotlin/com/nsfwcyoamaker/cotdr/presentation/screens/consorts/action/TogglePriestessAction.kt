@@ -1,9 +1,9 @@
-package com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.action
+package com.nsfwcyoamaker.cotdr.presentation.screens.consorts.action
 
 import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroductionOption
-import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionAction
-import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionActionDependencies
-import com.nsfwcyoamaker.cotdr.presentation.screens.consorts_selection.ConsortsSelectionState
+import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.ConsortsSelectionAction
+import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.ConsortsSelectionActionDependencies
+import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.ConsortsSelectionState
 import com.nsfwcyoamaker.cotdr.presentationToadHandler.ActionScope
 
 data class TogglePriestessAction(
