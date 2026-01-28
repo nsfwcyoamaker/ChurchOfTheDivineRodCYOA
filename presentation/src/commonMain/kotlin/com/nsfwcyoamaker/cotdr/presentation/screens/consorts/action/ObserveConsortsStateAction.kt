@@ -15,13 +15,12 @@ data object ObserveConsortsStateAction: ConsortsSelectionAction {
         dependencies.getCurrentConsortsFlowUseCase().collect { repoData ->
             scope.setState {
                 ConsortsSelectionState(
-                    PriestessIntroductionOption.entries.map {
+                    PriestessIntroductionOption.entries.associateWith {
                         PriestessIntroductionState(
-                            priestessIntroductionOption = it,
-                            isClickable = true,
+                            option = it,
                             isSelected = it.choice in repoData,
                         )
-                    }.chunked(3)
+                    }
                 )
             }
         }

@@ -4,15 +4,10 @@ import cafe.adriel.voyager.core.model.ScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
 import com.nsfwcyoamaker.cotdr.domain.engine.usecase.CalculateTotalScoreUseCase
 import com.nsfwcyoamaker.cotdr.domain.model.CotdrCurrency
-import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionViewModel
-import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionViewModel
-import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.ConsortsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.ConsortsSelectionViewModel
-import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelectionViewModel
-import com.nsfwcyoamaker.cotdr.presentation.screens.experimental_brands.ExperimentalBrandsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.experimental_brands.ExperimentalBrandsSelectionViewModel
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -28,23 +23,9 @@ class MainScreenModel: ScreenModel, KoinComponent {
         .map { resources -> resources[CotdrCurrency.Fervor] }
         .stateIn(screenModelScope, SharingStarted.Eagerly, 0)
 
-    private val consortsSelectionViewModel by inject<ConsortsSelectionViewModel> { parametersOf(screenModelScope) }
-    val consortsState = consortsSelectionViewModel.state
-    fun runConsortsAction(action: ConsortsSelectionAction) = consortsSelectionViewModel.runAction(action)
-
-    private val bodilyModificationsViewModel by inject<BodilyModificationsSelectionViewModel> { parametersOf(screenModelScope) }
-    val bodilyModificationsState = bodilyModificationsViewModel.state
-    fun runBodilyModificationsAction(action: BodilyModificationsSelectionAction) = bodilyModificationsViewModel.runAction(action)
-
-    private val covenantsSelectionViewModel by inject<CovenantsSelectionViewModel> { parametersOf(screenModelScope) }
-    val covenantsState = covenantsSelectionViewModel.state
-    fun runCovenantsAction(action: CovenantsSelectionAction) = covenantsSelectionViewModel.runAction(action)
-
-    private val brandsSelectionViewModel by inject<BrandsSelectionViewModel> { parametersOf(screenModelScope) }
-    val brandsState = brandsSelectionViewModel.state
-    fun runBrandsAction(action: BrandsSelectionAction) = brandsSelectionViewModel.runAction(action)
-
-    private val experimentalBrandsSelectionViewModel by inject<ExperimentalBrandsSelectionViewModel> { parametersOf(screenModelScope) }
-    val experimentalBrandsState = experimentalBrandsSelectionViewModel.state
-    fun runExperimentalBrandsAction(action: ExperimentalBrandsSelectionAction) = experimentalBrandsSelectionViewModel.runAction(action)
+    val consortsSelectionViewModel by inject<ConsortsSelectionViewModel> { parametersOf(screenModelScope) }
+    val bodilyModificationsViewModel by inject<BodilyModificationsSelectionViewModel> { parametersOf(screenModelScope) }
+    val covenantsSelectionViewModel by inject<CovenantsSelectionViewModel> { parametersOf(screenModelScope) }
+    val brandsSelectionViewModel by inject<BrandsSelectionViewModel> { parametersOf(screenModelScope) }
+    val experimentalBrandsSelectionViewModel by inject<ExperimentalBrandsSelectionViewModel> { parametersOf(screenModelScope) }
 }

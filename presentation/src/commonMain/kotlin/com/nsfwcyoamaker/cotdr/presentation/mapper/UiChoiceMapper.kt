@@ -3,17 +3,18 @@ package com.nsfwcyoamaker.cotdr.presentation.mapper
 import com.nsfwcyoamaker.cotdr.domain.engine.model.Choice
 import com.nsfwcyoamaker.cotdr.domain.engine.model.ComputedChoice
 import com.nsfwcyoamaker.cotdr.domain.engine.usecase.GetComputedChoicesUseCase
+import com.nsfwcyoamaker.cotdr.presentation.model.UiItemState
 import com.nsfwcyoamaker.cotdr.presentation.model.UiOption
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
 object UiChoiceMapper {
-    inline fun <C: Choice, O: UiOption, R> mapStateFor(
+    inline fun <C: Choice, O: UiOption, S: UiItemState> mapStateFor(
         items: List<C>,
         options: List<O>,
         getComputedChoicesUseCase: GetComputedChoicesUseCase,
-        crossinline makeState: (ComputedChoice, O) -> R
-    ): Flow<List<R>> {
+        crossinline makeState: (ComputedChoice, O) -> S
+    ): Flow<List<S>> {
         val optionMap = options.associateBy { it.choice }
 
         return getComputedChoicesUseCase(items).map { computedChoices ->

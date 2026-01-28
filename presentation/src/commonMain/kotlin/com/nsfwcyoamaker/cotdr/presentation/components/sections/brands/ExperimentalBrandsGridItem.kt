@@ -5,26 +5,28 @@ import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.runtime.Composable
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.presentation.components.ChoicesGrid
+import com.nsfwcyoamaker.cotdr.presentation.model.ExperimentalBrandOption
+import com.nsfwcyoamaker.cotdr.presentation.model.ExperimentalBrandState
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
 import com.nsfwcyoamaker.cotdr.presentation.screens.experimental_brands.ExperimentalBrandsSelectionAction
-import com.nsfwcyoamaker.cotdr.presentation.screens.experimental_brands.ExperimentalBrandsSelectionState
 import com.nsfwcyoamaker.cotdr.presentation.screens.experimental_brands.action.ToggleExperimentalBrandAction
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @OptIn(ExperimentalLayoutApi::class)
 fun LazyListScope.ExperimentalBrandsGridItem(
-    experimentalBrandsState: ExperimentalBrandsSelectionState,
+    itemStateProvider: @Composable (ExperimentalBrandOption) -> ExperimentalBrandState,
     onExperimentalBrandAction: (ExperimentalBrandsSelectionAction) -> Unit
 ) {
     ChoicesGrid(
-        items = experimentalBrandsState.items,
+        items = ExperimentalBrandOption.entries,
         columns = 3,
         key = "experimental_brands_row",
         contentType = "experimental_brands_row",
-        itemContent = { item ->
+        itemContent = { option ->
+            val state = itemStateProvider(option)
             ExperimentalBrandCard(
-                state = item,
-                onSelected = { onExperimentalBrandAction(ToggleExperimentalBrandAction(item.option.choice)) },
+                state = state,
+                onSelected = { onExperimentalBrandAction(ToggleExperimentalBrandAction(option.choice)) },
             )
         },
     )
@@ -39,7 +41,7 @@ private fun ExperimentalBrandsGridItemPreview() {
     AppScope {
         MainScreenList {
             ExperimentalBrandsGridItem(
-                experimentalBrandsState = ExperimentalBrandsSelectionState(),
+                { option -> ExperimentalBrandState(option) },
                 onExperimentalBrandAction = {},
             )
         }

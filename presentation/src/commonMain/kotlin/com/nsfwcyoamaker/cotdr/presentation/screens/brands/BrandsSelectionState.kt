@@ -5,9 +5,9 @@ import com.nsfwcyoamaker.cotdr.presentation.model.BrandState
 import com.nsfwcyoamaker.cotdr.presentationToadHandler.ViewState
 
 data class BrandsSelectionState(
-    val items: List<BrandState> = defaultState(),
+    val items: Map<BrandOption, BrandState> = defaultState(),
 ): ViewState {
     companion object {
-        fun defaultState() = BrandOption.entries.map(::BrandState)
+        fun defaultState() = BrandOption.entries.associateWith(::BrandState)
     }
 }

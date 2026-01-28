@@ -26,7 +26,7 @@ object ObserveExperimentalBrandsAction: ExperimentalBrandsSelectionAction {
                 )
             }
         ).collect { items ->
-            scope.setState { ExperimentalBrandsSelectionState(items = items) }
+            scope.setState { ExperimentalBrandsSelectionState(items = items.associateBy { it.option}) }
         }
     }
 }

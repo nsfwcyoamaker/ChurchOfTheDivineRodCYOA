@@ -11,13 +11,14 @@ import com.nsfwcyoamaker.cotdr.presentation.components.sections.covenants.Covena
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.covenants.CovenantsExtra
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.covenants.CovenantsGridItem
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.covenants.CovenantsTitle
+import com.nsfwcyoamaker.cotdr.presentation.model.CovenantOption
+import com.nsfwcyoamaker.cotdr.presentation.model.CovenantState
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
 import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelectionAction
-import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelectionState
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 fun LazyListScope.MainPage3(
-    covenantsState: CovenantsSelectionState,
+    itemStateProvider: @Composable (CovenantOption) -> CovenantState,
     onCovenantAction: (CovenantsSelectionAction) -> Unit
 ) {
     item(
@@ -35,7 +36,7 @@ fun LazyListScope.MainPage3(
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
     CovenantsGridItem(
-        covenantsState,
+        itemStateProvider,
         onCovenantAction,
     )
 
@@ -56,7 +57,7 @@ private fun MainPage3Preview() {
     AppScope {
         MainScreenList {
             MainPage3(
-                CovenantsSelectionState(),
+                { option -> CovenantState(option) },
                 {},
             )
         }

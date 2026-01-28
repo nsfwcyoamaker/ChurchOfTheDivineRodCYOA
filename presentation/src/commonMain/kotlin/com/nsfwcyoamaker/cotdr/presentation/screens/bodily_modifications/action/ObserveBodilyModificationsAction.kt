@@ -28,7 +28,7 @@ object ObserveBodilyModificationsAction: BodilyModificationsSelectionAction {
                 )
             }
         ).collect { items ->
-            scope.setState { BodilyModificationsSelectionState(items = items) }
+            scope.setState { BodilyModificationsSelectionState(items = items.associateBy { it.option }) }
         }
     }
 }

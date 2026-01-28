@@ -5,9 +5,9 @@ import com.nsfwcyoamaker.cotdr.presentation.model.CovenantState
 import com.nsfwcyoamaker.cotdr.presentationToadHandler.ViewState
 
 data class CovenantsSelectionState(
-    val items: List<CovenantState> = defaultState(),
+    val items: Map<CovenantOption, CovenantState> = defaultState(),
 ): ViewState {
     companion object {
-        fun defaultState() = CovenantOption.entries.map(::CovenantState)
+        fun defaultState() = CovenantOption.entries.associateWith(::CovenantState)
     }
 }

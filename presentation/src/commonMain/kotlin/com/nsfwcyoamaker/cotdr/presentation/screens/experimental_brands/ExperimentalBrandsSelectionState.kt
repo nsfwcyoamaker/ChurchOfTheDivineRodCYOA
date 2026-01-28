@@ -5,9 +5,9 @@ import com.nsfwcyoamaker.cotdr.presentation.model.ExperimentalBrandState
 import com.nsfwcyoamaker.cotdr.presentationToadHandler.ViewState
 
 data class ExperimentalBrandsSelectionState(
-    val items: List<ExperimentalBrandState> = defaultState(),
+    val items: Map<ExperimentalBrandOption, ExperimentalBrandState> = defaultState(),
 ): ViewState {
     companion object {
-        fun defaultState() = ExperimentalBrandOption.entries.map(::ExperimentalBrandState)
+        fun defaultState() = ExperimentalBrandOption.entries.associateWith(::ExperimentalBrandState)
     }
 }

@@ -8,18 +8,19 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroductionOption
+import com.nsfwcyoamaker.cotdr.presentation.model.PriestessIntroductionState
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.ConsortsSelectionAction
-import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.ConsortsSelectionState
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.action.TogglePriestessAction
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @OptIn(ExperimentalLayoutApi::class)
 fun LazyListScope.PriestessesIntroductionGridItem(
-    consortsState: ConsortsSelectionState,
+    itemStateProvider: @Composable (PriestessIntroductionOption) -> PriestessIntroductionState,
     onConsortsAction: (ConsortsSelectionAction) -> Unit,
 ) {
-    consortsState.priestessesState.forEachIndexed { index, priestessesRow ->
+    val rows = PriestessIntroductionOption.entries.chunked(3)
+    rows.forEachIndexed { index, priestessesRow ->
         item(
             key = "priestesses_introduction_row_$index",
             contentType = "priestesses_introduction_row"
@@ -31,22 +32,24 @@ fun LazyListScope.PriestessesIntroductionGridItem(
                     .fillMaxWidth()
                     .height(IntrinsicSize.Min)
             ) {
-                priestessesRow.forEach { priestessState ->
+                priestessesRow.forEach { priestessOption ->
+                    val priestessState = itemStateProvider(priestessOption)
+
                     PriestessIntroductionCard(
-                        priestessUi = priestessState.priestessIntroductionOption.ui,
-                        isClickable = priestessState.isClickable,
+                        priestessUi = priestessState.option.ui,
+                        isEnabled = priestessState.isEnabled,
                         isSelected = priestessState.isSelected,
-                        onSelected = { onConsortsAction(TogglePriestessAction(priestessState.priestessIntroductionOption)) },
+                        onSelected = { onConsortsAction(TogglePriestessAction(priestessState.option)) },
                         modifier = Modifier
                             .weight(1f)
                             .fillMaxHeight(),
                     )
                 }
 
-                if(index == consortsState.priestessesState.size - 1) {
+                if(index == rows.size - 1) {
                     PriestessIntroductionCard(
                         priestessUi = PriestessIntroductionOption.consortsUi,
-                        isClickable = false,
+                        isEnabled = false,
                         isSelected = false,
                         onSelected = {},
                         modifier = Modifier
@@ -57,7 +60,7 @@ fun LazyListScope.PriestessesIntroductionGridItem(
             }
         }
 
-        if(index < (consortsState.priestessesState.size - 1)) {
+        if(index < (rows.size - 1)) {
             item { Spacer(modifier = Modifier.height(24.dp)) }
         }
     }
@@ -72,8 +75,8 @@ private fun PriestessesIntroductionGridItemPreview() {
     AppScope {
         MainScreenList {
             PriestessesIntroductionGridItem(
-                consortsState = ConsortsSelectionState(),
-                onConsortsAction = {}
+                itemStateProvider = { option -> PriestessIntroductionState(option) },
+                onConsortsAction = {},
             )
         }
     }

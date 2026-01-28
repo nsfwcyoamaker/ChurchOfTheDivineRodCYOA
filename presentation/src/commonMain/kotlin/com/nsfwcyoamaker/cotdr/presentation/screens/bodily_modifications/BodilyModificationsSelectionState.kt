@@ -5,9 +5,9 @@ import com.nsfwcyoamaker.cotdr.presentation.model.BodilyModificationState
 import com.nsfwcyoamaker.cotdr.presentationToadHandler.ViewState
 
 data class BodilyModificationsSelectionState(
-    val items: List<BodilyModificationState> = defaultState(),
+    val items: Map<BodilyModificationOption, BodilyModificationState> = defaultState(),
 ): ViewState {
     companion object {
-        fun defaultState() = BodilyModificationOption.entries.map(::BodilyModificationState)
+        fun defaultState() = BodilyModificationOption.entries.associateWith(::BodilyModificationState)
     }
 }

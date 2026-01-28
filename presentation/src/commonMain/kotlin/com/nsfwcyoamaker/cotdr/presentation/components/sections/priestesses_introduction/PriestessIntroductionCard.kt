@@ -20,13 +20,13 @@ import org.jetbrains.compose.resources.painterResource
 fun PriestessIntroductionCard(
     priestessUi: PriestessIntroductionOption.Ui,
     isSelected: Boolean,
-    isClickable: Boolean,
+    isEnabled: Boolean,
     onSelected: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
     SelectableCard(
         isSelected = isSelected,
-        isClickable = isClickable,
+        isClickable = isEnabled,
         onSelected = onSelected,
         modifier = modifier,
     ) {

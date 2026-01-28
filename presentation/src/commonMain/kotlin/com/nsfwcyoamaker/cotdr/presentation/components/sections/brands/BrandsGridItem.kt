@@ -5,26 +5,28 @@ import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.runtime.Composable
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.presentation.components.ChoicesGrid
+import com.nsfwcyoamaker.cotdr.presentation.model.BrandOption
+import com.nsfwcyoamaker.cotdr.presentation.model.BrandState
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
 import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionAction
-import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionState
 import com.nsfwcyoamaker.cotdr.presentation.screens.brands.action.ToggleBrandAction
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @OptIn(ExperimentalLayoutApi::class)
 fun LazyListScope.BrandsGridItem(
-    brandsState: BrandsSelectionState,
+    itemStateProvider: @Composable (BrandOption) -> BrandState,
     onBrandAction: (BrandsSelectionAction) -> Unit
 ) {
     ChoicesGrid(
-        items = brandsState.items,
+        items = BrandOption.entries,
         columns = 3,
         key = "brands_row",
         contentType = "brands_row",
-        itemContent = { item ->
+        itemContent = { option ->
+            val state = itemStateProvider(option)
             BrandCard(
-                state = item,
-                onSelected = { onBrandAction(ToggleBrandAction(item.option.choice)) },
+                state = state,
+                onSelected = { onBrandAction(ToggleBrandAction(option.choice)) },
             )
         },
     )
@@ -39,7 +41,7 @@ private fun BrandsGridItemPreview() {
     AppScope {
         MainScreenList {
             BrandsGridItem(
-                brandsState = BrandsSelectionState(),
+                { option -> BrandState(option) },
                 onBrandAction = {},
             )
         }

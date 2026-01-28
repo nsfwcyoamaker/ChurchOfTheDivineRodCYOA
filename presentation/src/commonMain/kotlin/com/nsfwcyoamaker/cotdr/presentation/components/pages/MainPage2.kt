@@ -13,13 +13,14 @@ import com.nsfwcyoamaker.cotdr.presentation.components.sections.bodily_modificat
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.bodily_modifications.BodilyModificationsTitle
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.fervor.FervorDescription
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.fervor.FervorTitle
+import com.nsfwcyoamaker.cotdr.presentation.model.BodilyModificationOption
+import com.nsfwcyoamaker.cotdr.presentation.model.BodilyModificationState
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
 import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionAction
-import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionState
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 fun LazyListScope.MainPage2(
-    bodilyModificationsState: BodilyModificationsSelectionState,
+    itemStateProvider: @Composable (BodilyModificationOption) -> BodilyModificationState,
     onBodilyModificationAction: (BodilyModificationsSelectionAction) -> Unit
 ) {
     item(
@@ -51,7 +52,7 @@ fun LazyListScope.MainPage2(
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
     BodilyModificationsGridItem(
-        bodilyModificationsState,
+        itemStateProvider,
         onBodilyModificationAction,
     )
 
@@ -72,7 +73,7 @@ private fun MainPage2Preview() {
     AppScope {
         MainScreenList {
             MainPage2(
-                bodilyModificationsState = BodilyModificationsSelectionState(),
+                itemStateProvider = { option -> BodilyModificationState(option) },
                 onBodilyModificationAction = {},
             )
         }

@@ -26,7 +26,7 @@ object ObserveCovenantsAction: CovenantsSelectionAction {
                 )
             }
         ).collect { items ->
-            scope.setState { CovenantsSelectionState(items = items) }
+            scope.setState { CovenantsSelectionState(items = items.associateBy { it.option }) }
         }
     }
 }

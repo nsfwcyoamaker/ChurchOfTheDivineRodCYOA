@@ -10,17 +10,19 @@ import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.brands.*
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.history.HistoryDescription
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.history.HistoryTitle
+import com.nsfwcyoamaker.cotdr.presentation.model.BrandOption
+import com.nsfwcyoamaker.cotdr.presentation.model.BrandState
+import com.nsfwcyoamaker.cotdr.presentation.model.ExperimentalBrandOption
+import com.nsfwcyoamaker.cotdr.presentation.model.ExperimentalBrandState
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
 import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionAction
-import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionState
 import com.nsfwcyoamaker.cotdr.presentation.screens.experimental_brands.ExperimentalBrandsSelectionAction
-import com.nsfwcyoamaker.cotdr.presentation.screens.experimental_brands.ExperimentalBrandsSelectionState
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 fun LazyListScope.MainPage4(
-    brandsState: BrandsSelectionState,
+    brandStateProvider: @Composable (BrandOption) -> BrandState,
     onBrandAction: (BrandsSelectionAction) -> Unit,
-    experimentalBrandsState: ExperimentalBrandsSelectionState,
+    experimentalBrandStateProvider: @Composable (ExperimentalBrandOption) -> ExperimentalBrandState,
     onExperimentalBrandAction: (ExperimentalBrandsSelectionAction) -> Unit
 ) {
     item(
@@ -52,7 +54,7 @@ fun LazyListScope.MainPage4(
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
     BrandsGridItem(
-        brandsState,
+        brandStateProvider,
         onBrandAction,
     )
 
@@ -66,7 +68,7 @@ fun LazyListScope.MainPage4(
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
     ExperimentalBrandsGridItem(
-        experimentalBrandsState,
+        experimentalBrandStateProvider,
         onExperimentalBrandAction,
     )
 
@@ -87,9 +89,9 @@ private fun MainPage4Preview() {
     AppScope {
         MainScreenList {
             MainPage4(
-                BrandsSelectionState(),
+                { option -> BrandState(option) },
                 {},
-                ExperimentalBrandsSelectionState(),
+                { option -> ExperimentalBrandState(option) },
                 {},
             )
         }

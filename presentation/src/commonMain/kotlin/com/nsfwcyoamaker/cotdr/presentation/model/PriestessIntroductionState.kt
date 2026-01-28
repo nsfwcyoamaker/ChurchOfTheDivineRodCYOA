@@ -1,7 +1,10 @@
 package com.nsfwcyoamaker.cotdr.presentation.model
 
 data class PriestessIntroductionState(
-    val priestessIntroductionOption: PriestessIntroductionOption,
-    val isClickable: Boolean = true,
-    val isSelected: Boolean = false,
-)
+    override val option: PriestessIntroductionOption,
+    override val isSelected: Boolean = false,
+    override val isEnabled: Boolean = true,
+): UiItemState {
+    override val control: UiControlState
+        get() = UiControlState.None
+}

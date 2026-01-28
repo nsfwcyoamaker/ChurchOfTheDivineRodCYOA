@@ -26,7 +26,7 @@ object ObserveBrandsAction: BrandsSelectionAction {
                 )
             }
         ).collect { items ->
-            scope.setState { BrandsSelectionState(items = items) }
+            scope.setState { BrandsSelectionState(items = items.associateBy { it.option }) }
         }
     }
 }
