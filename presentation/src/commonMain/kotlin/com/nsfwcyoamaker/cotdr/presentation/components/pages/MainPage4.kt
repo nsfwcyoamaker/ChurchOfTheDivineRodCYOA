@@ -72,14 +72,10 @@ fun LazyListScope.MainPage4(
 
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
-    /*
     item(
         key = "BrandsExtra",
         contentType = "BrandsExtra"
     ) { BrandsExtra() }
-
-
-     */
 }
 
 @Preview(
