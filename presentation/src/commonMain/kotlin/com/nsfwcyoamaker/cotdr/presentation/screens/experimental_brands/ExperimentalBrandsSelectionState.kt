@@ -1,0 +1,13 @@
+package com.nsfwcyoamaker.cotdr.presentation.screens.experimental_brands
+
+import com.nsfwcyoamaker.cotdr.presentation.model.ExperimentalBrandOption
+import com.nsfwcyoamaker.cotdr.presentation.model.ExperimentalBrandState
+import com.nsfwcyoamaker.cotdr.presentationToadHandler.ViewState
+
+data class ExperimentalBrandsSelectionState(
+    val items: List<ExperimentalBrandState> = defaultState(),
+): ViewState {
+    companion object {
+        fun defaultState() = ExperimentalBrandOption.entries.map(::ExperimentalBrandState)
+    }
+}

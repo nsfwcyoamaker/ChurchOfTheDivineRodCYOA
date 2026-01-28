@@ -12,6 +12,8 @@ import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.ConsortsSelectionAc
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.ConsortsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelectionViewModel
+import com.nsfwcyoamaker.cotdr.presentation.screens.experimental_brands.ExperimentalBrandsSelectionAction
+import com.nsfwcyoamaker.cotdr.presentation.screens.experimental_brands.ExperimentalBrandsSelectionViewModel
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.map
@@ -41,4 +43,8 @@ class MainScreenModel: ScreenModel, KoinComponent {
     private val brandsSelectionViewModel by inject<BrandsSelectionViewModel> { parametersOf(screenModelScope) }
     val brandsState = brandsSelectionViewModel.state
     fun runBrandsAction(action: BrandsSelectionAction) = brandsSelectionViewModel.runAction(action)
+
+    private val experimentalBrandsSelectionViewModel by inject<ExperimentalBrandsSelectionViewModel> { parametersOf(screenModelScope) }
+    val experimentalBrandsState = experimentalBrandsSelectionViewModel.state
+    fun runExperimentalBrandsAction(action: ExperimentalBrandsSelectionAction) = experimentalBrandsSelectionViewModel.runAction(action)
 }

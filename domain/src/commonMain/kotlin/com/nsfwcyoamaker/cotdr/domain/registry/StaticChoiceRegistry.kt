@@ -2,10 +2,7 @@ package com.nsfwcyoamaker.cotdr.domain.registry
 
 import com.nsfwcyoamaker.cotdr.domain.engine.model.Choice
 import com.nsfwcyoamaker.cotdr.domain.engine.repository.ChoiceRegistry
-import com.nsfwcyoamaker.cotdr.domain.model.BodilyModification
-import com.nsfwcyoamaker.cotdr.domain.model.Brand
-import com.nsfwcyoamaker.cotdr.domain.model.Covenant
-import com.nsfwcyoamaker.cotdr.domain.model.Priestess
+import com.nsfwcyoamaker.cotdr.domain.model.*
 
 object StaticChoiceRegistry : ChoiceRegistry {
     private val allChoices: List<Choice> = listOf(
@@ -13,6 +10,7 @@ object StaticChoiceRegistry : ChoiceRegistry {
         BodilyModification.all,
         Covenant.entries,
         Brand.all,
+        ExperimentalBrand.entries,
     ).flatten()
 
     override fun getAllChoices(): List<Choice> = allChoices

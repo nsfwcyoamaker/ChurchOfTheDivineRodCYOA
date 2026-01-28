@@ -27,6 +27,7 @@ object MainScreen: Screen {
         val bodilyModificationsState by screenModel.bodilyModificationsState.collectAsState()
         val covenantsState by screenModel.covenantsState.collectAsState()
         val brandsState by screenModel.brandsState.collectAsState()
+        val experimentalBrandsState by screenModel.experimentalBrandsState.collectAsState()
 
         Scaffold(
             containerColor = Color.Transparent,
@@ -51,6 +52,8 @@ object MainScreen: Screen {
                 MainPage4(
                     brandsState = brandsState,
                     onBrandAction = screenModel::runBrandsAction,
+                    experimentalBrandsState = experimentalBrandsState,
+                    onExperimentalBrandAction = screenModel::runExperimentalBrandsAction,
                 )
                 item { Spacer(modifier = Modifier.height(60.dp)) }
                 //TODO

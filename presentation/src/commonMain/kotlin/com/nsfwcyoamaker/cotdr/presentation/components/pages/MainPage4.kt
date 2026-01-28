@@ -7,19 +7,21 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
-import com.nsfwcyoamaker.cotdr.presentation.components.sections.brands.BrandsDescription
-import com.nsfwcyoamaker.cotdr.presentation.components.sections.brands.BrandsGridItem
-import com.nsfwcyoamaker.cotdr.presentation.components.sections.brands.BrandsTitle
+import com.nsfwcyoamaker.cotdr.presentation.components.sections.brands.*
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.history.HistoryDescription
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.history.HistoryTitle
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
 import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionState
+import com.nsfwcyoamaker.cotdr.presentation.screens.experimental_brands.ExperimentalBrandsSelectionAction
+import com.nsfwcyoamaker.cotdr.presentation.screens.experimental_brands.ExperimentalBrandsSelectionState
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 fun LazyListScope.MainPage4(
     brandsState: BrandsSelectionState,
-    onBrandAction: (BrandsSelectionAction) -> Unit
+    onBrandAction: (BrandsSelectionAction) -> Unit,
+    experimentalBrandsState: ExperimentalBrandsSelectionState,
+    onExperimentalBrandAction: (ExperimentalBrandsSelectionAction) -> Unit
 ) {
     item(
         key = "HistoryTitle",
@@ -51,12 +53,33 @@ fun LazyListScope.MainPage4(
 
     BrandsGridItem(
         brandsState,
-        onBrandAction
+        onBrandAction,
     )
 
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
-    //todo
+    item(
+        key = "BrandsInterlude",
+        contentType = "BrandsInterlude"
+    ) { BrandsInterlude() }
+
+    item { Spacer(modifier = Modifier.height(12.dp)) }
+
+    ExperimentalBrandsGridItem(
+        experimentalBrandsState,
+        onExperimentalBrandAction,
+    )
+
+    item { Spacer(modifier = Modifier.height(12.dp)) }
+
+    /*
+    item(
+        key = "BrandsExtra",
+        contentType = "BrandsExtra"
+    ) { BrandsExtra() }
+
+
+     */
 }
 
 @Preview(
@@ -69,6 +92,8 @@ private fun MainPage4Preview() {
         MainScreenList {
             MainPage4(
                 BrandsSelectionState(),
+                {},
+                ExperimentalBrandsSelectionState(),
                 {},
             )
         }

@@ -923,4 +923,216 @@ The bearer's feet will be comfortable in any footwear or on any surface, and wil
 Now, half as dexterous as hands might not sound like much, and true, if you want to do calligraphy it's no good. But if your goal is footjob? Oh, it's plenty.</desuriSpeech>
         ]]>
     </string>
+
+    <string name="section_brands_interlude">
+        <![CDATA[
+<desuriSpeech>That's all for the normal Brands. That said, there are some... experiments I've been looking into.
+A couple in places you can't actually paint or tattoo it on, some alternative mediums to a tattoo, those modifiers and complex enchants I mentioned, that sort of thing. They'll be more expensive to research since I'm blazing new territory here, but the bleeding edge of science and eroticism is never free!</desuriSpeech>
+
+All experimental Brands cost <b>-2 Fervor</b> to unlock. Options marked with (M) are modifiers, and can be assigned to any Brand individually. Modifiers do not take up a slot.
+        ]]>
+    </string>
+
+    <string name="brands_pupil_title"><![CDATA[<anglo>Pupil</anglo>]]></string>
+    <string name="brands_pupil_description">
+        <![CDATA[
+The bearer is able to see peoples' sensitivity, erogenous zones, and arousal like a sexual map of their body when they look at them. This can be toggled on and off.
+
+<desuriSpeech>These become more visible as the owner gets more aroused, so as a bonus you'll always have a barometer for the owner's mood.
+...then again, around you my arousal floor has basically been a low simmer, so maybe that's not so helpful after all.
+...You busy after this?</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="brands_egg_title"><![CDATA[<anglo>Egg</anglo>]]></string>
+    <string name="brands_egg_description">
+        <![CDATA[
+The bearer remains fertile for their entire lifespan and can get pregnant again while already pregnant. At the moment of fertilization, the bearer is consumed by an enormous orgasm, and will have pleasurable aftershocks for weeks.
+
+<desuriSpeech>For those who enjoy being pregnant itself rather than just the process of getting there.
+It's very easy to stay preggo forever with this, just get a new one blasted in you every few months.
+Hard to not, with how good it'll feel.</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="brands_hair_title"><![CDATA[<anglo>Hair</anglo>]]></string>
+    <string name="brands_hair_description">
+        <![CDATA[
+The bearer becomes able to feel positive and pleasurable sensations from their hair, while painful ones are muted (cutting does not hurt, etc). Their hair will also grow a foot per month.
+
+<desuriSpeech>This manifests by straight up changing the owner's hair color, rather than painting a pattern on it.
+Any color works, even multiple, blends, or simple patterns like one color inside and another outside.
+And yes, it DOES mean (lightly) erogenous hair.</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="brands_pussy_title"><![CDATA[<anglo>Pussy</anglo>]]></string>
+    <string name="brands_pussy_description">
+        <![CDATA[
+(You cannot use this Brand to make yourself completely dick-less)
+When placed on a penis, the penis inverts into a fully functional vagina and womb, and the Brand shifts to cover the outside of the vagina. If the bearer already has a vagina, the penis shrinks back to a clitoris. The bearer can only maintain the transformation for 4 hours per day.
+
+<desuriSpeech>My CROWNING ACHIEVEMENT!
+A lot more than just ink goes into making this tattoo, but oh boy, it's worth it!</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="brands_piercings_title"><![CDATA[<anglo>Piercings (M)</anglo>]]></string>
+    <string name="brands_piercings_description">
+        <![CDATA[
+The tattoo for a Brand can be replaced with a piercing in the same spot.
+
+<desuriSpeech>PLEASE take this one, oh my gosh I want this to proliferate so bad.
+I have experienced few things more gratifying than seeing a cute girl's reaction when I stroke her newly healed barbell and the sensation from it makes her moan involuntarily.
+It's sooo good, try it on me later!
+
+Oh, and uh, these can only go in sensible places. No pupil or hair piercings.</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="brands_minimal_title"><![CDATA[<anglo>Minimal (M)</anglo>]]></string>
+    <string name="brands_minimal_description">
+        <![CDATA[
+The Brand's mark will be minimized, being small and simple. It will be easy to overlook it, and others tend not to notice them unless inspecting the body part or it is pointed out.
+
+<desuriSpeech>Not everyone is a fan of getting inked up, sad but true.
+It might sound strange that making a Brand small is a modifier, but it actually takes some work to compress it all down into one tiny spot.
+I can do tiny crosses, dots, lines, stars, hearts, and shapes like that.
+Ah, sadly the erogenous zone shrinks as well. Tragic, really.</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="brands_light_title"><![CDATA[<anglo>Light (M)</anglo>]]></string>
+    <string name="brands_light_description">
+        <![CDATA[
+The marking for a Brand dissolves upon conversion to a Brand, instead glowing in the former design when the Brand's effect is active.
+
+<desuriSpeech>The stealth approach, huh.
+A bit of a shame in my opinion, I really do like seeing the art we etch onto followers.
+But on the other hand, seeing a pure and innocent girl's body light up as you play with her, and you realize how dirty she really is... there's a charm there for sure.</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="brands_talisman_title"><![CDATA[<anglo>Talisman (M)</anglo>]]></string>
+    <string name="brands_talisman_description">
+        <![CDATA[
+Any Brand can be applied as a short lived talisman, letting the bearer try the Brand before they commit to it. If the max Brand limit is already reached, the talismans will not apply any location-specific effects, only the generic effects.
+
+<desuriSpeech>I got the idea for this from Shinto shrines in Japan, or rather some saucy shrine maidens wearing these over their naughty bits.
+Fun trick: the erogenous zone intensifies if you stack multiple on the same spot.</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="brands_marking_title"><![CDATA[<anglo>Marking (M)</anglo>]]></string>
+    <string name="brands_marking_description">
+        <![CDATA[
+You can create Brands yourself by leaving a mark on a follower (of any kind) and imbuing it with intent to be a Brand. The mark will be left on the follower's body permanently.
+
+<desuriSpeech>Mark your dominance over us with your own hands!
+Body writing, a hickey, a lipstick kiss, a tattoo of your own making, or just a good old fashioned smack across the ass!
+Whatever it is gets immortalized forever by the magic of the Brand!</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="experimental_brands_pupil_title"><![CDATA[<anglo>Pupil</anglo>]]></string>
+    <string name="experimental_brands_pupil_description">
+        <![CDATA[
+The bearer is able to see peoples' sensitivity, erogenous zones, and arousal like a sexual map of their body when they look at them. This can be toggled on and off.
+
+<desuriSpeech>These become more visible as the owner gets more aroused, so as a bonus you'll always have a barometer for the owner's mood.
+...then again, around you my arousal floor has basically been a low simmer, so maybe that's not so helpful after all.
+...You busy after this?</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="experimental_brands_egg_title"><![CDATA[<anglo>Egg</anglo>]]></string>
+    <string name="experimental_brands_egg_description">
+        <![CDATA[
+The bearer remains fertile for their entire lifespan and can get pregnant again while already pregnant. At the moment of fertilization, the bearer is consumed by an enormous orgasm, and will have pleasurable aftershocks for weeks.
+
+<desuriSpeech>For those who enjoy being pregnant itself rather than just the process of getting there.
+It's very easy to stay preggo forever with this, just get a new one blasted in you every few months.
+Hard to not, with how good it'll feel.</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="experimental_brands_hair_title"><![CDATA[<anglo>Hair</anglo>]]></string>
+    <string name="experimental_brands_hair_description">
+        <![CDATA[
+The bearer becomes able to feel positive and pleasurable sensations from their hair, while painful ones are muted (cutting does not hurt, etc). Their hair will also grow a foot per month.
+
+<desuriSpeech>This manifests by straight up changing the owner's hair color, rather than painting a pattern on it.
+Any color works, even multiple, blends, or simple patterns like one color inside and another outside.
+And yes, it DOES mean (lightly) erogenous hair.</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="experimental_brands_pussy_title"><![CDATA[<anglo>Pussy</anglo>]]></string>
+    <string name="experimental_brands_pussy_description">
+        <![CDATA[
+(You cannot use this Brand to make yourself completely dick-less)
+When placed on a penis, the penis inverts into a fully functional vagina and womb, and the Brand shifts to cover the outside of the vagina. If the bearer already has a vagina, the penis shrinks back to a clitoris. The bearer can only maintain the transformation for 4 hours per day.
+
+<desuriSpeech>My CROWNING ACHIEVEMENT!
+A lot more than just ink goes into making this tattoo, but oh boy, it's worth it!</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="experimental_brands_piercings_title"><![CDATA[<anglo>Piercings (M)</anglo>]]></string>
+    <string name="experimental_brands_piercings_description">
+        <![CDATA[
+The tattoo for a Brand can be replaced with a piercing in the same spot.
+
+<desuriSpeech>PLEASE take this one, oh my gosh I want this to proliferate so bad.
+I have experienced few things more gratifying than seeing a cute girl's reaction when I stroke her newly healed barbell and the sensation from it makes her moan involuntarily.
+It's sooo good, try it on me later!
+
+Oh, and uh, these can only go in sensible places. No pupil or hair piercings.</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="experimental_brands_minimal_title"><![CDATA[<anglo>Minimal (M)</anglo>]]></string>
+    <string name="experimental_brands_minimal_description">
+        <![CDATA[
+The Brand's mark will be minimized, being small and simple. It will be easy to overlook it, and others tend not to notice them unless inspecting the body part or it is pointed out.
+
+<desuriSpeech>Not everyone is a fan of getting inked up, sad but true.
+It might sound strange that making a Brand small is a modifier, but it actually takes some work to compress it all down into one tiny spot.
+I can do tiny crosses, dots, lines, stars, hearts, and shapes like that.
+Ah, sadly the erogenous zone shrinks as well. Tragic, really.</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="experimental_brands_light_title"><![CDATA[<anglo>Light (M)</anglo>]]></string>
+    <string name="experimental_brands_light_description">
+        <![CDATA[
+The marking for a Brand dissolves upon conversion to a Brand, instead glowing in the former design when the Brand's effect is active.
+
+<desuriSpeech>The stealth approach, huh.
+A bit of a shame in my opinion, I really do like seeing the art we etch onto followers.
+But on the other hand, seeing a pure and innocent girl's body light up as you play with her, and you realize how dirty she really is... there's a charm there for sure.</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="experimental_brands_talisman_title"><![CDATA[<anglo>Talisman (M)</anglo>]]></string>
+    <string name="experimental_brands_talisman_description">
+        <![CDATA[
+Any Brand can be applied as a short lived talisman, letting the bearer try the Brand before they commit to it. If the max Brand limit is already reached, the talismans will not apply any location-specific effects, only the generic effects.
+
+<desuriSpeech>I got the idea for this from Shinto shrines in Japan, or rather some saucy shrine maidens wearing these over their naughty bits.
+Fun trick: the erogenous zone intensifies if you stack multiple on the same spot.</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="experimental_brands_marking_title"><![CDATA[<anglo>Marking (M)</anglo>]]></string>
+    <string name="experimental_brands_marking_description">
+        <![CDATA[
+You can create Brands yourself by leaving a mark on a follower (of any kind) and imbuing it with intent to be a Brand. The mark will be left on the follower's body permanently.
+
+<desuriSpeech>Mark your dominance over us with your own hands!
+Body writing, a hickey, a lipstick kiss, a tattoo of your own making, or just a good old fashioned smack across the ass!
+Whatever it is gets immortalized forever by the magic of the Brand!</desuriSpeech>
+        ]]>
+    </string>
+
 </resources>

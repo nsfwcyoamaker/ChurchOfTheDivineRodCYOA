@@ -1,0 +1,5 @@
+package com.nsfwcyoamaker.cotdr.presentation.screens.experimental_brands
+
+import com.nsfwcyoamaker.cotdr.presentationToadHandler.ViewAction
+
+interface ExperimentalBrandsSelectionAction: ViewAction<ExperimentalBrandsSelectionActionDependencies, ExperimentalBrandsSelectionState, Nothing>
