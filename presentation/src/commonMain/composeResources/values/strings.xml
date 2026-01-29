@@ -1418,4 +1418,41 @@ Sitting there on the edge of the bed, covered in the results of your passion, wi
         ]]>
     </string>
 
+    <string name="servant_conduct_unrestrained_title"><![CDATA[<anglo>Unrestrained</anglo>]]></string>
+    <string name="servant_conduct_unrestrained_description">
+        <![CDATA[
+They're demons. Whether it's because you only care about your followers, you don't want to deny them their true natures, or perhaps something else, you let them live more freely.
+
+The demon will dress how they want, often keeping their skimpier and more devilish clothing.
+They will also recruit followers for their schemes every so often, inflicting a temporary demonization and including them in their obligation activities. Affects all followers as a Familiar.
+
+<b>-1 Fervor per Demon</b>
+        ]]>
+    </string>
+
+    <string name="servant_conduct_aligned_title"><![CDATA[<anglo>Aligned</anglo>]]></string>
+    <string name="servant_conduct_aligned_description">
+        <![CDATA[
+Regardless of anything else, this is your Church, and a Church has followers. You don't care so much if they keep the faith in their minds, but they damn well better at least act the part.
+
+The demon will act like a follower, wearing vestments of varying degrees of skin exposure and attending normal services and activities. Outside of these, they are free to do and play as they please, as long as they don't disrupt the rest of the church too much.
+Affects 2/3 of followers as a Familiar.
+
+<b>No Fervor change</b>
+        ]]>
+    </string>
+
+    <string name="servant_conduct_subjugated_title"><![CDATA[<anglo>Subjugated</anglo>]]></string>
+    <string name="servant_conduct_subjugated_description">
+        <![CDATA[
+They're demons, yes, but you're the one with the power in this relationship, and you're not going to let them forget it.
+In fact, you're going to make the most of it.
+
+The demon will be treated as the subservient being they are, with orders to wear things like maid costumes or a harem outfit, and restrain their activities among the Church. High rank followers may sometimes capture them and toy with them as a show for you.
+Affects 1/3 of followers as a Familiar.
+
+<b>+1 Fervor per Demon</b>
+        ]]>
+    </string>
+
 </resources>

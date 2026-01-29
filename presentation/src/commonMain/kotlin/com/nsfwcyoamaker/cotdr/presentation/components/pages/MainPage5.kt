@@ -15,11 +15,10 @@ import com.nsfwcyoamaker.cotdr.presentation.components.sections.demons.DemonsDes
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.demons.DemonsTitle
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.servant_conduct.ServantConductDescription
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.servant_conduct.ServantConductExtra
+import com.nsfwcyoamaker.cotdr.presentation.components.sections.servant_conduct.ServantConductGridItem
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.servant_conduct.ServantConductTitle
-import com.nsfwcyoamaker.cotdr.presentation.model.BrandState
 import com.nsfwcyoamaker.cotdr.presentation.model.ContractOption
 import com.nsfwcyoamaker.cotdr.presentation.model.ContractState
-import com.nsfwcyoamaker.cotdr.presentation.model.ExperimentalBrandState
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
 import com.nsfwcyoamaker.cotdr.presentation.screens.contracts.ContractsSelectionAction
 import org.jetbrains.compose.ui.tooling.preview.Preview
@@ -84,6 +83,10 @@ fun LazyListScope.MainPage5(
 
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
+    ServantConductGridItem()
+
+    item { Spacer(modifier = Modifier.height(12.dp)) }
+
     item(
         key = "ServantConductExtra",
         contentType = "ServantConductExtra",
@@ -98,10 +101,8 @@ fun LazyListScope.MainPage5(
 private fun MainPage4Preview() {
     AppScope {
         MainScreenList {
-            MainPage4(
-                { option -> BrandState(option) },
-                {},
-                { option -> ExperimentalBrandState(option) },
+            MainPage5(
+                { option -> ContractState(option) },
                 {},
             )
         }
