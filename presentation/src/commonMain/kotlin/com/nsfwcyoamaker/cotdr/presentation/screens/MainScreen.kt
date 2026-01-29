@@ -21,6 +21,60 @@ object MainScreen: Screen {
     override fun Content() {
         val screenModel = koinScreenModel<MainScreenModel>()
 
+        val consortsProvider = remember(screenModel) {
+            @Composable { option: PriestessIntroductionOption ->
+                val state by screenModel.consortsSelectionViewModel.state.mapAsState(option) { consortsState ->
+                    consortsState.items[option]
+                }
+                state ?: PriestessIntroductionState(option)
+            }
+        }
+
+        val bodilyModProvider = remember(screenModel) {
+            @Composable { option: BodilyModificationOption ->
+                val state by screenModel.bodilyModificationsViewModel.state.mapAsState(option) { bodilyModificationsState ->
+                    bodilyModificationsState.items[option]
+                }
+                state ?: BodilyModificationState(option)
+            }
+        }
+
+        val covenantProvider = remember(screenModel) {
+            @Composable { option: CovenantOption ->
+                val state by screenModel.covenantsSelectionViewModel.state.mapAsState(option) { covenantsState ->
+                    covenantsState.items[option]
+                }
+                state ?: CovenantState(option)
+            }
+        }
+
+        val brandProvider = remember(screenModel) {
+            @Composable { option: BrandOption ->
+                val state by screenModel.brandsSelectionViewModel.state.mapAsState(option) { brandsState ->
+                    brandsState.items[option]
+                }
+                state ?: BrandState(option)
+            }
+        }
+
+        val experimentalBrandProvider = remember(screenModel) {
+            @Composable { option: ExperimentalBrandOption ->
+                val state by screenModel.experimentalBrandsSelectionViewModel.state.mapAsState(option) { brandsState ->
+                    brandsState.items[option]
+                }
+                state ?: ExperimentalBrandState(option)
+            }
+        }
+
+        val contractProvider = remember(screenModel) {
+            @Composable { option: ContractOption ->
+                val state by screenModel.contractsSelectionViewModel.state.mapAsState(option) { contractState ->
+                    contractState.items[option]
+                }
+                state ?: ContractState(option)
+            }
+        }
+
         Scaffold(
             containerColor = Color.Transparent,
             bottomBar = {
@@ -31,58 +85,36 @@ object MainScreen: Screen {
             MainScreenList {
                 MainPage1(
                     onConsortsAction = screenModel.consortsSelectionViewModel::runAction,
-                    itemStateProvider = { option ->
-                        val state by screenModel.consortsSelectionViewModel.state.mapAsState(option) { consortsState ->
-                            consortsState.items[option]
-                        }
-                        state ?: PriestessIntroductionState(option)
-                    },
+                    itemStateProvider = consortsProvider,
                 )
+
                 item { Spacer(modifier = Modifier.height(60.dp)) }
+
                 MainPage2(
                     onBodilyModificationAction = screenModel.bodilyModificationsViewModel::runAction,
-                    itemStateProvider = { option ->
-                        val state by screenModel.bodilyModificationsViewModel.state.mapAsState(option) { bodilyModificationsState ->
-                            bodilyModificationsState.items[option]
-                        }
-                        state ?: BodilyModificationState(option)
-                    }
+                    itemStateProvider = bodilyModProvider
                 )
+
                 item { Spacer(modifier = Modifier.height(60.dp)) }
+
                 MainPage3(
                     onCovenantAction = screenModel.covenantsSelectionViewModel::runAction,
-                    itemStateProvider = { option ->
-                        val state by screenModel.covenantsSelectionViewModel.state.mapAsState(option) { covenantsState ->
-                            covenantsState.items[option]
-                        }
-                        state ?: CovenantState(option)
-                    }
+                    itemStateProvider = covenantProvider
                 )
+
                 item { Spacer(modifier = Modifier.height(60.dp)) }
+
                 MainPage4(
-                    brandStateProvider = { option ->
-                        val state by screenModel.brandsSelectionViewModel.state.mapAsState(option) { brandsState ->
-                            brandsState.items[option]
-                        }
-                        state ?: BrandState(option)
-                    },
+                    brandStateProvider = brandProvider,
                     onBrandAction = screenModel.brandsSelectionViewModel::runAction,
-                    experimentalBrandStateProvider = { option ->
-                        val state by screenModel.experimentalBrandsSelectionViewModel.state.mapAsState(option) { brandsState ->
-                            brandsState.items[option]
-                        }
-                        state ?: ExperimentalBrandState(option)
-                    },
+                    experimentalBrandStateProvider = experimentalBrandProvider,
                     onExperimentalBrandAction = screenModel.experimentalBrandsSelectionViewModel::runAction,
                 )
+
                 item { Spacer(modifier = Modifier.height(60.dp)) }
+
                 MainPage5(
-                    contractStateProvider = { option ->
-                        val state by screenModel.contractsSelectionViewModel.state.mapAsState(option) { contractState ->
-                            contractState.items[option]
-                        }
-                        state ?: ContractState(option)
-                    },
+                    contractStateProvider = contractProvider,
                     onContractAction = screenModel.contractsSelectionViewModel::runAction,
                 )
             }
