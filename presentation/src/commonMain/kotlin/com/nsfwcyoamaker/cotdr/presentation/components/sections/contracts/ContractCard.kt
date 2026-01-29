@@ -7,6 +7,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.composableRichText.rememberRichTextResource
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
@@ -24,6 +25,7 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 fun ContractCard(
     state: ContractState,
     onSelected: () -> Unit,
+    onAlternativeSelected: (ContractState.AlternativeState) -> Unit,
     modifier: Modifier = Modifier,
 ) {
     SelectableCard(
@@ -73,14 +75,34 @@ fun ContractCard(
 
                 Column(
                     modifier = Modifier.weight(2f),
-                    verticalArrangement = Arrangement.spacedBy(4.dp),
                 ) {
                     Text(
-                        text = rememberRichTextResource(state.option.description),
+                        text = rememberRichTextResource(state.option.selfDescription),
                         style = smallerTextStyle,
                     )
 
+                    Row(
+                        horizontalArrangement = Arrangement.spacedBy(4.dp),
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(IntrinsicSize.Min)
+                            .padding(horizontal = 2.dp),
+                    ) {
+                        state.alternatives.forEach { alternative ->
+                            AlternativeCard(
+                                alternative = alternative,
+                                onClick = { onAlternativeSelected(alternative) },
+                                modifier = Modifier.weight(1f).fillMaxHeight(),
+                            )
+                        }
+                    }
+
                     Box(modifier = Modifier.weight(1f))
+
+                    Text(
+                        text = rememberRichTextResource(state.option.priestessDescription),
+                        style = smallerTextStyle,
+                    )
                 }
 
                 Column(
@@ -104,6 +126,39 @@ fun ContractCard(
     }
 }
 
+@Composable
+private fun AlternativeCard(
+    alternative: ContractState.AlternativeState,
+    onClick: () -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    SelectableCard(
+        isSelected = alternative.isSelected,
+        isClickable = true,
+        onSelected = onClick,
+        cornerBracketsVisible = false,
+        modifier = modifier,
+    ) {
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.spacedBy(2.dp),
+            modifier = Modifier.fillMaxSize()
+        ) {
+            Text(
+                text = rememberRichTextResource(alternative.contractAlternative.text),
+                style = smallerTextStyle,
+                textAlign = TextAlign.Center,
+            )
+
+            Text(
+                text = rememberRichTextResource(alternative.contractAlternative.description),
+                style = smallerTextStyle,
+                textAlign = TextAlign.Justify,
+            )
+        }
+    }
+}
+
 @Preview(
     widthDp = 1920,
     heightDp = 1080,
@@ -118,6 +173,7 @@ private fun ContractCardPreview() {
             ContractCard(
                 state = ContractState(ContractOption.FelicLusch),
                 onSelected = {},
+                onAlternativeSelected = {},
                 modifier = Modifier
                     .fillMaxWidth(0.2f)
                     .wrapContentHeight(),

@@ -1,11 +1,8 @@
 package com.nsfwcyoamaker.cotdr.presentation.components.sections.contracts
 
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.presentation.components.ChoicesGrid
 import com.nsfwcyoamaker.cotdr.presentation.model.ContractOption
@@ -33,21 +30,11 @@ fun LazyListScope.ContractsGridItem(
                 onSelected = {
                     onContractAction(ToggleContractAction(state.option.choice))
                 },
-            )
-        },
-        extraContent = { option ->
-            val state = itemStateProvider(option)
-
-            ContractAlternativeRow(
-                alternativeStates = state.alternatives,
-                onSelected = { alternative ->
+                onAlternativeSelected = { alternative ->
                     onContractAction(ToggleContractAlternativeAction(alternative.contractAlternative))
                 },
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .wrapContentHeight()
             )
-        }
+        },
     )
 }
 
