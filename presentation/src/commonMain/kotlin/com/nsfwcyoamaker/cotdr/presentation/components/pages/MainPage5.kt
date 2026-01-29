@@ -7,11 +7,15 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
+import com.nsfwcyoamaker.cotdr.presentation.WIPItem
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.contracts.ContractsDescription
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.contracts.ContractsGridItem
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.contracts.ContractsTitle
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.demons.DemonsDescription
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.demons.DemonsTitle
+import com.nsfwcyoamaker.cotdr.presentation.components.sections.servant_conduct.ServantConductDescription
+import com.nsfwcyoamaker.cotdr.presentation.components.sections.servant_conduct.ServantConductExtra
+import com.nsfwcyoamaker.cotdr.presentation.components.sections.servant_conduct.ServantConductTitle
 import com.nsfwcyoamaker.cotdr.presentation.model.BrandState
 import com.nsfwcyoamaker.cotdr.presentation.model.ContractOption
 import com.nsfwcyoamaker.cotdr.presentation.model.ContractState
@@ -59,7 +63,31 @@ fun LazyListScope.MainPage5(
 
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
-    //todo
+    item(
+        key = "ServantConductTitle",
+        contentType = "ServantConductTitle",
+    ) { ServantConductTitle() }
+
+    item { Spacer(modifier = Modifier.height(12.dp)) }
+
+    item(
+        key = "ServantConductDescription",
+        contentType = "ServantConductDescription",
+    ) { ServantConductDescription() }
+
+    item { Spacer(modifier = Modifier.height(12.dp)) }
+
+    item(
+        key = "ServantConductWIP",
+        contentType = "ServantConductWIP",
+    ) { WIPItem() }
+
+    item { Spacer(modifier = Modifier.height(12.dp)) }
+
+    item(
+        key = "ServantConductExtra",
+        contentType = "ServantConductExtra",
+    ) { ServantConductExtra() }
 }
 
 @Preview(
