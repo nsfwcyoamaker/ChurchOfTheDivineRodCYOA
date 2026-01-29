@@ -216,7 +216,7 @@ The good news is, we definitely all like what we see now~</acerolaSpeech>
     <string name="mod_dual_wield_desc">
         <![CDATA[
 You grow a second dick, right next to the first. It is identical to the first dick aside from placement, and each works independently of the other(s).
-Can be taken multiple times, Fervor gain decreases each time (8, 4, 2, 1, O...)
+Can be taken multiple times, Fervor gain decreases each time (8, 4, 2, 1, 0...)
 
 <acerolaSpeech>I, um, don't know if you realize it but, since your cock is your bodily symbol of divinity, having multiple of them...
 W-well, everyone is going to be VERY excited to see this. In fact, I should probably help test them, to make sure they all work properly... for safety!</acerolaSpeech>
@@ -406,6 +406,8 @@ And as a bonus, materials from your divine body make for fantastic ritual compon
     <string name="mod_rapunzel_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
 
     <string name="mod_make_permanent"><![CDATA[make <b>permanent</b>]]></string>
+    <string name="mod_upgrade_fervor_descr"><![CDATA[<b>%s Fervor</b> instead]]></string>
+    <string name="mod_multibuy_fervor_descr"><![CDATA[Total <b>Fervor</b>: <b>%s</b>]]></string>
 
     <string name="default_upgrade_text"><![CDATA[<b>Upgrade</b>]]></string>
 

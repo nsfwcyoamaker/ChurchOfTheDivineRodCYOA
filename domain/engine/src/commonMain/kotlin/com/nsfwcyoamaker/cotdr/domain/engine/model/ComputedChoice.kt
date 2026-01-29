@@ -18,6 +18,7 @@ sealed interface ComputedChoice {
         val quantity: Int = 0,
         val maxQuantity: Int? = null,
         val canBuyMore: Boolean = true,
+        val totalCost: Resources,
     ): ComputedChoice
 
     data class Upgradable(

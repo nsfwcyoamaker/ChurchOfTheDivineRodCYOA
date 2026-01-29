@@ -12,5 +12,25 @@ fun rememberRichTextResource(
     styles: Map<String, TagHandler> = LocalRichTextStyles.current
 ): AnnotatedString {
     val string = stringResource(stringRes)
-    return remember(string) { string.smartTrim().parseRichText(styles) }
+    return remember(string) {
+        string
+            .smartTrim()
+            .parseRichText(styles)
+    }
+}
+
+@Composable
+fun rememberRichTextResource(
+    stringRes: StringResource,
+    placeholder: String,
+    replacement: String,
+    styles: Map<String, TagHandler> = LocalRichTextStyles.current
+): AnnotatedString {
+    val string = stringResource(stringRes)
+    return remember(string, placeholder, replacement) {
+        string
+            .replace(placeholder, replacement)
+            .smartTrim()
+            .parseRichText(styles)
+    }
 }

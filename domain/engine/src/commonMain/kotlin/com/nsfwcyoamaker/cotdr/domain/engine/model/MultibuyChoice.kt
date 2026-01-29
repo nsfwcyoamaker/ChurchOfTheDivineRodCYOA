@@ -28,6 +28,7 @@ interface MultibuyChoice: Choice {
             quantity = state?.quantity ?: 0,
             maxQuantity = max,
             canBuyMore = max?.let { (state?.quantity ?: 0) < it } ?: true,
+            totalCost = calculateCost(ctx),
         )
     }
 }

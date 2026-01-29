@@ -8,12 +8,14 @@ sealed interface UiControlState {
     data class MultiBuy(
         val count: Int,
         val max: Int?,
-        val canBuyMore: Boolean
+        val canBuyMore: Boolean,
+        val totalFervor: Int,
     ) : UiControlState
 
     data class Upgrade(
         val text: StringResource,
         val isEnabled: Boolean,
-        val isSelected: Boolean
+        val isSelected: Boolean,
+        val fervor: Int,
     ) : UiControlState
 }
