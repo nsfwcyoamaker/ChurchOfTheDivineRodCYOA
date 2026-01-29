@@ -27,4 +27,11 @@ sealed interface ComputedChoice {
         val isUpgradeAvailable: Boolean = true,
         val isUpgradeSelected: Boolean = false,
     ): ComputedChoice
+
+    data class Alternative(
+        override val choice: AlternativeChoice,
+        override val state: ChoiceState.Alternative? = null,
+        override val isAvailable: Boolean = true,
+        val selected: AlternativeChoice.Option = choice.options.first(),
+    ): ComputedChoice
 }

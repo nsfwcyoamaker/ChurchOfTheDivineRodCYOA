@@ -11,7 +11,7 @@ enum class BodilyModificationOption(
     val description: StringResource,
     val cost: StringResource,
     val image: DrawableResource,
-    override val upgradeText: StringResource? = null,
+    val upgradeText: StringResource? = null,
 ): UiOption {
     BodyRemodeling(
         BodilyModification.BodyRemodeling,

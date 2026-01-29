@@ -9,7 +9,7 @@ enum class BrandOption(
     override val choice: Brand,
     val title: StringResource,
     val description: StringResource,
-    val image: DrawableResource?,
+    val image: DrawableResource,
 ): UiOption {
     Womb(
         choice = Brand.Womb,

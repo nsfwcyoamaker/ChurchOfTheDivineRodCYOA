@@ -7,6 +7,7 @@ import com.nsfwcyoamaker.cotdr.domain.model.CotdrCurrency
 import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.ConsortsSelectionViewModel
+import com.nsfwcyoamaker.cotdr.presentation.screens.contracts.ContractsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.experimental_brands.ExperimentalBrandsSelectionViewModel
 import kotlinx.coroutines.flow.SharingStarted
@@ -28,4 +29,5 @@ class MainScreenModel: ScreenModel, KoinComponent {
     val covenantsSelectionViewModel by inject<CovenantsSelectionViewModel> { parametersOf(screenModelScope) }
     val brandsSelectionViewModel by inject<BrandsSelectionViewModel> { parametersOf(screenModelScope) }
     val experimentalBrandsSelectionViewModel by inject<ExperimentalBrandsSelectionViewModel> { parametersOf(screenModelScope) }
+    val contractsSelectionViewModel by inject<ContractsSelectionViewModel> { parametersOf(screenModelScope) }
 }

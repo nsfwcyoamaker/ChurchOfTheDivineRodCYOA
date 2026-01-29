@@ -10,10 +10,7 @@ import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.koin.koinScreenModel
 import com.nsfwcyoamaker.cotdr.presentation.components.CyoaBottomBar
-import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage1
-import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage2
-import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage3
-import com.nsfwcyoamaker.cotdr.presentation.components.pages.MainPage4
+import com.nsfwcyoamaker.cotdr.presentation.components.pages.*
 import com.nsfwcyoamaker.cotdr.presentation.model.*
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.distinctUntilChanged
@@ -79,7 +76,15 @@ object MainScreen: Screen {
                     onExperimentalBrandAction = screenModel.experimentalBrandsSelectionViewModel::runAction,
                 )
                 item { Spacer(modifier = Modifier.height(60.dp)) }
-                //TODO
+                MainPage5(
+                    contractStateProvider = { option ->
+                        val state by screenModel.contractsSelectionViewModel.state.mapAsState(option) { contractState ->
+                            contractState.items[option]
+                        }
+                        state ?: ContractState(option)
+                    },
+                    onContractAction = screenModel.contractsSelectionViewModel::runAction,
+                )
             }
         }
     }

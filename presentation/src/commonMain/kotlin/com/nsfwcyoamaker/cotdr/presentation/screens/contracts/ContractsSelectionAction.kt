@@ -1,0 +1,5 @@
+package com.nsfwcyoamaker.cotdr.presentation.screens.contracts
+
+import com.nsfwcyoamaker.cotdr.presentationToadHandler.ViewAction
+
+interface ContractsSelectionAction: ViewAction<ContractsSelectionActionDependencies, ContractsSelectionState, Nothing>

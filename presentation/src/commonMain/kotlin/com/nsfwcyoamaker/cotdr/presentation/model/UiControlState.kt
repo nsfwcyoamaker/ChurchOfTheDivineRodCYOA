@@ -16,4 +16,17 @@ sealed interface UiControlState {
         val isEnabled: Boolean,
         val isSelected: Boolean
     ) : UiControlState
+
+    /*
+    data class Alternative(
+        val options: List<Option>
+    ) {
+        data class Option(
+            val text: StringResource,
+            val isSelected: Boolean,
+            val isEnabled: Boolean,
+        )
+    }
+
+     */
 }
