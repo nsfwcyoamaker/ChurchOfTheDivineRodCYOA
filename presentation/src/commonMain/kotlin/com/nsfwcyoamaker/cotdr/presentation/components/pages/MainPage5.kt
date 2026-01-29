@@ -15,7 +15,7 @@ import com.nsfwcyoamaker.cotdr.presentation.components.sections.demons.DemonsDes
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.demons.DemonsTitle
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.servant_conduct.ServantConductDescription
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.servant_conduct.ServantConductExtra
-import com.nsfwcyoamaker.cotdr.presentation.components.sections.servant_conduct.ServantConductGridItem
+import com.nsfwcyoamaker.cotdr.presentation.components.sections.servant_conduct.ServantConductItemsRow
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.servant_conduct.ServantConductTitle
 import com.nsfwcyoamaker.cotdr.presentation.model.ContractOption
 import com.nsfwcyoamaker.cotdr.presentation.model.ContractState
@@ -83,7 +83,10 @@ fun LazyListScope.MainPage5(
 
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
-    ServantConductGridItem()
+    item(
+        key = "ServantConductItemsRow",
+        contentType = "ServantConductItemsRow",
+    ) { ServantConductItemsRow() }
 
     item { Spacer(modifier = Modifier.height(12.dp)) }
 

@@ -13,6 +13,7 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @OptIn(ExperimentalLayoutApi::class)
 fun LazyListScope.ServantConductGridItem() {
+    //todo actual grid of choices.
     item(
         key = "servant_conduct_row_1",
         contentType = "servant_conduct_row"
