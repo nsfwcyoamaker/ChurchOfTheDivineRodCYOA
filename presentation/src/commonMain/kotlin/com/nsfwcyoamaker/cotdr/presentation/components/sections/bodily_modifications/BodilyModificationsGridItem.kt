@@ -25,7 +25,7 @@ fun LazyListScope.BodilyModificationsGridItem(
     onBodilyModificationAction: (BodilyModificationsSelectionAction) -> Unit
 ) {
     ChoicesGrid(
-        items = BodilyModificationOption.entries,
+        items = BodilyModificationOption.all,
         columns = 3,
         key = "bodily_modifications_row",
         contentType = "bodily_modifications_row",
@@ -54,7 +54,7 @@ fun LazyListScope.BodilyModificationsGridItem(
                         modifier = Modifier.fillMaxWidth().wrapContentHeight(),
                     )
                 }
-                is UiControlState.None -> {}
+                else -> {}
             }
         }
     )

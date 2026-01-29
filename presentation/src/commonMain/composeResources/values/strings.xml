@@ -1382,5 +1382,8 @@ To bind them as a <b>Familiar</b> costs <b>-4 Fervor</b>. This forces them to ob
         ]]>
     </string>
 
+    <string name="contract_option_servant"><![CDATA[<b>Servant</b>]]></string>
+    <string name="contract_option_familiar"><![CDATA[<b>Familiar</b>]]></string>
+
 
 </resources>

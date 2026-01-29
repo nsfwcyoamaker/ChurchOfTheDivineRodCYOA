@@ -19,4 +19,5 @@ fun engineModule() = module {
     factoryOf(::ToggleChoiceUpgradeUseCase)
     factoryOf(::DecreaseChoiceBuyTimesUseCase)
     factoryOf(::IncreaseChoiceBuyTimesUseCase)
+    factoryOf(::ToggleChoiceAlternativeUseCase)
 }

@@ -2,18 +2,19 @@ package com.nsfwcyoamaker.cotdr.domain.engine.model
 
 
 interface AlternativeChoice: Choice {
-    interface Option {
+    interface Alternative {
+        val choice: AlternativeChoice
         val cost: Resources
     }
 
-    val options: List<Option>
+    val alternatives: List<Alternative>
 
-    override fun getDefaultState(): ChoiceState.Alternative = ChoiceState.Alternative(options.first())
+    override fun getDefaultState(): ChoiceState.Alternative = ChoiceState.Alternative(alternatives.first())
     override fun getValidState(ctx: CalculationContext): ChoiceState.Alternative? {
         return ctx.selections[this]
             ?.let { it as? ChoiceState.Alternative }
             ?.takeIf { requirementsMet(ctx) }
-            ?.takeIf { it.selected in options }
+            ?.takeIf { it.selected in alternatives }
     }
     override fun requirementsMet(ctx: CalculationContext): Boolean = true
     override fun calculateCost(ctx: CalculationContext): Resources {
@@ -25,7 +26,7 @@ interface AlternativeChoice: Choice {
             choice = this,
             state = state,
             isAvailable = requirementsMet(ctx),
-            selected = state?.selected ?: options.first()
+            selected = state?.selected ?: alternatives.first()
         )
     }
 }

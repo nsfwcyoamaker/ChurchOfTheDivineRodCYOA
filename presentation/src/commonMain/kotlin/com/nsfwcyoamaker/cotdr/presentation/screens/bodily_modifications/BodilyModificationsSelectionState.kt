@@ -8,6 +8,6 @@ data class BodilyModificationsSelectionState(
     val items: Map<BodilyModificationOption, BodilyModificationState> = defaultState(),
 ): ViewState {
     companion object {
-        fun defaultState() = BodilyModificationOption.entries.associateWith(::BodilyModificationState)
+        fun defaultState() = BodilyModificationOption.all.associateWith(::BodilyModificationState)
     }
 }

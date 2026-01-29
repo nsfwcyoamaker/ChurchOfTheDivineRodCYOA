@@ -110,4 +110,30 @@ enum class ContractOption(
         demonImage = Res.drawable.contract_vivianne_demon,
         nunImage = Res.drawable.contract_vivianne_nun
     );
+
+    val alternatives: List<Alternative> = listOf(Servant(this), Familiar(this))
+
+    interface Alternative {
+        val contractOption: ContractOption
+        val originalAlternative: Contract.Alternative
+        val text: StringResource
+    }
+
+    data class Servant(
+        override val contractOption: ContractOption,
+    ): Alternative {
+        override val originalAlternative: Contract.Alternative
+            get() = Contract.Servant(contractOption.choice)
+        override val text: StringResource
+            get() = Res.string.contract_option_servant
+    }
+
+    data class Familiar(
+        override val contractOption: ContractOption,
+    ): Alternative {
+        override val originalAlternative: Contract.Alternative
+            get() = Contract.Familiar(contractOption.choice)
+        override val text: StringResource
+            get() = Res.string.contract_option_familiar
+    }
 }

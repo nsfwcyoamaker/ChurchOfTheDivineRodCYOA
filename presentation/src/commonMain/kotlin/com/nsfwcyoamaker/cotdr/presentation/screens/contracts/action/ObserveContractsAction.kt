@@ -1,5 +1,6 @@
 package com.nsfwcyoamaker.cotdr.presentation.screens.contracts.action
 
+import com.nsfwcyoamaker.cotdr.domain.engine.model.ComputedChoice
 import com.nsfwcyoamaker.cotdr.domain.model.Contract
 import com.nsfwcyoamaker.cotdr.presentation.mapper.UiChoiceMapper
 import com.nsfwcyoamaker.cotdr.presentation.model.ContractOption
@@ -19,10 +20,19 @@ object ObserveContractsAction: ContractsSelectionAction {
             options = ContractOption.entries,
             getComputedChoicesUseCase = dependencies.getComputedChoicesUseCase,
             makeState = { computed, option ->
+                val computedAlternative = computed as? ComputedChoice.Alternative
+
+                val alternatives = option.alternatives.map { alternative ->
+                    ContractState.AlternativeState(
+                        contractAlternative = alternative,
+                        isSelected = alternative.originalAlternative == computedAlternative?.state?.selected
+                    )
+                }
+
                 ContractState(
                     option = option,
-                    isSelected = computed.state != null,
-                    isEnabled = computed.isAvailable,
+                    isEnabled = alternatives.any { it.isSelected },
+                    alternatives = alternatives
                 )
             }
         ).collect { items ->

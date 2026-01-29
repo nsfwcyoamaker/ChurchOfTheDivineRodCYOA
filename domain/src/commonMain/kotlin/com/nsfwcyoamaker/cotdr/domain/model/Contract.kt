@@ -20,15 +20,21 @@ enum class Contract: AlternativeChoice {
     Sirococo,
     Vivianne;
 
-    data object Servant: AlternativeChoice.Option {
-        override val cost: Resources = Resources(Fervor, -2)
-    }
-    data object Follower: AlternativeChoice.Option {
-        override val cost: Resources = Resources(Fervor, -4)
+    interface Alternative: AlternativeChoice.Alternative
+
+    data class Servant(
+        override val choice: Contract,
+    ): Alternative {
+        override val cost: Resources
+            get() = Resources(Fervor, -2)
     }
 
-    override val options = listOf(
-        Servant,
-        Follower,
-    )
+    data class Familiar(
+        override val choice: Contract,
+    ): Alternative {
+        override val cost: Resources
+            get() = Resources(Fervor, -4)
+    }
+
+    override val alternatives: List<Alternative> = listOf(Servant(this), Familiar(this))
 }

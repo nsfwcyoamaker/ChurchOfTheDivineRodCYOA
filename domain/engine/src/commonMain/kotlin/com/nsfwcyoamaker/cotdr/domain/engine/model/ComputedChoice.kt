@@ -32,6 +32,6 @@ sealed interface ComputedChoice {
         override val choice: AlternativeChoice,
         override val state: ChoiceState.Alternative? = null,
         override val isAvailable: Boolean = true,
-        val selected: AlternativeChoice.Option = choice.options.first(),
+        val selected: AlternativeChoice.Alternative = choice.alternatives.first(),
     ): ComputedChoice
 }

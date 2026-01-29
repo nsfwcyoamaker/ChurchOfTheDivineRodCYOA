@@ -17,14 +17,14 @@ object ObserveBodilyModificationsAction: BodilyModificationsSelectionAction {
     ) {
         UiChoiceMapper.mapStateFor(
             items = BodilyModification.all,
-            options = BodilyModificationOption.entries,
+            options = BodilyModificationOption.all,
             getComputedChoicesUseCase = dependencies.getComputedChoicesUseCase,
             makeState = { computed, option ->
                 BodilyModificationState(
                     option = option,
                     isSelected = computed.state != null,
                     isEnabled = computed.isAvailable,
-                    control = UiControlMapper.map(computed, option.upgradeText)
+                    control = UiControlMapper.map(computed, option)
                 )
             }
         ).collect { items ->
