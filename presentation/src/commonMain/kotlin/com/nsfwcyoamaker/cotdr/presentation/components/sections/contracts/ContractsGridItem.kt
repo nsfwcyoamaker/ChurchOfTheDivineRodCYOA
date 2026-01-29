@@ -10,7 +10,7 @@ import com.nsfwcyoamaker.cotdr.presentation.model.ContractState
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
 import com.nsfwcyoamaker.cotdr.presentation.screens.contracts.ContractsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.contracts.action.ToggleContractAction
-import com.nsfwcyoamaker.cotdr.presentation.screens.contracts.action.ToggleContractAlternativeAction
+import com.nsfwcyoamaker.cotdr.presentation.screens.contracts.action.ToggleContractLevelAction
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @OptIn(ExperimentalLayoutApi::class)
@@ -30,8 +30,8 @@ fun LazyListScope.ContractsGridItem(
                 onSelected = {
                     onContractAction(ToggleContractAction(state.option.choice))
                 },
-                onAlternativeSelected = { alternative ->
-                    onContractAction(ToggleContractAlternativeAction(alternative.contractAlternative))
+                onContractLevelSelected = { contractLevel ->
+                    onContractAction(ToggleContractLevelAction(contractLevel.contractLevelOption))
                 },
             )
         },

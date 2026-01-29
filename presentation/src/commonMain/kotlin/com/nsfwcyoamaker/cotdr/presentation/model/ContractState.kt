@@ -3,12 +3,12 @@ package com.nsfwcyoamaker.cotdr.presentation.model
 data class ContractState(
     override val option: ContractOption,
     override val isEnabled: Boolean = false,
-    val alternatives: List<AlternativeState> = option.alternatives.map(::AlternativeState),
+    val contractLevels: List<ContractLevelState> = option.contractLevels.map(::ContractLevelState),
 ): UiItemState {
-    data class AlternativeState(
-        val contractAlternative: ContractOption.Alternative,
+    data class ContractLevelState(
+        val contractLevelOption: ContractOption.ContractLevel,
         val isSelected: Boolean = false,
     )
     override val isSelected: Boolean
-        get() = alternatives.any { it.isSelected }
+        get() = contractLevels.any { it.isSelected }
 }

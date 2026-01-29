@@ -25,7 +25,7 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 fun ContractCard(
     state: ContractState,
     onSelected: () -> Unit,
-    onAlternativeSelected: (ContractState.AlternativeState) -> Unit,
+    onContractLevelSelected: (ContractState.ContractLevelState) -> Unit,
     modifier: Modifier = Modifier,
 ) {
     SelectableCard(
@@ -88,10 +88,10 @@ fun ContractCard(
                             .height(IntrinsicSize.Min)
                             .padding(horizontal = 2.dp),
                     ) {
-                        state.alternatives.forEach { alternative ->
-                            AlternativeCard(
-                                alternative = alternative,
-                                onClick = { onAlternativeSelected(alternative) },
+                        state.contractLevels.forEach { contractLevel ->
+                            ContractLevelCard(
+                                contractLevel = contractLevel,
+                                onClick = { onContractLevelSelected(contractLevel) },
                                 modifier = Modifier.weight(1f).fillMaxHeight(),
                             )
                         }
@@ -127,13 +127,13 @@ fun ContractCard(
 }
 
 @Composable
-private fun AlternativeCard(
-    alternative: ContractState.AlternativeState,
+private fun ContractLevelCard(
+    contractLevel: ContractState.ContractLevelState,
     onClick: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
     SelectableCard(
-        isSelected = alternative.isSelected,
+        isSelected = contractLevel.isSelected,
         isClickable = true,
         onSelected = onClick,
         cornerBracketsVisible = false,
@@ -145,13 +145,13 @@ private fun AlternativeCard(
             modifier = Modifier.fillMaxSize()
         ) {
             Text(
-                text = rememberRichTextResource(alternative.contractAlternative.text),
+                text = rememberRichTextResource(contractLevel.contractLevelOption.title),
                 style = smallerTextStyle,
                 textAlign = TextAlign.Center,
             )
 
             Text(
-                text = rememberRichTextResource(alternative.contractAlternative.description),
+                text = rememberRichTextResource(contractLevel.contractLevelOption.description),
                 style = smallerTextStyle,
                 textAlign = TextAlign.Justify,
             )
@@ -173,7 +173,7 @@ private fun ContractCardPreview() {
             ContractCard(
                 state = ContractState(ContractOption.FelicLusch),
                 onSelected = {},
-                onAlternativeSelected = {},
+                onContractLevelSelected = {},
                 modifier = Modifier
                     .fillMaxWidth(0.2f)
                     .wrapContentHeight(),

@@ -6,13 +6,13 @@ import com.nsfwcyoamaker.cotdr.presentation.screens.contracts.ContractsSelection
 import com.nsfwcyoamaker.cotdr.presentation.screens.contracts.ContractsSelectionState
 import com.nsfwcyoamaker.cotdr.presentationToadHandler.ActionScope
 
-class ToggleContractAlternativeAction(
-    val contractAlternative: ContractOption.Alternative,
+class ToggleContractLevelAction(
+    val contractAlternative: ContractOption.ContractLevel,
 ): ContractsSelectionAction {
     override suspend fun execute(
         dependencies: ContractsSelectionActionDependencies,
         scope: ActionScope<ContractsSelectionState, Nothing>
     ) {
-        dependencies.toggleChoiceAlternativeUseCase(contractAlternative.originalAlternative)
+        dependencies.toggleChoiceAlternativeUseCase(contractAlternative.originalContractLevel)
     }
 }

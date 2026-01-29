@@ -22,17 +22,17 @@ object ObserveContractsAction: ContractsSelectionAction {
             makeState = { computed, option ->
                 val computedAlternative = computed as? ComputedChoice.Alternative
 
-                val alternatives = option.alternatives.map { alternative ->
-                    ContractState.AlternativeState(
-                        contractAlternative = alternative,
-                        isSelected = alternative.originalAlternative == computedAlternative?.state?.selected
+                val contractLevels = option.contractLevels.map { contractLevelOption ->
+                    ContractState.ContractLevelState(
+                        contractLevelOption = contractLevelOption,
+                        isSelected = contractLevelOption.originalContractLevel == computedAlternative?.state?.selected
                     )
                 }
 
                 ContractState(
                     option = option,
-                    isEnabled = alternatives.any { it.isSelected },
-                    alternatives = alternatives
+                    isEnabled = contractLevels.any { it.isSelected },
+                    contractLevels = contractLevels
                 )
             }
         ).collect { items ->
