@@ -13,19 +13,20 @@ class GameStateManager(
         choice: C,
         transform: (S?) -> S?
     ) {
-        val currentMap = repository.selectedChoicesStateFlow.value.toMutableMap()
-        val ctx = CalculationContext(currentMap)
-        val currentState = choice.getValidState(ctx) as? S
+        val originalMap = repository.selectedChoicesStateFlow.value
+        val workingMap = originalMap.toMutableMap()
 
+        val ctx = CalculationContext(workingMap)
+        val currentState = choice.getValidState(ctx) as? S
         val newState = transform(currentState)
-        
+
         if (newState == null) {
-            currentMap.remove(choice)
+            workingMap.remove(choice)
         } else {
-            currentMap[choice] = newState
+            workingMap[choice] = newState
         }
 
-        val cleanMap = validator.sanitize(currentMap)
+        val cleanMap = validator.sanitize(workingMap, originalMap)
 
         repository.setSelectedChoices(cleanMap)
     }
