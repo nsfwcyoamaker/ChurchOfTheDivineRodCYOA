@@ -1,15 +1,15 @@
 package com.nsfwcyoamaker.cotdr.domain.registry
 
-import com.nsfwcyoamaker.cotdr.domain.engine.repository.GlobalRuleRegistry
+import com.nsfwcyoamaker.cotdr.domain.engine.repository.GlobalScoreRuleRegistry
 import com.nsfwcyoamaker.cotdr.domain.engine.rules.GlobalScoreRule
 import com.nsfwcyoamaker.cotdr.domain.rules.BrandsScalingRule
 import com.nsfwcyoamaker.cotdr.domain.rules.PriestessesScalingRule
 
-object StaticGlobalRuleRegistry : GlobalRuleRegistry {
+object StaticGlobalScoreRuleRegistry : GlobalScoreRuleRegistry {
     private val rules: List<GlobalScoreRule> = listOf(
         PriestessesScalingRule,
         BrandsScalingRule,
     )
 
-    override fun getRules(): List<GlobalScoreRule> = rules
+    override fun getScoreRules(): List<GlobalScoreRule> = rules
 }
