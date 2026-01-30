@@ -163,7 +163,7 @@ enum class ContractOption(
 
     interface ContractLevel {
         val contractOption: ContractOption
-        val originalContractLevel: Contract.Alternative
+        val originalContractLevel: Contract.ContractLevel
         val title: StringResource
         val description: StringResource
     }
@@ -172,7 +172,7 @@ enum class ContractOption(
         override val contractOption: ContractOption,
         override val description: StringResource,
     ): ContractLevel {
-        override val originalContractLevel: Contract.Alternative
+        override val originalContractLevel: Contract.ContractLevel
             get() = Contract.Servant(contractOption.choice)
         override val title: StringResource
             get() = Res.string.contract_option_servant
@@ -182,7 +182,7 @@ enum class ContractOption(
         override val contractOption: ContractOption,
         override val description: StringResource,
     ): ContractLevel {
-        override val originalContractLevel: Contract.Alternative
+        override val originalContractLevel: Contract.ContractLevel
             get() = Contract.Familiar(contractOption.choice)
         override val title: StringResource
             get() = Res.string.contract_option_familiar

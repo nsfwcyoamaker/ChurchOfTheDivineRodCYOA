@@ -20,21 +20,21 @@ enum class Contract: AlternativeChoice {
     Sirococo,
     Vivianne;
 
-    interface Alternative: AlternativeChoice.Alternative
+    interface ContractLevel: AlternativeChoice.Alternative
 
     data class Servant(
         override val choice: Contract,
-    ): Alternative {
+    ): ContractLevel {
         override val cost: Resources
             get() = Resources(Fervor, -2)
     }
 
     data class Familiar(
         override val choice: Contract,
-    ): Alternative {
+    ): ContractLevel {
         override val cost: Resources
             get() = Resources(Fervor, -4)
     }
 
-    override val alternatives: List<Alternative> = listOf(Servant(this), Familiar(this))
+    override val alternatives: List<ContractLevel> = listOf(Servant(this), Familiar(this))
 }
