@@ -5,10 +5,9 @@ import com.nsfwcyoamaker.cotdr.domain.model.ContractConduct
 import com.nsfwcyoamaker.cotdr.presentation.model.ContractConductOption
 import com.nsfwcyoamaker.cotdr.presentation.model.ContractConductState
 import com.nsfwcyoamaker.cotdr.presentation.model.ContractState
-import com.nsfwcyoamaker.cotdr.presentation.model.ServantConductOption
 import com.nsfwcyoamaker.cotdr.presentation.screens.contract_conduct.ContractConductsSelectionAction
+import com.nsfwcyoamaker.cotdr.presentation.screens.contract_conduct.ContractConductsSelectionActionDependencies
 import com.nsfwcyoamaker.cotdr.presentation.screens.contract_conduct.ContractConductsSelectionState
-import com.nsfwcyoamaker.cotdr.presentation.screens.contract_conduct.ContractsConductSelectionActionDependencies
 import com.nsfwcyoamaker.cotdr.presentation.screens.contracts.ObserveContractStates
 import com.nsfwcyoamaker.cotdr.presentationToadHandler.ActionScope
 import kotlinx.coroutines.flow.Flow
@@ -16,7 +15,7 @@ import kotlinx.coroutines.flow.combine
 
 object ObserveContractConductsAction: ContractConductsSelectionAction {
     override suspend fun execute(
-        dependencies: ContractsConductSelectionActionDependencies,
+        dependencies: ContractConductsSelectionActionDependencies,
         scope: ActionScope<ContractConductsSelectionState, Nothing>
     ) {
         val contractStatesFlow: Flow<List<ContractState>> = ObserveContractStates(dependencies.getComputedChoicesUseCase)
@@ -33,27 +32,31 @@ object ObserveContractConductsAction: ContractConductsSelectionAction {
             computedConducts.mapNotNull { computed ->
                 val domainChoice: ContractConduct = computed.choice as? ContractConduct
                     ?: return@mapNotNull null
-                val uiOption: ContractConductOption = conductUiOptions[domainChoice]
+                val option: ContractConductOption = conductUiOptions[domainChoice]
                     ?: return@mapNotNull null
                 val parentState: ContractState = contractStateMap[domainChoice.targetContract]
                     ?.takeIf { it.isSelected }
                     ?: return@mapNotNull null
 
-                val selectedAlternative = (computed as? ComputedChoice.Alternative)
-                    ?.selected as? ContractConduct.Option
-                val currentConduct = selectedAlternative?.let { uiOption.conductMapping[it] }
-                    ?: ServantConductOption.Unrestrained
+                val selectedAlternative = (computed as? ComputedChoice.Alternative)?.selected as? ContractConduct.Option
+
+                val conducts = option.conducts.map { conductOption ->
+                    ContractConductState.ConductState(
+                        conductOption,
+                        isSelected = conductOption.originalConduct == selectedAlternative
+                    )
+                }
 
                 ContractConductState(
-                    option = uiOption,
-                    currentSelection = currentConduct,
-                    contractState = parentState
+                    option = option,
+                    contractState = parentState,
+                    conducts = conducts,
                 )
             }
         }
 
         conductStatesFlow.collect { items ->
-            scope.setState { ContractConductsSelectionState(items = items.associateBy { it.option }) }
+            scope.setState { ContractConductsSelectionState(items = items) }
         }
     }
 }

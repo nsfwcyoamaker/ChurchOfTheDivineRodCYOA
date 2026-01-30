@@ -10,7 +10,7 @@ data class ContractConduct(
 ): AlternativeChoice {
 
     data class Option(
-        override val choice: AlternativeChoice,
+        override val choice: ContractConduct,
         val type: ConductType
     ) : AlternativeChoice.Alternative {
         override val cost: Resources

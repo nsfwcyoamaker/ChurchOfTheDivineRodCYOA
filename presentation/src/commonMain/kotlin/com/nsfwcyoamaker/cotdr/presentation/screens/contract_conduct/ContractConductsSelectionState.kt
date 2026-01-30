@@ -5,9 +5,9 @@ import com.nsfwcyoamaker.cotdr.presentation.model.ContractConductState
 import com.nsfwcyoamaker.cotdr.presentationToadHandler.ViewState
 
 data class ContractConductsSelectionState(
-    val items: Map<ContractConductOption, ContractConductState> = defaultState(),
+    val items: List<ContractConductState> = defaultState(),
 ): ViewState {
     companion object {
-        fun defaultState() = ContractConductOption.all.associateWith(::ContractConductState)
+        fun defaultState() = ContractConductOption.all.map(::ContractConductState)
     }
 }

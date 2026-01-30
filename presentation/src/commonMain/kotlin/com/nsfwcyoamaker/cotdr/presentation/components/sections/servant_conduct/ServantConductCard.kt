@@ -47,6 +47,10 @@ fun ServantConductCard(
                 )
 
                 Box(modifier = Modifier.weight(1f))
+
+                Text(
+                    text = rememberRichTextResource(servantConductOption.cost),
+                )
             }
 
             Image(

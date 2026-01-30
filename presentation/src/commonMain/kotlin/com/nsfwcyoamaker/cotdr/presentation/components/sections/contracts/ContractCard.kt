@@ -17,7 +17,7 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 fun ContractCard(
     state: ContractState,
     onSelected: () -> Unit,
-    onContractLevelSelected: (ContractState.ContractLevelState) -> Unit,
+    onContractLevelSelected: (ContractOption.ContractLevel) -> Unit,
     modifier: Modifier = Modifier,
 ) {
     SelectableCard(

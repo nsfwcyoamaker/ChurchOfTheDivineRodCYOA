@@ -15,7 +15,54 @@ data class ContractConductOption(
                 ConductType.Subjugated -> ServantConductOption.Subjugated
             }
         }
-    val availableConducts: List<ServantConductOption> = ServantConductOption.entries
+
+    val conducts: List<Conduct> = listOf(
+        Unrestrained(this),
+        Aligned(this),
+        Subjugated(this),
+    )
+
+    interface Conduct {
+        val contractConductOption: ContractConductOption
+        val originalConduct: ContractConduct.Option
+        val ui: ServantConductOption
+    }
+
+    data class Unrestrained(
+        override val contractConductOption: ContractConductOption,
+    ): Conduct {
+        override val originalConduct: ContractConduct.Option
+            get() = ContractConduct.Option(
+                choice = contractConductOption.choice,
+                type = ConductType.Unrestrained
+            )
+        override val ui: ServantConductOption
+            get() = ServantConductOption.Unrestrained
+    }
+
+    data class Aligned(
+        override val contractConductOption: ContractConductOption,
+    ): Conduct {
+        override val originalConduct: ContractConduct.Option
+            get() = ContractConduct.Option(
+                choice = contractConductOption.choice,
+                type = ConductType.Aligned
+            )
+        override val ui: ServantConductOption
+            get() = ServantConductOption.Aligned
+    }
+
+    data class Subjugated(
+        override val contractConductOption: ContractConductOption,
+    ): Conduct {
+        override val originalConduct: ContractConduct.Option
+            get() = ContractConduct.Option(
+                choice = contractConductOption.choice,
+                type = ConductType.Subjugated
+            )
+        override val ui: ServantConductOption
+            get() = ServantConductOption.Subjugated
+    }
 
     companion object {
         val all = ContractOption.entries.associateBy { it.choice }.let { contractMap ->

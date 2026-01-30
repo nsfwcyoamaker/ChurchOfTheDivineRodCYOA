@@ -31,7 +31,7 @@ fun LazyListScope.ContractsGridItem(
                     onContractAction(ToggleContractAction(state.option.choice))
                 },
                 onContractLevelSelected = { contractLevel ->
-                    onContractAction(ToggleContractLevelAction(contractLevel.contractLevelOption))
+                    onContractAction(ToggleContractLevelAction(contractLevel))
                 },
             )
         },

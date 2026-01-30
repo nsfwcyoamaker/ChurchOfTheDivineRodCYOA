@@ -75,6 +75,20 @@ object MainScreen: Screen {
             }
         }
 
+        val contractConductsColumnsAmount = remember { 2 }
+        val contractConductsRowsAmount by screenModel.contractConductsSelectionViewModel.state.mapAsState(contractConductsColumnsAmount) {
+            (it.items.size + contractConductsColumnsAmount - 1) / contractConductsColumnsAmount
+        }
+
+        val contractConductProvider = remember(screenModel) {
+            @Composable { index: Int ->
+                val state by screenModel.contractConductsSelectionViewModel.state.mapAsState(index) { contractState ->
+                    contractState.items.getOrNull(index)
+                }
+                state
+            }
+        }
+
         Scaffold(
             containerColor = Color.Transparent,
             bottomBar = {
@@ -116,6 +130,10 @@ object MainScreen: Screen {
                 MainPage5(
                     contractStateProvider = contractProvider,
                     onContractAction = screenModel.contractsSelectionViewModel::runAction,
+                    contractConductsRowsAmount = contractConductsRowsAmount,
+                    contractConductsColumnsAmount = contractConductsColumnsAmount,
+                    contractConductStateProvider = contractConductProvider,
+                    onContractConductAction = screenModel.contractConductsSelectionViewModel::runAction,
                 )
             }
         }
@@ -123,7 +141,7 @@ object MainScreen: Screen {
 }
 
 @Composable
-private fun <T, R> StateFlow<T>.mapAsState(key: Any, transform: (T) -> R): State<R> {
+private fun <T, R> StateFlow<T>.mapAsState(key: Any = Unit, transform: (T) -> R): State<R> {
     val stateFlow = this
 
     val initialValue = remember(key) { transform(stateFlow.value) }

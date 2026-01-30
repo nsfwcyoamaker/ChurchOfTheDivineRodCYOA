@@ -30,7 +30,7 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 @Composable
 fun ContractCardContent(
     state: ContractState,
-    onContractLevelSelected: (ContractState.ContractLevelState) -> Unit,
+    onContractLevelSelected: (ContractOption.ContractLevel) -> Unit,
     modifier: Modifier = Modifier,
 ) {
     Column(
@@ -68,8 +68,6 @@ fun ContractCardContent(
                         .wrapContentHeight()
                         .shadowBorder()
                 )
-
-                Box(modifier = Modifier.weight(1f))
             }
 
             Column(
@@ -90,13 +88,11 @@ fun ContractCardContent(
                     state.contractLevels.forEach { contractLevel ->
                         ContractLevelCard(
                             contractLevel = contractLevel,
-                            onClick = { onContractLevelSelected(contractLevel) },
+                            onClick = { onContractLevelSelected(contractLevel.contractLevelOption) },
                             modifier = Modifier.weight(1f).fillMaxHeight(),
                         )
                     }
                 }
-
-                Box(modifier = Modifier.weight(1f))
 
                 Text(
                     text = rememberRichTextResource(state.option.priestessDescription),
@@ -117,8 +113,6 @@ fun ContractCardContent(
                         .wrapContentHeight()
                         .shadowBorder()
                 )
-
-                Box(modifier = Modifier.weight(1f))
             }
         }
     }

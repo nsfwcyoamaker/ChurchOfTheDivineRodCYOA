@@ -13,19 +13,22 @@ import com.nsfwcyoamaker.cotdr.presentation.components.sections.contracts.Contra
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.contracts.ContractsTitle
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.demons.DemonsDescription
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.demons.DemonsTitle
-import com.nsfwcyoamaker.cotdr.presentation.components.sections.servant_conduct.ServantConductDescription
-import com.nsfwcyoamaker.cotdr.presentation.components.sections.servant_conduct.ServantConductExtra
-import com.nsfwcyoamaker.cotdr.presentation.components.sections.servant_conduct.ServantConductItemsRow
-import com.nsfwcyoamaker.cotdr.presentation.components.sections.servant_conduct.ServantConductTitle
+import com.nsfwcyoamaker.cotdr.presentation.components.sections.servant_conduct.*
+import com.nsfwcyoamaker.cotdr.presentation.model.ContractConductState
 import com.nsfwcyoamaker.cotdr.presentation.model.ContractOption
 import com.nsfwcyoamaker.cotdr.presentation.model.ContractState
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
+import com.nsfwcyoamaker.cotdr.presentation.screens.contract_conduct.ContractConductsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.contracts.ContractsSelectionAction
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 fun LazyListScope.MainPage5(
     contractStateProvider: @Composable (ContractOption) -> ContractState,
     onContractAction: (ContractsSelectionAction) -> Unit,
+    contractConductsRowsAmount: Int,
+    contractConductsColumnsAmount: Int,
+    contractConductStateProvider: @Composable (Int) -> ContractConductState?,
+    onContractConductAction: (ContractConductsSelectionAction) -> Unit,
 ) {
     item(
         key = "DemonsTitle",
@@ -77,16 +80,25 @@ fun LazyListScope.MainPage5(
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
     item(
+        key = "ServantConductItemsRow",
+        contentType = "ServantConductItemsRow",
+    ) { ServantConductItemsRow() }
+
+    item { Spacer(modifier = Modifier.height(12.dp)) }
+
+    item(
         key = "ServantConductWIP",
         contentType = "ServantConductWIP",
     ) { WIPItem() }
 
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
-    item(
-        key = "ServantConductItemsRow",
-        contentType = "ServantConductItemsRow",
-    ) { ServantConductItemsRow() }
+    ServantConductGridItem(
+        contractConductsRowsAmount,
+        contractConductsColumnsAmount,
+        contractConductStateProvider,
+        onContractConductAction,
+    )
 
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
@@ -105,8 +117,12 @@ private fun MainPage4Preview() {
     AppScope {
         MainScreenList {
             MainPage5(
-                { option -> ContractState(option) },
-                {},
+                contractStateProvider = { option -> ContractState(option) },
+                onContractAction = {},
+                contractConductsRowsAmount = 0,
+                contractConductsColumnsAmount = 0,
+                contractConductStateProvider = { null },
+                onContractConductAction = {}
             )
         }
     }

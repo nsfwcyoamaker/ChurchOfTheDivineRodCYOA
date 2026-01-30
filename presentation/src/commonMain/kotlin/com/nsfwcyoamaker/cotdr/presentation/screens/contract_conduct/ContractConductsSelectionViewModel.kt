@@ -13,7 +13,7 @@ class ContractConductsSelectionViewModel(
     initialState = ContractConductsSelectionState(),
     scope = scope,
 ) {
-    override val dependencies by inject<ContractsConductSelectionActionDependencies> { parametersOf (scope) }
+    override val dependencies by inject<ContractConductsSelectionActionDependencies> { parametersOf (scope) }
 
     init { dispatch(ObserveContractConductsAction) }
 

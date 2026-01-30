@@ -6,7 +6,7 @@ import com.nsfwcyoamaker.cotdr.domain.engine.usecase.ToggleChoiceUseCase
 import com.nsfwcyoamaker.cotdr.presentationToadHandler.ActionDependencies
 import kotlinx.coroutines.CoroutineScope
 
-data class ContractsConductSelectionActionDependencies(
+data class ContractConductsSelectionActionDependencies(
     override val coroutineScope: CoroutineScope,
     val getComputedChoicesUseCase: GetComputedChoicesUseCase,
     val toggleChoiceUseCase: ToggleChoiceUseCase,

@@ -1547,10 +1547,9 @@ They're demons. Whether it's because you only care about your followers, you don
 
 The demon will dress how they want, often keeping their skimpier and more devilish clothing.
 They will also recruit followers for their schemes every so often, inflicting a temporary demonization and including them in their obligation activities. Affects all followers as a Familiar.
-
-<b>-1 Fervor per Demon</b>
         ]]>
     </string>
+    <string name="servant_conduct_unrestrained_cost"><![CDATA[<b>-1 Fervor per Demon</b>]]></string>
 
     <string name="servant_conduct_aligned_title"><![CDATA[<anglo>Aligned</anglo>]]></string>
     <string name="servant_conduct_aligned_description">
@@ -1559,10 +1558,9 @@ Regardless of anything else, this is your Church, and a Church has followers. Yo
 
 The demon will act like a follower, wearing vestments of varying degrees of skin exposure and attending normal services and activities. Outside of these, they are free to do and play as they please, as long as they don't disrupt the rest of the church too much.
 Affects 2/3 of followers as a Familiar.
-
-<b>No Fervor change</b>
         ]]>
     </string>
+    <string name="servant_conduct_aligned_cost"><![CDATA[<b>No Fervor change</b>]]></string>
 
     <string name="servant_conduct_subjugated_title"><![CDATA[<anglo>Subjugated</anglo>]]></string>
     <string name="servant_conduct_subjugated_description">
@@ -1572,10 +1570,9 @@ In fact, you're going to make the most of it.
 
 The demon will be treated as the subservient being they are, with orders to wear things like maid costumes or a harem outfit, and restrain their activities among the Church. High rank followers may sometimes capture them and toy with them as a show for you.
 Affects 1/3 of followers as a Familiar.
-
-<b>+1 Fervor per Demon</b>
         ]]>
     </string>
+    <string name="servant_conduct_subjugated_cost"><![CDATA[<b>+1 Fervor per Demon</b>]]></string>
 
     <string name="section_servant_conduct_extra">
         <![CDATA[
