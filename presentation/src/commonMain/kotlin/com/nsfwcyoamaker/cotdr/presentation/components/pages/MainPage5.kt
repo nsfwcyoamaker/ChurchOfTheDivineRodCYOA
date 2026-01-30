@@ -7,7 +7,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
-import com.nsfwcyoamaker.cotdr.presentation.WIPItem
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.contracts.ContractsDescription
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.contracts.ContractsGridItem
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.contracts.ContractsTitle
@@ -83,13 +82,6 @@ fun LazyListScope.MainPage5(
         key = "ServantConductItemsRow",
         contentType = "ServantConductItemsRow",
     ) { ServantConductItemsRow() }
-
-    item { Spacer(modifier = Modifier.height(12.dp)) }
-
-    item(
-        key = "ServantConductWIP",
-        contentType = "ServantConductWIP",
-    ) { WIPItem() }
 
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
