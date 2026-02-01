@@ -44,3 +44,9 @@ kotlin {
         }
     }
 }
+
+compose.desktop {
+    application {
+        mainClass = "com.nsfwcyoamaker.cotdr.MainKt"
+    }
+}
