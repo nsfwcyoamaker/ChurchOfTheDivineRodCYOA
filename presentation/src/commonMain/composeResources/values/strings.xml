@@ -1630,40 +1630,67 @@ It's very obvious you enjoy women, but your followers are not entirely women. Ho
         ]]>
     </string>
 
+    <string name="section_church_appeal_hard_no_title"><![CDATA[<anglo>Hard No</anglo>]]></string>
+    <string name="section_church_appeal_hard_no_description">
+        <![CDATA[
+...No. Just, no. It's not for you.
+No disrespect to the waifs, you're glad they worship you, but you don't want them as Devotees.
+Believers is fine, but the Devotees will all be women, no men or waifs amongst them.
+    ]]>
+    </string>
+    <string name="section_church_appeal_hard_no_effect">
+        <![CDATA[
+<b>Waifs will only be among the Believers.</b>
+        ]]>
+    </string>
+    <string name="section_church_appeal_hard_no_comment">
+        <![CDATA[
+Acerola nods, simply keeping a steady expression.
+<acerolaSpeech>They'll be sad of course, but it's best to rip the bandage off early. It would be much worse if anyone built up hope from your return, before having it crushed.</acerolaSpeech>
+    ]]>
+    </string>
+
+    <string name="section_church_appeal_live_and_let_live_title"><![CDATA[<anglo>Live and Let Live</anglo>]]></string>
+    <string name="section_church_appeal_live_and_let_live_description">
+        <![CDATA[
+You've got no problem with waif followers. If they want to worship you, why stop them? But the Devotees give themselves to you, and regardless of how girly waifs are, you don't intend to share.
+        ]]>
+    </string>
+    <string name="section_church_appeal_live_and_let_live_effect">
+        <![CDATA[
+<b>Waifs can be Devotees, but must be chaste towards the female Devotees.</b>
+        ]]>
+    </string>
+    <string name="section_church_appeal_live_and_let_live_comment">
+        <![CDATA[
+Acerola quirks her head, but has a small smile.
+<acerolaSpeech>Hm. Interesting choice if I may say so, my Lord. Letting the waifs be close, but keeping your harem closer. I will mention, you can of course revisit this at any time.</acerolaSpeech>
+        ]]>
+    </string>
+
+    <string name="section_church_appeal_well_maybe_title"><![CDATA[<anglo>Well... Maybe</anglo>]]></string>
+    <string name="section_church_appeal_well_maybe_description">
+        <![CDATA[
+You're not saying yes... But, you're also not saying no. Far too much has happened for you to give a definite answer, but you've got no issue with waifs being among the Devotees. Whether you go further than that is yet to be seen.
+        ]]>
+    </string>
+    <string name="section_church_appeal_well_maybe_effect">
+        <![CDATA[
+<b>Waifs can be Devotees, and can fully interact with the others.</b>
+        ]]>
+    </string>
+    <string name="section_church_appeal_well_maybe_comment">
+        <![CDATA[
+Acerola's smile is subtle, but hints at warm relief.
+<acerolaSpeech>That's... that's good to hear. Working with Sasha for years has given me a bit of a soft spot for the plight of the waif, so hearing you are understanding is... heartening.</acerolaSpeech>
+        ]]>
+    </string>
+
 
 
 
 
 <!-- page 6 WIP
-
-
-Hard No
-...No. Just, no. It's not for you.
-No disrespect to the waifs, you're glad they worship you, but you don't want them as Devotees.
-Believers is fine, but the Devotees will all be women, no men or waifs amongst them.
-
-Waifs will only be among the Believers.
-Acerola nods, simply keeping a steady expression.
-They'll be sad of course, but it's best to rip the bandage off early. It would be much worse if anyone built up hope from your return, before having it crushed.
-
-
-Live and Let Live
-You've got no problem with waif followers. If they want to worship you, why stop them? But the Devotees give themselves to you, and regardless of how girly waifs are, you don't intend to share.
-
-Waifs can be Devotees, but must be chaste towards the female Devotees.
-Acerola quirks her head, but has a small smile.
-Hm. Interesting choice if I may say so, my Lord.
-Letting the waifs be close, but keeping your harem closer. I will mention, you can of course revisit this at any time.
-
-
-Well... Maybe
-You're not saying yes... But, you're also not saying no. Far too much has happened for you to give a definite answer, but you've got no issue with waifs being among the Devotees. Whether you go further than that is yet to be seen.
-
-Waifs can be Devotees, and can fully interact with the others.
-Acerola's smile is subtle, but hints at warm relief.
-That's... that's good to hear. Working with Sasha for years has given me a bit of a soft spot for the plight of the waif, so hearing you are understanding is... heartening.
-
-
 Foundational Chapters
 The walk comes to an end outside a double door marked GUIDING LIGHT, which you realize is... just a few doors down from Acerola's office, which you left about 20 minutes ago. Acerola gives you a totally innocent smile and swings the doors open, revealing a surprisingly normal office. High ceilings, some religious/erotic art, but mostly just a dozen or so ladies at desks, dressed more business casual than pious nun, tapping away at computers or talking on phones.
 A few wave to Acerola in greeting, but double take upon seeing their god standing in the doorway, staring like a deer in headlights as a smile and blush creep across their faces. A couple claps from your high priestess snaps them out if it and gets them back to work, though the furtive glances over to you and excited whispers are hard to miss.

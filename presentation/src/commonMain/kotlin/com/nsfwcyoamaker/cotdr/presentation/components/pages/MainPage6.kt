@@ -8,12 +8,19 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.church_appeal.ChurchAppealDescription
+import com.nsfwcyoamaker.cotdr.presentation.components.sections.church_appeal.ChurchAppealGridItem
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.church_appeal.ChurchAppealTitle
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.waifs.WaifsIntro
+import com.nsfwcyoamaker.cotdr.presentation.model.ChurchAppealOption
+import com.nsfwcyoamaker.cotdr.presentation.model.ChurchAppealState
 import com.nsfwcyoamaker.cotdr.presentation.screens.MainScreenList
+import com.nsfwcyoamaker.cotdr.presentation.screens.church_appeal.ChurchAppealSelectionAction
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
-fun LazyListScope.MainPage6() {
+fun LazyListScope.MainPage6(
+    churchAppealProvider: @Composable (ChurchAppealOption) -> ChurchAppealState,
+    onChurchAppealAction: (ChurchAppealSelectionAction) -> Unit
+) {
     item(
         key = "WaifsIntro",
         contentType = "WaifsIntro",
@@ -35,7 +42,14 @@ fun LazyListScope.MainPage6() {
 
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
-    //todo
+    ChurchAppealGridItem(
+        churchAppealProvider,
+        onChurchAppealAction,
+    )
+
+    item { Spacer(modifier = Modifier.height(12.dp)) }
+
+    //TODO
 }
 
 @Preview(
@@ -46,7 +60,10 @@ fun LazyListScope.MainPage6() {
 private fun MainPage6Preview() {
     AppScope {
         MainScreenList {
-            MainPage6()
+            MainPage6(
+                { ChurchAppealState(it) },
+                {},
+            )
         }
     }
 }

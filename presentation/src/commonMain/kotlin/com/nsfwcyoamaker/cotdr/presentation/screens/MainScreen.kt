@@ -89,6 +89,15 @@ object MainScreen: Screen {
             }
         }
 
+        val churchAppealProvider = remember(screenModel) {
+            @Composable { option: ChurchAppealOption ->
+                val state by screenModel.churchAppealSelectionViewModel.state.mapAsState(option) { churchAppealState ->
+                    churchAppealState.items[option]
+                }
+                state ?: ChurchAppealState(option)
+            }
+        }
+
         Scaffold(
             containerColor = Color.Transparent,
             bottomBar = {
@@ -138,7 +147,11 @@ object MainScreen: Screen {
 
                 item { Spacer(modifier = Modifier.height(60.dp)) }
 
-                MainPage6()
+                MainPage6(
+                    churchAppealProvider = churchAppealProvider,
+                    onChurchAppealAction = screenModel.churchAppealSelectionViewModel::runAction,
+
+                )
             }
         }
     }

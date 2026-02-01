@@ -89,6 +89,15 @@ val smallTitleTextStyle
     )
 
 @get:Composable
+val smallerTitleTextStyle
+    get() = TextStyle(
+        fontSize = 28.sp,
+        lineHeight = 52.sp,
+        color = Color.White,
+        fontFamily = MinioProFontFamily,
+    )
+
+@get:Composable
 val smallerTextStyle
     get() = TextStyle(
         fontSize = 12.sp,

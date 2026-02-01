@@ -6,6 +6,7 @@ import com.nsfwcyoamaker.cotdr.domain.engine.usecase.CalculateTotalScoreUseCase
 import com.nsfwcyoamaker.cotdr.domain.model.CotdrCurrency
 import com.nsfwcyoamaker.cotdr.presentation.screens.bodily_modifications.BodilyModificationsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.brands.BrandsSelectionViewModel
+import com.nsfwcyoamaker.cotdr.presentation.screens.church_appeal.ChurchAppealSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.consorts.ConsortsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.contract_conduct.ContractConductsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.contracts.ContractsSelectionViewModel
@@ -32,4 +33,5 @@ class MainScreenModel: ScreenModel, KoinComponent {
     val experimentalBrandsSelectionViewModel by inject<ExperimentalBrandsSelectionViewModel> { parametersOf(screenModelScope) }
     val contractsSelectionViewModel by inject<ContractsSelectionViewModel> { parametersOf(screenModelScope) }
     val contractConductsSelectionViewModel by inject<ContractConductsSelectionViewModel> { parametersOf(screenModelScope) }
+    val churchAppealSelectionViewModel by inject<ChurchAppealSelectionViewModel> { parametersOf(screenModelScope) }
 }

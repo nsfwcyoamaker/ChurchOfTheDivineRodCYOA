@@ -1,0 +1,5 @@
+package com.nsfwcyoamaker.cotdr.presentation.screens.church_appeal
+
+import com.nsfwcyoamaker.cotdr.presentationToadHandler.ViewAction
+
+interface ChurchAppealSelectionAction: ViewAction<ChurchAppealSelectionActionDependencies, ChurchAppealSelectionState, Nothing>
