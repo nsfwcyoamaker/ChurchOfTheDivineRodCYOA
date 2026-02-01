@@ -135,6 +135,10 @@ object MainScreen: Screen {
                     contractConductStateProvider = contractConductProvider,
                     onContractConductAction = screenModel.contractConductsSelectionViewModel::runAction,
                 )
+
+                item { Spacer(modifier = Modifier.height(60.dp)) }
+
+                MainPage6()
             }
         }
     }
