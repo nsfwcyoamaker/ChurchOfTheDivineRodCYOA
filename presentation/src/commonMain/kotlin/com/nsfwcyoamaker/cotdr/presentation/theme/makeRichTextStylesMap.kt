@@ -14,20 +14,26 @@ import com.nsfwcyoamaker.cotdr.composableRichText.TagHandler
 
 @Composable
 fun makeRichTextStylesMap(): Map<String, TagHandler> {
-    val angloStyle = angloTextStyle.toSpanStyle()
-    val angloGlowStyle = angloGlowTextStyle.toSpanStyle()
+    val angloStyle = AngloTextStyle.toSpanStyle()
+    val angloGlowStyle = AngloGlowTextStyle.toSpanStyle()
 
-    val acerolaStyle = acerolaTextStyle.toSpanStyle()
-    val celesteStyle = celesteTextStyle.toSpanStyle()
-    val desuriStyle = desuriTextStyle.toSpanStyle()
-    val erinaStyle = erinaTextStyle.toSpanStyle()
-    val helenaStyle = helenaTextStyle.toSpanStyle()
+    val acerolaStyle = AcerolaTextStyle.toSpanStyle()
+    val celesteStyle = CelesteTextStyle.toSpanStyle()
+    val desuriStyle = DesuriTextStyle.toSpanStyle()
+    val erinaStyle = ErinaTextStyle.toSpanStyle()
+    val helenaStyle = HelenaTextStyle.toSpanStyle()
+    val bambinaStyle = BambinaTextStyle.toSpanStyle()
+    val fuukaStyle = FuukaTextStyle.toSpanStyle()
+    val sophiaStyle = SophiaTextStyle.toSpanStyle()
+    val gracidiaStyle = GracidiaTextStyle.toSpanStyle()
+    val sashaStyle = SashaTextStyle.toSpanStyle()
+    val teresaStyle = TeresaTextStyle.toSpanStyle()
 
-    val acerolaTitleStyle = acerolaTitleTextStyle.toSpanStyle()
-    val celesteTitleStyle = celesteTitleTextStyle.toSpanStyle()
-    val desuriTitleStyle = desuriTitleTextStyle.toSpanStyle()
-    val erinaTitleStyle = erinaTitleTextStyle.toSpanStyle()
-    val helenaTitleStyle = helenaTitleTextStyle.toSpanStyle()
+    val acerolaTitleStyle = AcerolaTitleTextStyle.toSpanStyle()
+    val celesteTitleStyle = CelesteTitleTextStyle.toSpanStyle()
+    val desuriTitleStyle = DesuriTitleTextStyle.toSpanStyle()
+    val erinaTitleStyle = ErinaTitleTextStyle.toSpanStyle()
+    val helenaTitleStyle = HelenaTitleTextStyle.toSpanStyle()
 
     return remember(
         angloStyle,
@@ -77,6 +83,12 @@ fun makeRichTextStylesMap(): Map<String, TagHandler> {
             "desuriSpeech" to TagHandler { RichTextStyle(spanStyle = desuriStyle) },
             "erinaSpeech" to TagHandler { RichTextStyle(spanStyle = erinaStyle) },
             "helenaSpeech" to TagHandler { RichTextStyle(spanStyle = helenaStyle) },
+            "bambinaSpeech" to TagHandler { RichTextStyle(spanStyle = bambinaStyle) },
+            "fuukaSpeech" to TagHandler { RichTextStyle(spanStyle = fuukaStyle) },
+            "sophiaSpeech" to TagHandler { RichTextStyle(spanStyle = sophiaStyle) },
+            "gracidiaSpeech" to TagHandler { RichTextStyle(spanStyle = gracidiaStyle) },
+            "sashaSpeech" to TagHandler { RichTextStyle(spanStyle = sashaStyle) },
+            "teresaSpeech" to TagHandler { RichTextStyle(spanStyle = teresaStyle) },
 
             "acerolaTitle" to TagHandler { RichTextStyle(spanStyle = acerolaTitleStyle) },
             "celesteTitle" to TagHandler { RichTextStyle(spanStyle = celesteTitleStyle) },

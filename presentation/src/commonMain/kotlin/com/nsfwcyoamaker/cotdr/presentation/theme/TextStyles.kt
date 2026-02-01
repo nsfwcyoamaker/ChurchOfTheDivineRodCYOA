@@ -102,13 +102,13 @@ private val AnglicanTextFontFamily
     get() = FontFamily(Font(Res.font.Anglican_Regular, weight = FontWeight.Normal))
 
 @get:Composable
-val angloTextStyle: TextStyle
+val AngloTextStyle: TextStyle
     get() = TextStyle(
         fontFamily = AnglicanTextFontFamily,
     )
 
 @get:Composable
-val angloGlowTextStyle: TextStyle
+val AngloGlowTextStyle: TextStyle
     get() = TextStyle(
         fontFamily = AnglicanTextFontFamily,
         shadow = Shadow(
@@ -119,44 +119,86 @@ val angloGlowTextStyle: TextStyle
     )
 
 @get:Composable
-val acerolaTextStyle: TextStyle
+val AcerolaTextStyle: TextStyle
     get() = TextStyle(
         fontStyle = FontStyle.Italic,
         color = AcerolaColor,
     )
 
 @get:Composable
-val celesteTextStyle: TextStyle
+val CelesteTextStyle: TextStyle
     get() = TextStyle(
         fontStyle = FontStyle.Italic,
         color = CelesteColor,
     )
 
 @get:Composable
-val desuriTextStyle: TextStyle
+val DesuriTextStyle: TextStyle
     get() = TextStyle(
         fontStyle = FontStyle.Italic,
         color = DesuriColor,
     )
 
 @get:Composable
-val erinaTextStyle: TextStyle
+val ErinaTextStyle: TextStyle
     get() = TextStyle(
         fontStyle = FontStyle.Italic,
         color = ErinaColor,
     )
 
 @get:Composable
-val helenaTextStyle: TextStyle
+val HelenaTextStyle: TextStyle
     get() = TextStyle(
         fontStyle = FontStyle.Italic,
         color = HelenaColor,
     )
 
+@get:Composable
+val BambinaTextStyle: TextStyle
+    get() = TextStyle(
+        fontStyle = FontStyle.Italic,
+        color = BambinaColor,
+    )
+
+@get:Composable
+val FuukaTextStyle: TextStyle
+    get() = TextStyle(
+        fontStyle = FontStyle.Italic,
+        color = FuukaColor,
+    )
+
+@get:Composable
+val SophiaTextStyle: TextStyle
+    get() = TextStyle(
+        fontStyle = FontStyle.Italic,
+        color = SophiaColor,
+    )
+
+@get:Composable
+val GracidiaTextStyle: TextStyle
+    get() = TextStyle(
+        fontStyle = FontStyle.Italic,
+        color = GracidiaColor,
+    )
+
+@get:Composable
+val SashaTextStyle: TextStyle
+    get() = TextStyle(
+        fontStyle = FontStyle.Italic,
+        color = SashaColor,
+    )
+
+@get:Composable
+val TeresaTextStyle: TextStyle
+    get() = TextStyle(
+        fontStyle = FontStyle.Italic,
+        color = TeresaColor,
+    )
+
 @Composable
 private fun priestessTitleTextStyle(
     shadowColor: Color
-): TextStyle = angloTextStyle.copy(
+): TextStyle = AngloTextStyle.copy(
     shadow = Shadow(
         color = shadowColor,
         offset = Offset.Zero,
@@ -165,21 +207,21 @@ private fun priestessTitleTextStyle(
 )
 
 @get:Composable
-val acerolaTitleTextStyle: TextStyle
+val AcerolaTitleTextStyle: TextStyle
     get() = priestessTitleTextStyle(AcerolaColor)
 
 @get:Composable
-val celesteTitleTextStyle: TextStyle
+val CelesteTitleTextStyle: TextStyle
     get() = priestessTitleTextStyle(CelesteColor)
 
 @get:Composable
-val desuriTitleTextStyle: TextStyle
+val DesuriTitleTextStyle: TextStyle
     get() = priestessTitleTextStyle(DesuriColor)
 
 @get:Composable
-val erinaTitleTextStyle: TextStyle
+val ErinaTitleTextStyle: TextStyle
     get() = priestessTitleTextStyle(ErinaColor)
 
 @get:Composable
-val helenaTitleTextStyle: TextStyle
+val HelenaTitleTextStyle: TextStyle
     get() = priestessTitleTextStyle(HelenaColor)
