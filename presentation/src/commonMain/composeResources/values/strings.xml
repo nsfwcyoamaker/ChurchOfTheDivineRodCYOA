@@ -1701,186 +1701,328 @@ With that all laid out, I think it's quickest to just meet with each chapter dir
         ]]>
     </string>
 
-
-
-
-
-<!-- page 6 WIP
-The Chapter of Guiding Light
-The Chapter of Guiding Light is the administrative branch of the Church, doing the traditionally very   un-sexy mountain of paperwork and management needed to keep any major organization running. The founding value of the chapter is Guidance, to lend a warm hand to any who need it and lead them forward to their full potential. Extroversion and people skills are absolutely essential, along with fastidiousness in the clerical side of things. The adherents tend to be fairly vanilla in terms of fetishes, but also uninhibited with affection. Bisexual, pansexual, polysexual and so on, the adherents love everyone, in both senses.
-"More than anything, what you need is understanding. There will be strange situations and difficult people, but our role is to never turn them down, and always show them the love they need to move past their troubles."
-Doctrine 1: A Warm Light For All
+    <string name="chapter_guiding_light_title"><![CDATA[<anglo>The Chapter of Guiding Light</anglo>]]></string>
+    <string name="chapter_guiding_light_description">
+        <![CDATA[
+<b>The Chapter of Guiding Light</b> is the administrative branch of the Church, doing the traditionally very un-sexy mountain of paperwork and management needed to keep any major organization running. The founding value of the chapter is Guidance, to lend a warm hand to any who need it and lead them forward to their full potential. Extroversion and people skills are absolutely essential, along with fastidiousness in the clerical side of things. The adherents tend to be fairly vanilla in terms of fetishes, but also uninhibited with affection. Bisexual, pansexual, polysexual and so on, the adherents love everyone, in both senses.
+<i>"More than anything, what you need is understanding. There will be strange situations and difficult people, but our role is to never turn them down, and always show them the love they need to move past their troubles."</i>
+        ]]>
+    </string>
+    <string name="chapter_guiding_light_doctrine_1_title"><![CDATA[<anglo>Doctrine 1: A Warm Light For All</anglo>]]></string>
+    <string name="chapter_guiding_light_doctrine_1_description">
+        <![CDATA[
 As stated in both the name and the founding value, the chapter's purpose is to guide their fellow followers to be better, in whatever form that may take. Whether helping overcome problems or pushing others to reach their dreams, the adherents must be able to find joy in the happiness of others, or else they will likely be rubbed raw by the stress of it all quickly.
 It's also this value that led to shouldering the administrative work; though it isn't their first choice, there is no group better situated to understanding and addressing everyone else's needs.
-Doctrine 2: Love, Flowing Freely
+        ]]>
+    </string>
+    <string name="chapter_guiding_light_doctrine_2_title"><![CDATA[<anglo>Doctrine 2: Love, Flowing Freely</anglo>]]></string>
+    <string name="chapter_guiding_light_doctrine_2_description">
+        <![CDATA[
 While not a true written point of doctrine, it's so universal among the adherents that it may as well be. Those of the Guiding Light have few inhibitions with their love, and are eager to give it for benevolence just as much as for pleasure. Gender is no obstacle and exclusivity is exceedingly rare, as the adherents are happy to kiss, hug, and lay with any who catch their eye.
 They flourish within harems, easing tensions, forging strong bonds, and shaping it into a collective instead of a collection.
-I think I'm a bit unusual within the Guiding Light, in that I don't, erm, sleep around much? The rest of the adherents have tasted most of the Church's roster, but... I suppose I've always only had eyes for you, Lord.
-Not that I dislike sharing or group play in the slightest~! Just... I think it's only when you're involved... yes, that feels right. Kneeling before you with my sisters, skin slick and tongues at work... gosh, is it warm in here?
-You really did surprise me with that last night. I'd expected it far earlier, but for years you did nothing. But if anything would awaken a new side of you, our Lord returning would do it. And, perhaps, m-me as well...
-
-Divine Diplomacy
+        ]]>
+    </string>
+    <string name="chapter_guiding_light_comment">
+        <![CDATA[
+<acerolaSpeech>I think I'm a bit unusual within the Guiding Light, in that I don't, erm, sleep around much? The rest of the adherents have tasted most of the Church's roster, but... I suppose I've always only had eyes for you, Lord.
+Not that I dislike sharing or group play in the slightest~! Just... I think it's only when you're involved... yes, that feels right. Kneeling before you with my sisters, skin slick and tongues at work... gosh, is it warm in here?</acerolaSpeech>
+<celesteSpeech>You really did surprise me with that last night. I'd expected it far earlier, but for years you did nothing. But if anything would awaken a new side of you, our Lord returning would do it. And, perhaps, m-me as well...</celesteSpeech>
+        ]]>
+    </string>
+    <string name="chapter_guiding_light_tenet_divine_diplomacy_title"><![CDATA[<anglo>Divine Diplomacy</anglo>]]></string>
+    <string name="chapter_guiding_light_tenet_divine_diplomacy_description">
+        <![CDATA[
 The Guiding Light ends up wearing many hats in the modern day, and the most surprising is that they are the main channel for diplomacy to other divine or highly magical factions, rather than Helena and the outreach group.
 Indeed, parleying with literal gods and their devoted is an entirely different skillset than with normal folks, one Acerola and her team have trained heavily for.
 Despite the Church's influence falling greatly, your legacy is not so easy to smother, and even just the name "Church of the Divine Rod" still carries notable weight.
 
-I rarely have to interact directly with gods, thank goodness... But I have many contacts among their mortal followers, and even a few friends! I'll introduce you, you'll like them for sure~
-
-Paper Pushing
+<acerolaSpeech>I rarely have to interact directly with gods, thank goodness... But I have many contacts among their mortal followers, and even a few friends! I'll introduce you, you'll like them for sure~</acerolaSpeech>
+        ]]>
+    </string>
+    <string name="chapter_guiding_light_tenet_paper_pushing_title"><![CDATA[<anglo>Paper Pushing</anglo>]]></string>
+    <string name="chapter_guiding_light_tenet_paper_pushing_description">
+        <![CDATA[
 Indeed, some might say this is the opposite of god, unholy in its banality and sinister in its necessity; the grim evil of bureaucracy.
 Dramatics aside, even a small group of a half dozen members will fall to disarray without organization, let alone a Church with hundreds to thousands of members. Thankfully, enough followers find their calling among numbers and sheets to make the wheels all keep turning.
 On another note, it's astonishing how well they pull off the office lady aesthetic. Plain heels and a button up blouse have never looked so damn sexy, and no one would turn down a quickie, no matter how big their workload.
 
-A quick clarification, we adherents are generally either divine diplomats or office workers, but not both. The guiding and loving is universal though!
-
-Closeness
+<acerolaSpeech>A quick clarification, we adherents are generally either divine diplomats or office workers, but not both. The guiding and loving is universal though!</acerolaSpeech>
+        ]]>
+    </string>
+    <string name="chapter_guiding_light_tenet_closeness_title"><![CDATA[<anglo>Closeness</anglo>]]></string>
+    <string name="chapter_guiding_light_tenet_closeness_description">
+        <![CDATA[
 The Guiding Light's adherents are famous within the Church for their lack of personal boundaries and eagerness to spread the love. The amount of casual skinship and flirting is almost shocking to those new to the Church, and things like greeting with a kiss (usually on the cheek) don't get a second thought.
 While the followers in general are quite open minded, nearly every adherent is at least fully bisexual, with most actively polyamorous. Unsurprisingly, almost any sex with them can turn into a group event with just the slightest suggestion of a third participant.
 
-I think almost anyone looks sexy in your arms my Lord, but beyond that... hmm, I might have picked up a taste for your lovers as well. Some of the others look... very nice today. Mm, Celeste~?
+<acerolaSpeech>I think almost anyone looks sexy in your arms my Lord, but beyond that... hmm, I might have picked up a taste for your lovers as well. Some of the others look... <b>very</b> nice today. Mm, Celeste~?</acerolaSpeech>
+        ]]>
+    </string>
 
-
-The Chapter of Ardent Blades
+    <string name="chapter_ardent_blades_title"><![CDATA[<anglo>The Chapter of Ardent Blades</anglo>]]></string>
+    <string name="chapter_ardent_blades_description">
+        <![CDATA[
 The Chapter of Ardent Blades are the knights and security forces of the Church. It may seem a bit odd for a church of Sex to need knights, but such is the world we live in; security cannot be guaranteed without force backing it. The Church's knights are no army, but the few dozen members are all fighting machines of outstanding caliber, able to go toe-to-toe with adversaries far too strong for any normal warriors.
 When not on duty, the adherents have an air of confidence, temperance, and self control... under which almost always lies an ever burning libido. When seen through, they become the most delicate of flowers.
-"Hyah! Vigilance! The weight of protection falls upon us, put that weight into your swing! Hyah! We don't leave this field until you show me a slash that I can feel! Hyah! And always remember!" ""Pain before Pleasure!""
-Doctrine 1: The Sword At The Ready
+<celesteSpeech>"Hyah! Vigilance! The weight of protection falls upon us, put that weight into your swing! Hyah! We don't leave this field until you show me a slash that I can feel! Hyah! And always remember!"
+"Pain before Pleasure!"</celesteSpeech>
+        ]]>
+    </string>
+
+    <string name="chapter_ardent_blades_doctrine_1_title"><![CDATA[<anglo>Doctrine 1: The Sword At The Ready</anglo>]]></string>
+    <string name="chapter_ardent_blades_doctrine_1_description">
+        <![CDATA[
 The Blades are easily the most straightforward chapter, with their vital mission of keeping the Church safe. The realities of divine conflict mean they are little use in a true clash between deities, but for anything less than divine they are more than sufficient. Between ancient magical defenses and the knights' honed sword arms, very few are foolish enough to aim a blade at the Church.
 Thus, they mainly do simple guard work and keep out petty thieves - a blade kept in its sheath but never let to dull.
-Doctrine 2: The Shield Against Sin
+        ]]>
+    </string>
+
+    <string name="chapter_ardent_blades_doctrine_2_title"><![CDATA[<anglo>Doctrine 2: The Shield Against Sin</anglo>]]></string>
+    <string name="chapter_ardent_blades_doctrine_2_description">
+        <![CDATA[
 It has taken a marked back seat since the Church's decline has left it an unappealing target, but with your return faith will rise again, and demons will be back on the hunt for your followers. Thus the knights take up their swords, sworn to protect and defend against the corruptive influence of the demon.
 Regular patrols and checks are necessary, as demons tend to use subtlety and deceit to suborn innocent followers rather than a more upfront approach. Unlike your contracts, these demons are the common ilk of their kin; uncaring, scheming, and selfish.
-We sometimes do odd jobs, like protection work, suppression of magical creatures, or aiding law enforcement. I suppose it is somewhat adventurous, but ultimately it's only side work. The Church comes first.
-On that note, have you ever wielded a weapon, Lord? It may seem outlandish right now, but there's a high likelihood it will become relevant in your new life. I'd be honored to teach you, i-if you'd like me to, of course.
-Blades clashing, muscles flexing, bodies engaged in a dance of steel and technique. Then later, the swords are laid down, and a wholly different dance between bodies begins... Haha, you can't silence the truth, Celeste!
+        ]]>
+    </string>
 
-A Sound Body
+    <string name="chapter_ardent_blades_comment">
+        <![CDATA[
+<celesteSpeech>We sometimes do odd jobs, like protection work, suppression of magical creatures, or aiding law enforcement. I suppose it is somewhat adventurous, but ultimately it's only side work. The Church comes first.
+On that note, have you ever wielded a weapon, Lord? It may seem outlandish right now, but there's a high likelihood it will become relevant in your new life. I'd be honored to teach you, i-if you'd like me to, of course.</celesteSpeech>
+<desuriSpeech>Blades clashing, muscles flexing, bodies engaged in a dance of steel and technique. Then later, the swords are laid down, and a wholly different dance between bodies begins... Haha, you can't silence the truth, Celeste!</desuriSpeech>
+        ]]>
+    </string>
+
+    <string name="chapter_ardent_blades_tenet_sound_body_title"><![CDATA[<anglo>A Sound Body</anglo>]]></string>
+    <string name="chapter_ardent_blades_tenet_sound_body_description">
+        <![CDATA[
 The most important technique for any divine warrior is called Shine, named so because at its highest levels the user's body literally glows with holy light. Shine channels the divine energy of a follower's patron through their body to reinforce it, giving them great strength and agility. It is only limited by the user's own body and faith, so both exercise and prayer are vital to growing a knight's power.
 To that end, the knights train and pray daily like clockwork, honing their technique and tempering their strength. All followers are welcome to join in the training, though few can keep up with the regimen.
 
-Our routine is a fantastic fat burner, so we end up trim after a few months. Save for the breasts and butt, unsurprisingly, which firm up instead.
+<celesteSpeech>Our routine is a fantastic fat burner, so we end up trim after a few months. Save for the breasts and butt, unsurprisingly, which firm up instead.</celesteSpeech>
+        ]]>
+    </string>
 
-The Fire Within
+    <string name="chapter_ardent_blades_tenet_fire_within_title"><![CDATA[<anglo>The Fire Within</anglo>]]></string>
+    <string name="chapter_ardent_blades_tenet_fire_within_description">
+        <![CDATA[
 Shine has a side effect of influencing the user's body depending on the divine affinity in question. For your followers, a fiery libido builds within their bodies, strong and hot yet unconnected to their mental arousal. Every proper workout ends with them worked up, and erotic cravings come frequently day to day.
 It doesn't take long for this to be a problem, so the adherents manage it by enduring and restraining themselves in the week, then letting it all out on the weekend in a frenzy of sexual gratification and satisfaction.
 Many adherents seek out each other or trusted friends, unable to fully satiate themselves alone.
 
-Ahh... it's, embarrassing for you to know this. And I know, it's common within the church and all, but it's just... It's not gay, it's camaraderie!
+<celesteSpeech>Ahh... it's, embarrassing for you to know this. And I know, it's common within the church and all, but it's just... It's not gay, it's camaraderie!</celesteSpeech>
+        ]]>
+    </string>
 
-Bearing the Banner
+    <string name="chapter_ardent_blades_tenet_bearing_banner_title"><![CDATA[<anglo>Bearing the Banner</anglo>]]></string>
+    <string name="chapter_ardent_blades_tenet_bearing_banner_description">
+        <![CDATA[
 Sex fighting is not real and there is no secret art of fucking a foe into submission, at least not in any normal situation.
 However, Shine scales with the user's affinity to their deity. Meaning if your adherents dress sexily and feel sexy doing so, they will be able to draw out more power. Your knights default to normal metal armor, but in times of duress it can be shed to reveal the curve hugging, skin baring, dress-like uniform beneath, leading to a dramatic spike in their physical abilities.
 The more one embraces being so blatantly sexy, the more lethal they become.
 
-I... still struggle with this. To be seen and lusted after so openly is... uncomfortable. Though, it... it didn't feel bad when it was, you... Um. Perhaps, you might like to, watch us train, my Lord?
+<celesteSpeech>I... still struggle with this. To be seen and lusted after so openly is... uncomfortable. Though, it... it didn't feel bad when it was, you... Um. Perhaps, you might like to, watch us train, my Lord?</celesteSpeech>
+        ]]>
+    </string>
 
-
-The Chapter of Vaunted Truth
+    <string name="chapter_vaunted_truth_title"><![CDATA[<anglo>The Chapter of Vaunted Truth</anglo>]]></string>
+    <string name="chapter_vaunted_truth_description">
+        <![CDATA[
 The Chapter of Vaunted Truth are scholars to the core, lusting for knowledge and sex in nearly equal measure. Their most visible function is the constant research and development done on magic, specifically utilizing your own concepts of Sex, and probing each and every hot, sticky line of inquiry they can to more fully know the grace of their Lord. To this end, they've also taken up the mantle of scribes and archivists, preserving every morsel of the Church's history and wisdom so that in time their knowledge may grow even further. Much was lost in the time of your absence, but now there is so much to learn once more!
 "The countless rules that govern our reality are not shackles, they are tools. They weigh us down, but without weight a creation has no substance. Our Lord provides the greatest tools of all, and to us, our greatest treasure."
-Doctrine 1: True Wisdom Has No End
+        ]]>
+    </string>
+
+    <string name="chapter_vaunted_truth_doctrine_1_title"><![CDATA[<anglo>Doctrine 1: True Wisdom Has No End</anglo>]]></string>
+    <string name="chapter_vaunted_truth_doctrine_1_description">
+        <![CDATA[
 The single core goal of the Vaunted Truth is to more fully comprehend your divinity, chiefly through your concepts and their magical nature. This is not just an avenue for erotic magic, but is quite literal; strong divine concepts can manifest an actual affinity of magic, and your concepts of "Sex" are no exception.
 It's a subject that has no finish line, with there always being more to learn and discover, to the mixed delight and frustration of the adherents. But the more they learn, the closer they can become to their Lord, an objective they universally agree upon.
-Doctrine 2: Let Not Memory Fade
+        ]]>
+    </string>
+
+    <string name="chapter_vaunted_truth_doctrine_2_title"><![CDATA[<anglo>Doctrine 2: Let Not Memory Fade</anglo>]]></string>
+    <string name="chapter_vaunted_truth_doctrine_2_description">
+        <![CDATA[
 Almost as an accessory to the first, the chapter's work of record keeping and recording history ends up being nearly as important as their actual driving goal. To forget the past is to tread the same steps, and the chapter as a whole wants to seek the new and map out the unknown. To walk the same path over and over is not just a problem, it would be unbearable.
 As such, records must be kept and knowledge preserved and passed on. In time, it's become as vaunted as discovery itself.
-So, it's a bit unorthodox but... I'm barely involved in most of the magic stuff. Turns out I'm, um, magically a dud. Almost no mana control. Brands are the way I found to work around that, so Erina and I ended up kinda... swapping roles to some extent, since she can't draw to save her life and I've been doing it for decades.
-You didn't need to mention that part!! Hmph. But, yes, essentially. Though don't let her fool you, Lord - most of the research we do requires hands on work, but Desuri's got a mind for formation theory like you wouldn't believe. She can't use a magical circle or enchantment, but there's almost no one better at designing them!
+        ]]>
+    </string>
 
-Bearing Witness
+    <string name="chapter_vaunted_truth_comment">
+        <![CDATA[
+<desuriSpeech>So, it's a bit unorthodox but... I'm barely involved in most of the magic stuff. Turns out I'm, um, magically a dud. Almost no mana control. Brands are the way I found to work around that, so Erina and I ended up kinda... swapping roles to some extent, since she can't draw to save her life and I've been doing it for decades.</desuriSpeech>
+<erinaSpeech>You didn't need to mention that part!! Hmph. But, yes, essentially. Though don't let her fool you, Lord - most of the research we do requires hands on work, but Desuri's got a mind for formation theory like you wouldn't believe. She can't use a magical circle or enchantment, but there's almost no one better at designing them!</erinaSpeech>
+        ]]>
+    </string>
+
+    <string name="chapter_vaunted_truth_tenet_bearing_witness_title"><![CDATA[<anglo>Bearing Witness</anglo>]]></string>
+    <string name="chapter_vaunted_truth_tenet_bearing_witness_description">
+        <![CDATA[
 To record the history of the Church, adherents need to first know it. So between research and their own erotic hobbies, most of the adherents are quite adventurous as far as trying new things goes, and you're likely to always find at least one adherent at any event, experiment, or decently sized get together.
 Both during and after, it's common to see them jotting down notes or making small sketches, though they're never shy about joining in the festivities themselves either. In many cases it's required, to properly understand what they will later record! At least that's what they say, as they join in the latest themed orgy.
 
-No one likes a dry note taker stuck in the corner, so it's good that we believe in experiencing what we record firsthand. A ton of fun, too!
+<desuriSpeech>No one likes a dry note taker stuck in the corner, so it's good that we believe in experiencing what we record firsthand. A ton of fun, too!</desuriSpeech>
+        ]]>
+    </string>
 
-Divine Spellcraft
+    <string name="chapter_vaunted_truth_tenet_divine_spellcraft_title"><![CDATA[<anglo>Divine Spellcraft</anglo>]]></string>
+    <string name="chapter_vaunted_truth_tenet_divine_spellcraft_description">
+        <![CDATA[
 While it's true that the chapter focuses on researching new and exciting sex magic, to call it only that is very reductive.
 The goal is not to find the best spells to give the best orgasms, but rather to delve deep into the nature of Sex as a concept, using magic as a medium. Meditation, study, and philosophy play as much a role as experimentation and orgasm-inducing rituals. The obvious outcome is the sex magic that the Church uses every day, but the adherents treasure their collectively deepened understanding of you far more.
 
-Me again! Mm, this is quite the interesting thing to take in, isn't it? To be clear, we are still a bunch of magical perverts and hedonists chasing the highest highs we can! The chapter just, found a way to make the two goals satisfyingly align~!
+<erinaSpeech>Me again! Mm, this is quite the interesting thing to take in, isn't it? To be clear, we are still a bunch of magical perverts and hedonists chasing the highest highs we can! The chapter just, found a way to make the two goals satisfyingly align~!</erinaSpeech>
+        ]]>
+    </string>
 
-Dedication
+    <string name="chapter_vaunted_truth_tenet_dedication_title"><![CDATA[<anglo>Dedication</anglo>]]></string>
+    <string name="chapter_vaunted_truth_tenet_dedication_description">
+        <![CDATA[
 To truly expand the realm of human knowledge one must become an expert among experts. The entire Church is already quite well versed in sex, and the chapter makes a science out of it. But the best work is done by those inching forward in their own specialized niches.
 Adherents are encouraged to find something about sex they like, even as small as a single sex act, and fully embrace it. Dive deep, map the possibilities, identify the variables, quantify pleasure. Become an expert in that sexy subject to expand the body of erotic knowledge!
 
-Why am I the head of Vaunted Truth? True, I can't do magic, it is a problem. Well... the others follow the small threads, but there needs to be someone able to compile the tapestry as a whole. And... I suppose it comes naturally to me.
+<desuriSpeech>Why am I the head of Vaunted Truth? True, I can't do magic, it is a problem. Well... the others follow the small threads, but there needs to be someone able to compile the tapestry as a whole. And... I suppose it comes naturally to me.</desuriSpeech>
+        ]]>
+    </string>
 
-
-The Chapter of Vivid Splendor
+    <string name="chapter_vivid_splendor_title"><![CDATA[<anglo>The Chapter of Vivid Splendor</anglo>]]></string>
+    <string name="chapter_vivid_splendor_description">
+        <![CDATA[
 The Chapter of Vivid Splendor is the chapter that most resemble a traditional church, though a close inspection quickly dispels that illusion. They concern themselves with preaching the gospel of the Church and the glory of their Lord, and as such tend to be the most visibly fervent of your followers. Their excitement and passion for both you and sex itself can't be contained, leading to most adherents being borderline nymphomaniacs. However, expressing all that emotion and passion is the other side of the coin, and the chapter is also full of artists of all stripes that put their all into their creations, erotic or not.
 "Let your pen fly freely. Don't think, just act. You're not trying to capture reality, you're capturing what you feel. The sight, the scents, the emotions, the energy, all of it... let it flow from you and take form on the page."
-Doctrine 1: Praise The Lord!
+        ]]>
+    </string>
+
+    <string name="chapter_vivid_splendor_doctrine_1_title"><![CDATA[<anglo>Doctrine 1: Praise The Lord!</anglo>]]></string>
+    <string name="chapter_vivid_splendor_doctrine_1_description">
+        <![CDATA[
 The simplest and most core part of any church, spreading the good word. Learn the scriptures, pray frequently, and teach them to anyone willing to listen - all duties the adherents absolutely relish. It is quite enjoyable to talk about your passions.
 Divine churches tend to have less fanciful works as their holy texts, and more of biographies with parables of the god's concepts. While the Church's holy book does read far more like erotica than most, the passion and devotion that it aims to inspire are still plain to see, especially on the voice of an excited adherent reciting her favorite passage.
-Doctrine 2: Let Colors Flow Freely!
-The Vivid Splendor's adherents are by and large the most passionate, and it quickly becomes evident that words alone fail to convey the full depth and breadth of their feelings. Few mediums truly can, but the chapter still chases the horizon and tries to impart it anyway, in whatever form they are able. Painting or sculpture, music or poem, dance or seduction... there are no rules for creation, save for putting your heart into it.
-At last, my turn! Having heard all that, I'm sure you can put together why I'm so excited~! Ahh, I know it's why we're here, but still! Actually meeting and getting to serve you directly is literally a dream come true! I'm still all jittery from yesterday, hehe. Ohh, so much to show you, so much to say! Oh, the holy book! You've never read it, have you? Perfect, perfect! We can read it together, all snuggled up, and re-enact all the scenes!
-Erina, you're buzzing with so much energy my vibrators look tame in comparison, calm down~ Our Lord isn't going anywhere, you have plenty of time. I'm sure there's a passage about taking things slowly, mm?
+        ]]>
+    </string>
 
-Gospel
+    <string name="chapter_vivid_splendor_doctrine_2_title"><![CDATA[<anglo>Doctrine 2: Let Colors Flow Freely!</anglo>]]></string>
+    <string name="chapter_vivid_splendor_doctrine_2_description">
+        <![CDATA[
+The Vivid Splendor's adherents are by and large the most passionate, and it quickly becomes evident that words alone fail to convey the full depth and breadth of their feelings. Few mediums truly can, but the chapter still chases the horizon and tries to impart it anyway, in whatever form they are able. Painting or sculpture, music or poem, dance or seduction... there are no rules for creation, save for putting your heart into it.
+        ]]>
+    </string>
+
+    <string name="chapter_vivid_splendor_comment">
+        <![CDATA[
+<erinaSpeech>At last, my turn! Having heard all that, I'm sure you can put together why I'm so excited~! Ahh, I know it's why we're here, but still! Actually meeting and getting to serve you directly is literally a dream come true! I'm still all jittery from yesterday, hehe. Ohh, so much to show you, so much to say! Oh, the holy book! You've never read it, have you? Perfect, perfect! We can read it together, all snuggled up, and re-enact all the scenes!</erinaSpeech>
+<helenaSpeech>Erina, you're buzzing with so much energy my vibrators look tame in comparison, calm down~ Our Lord isn't going anywhere, you have plenty of time. I'm sure there's a passage about taking things slowly, mm?</helenaSpeech>
+        ]]>
+    </string>
+
+    <string name="chapter_vivid_splendor_tenet_gospel_title"><![CDATA[<anglo>Gospel</anglo>]]></string>
+    <string name="chapter_vivid_splendor_tenet_gospel_description">
+        <![CDATA[
 Most of those who lead services and preach in the Church are adherents of Splendor, though it's by no means mandatory. Fully two thirds of the chapter make no efforts to be in the spotlight, instead devoting their time to learning and living the teachings on their own.
 However, on stage or in private, get an adherent talking about their favorite bit of gospel and they could go on for hours.
 Interestingly, while most chapters attract their adherents from the outset, Splendor's tend to fall into the role after resonating especially well with the teachings of the Church.
 
-You should come to my sermons! I suppose it's a bit superfluous for you... But, I still think they're a wonderful time, and you do need to acquaint yourself. A-and, it would make me, very happy!
+<erinaSpeech>You should come to my sermons! I suppose it's a bit superfluous for you... But, I still think they're a wonderful time, and you do need to acquaint yourself. A-and, it would make me, very happy!</erinaSpeech>
+        ]]>
+    </string>
 
-Inscriptionists
+    <string name="chapter_vivid_splendor_tenet_inscriptionists_title"><![CDATA[<anglo>Inscriptionists</anglo>]]></string>
+    <string name="chapter_vivid_splendor_tenet_inscriptionists_description">
+        <![CDATA[
 Early in the Vivid Splendor's history, someone had the idea to express their devotion by using their body as a canvas. An obvious move in hindsight, but it took much longer before the Vaunted Truth found a way to make them directly magical and divine. Since then, the two chapters have collaborated closely on Brands, with the Vaunted delving into the magic, and the Splendor focusing on the body itself.
 The chapter usually lacks focus in its pursuits, but thanks to Brands, those of Splendor are the foremost experts of anatomy in the Church, both physical and magical.
 
-And that's where I fit in. The fact that I can directly augment a person's mana flows with just some sanctified ink and a needle really fascinates me, you know? And tattoos are sexy, too!
+<desuriSpeech>And that's where I fit in. The fact that I can directly augment a person's mana flows with just some sanctified ink and a needle really fascinates me, you know? And tattoos are sexy, too!</desuriSpeech>
+        ]]>
+    </string>
 
-Expression
+    <string name="chapter_vivid_splendor_tenet_expression_title"><![CDATA[<anglo>Expression</anglo>]]></string>
+    <string name="chapter_vivid_splendor_tenet_expression_description">
+        <![CDATA[
 Some see the Splendor's adherents as overly excited or delusional, making the teachings of the Church their entire personality. This misguided impression is most often cured by the chapter's more tangible output.
 Sermons and preaching are easy to pass off, but few can deny the depth and sincerity of the adherents' feelings when seeing it take physical form. For some reason, any art that adherents produce has the emotions they feel embedded within them, stoking reverence and appreciation in even the most jaded philistines.
 
-...don't laugh, okay? I can't do 'normal' art. Like, at all. It's so bad that it barely even captures any emotion, it's nothing like the other adherents...
-But when I work on magic, making a new erotic spell... that, THAT is when it comes alive for me.
+<erinaSpeech>...don't laugh, okay? I can't do 'normal' art. Like, at all. It's so bad that it barely even captures any emotion, it's nothing like the other adherents...
+But when I work on magic, making a new erotic spell... that, THAT is when it comes alive for me.</erinaSpeech>
+        ]]>
+    </string>
 
-
-The Chapter of Captive Allure
+    <string name="chapter_captive_allure_title"><![CDATA[<anglo>The Chapter of Captive Allure</anglo>]]></string>
+    <string name="chapter_captive_allure_description">
+        <![CDATA[
 The Chapter of Captive Allure holds the final spot of the Church's current chapters, and is the most external facing of them as well. The knights take outside work and the Guiding Light parley with other churches, but Captive Allure's entire goal is expansion and cooperation. To find new followers and introduce them to your glory, and to expand the Church to new far off lands that tragically lack your grace.
 Being the public "face" of the Church, the adherents regularly train in the fine arts of seduction and beauty, refining themselves to be flawless weapons of charisma and sensuality.
 "If any of you think that a great pair of tits or a bouncy ass is enough, you will bring disgrace to our chapter. They're one hell of a hook, but you need to be captivating in every aspect to reel in anyone worth your time."
-Doctrine 1: Expand the Church's Influence
+        ]]>
+    </string>
+
+    <string name="chapter_captive_allure_doctrine_1_title"><![CDATA[<anglo>Doctrine 1: Expand the Church's Influence</anglo>]]></string>
+    <string name="chapter_captive_allure_doctrine_1_description">
+        <![CDATA[
 The chapter's fairly boring, yet very important primary principle is to expand the Church. To grow the influence and size of each open branch, finding new followers and scouting out standout talents who align particularly well with the Church.
 But also, to spread the Church's influence further and wider, opening branches across the globe. In ancient times it was work that could take centuries and needed colossal effort to coordinate and maintain. In the world of phones, planes, and the internet, it's far easier, and things are ripe for expansion!
-Doctrine 2: Become Utterly Irresistible
+        ]]>
+    </string>
+
+    <string name="chapter_captive_allure_doctrine_2_title"><![CDATA[<anglo>Doctrine 2: Become Utterly Irresistible</anglo>]]></string>
+    <string name="chapter_captive_allure_doctrine_2_description">
+        <![CDATA[
 The adherents all chase a secondary goal in a far more individual way than the first: charm. It's a vague, mysterious term that encompasses far too much to easily summarize, but the adherents are experts in charm regardless.
 Self improvement here is taken remarkably seriously, with every day a chance to improve some aspect of themselves for the adherents. Ultimately the goal is to best embody their idea of Sex, and having their allure literally embody their divine faith.
-A-ah! I am so sorry, my Lord, for one of my adherents to grab you like that is unacceptable. The girls here haven't interacted with divinity enough, they don't have a PROPER SENSE OF DECORUM, APPARENTLY! A forward approach usually serves us well in our line of work, but for a mere Believer to do so to her Lord is-
-Helena! Helena, take a deep breath! Goodness, it's alright. I don't think our Lord minded, judging by the reaction. Not often that a beautiful woman grabs you by the collar and offers to fuck on the alter, after all.
-Wha? O-oh! Oh... Hmm. Do you like the aggressive type, my Lord? Or... more of a soft seducer? Hmm, I see~
+        ]]>
+    </string>
 
-Outreach
+    <string name="chapter_captive_allure_comment">
+        <![CDATA[
+<helenaSpeech>A-ah! I am so sorry, my Lord, for one of my adherents to grab you like that is unacceptable. The girls here haven't interacted with divinity enough, they don't have a PROPER SENSE OF DECORUM, APPARENTLY! A forward approach usually serves us well in our line of work, but for a mere Believer to do so to her Lord is-</helenaSpeech>
+<acerolaSpeech>Helena! Helena, take a deep breath! Goodness, it's alright. I don't think our Lord minded, judging by the reaction. Not often that a beautiful woman grabs you by the collar and offers to fuck on the alter, after all.</acerolaSpeech>
+<helenaSpeech>Wha? O-oh! Oh... Hmm. Do you like the aggressive type, my Lord? Or... more of a soft seducer? Hmm, I see~</helenaSpeech>
+        ]]>
+    </string>
+
+    <string name="chapter_captive_allure_tenet_outreach_title"><![CDATA[<anglo>Outreach</anglo>]]></string>
+    <string name="chapter_captive_allure_tenet_outreach_description">
+        <![CDATA[
 The simple but never ending work of connecting with the local community. Every branch of the Church has some adherents that will lead the efforts to find compatible people and work with local groups and organizations. This goes beyond just recruiting, as boosting the good name of the Church's mundane face is important to ensuring it can existent in the modern world.
 As you might guess, the nun on the street who handed you a flyer and lead to you stepping through the Church's doors was an adherent doing this sort of work.
 
-Far from glamorous, but vitally important. Without new blood, the Church will die. Without the community around us, a branch will wither. But that won't ever happen on my watch!
+<helenaSpeech>Far from glamorous, but vitally important. Without new blood, the Church will die. Without the community around us, a branch will wither. But that won't ever happen on my watch!</helenaSpeech>
+        ]]>
+    </string>
 
-Missionaries
+    <string name="chapter_captive_allure_tenet_missionaries_title"><![CDATA[<anglo>Missionaries</anglo>]]></string>
+    <string name="chapter_captive_allure_tenet_missionaries_description">
+        <![CDATA[
 A far more exciting line of work, and generally left to the more experienced adherents, the missionary group travels to far off locales for all manner of scouting. The main goal of their trips are to either to identify promising places for new branches, or to establish strong relations with far off groups and governments.
 And regardless of the trip, they always bring along a calling card artifact bearing a trace of your energy, an undeniable hint of the Church's aura. Any undiscovered sexual talents who feel it are immediately drawn to it, and some of the Church's finest have been such discoveries.
 
-There's so much that goes into these trips and no two are the same, but I've never had one where I don't put my skills as a charmer to work. Sadly for them, they never get a *real* taste of me~
+<helenaSpeech>There's so much that goes into these trips and no two are the same, but I've never had one where I don't put my skills as a charmer to work. Sadly for them, they never get a *real* taste of me~</helenaSpeech>
+        ]]>
+    </string>
 
-Beguiling
+    <string name="chapter_captive_allure_tenet_beguiling_title"><![CDATA[<anglo>Beguiling</anglo>]]></string>
+    <string name="chapter_captive_allure_tenet_beguiling_description">
+        <![CDATA[
 Not merely sexy, more than just charismatic,  far beyond sultry or charming... the only way to properly describe the adherents is Beguiling.
 An erotic figure that arrests the gaze backed by a simmering sensuality in every motion, paired with a beautiful face and charming smile that scrambles the thoughts of the viewer.
 Conversational partners will hang on every delicately enunciated word, dripping like honey with subtle double meanings and hints of sex, carried on a voice itself like music.
 When the adherents go all out, no one on earth can resist their seductive might.
 
-It's rare that we have to turn it up to 11 and bust out the full charm, but it's damn near hypnosis when we do. As you just saw, some adherents might get ambitious ideas on who to use it on.
+<helenaSpeech>It's rare that we have to turn it up to 11 and bust out the full charm, but it's damn near hypnosis when we do. As you just saw, some adherents might get ambitious ideas on who to use it on.</helenaSpeech>
+        ]]>
+    </string>
 
-
+    <string name="section_office_scene">
+        <![CDATA[
 Every Chapter you visit reacts much the same as the first; hard at work up until they realize you're present, then falling over themselves to catch a glimpse of you. Knowing that almost all of them joined the Church because your energy filled a part of themselves they didn't even realize was empty (as Desuri phrased it), seeing and feeling the genuine article before them for the first time in their lives must be a religious experience in a lot of ways. But sadly for the adherents, your Priestesses hustle you through things without stopping for sex even once (though a few promises of visiting later are thrown out). Voicing an idle thought, you wonder if everyone in the Church is so exemplary as all the adherents seem to be.
 
-Why thank you~! But the short answer is no. The Chapters generally attract the best of the best by their nature, while the more ordinary followers are just... followers! Nothing wrong with that at all. Though, right now the follower base is rather, hm... let's say distilled. Even putting aside the slant towards Devotees, all the Church's followers right now are with the strongest connections to you, the Church, and sex in general.
+<acerolaSpeech>Why thank you~! But the short answer is no. The Chapters generally attract the best of the best by their nature, while the more ordinary followers are just... followers! Nothing wrong with that at all. Though, right now the follower base is rather, hm... let's say distilled. Even putting aside the slant towards Devotees, all the Church's followers right now are with the strongest connections to you, the Church, and sex in general.
 Also, being a big enough pervert to join a magic sex church tends to coincide with a certain level of competence and drive. While I won't say we're the best in the world, I will say that the talent in all of our chapters is world class, and we Priestesses truly are the cream of the crop. Not to brag.
 When our numbers start to grow properly again, then things will even out more on the whole. The Believers especially run a wide range from casual to dedicated, but it applies to both sides. There will be Devotees that are only casually devoted, odd as it may sound!
 But we'll also draw in more top notch talent, so I don't expect the Chapters to change much in that regard!
 
-And here we are, our last stop for a bit. Your office! Or, well, it will be soon. Only so much can be done in a day, but the vitals are ready.
+And here we are, our last stop for a bit. Your office! Or, well, it will be soon. Only so much can be done in a day, but the vitals are ready.</acerolaSpeech>
 
 The "office" she steps into is a massive open room, with comfortably high ceilings and a wall of windows overlooking the street surrounding the church building.
 Right now there's a... distinct lack of furnishing. Just a large sturdy desk, a plush couch, and what looks like a bed straight out of an upper class brothel. Huge, luxurious, firm and inviting... All in all, likely a fantastic bed to have sex on.
@@ -1892,6 +2034,6 @@ Erina grows wetter and more desperate with her licks as she rubs her pussy along
 
 And of course, this absolute feast of sensory delights is only the warmup, with your Priestesses all thoroughly heated by the time you shoot your first load. You don't actually see who made it on to your cock first, as Celeste got her pussy on your face just before that. But it was officially the starting shot for a very enjoyable time.
 Hours later, stark naked, with five gorgeous women warmly clinging to you in exhausted satisfaction, you can confidently say that the bed is indeed fantastic.
-
--->
+        ]]>
+    </string>
 </resources>
