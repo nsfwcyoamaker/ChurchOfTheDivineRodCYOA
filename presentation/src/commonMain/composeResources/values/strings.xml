@@ -9,21 +9,21 @@ The moment you step foot through the church's door, you feel the blood rush to y
 
 After a long period of restless unconsciousness, filled with waves of burning heat washing over your body, you wake up. Feeling weirdly well rested, you look around. The first thing you notice is that you're in a dim, windowless chapel, tapestries on the walls and lit only by candles, laying on a hard alter with a thick cloth over top. The second thing you notice as you sit up is that you're stark naked, covered by only a thin blanket waist down to preserve your modesty.
 As your confusion mounts, you realize there's a group of nuns kneeling next to the altar and watching you intently. The moment you see them they light up in happiness, and the blonde one at the front stands to speak.
-<acerolaSpeech>My Lord! You're awake! How do you feel? Are you comfortable? Oh, I had only hoped to dream, but just the moment we saw you, it- ...Who, am I? Well, your High Priestess of course. Do you not... recognize me? ...Hmm. What about the other Priestesses?
-Not... them either. Okay. Um, that's alright. What about around us? The church, the symbols, the iconography, the... the feeling of divinity that saturates this whole room? Anything? ...nothing. You, don't know any of this at all. O-oh. I... please, allow me a moment...</acerolaSpeech>
+<acerola>My Lord! You're awake! How do you feel? Are you comfortable? Oh, I had only hoped to dream, but just the moment we saw you, it- ...Who, am I? Well, your High Priestess of course. Do you not... recognize me? ...Hmm. What about the other Priestesses?
+Not... them either. Okay. Um, that's alright. What about around us? The church, the symbols, the iconography, the... the feeling of divinity that saturates this whole room? Anything? ...nothing. You, don't know any of this at all. O-oh. I... please, allow me a moment...</acerola>
 
 The excitement is replaced by concern, confusion, and a hint of despair on all the nuns save the blonde. After a long steadying breath, she reopens her eyes and faces you resolutely.
-<acerolaSpeech>Alright. I am <emphasis>Acerola</emphasis>, High Priestess of the Church of the Divine Rod, a church dedicated to the worship of <emphasis>You</emphasis>, and the entire spectrum of Sex.
+<acerola>Alright. I am <emphasis>Acerola</emphasis>, High Priestess of the Church of the Divine Rod, a church dedicated to the worship of <emphasis>You</emphasis>, and the entire spectrum of Sex.
 You are the earthly manifestation of our lord, <emphasis>the High God of Sex</emphasis>, and thus the leader and ruler of this Church. Several centuries ago you vanished after... some exceptional events.
-Our predecessors expected you to reincarnate within a few years, as you've done many times before, but you never reappeared until just now. We are absolutely certain that you are or Lord in the flesh; your aura is unmistakable, it fills and resonates within us in a way that nothing else in the world could. But this amnesia is... beyond our expectations.</acerolaSpeech>
+Our predecessors expected you to reincarnate within a few years, as you've done many times before, but you never reappeared until just now. We are absolutely certain that you are or Lord in the flesh; your aura is unmistakable, it fills and resonates within us in a way that nothing else in the world could. But this amnesia is... beyond our expectations.</acerola>
 
-<acerolaSpeech>Um... My Lord... How do you, feel?</acerolaSpeech>
+<acerola>Um... My Lord... How do you, feel?</acerola>
 That's a fucking lot to take in. But you did pick out one thing - this is apparently some kind of sex church, and the women in front of you are indeed pretty damn sexy.
 Unbidden, the blanket over your waist begins to rise, further and higher, defying gravity in a tall, thick bulge... before it slips off entirely and reveals a massive, throbbing, rock-hard foot-long cock. That's new. For some reason this of all things does not alarm you, instead somehow feeling... natural.
 The response from the nuns is immediate; the worry on all their faces becomes rapt attention as all five of them gaze upon your penis in awestruck silence.
-<acerolaSpeech>Glory... well, I think this proves that even without memory, you are still the Lord we adore. As ridiculous as that may seem from merely sighting an erection...</acerolaSpeech>
+<acerola>Glory... well, I think this proves that even without memory, you are still the Lord we adore. As ridiculous as that may seem from merely sighting an erection...</acerola>
 
-<acerolaSpeech>It may be somewhat presumptuous to ask this of you and I know it's very sudden, but... you are our Lord now. Our literal god. I do not think there is a way to go back to the life you once had regardless, but what awaits you with us is power, prestige, divinity, and all the sex in the world. Would you join us as our leader once more?</acerolaSpeech>
+<acerola>It may be somewhat presumptuous to ask this of you and I know it's very sudden, but... you are our Lord now. Our literal god. I do not think there is a way to go back to the life you once had regardless, but what awaits you with us is power, prestige, divinity, and all the sex in the world. Would you join us as our leader once more?</acerola>
 Not seeing much other option, and definitely interested in the sex, you nod. Acerola smiles radiantly at your acceptance, making your heart skip a beat at the sight.
         ]]>
     </string>
@@ -32,13 +32,13 @@ Not seeing much other option, and definitely interested in the sex, you nod. Ace
 
     <string name="priestesses_introduction_description">
         <![CDATA[
-<acerolaSpeech>Oh, thank the Lord... Now I suppose you will need a crash course on, well, everything! Goodness, I did not expect today to go this way...
+<acerola>Oh, thank the Lord... Now I suppose you will need a crash course on, well, everything! Goodness, I did not expect today to go this way...
 Let us start with the Church. The Church of the Divine Rod is dedicated to you and to Sex, which is your overarching concept as a god. Any time someone worships Sex itself, they are indirectly worshipping you, and vice-versa. The Church exists to encourage and organize this worship, steering it in the right direction.
 While anyone can attend church services or events, pray, receive blessings, and so on, casual worship and involvement does not go beyond that. Anyone who formally joins the Church and claims it as their primary path of worship, no matter how lightly or heavily dedicated, is called a <emphasis>Follower</emphasis>, which are split up into Believers and Devotees.
 
 <indent depth="20.0"><emphasis>Believers</emphasis> are those that mainly venerate and worship the concepts of Sex directly. They make up the majority of followers and vary in their beliefs, and the more "casual" followers tend to be Believers. Not to say there aren't very dedicated Believers as well, just that it's the more... approachable of the two paths. For most Believers, you exist as the utmost paragon of Sex and embody the concepts they hold dear. They may be attracted to you, admire you, or even seek to emulate you, but all hold you in high regard.</indent>
 <indent depth="20.0"><emphasis>Devotees</emphasis> on the other hand are any of us who have found their calling in you, yourself. We worship not Sex as a concept, but Sex as a god. To us, you are the utmost existence in the world, the greatest and most splendid being and the obvious target of our love and devotion. Er, well, the exact level of enthusiasm varies by person, but every Devotee will agree that your very existence holds a calling to them, and they feel a desire to devote themselves to you in some capacity.</indent>
-<indent depth="20.0"><emphasis>Priestesses</emphasis> such as us five are above both types of followers, embodying a powerful devotion to you as our Lord and a strong veneration of the concepts of Sex, to the point where we decide to dedicate ourselves fully to the Church. Only a few followers with standout drive and faith reach this point, and unsurprisingly most of us come from the Devotees. Also, becoming a Priestess requires safeguarding our virginity for you. This will be much less arduous now that you are present again to receive it from us, heh.</indent></acerolaSpeech>
+<indent depth="20.0"><emphasis>Priestesses</emphasis> such as us five are above both types of followers, embodying a powerful devotion to you as our Lord and a strong veneration of the concepts of Sex, to the point where we decide to dedicate ourselves fully to the Church. Only a few followers with standout drive and faith reach this point, and unsurprisingly most of us come from the Devotees. Also, becoming a Priestess requires safeguarding our virginity for you. This will be much less arduous now that you are present again to receive it from us, heh.</indent></acerola>
 
 The more she talks, the harder you find it to pay attention over the pulsing heat spreading out from your still-throbbing dick, also making you increasingly drawn to look at Acerola's chest and hips. She hasn't seemed to notice yet, or maybe she just doesn't mind.
 With a quick wave, she beckons the others to begin approaching one at a time to properly introduce themselves and give you a good look at them.
@@ -54,7 +54,7 @@ With a quick wave, she beckons the others to begin approaching one at a time to 
 
     <string name="priestess_introduction_acerola">
         <![CDATA[
-<acerolaSpeech>As I said, I am the High Priestess! I lead the day to day operations of the church, play divine diplomat, and coordinate the other Priestesses. Most of my work is administrative, so I treasure the time I can take to practice my faith. I'm very excited to be able to pray and worship you directly now, with you right in front of me! I cannot wait to show you the depths of my devotion personally!</acerolaSpeech>
+<acerola>As I said, I am the High Priestess! I lead the day to day operations of the church, play divine diplomat, and coordinate the other Priestesses. Most of my work is administrative, so I treasure the time I can take to practice my faith. I'm very excited to be able to pray and worship you directly now, with you right in front of me! I cannot wait to show you the depths of my devotion personally!</acerola>
 
 Acerola is capable and collected, the ever reliable face of the Church who all the followers look up to. Whether in her private life or when playing with her pussy alone she maintains composure, even in the midst of orgasm. Your cock will be the only thing that can truly make her lose herself to pleasure.
 
@@ -68,7 +68,7 @@ Acerola enjoys debating the merits of sex with her fellow followers, but her own
 
     <string name="priestess_introduction_celeste">
         <![CDATA[
-<celesteSpeech>Hail lord! I, Celeste the Silver Blade, am at your command. My sworn duty is to hunt down the foul demons and heretics that try to pervert the faith. I will strive to ensure my blade serves you well. And... if you find yourself lacking a partner, I will... will be... um... glad to help you locate one! Yes...</celesteSpeech>
+<celeste>Hail lord! I, Celeste the Silver Blade, am at your command. My sworn duty is to hunt down the foul demons and heretics that try to pervert the faith. I will strive to ensure my blade serves you well. And... if you find yourself lacking a partner, I will... will be... um... glad to help you locate one! Yes...</celeste>
 
 Celeste is serious and vigilant, harshly rebuking any weakness or lack of faith she sees. To her loyal sisters, she is stern but fair, an unshakable pillar of loyalty and faith, and to her enemies she is a merciless angel, here to smite them for their sins and stomp on their delicate parts.
 
@@ -82,8 +82,8 @@ Celeste has a very maidenlike view of sex, venerating the intimate connection be
 
     <string name="priestess_introduction_desuri">
         <![CDATA[
-<desuriSpeech>Hello~o there! I could feel it in my Brands the moment you arrived, but you're even better in person~! Mm, I am the church's Head Inscriptionist, Desuri.
-I lead and train our inscriptors, manage the Church's archives, and research Brands, new and old. Oooh, Iam positively tingling at the possibilities now that your divinity is properly flowing through our bodies again!</desuriSpeech>
+<desuri>Hello~o there! I could feel it in my Brands the moment you arrived, but you're even better in person~! Mm, I am the church's Head Inscriptionist, Desuri.
+I lead and train our inscriptors, manage the Church's archives, and research Brands, new and old. Oooh, Iam positively tingling at the possibilities now that your divinity is properly flowing through our bodies again!</desuri>
 
 Desuri is flirtatious and artistic, with her interests and skills spread across a wide variety of subjects. Her most common hobbies include magic formation theory, sketching scenes in the church, poring over reports on sexual research, and studying magical biology, anatomy, and physiology for Brand work. More than any other Priestess, she's a veritable renaissance woman.
 
@@ -96,7 +96,7 @@ Desuri's veneration sounds carnal at first, but is really more kinetic. She ador
 
     <string name="priestess_introduction_erina">
         <![CDATA[
-<erinaSpeech>Haah, h-haaah... O-oh jeez... just seeing you bare... My lord, my master, your cock looks... immaculate... it wouldn't hurt to just... take one little taste... H-huh? Oh, yes, um, Iam Erina! I lead services here, singing your praises and preaching your precepts as the God of Sex, and make sure the... the faith among followers stays strong. strong and hard. and long, thick... and hot...</erinaSpeech>
+<erina>Haah, h-haaah... O-oh jeez... just seeing you bare... My lord, my master, your cock looks... immaculate... it wouldn't hurt to just... take one little taste... H-huh? Oh, yes, um, Iam Erina! I lead services here, singing your praises and preaching your precepts as the God of Sex, and make sure the... the faith among followers stays strong. strong and hard. and long, thick... and hot...</erina>
 
 Erina is lustful and straightforward, with a surprising amount of intellect that is usually spent chasing a new and greater sexual thrill, though rarely the sense to do things in moderation. She is always happy to discuss both carnal matters and divine magical theory, and delights in combining the two.
 
@@ -109,7 +109,7 @@ Erina's veneration is simple: pleasure. It's our body's way of saying something 
 
     <string name="priestess_introduction_helena">
         <![CDATA[
-<helenaSpeech>Lord... It, it really is you... After all these years, it's us who're the lucky ones to see your return. Heh, Iam Helena, the Church's head of outreach. My group are basically the missionaries, bringing your presence to far off lands, and spreading the faith here at home. We also throw great parties, and are supremely pretty~</helenaSpeech>
+<helena>Lord... It, it really is you... After all these years, it's us who're the lucky ones to see your return. Heh, Iam Helena, the Church's head of outreach. My group are basically the missionaries, bringing your presence to far off lands, and spreading the faith here at home. We also throw great parties, and are supremely pretty~</helena>
 
 Helena is gregarious and friendly, always happy to chat and able to make fast friends with nearly anyone. No small number of people, including many among your own followers, have been charmed by Helena and her winning personality and beauty, though despite that she only truly has eyes for you.
 
@@ -122,14 +122,14 @@ Helena's veneration of sex is around the fun of it. Sex should be an enjoyable, 
 
     <string name="priestess_introduction_consorts">
         <![CDATA[
-<acerolaSpeech>There is also technically a level above Priestess, which is your <emphasis>Consort</emphasis>. There is usually only one at a time, and they're... well, basically your head wife. Multiple wives is the norm for you, of course, but the Consort stands above.
+<acerola>There is also technically a level above Priestess, which is your <emphasis>Consort</emphasis>. There is usually only one at a time, and they're... well, basically your head wife. Multiple wives is the norm for you, of course, but the Consort stands above.
 
 A Consort is your most trusted confidante and lover, holding near-supreme authority over the church, second only to your own. They also gain a measure of access to your divine might, letting them enact miracles and blessings.
 Though that requires a connection to your heaven, which even now seems to be blocked off... So it is mostly a position of honor at the moment.
 
 Only Priestesses are eligible for selection as Consort, which limits it to us five until we can find more worthy candidates.
 Also... It is apparently quite taxing on Fervor to do so, but it IS possible to have multiple consorts. The cost grows with each Consort taken, but if you desire it we have ways to recoup the cost... N-not that I'm trying to sway your opinion, and of course take your time deciding!
-But it, <size value="0.9">would be... </size><size value="0.8">really very nice </size><size value="0.7">to have everyone... </size><size value="0.6">together... </size><size value="0.6">with you.</size></acerolaSpeech>
+But it, <size value="0.9">would be... </size><size value="0.8">really very nice </size><size value="0.7">to have everyone... </size><size value="0.6">together... </size><size value="0.6">with you.</size></acerola>
 
 You can take Priestesses as your Consort, designating them as your main wife (or wives), with corresponding prestige. Your Consort(s) need not be chosen now, but at least one must be selected by the end. The first is free, but each Consort past that costs <b>1 Fervor</b> more than the last.
 (Total Cost: 0, 1, 3, 6, 10...)
@@ -139,7 +139,7 @@ You can take Priestesses as your Consort, designating them as your main wife (or
     <string name="priestesses_introduction_extra_1">
         <![CDATA[
 Acerola wraps up her explanation, and in the silence that foll do has been stoked to its limit by this heat from your cock.
-<acerolaSpeech>Oh! Ah. W-well, it seems the surge of divine energy might be, a bit hard to handle for a former mortal body, aheh... We can certainly help you with that, it is our duty after all, we just need to... erm, gather up the followers to have a proper deflowering ceremony, and that should o-only take a few... u-um. My Lord?</acerolaSpeech>
+<acerola>Oh! Ah. W-well, it seems the surge of divine energy might be, a bit hard to handle for a former mortal body, aheh... We can certainly help you with that, it is our duty after all, we just need to... erm, gather up the followers to have a proper deflowering ceremony, and that should o-only take a few... u-um. My Lord?</acerola>
 She gives a panicked but happy squeak as you step up to her and tear the front of her vestments open, then grab her hips and hilt your cock inside in one savage thrust. The others crowd around in awe and excitement, watching Acerola devolve into a panting animal as you fuck like no one else in the world can. Just a few minutes later you explode into her pussy, a spray of white blasting across the ground beneath you, followed by Acerola slumping to the floor in a blissful daze.
 Of course this is far from enough, but the others eagerly throw themselves into the line of fire, almost racing to be next. You end up quickly going through the rest of the assembled Priestesses in your frenzy of lust and pounding every one of them full of your divine seed. And even then, you're far from spent.
         ]]>
@@ -148,8 +148,8 @@ Of course this is far from enough, but the others eagerly throw themselves into 
     <string name="priestesses_introduction_extra_2">
         <![CDATA[
 You quickly lose track of time, spending hours ramming your cock into pussies and wildly groping any curve within reach, but after who knows how long, you're satisfied. The combination of your newfound divine power and your sheer stamina was too much for your Priestesses, and the whole group has ended up strewn across the floor of the chamber, their robes torn and discarded. Only Acerola managed to keep awake through the entire experience.
-<acerolaSpeech>Haa... w-well. That was, everything I had dreamed of, and then some... Clearly, the divine energy returning to you is having a good effect.
-Mmm... since the others are out for a while, <size value="0.8">and I don't think I can walk right now anyway, </size> why don't we go over some things, like the changes to your body? Your flesh and Fervor are still at their most malleable from the mantling of your power and you can easily make changes, so we should do that now. Oh, wait! Fervor, of course!</acerolaSpeech>
+<acerola>Haa... w-well. That was, everything I had dreamed of, and then some... Clearly, the divine energy returning to you is having a good effect.
+Mmm... since the others are out for a while, <size value="0.8">and I don't think I can walk right now anyway, </size> why don't we go over some things, like the changes to your body? Your flesh and Fervor are still at their most malleable from the mantling of your power and you can easily make changes, so we should do that now. Oh, wait! Fervor, of course!</acerola>
         ]]>
     </string>
 
@@ -157,7 +157,7 @@ Mmm... since the others are out for a while, <size value="0.8">and I don't think
 
     <string name="section_fervor_description">
         <![CDATA[
-<acerolaSpeech>Before anything else, I must explain Fervor! You'll need to keep it in mind for most of the choices you make going forward.
+<acerola>Before anything else, I must explain Fervor! You'll need to keep it in mind for most of the choices you make going forward.
 <emphasis>Fervor</emphasis> is basically the measure of your divine mana, generated by the faith and adoration the Church and world hold for you and for Sex.
 It's generally increased by actions that increase our faith in you as our god or add to your inner circle of lovers, aka your harem, and spent on magical effects or as a buffer for actions that focus more on the Church or that don't quite go along with the tenets of serving you.
 There can be exceptions, but it is a fairly reliable rule of thumb.
@@ -168,7 +168,7 @@ Naturally, your true power as a High God is thousands of times larger than this,
 
 Aside from being a divine 'currency', the Fervor level also reflects itself in the followers to an extent.
 At lower levels, the <b>Believers</b> will be more enthusiastic, faithful, and energetic. More orgies, more sex, more prayers, more inviting friends to try out the Church... When it's as low as it can go they'll be downright zealous, and it may start subtly influencing people in the region.
-But at higher levels, the <b>Devotees</b> will feel it instead. Their faith, dedication, and attraction for you will climb, they'll work harder to prove themselves, and sex itself will become even more luscious. At its peak, even the Believers will start feeling something more for you.</acerolaSpeech>
+But at higher levels, the <b>Devotees</b> will feel it instead. Their faith, dedication, and attraction for you will climb, they'll work harder to prove themselves, and sex itself will become even more luscious. At its peak, even the Believers will start feeling something more for you.</acerola>
 <b>Fervor</b> is the measure of your accumulated Divine strength and mana, and will be gained and spent as your main currency as a god.
 Fervor <b>starts at 0</b>, and can go <b>as high as 30</b> or <b>as low as -30</b>. It can go outside the range temporarily, but you <b><i>cannot</i> end the CYOA or any DLCs with Fervor outside that range</b>.
 In general, actions that strengthen devotion, reinforce the Church's tenets and beliefs, or increase the size of your personal harem will have you <b>gain Fervor</b>.
@@ -185,7 +185,7 @@ You've just spent the last couple hours in the wildest sexual frenzy you've ever
 Her skin is pleasantly warm and distractingly soft as she sidles up directly against you, leaning her head on your shoulder and her body against your side. The floral and delicate scent of her hair tinged with sweat and sex, the tinkling tones of her voice as she giggles softly at your reactions, the glowing smile as she looks up at you in adoration...
 This woman effortlessly snares every one of your senses as she puts her hand on your cock and starts languidly stroking up and down.
 
-<acerolaSpeech>You really are everything I could've asked for~
+<acerola>You really are everything I could've asked for~
 I suppose this is a good time to explain your new body. You've already noticed one facet; your swift recovery. As you could expect, being the human incarnation of a god and connected to a boundless ocean of divine energy comes with its benefits. To start with, you're basically immortal now. Ageless, immune to disease and mundane poison, and very resistant to physical damage. Not impossible to kill, but anything short of tearing you to shreds and you'll either heal back from it or we can put you back together.
 On top of that, your body's performance is greatly enhanced. Enough stamina to fuck from dawn to dusk with barely any breaks, only a few hours of sleep needed per day to feel rested, a very efficient metabolism that leaves no unwanted fat and builds muscle easily, semen production ten times that of a normal man... You're basically superhuman now!
 
@@ -196,7 +196,7 @@ Speaking of, all followers receive some level of physical enhancement depending 
 <indent>- Lastly your Consorts, who unsurprisingly get the true cream of the crop. There isn't much different from the Priestess level, except that they can pull from your divinity to replenish themselves, making for truly endless sexual encounters. You can block that if you do want to tire them out, or let them pleasure you while you rest up. Both sound quite fun~</indent>
 Ah, and there is one other effect for us followers. Whenever we pleasure you, we get some of that back ourselves as a rootless divine-tinged pleasure. Even when selflessly devoting ourselves to your enjoyment, we can have a good time of our own. The effect's strength varies person to person, but seems to correlate with affinity for your concepts and mana. Any lovers from outside the Church are not affected, sadly for them, but I've no doubt you'll still show them a very good time.
 
-Anyway, to go back to your body, that's all just what comes for free. If you want, you can make more exotic and exciting changes to your form. Some will cost Fervor to manifest, but you could also make some changes more for our sake than yours, which would generate Fervor for you to use on other things! In fact, I think I already see some taking shape...</acerolaSpeech>
+Anyway, to go back to your body, that's all just what comes for free. If you want, you can make more exotic and exciting changes to your form. Some will cost Fervor to manifest, but you could also make some changes more for our sake than yours, which would generate Fervor for you to use on other things! In fact, I think I already see some taking shape...</acerola>
         ]]>
     </string>
 
@@ -206,8 +206,8 @@ Anyway, to go back to your body, that's all just what comes for free. If you wan
 Your body is remade to suit your ideal form. Any human sex, size, shape, appearance, and coloration is possible, but no matter the form you will always have your cock.
 Attributes covered by other options are not included.
 
-<acerolaSpeech>I didn't see you enter the church myself, so I don't know if your body is the same as it was before. The apotheosis may have reshaped it to match your desires.
-The good news is, we definitely all like what we see now~</acerolaSpeech>
+<acerola>I didn't see you enter the church myself, so I don't know if your body is the same as it was before. The apotheosis may have reshaped it to match your desires.
+The good news is, we definitely all like what we see now~</acerola>
         ]]>
     </string>
     <string name="mod_body_remodeling_cost"><![CDATA[<b>-2 Fervor</b>]]></string>
@@ -218,8 +218,8 @@ The good news is, we definitely all like what we see now~</acerolaSpeech>
 You grow a second dick, right next to the first. It is identical to the first dick aside from placement, and each works independently of the other(s).
 Can be taken multiple times, Fervor gain decreases each time (8, 4, 2, 1, 0...)
 
-<acerolaSpeech>I, um, don't know if you realize it but, since your cock is your bodily symbol of divinity, having multiple of them...
-W-well, everyone is going to be VERY excited to see this. In fact, I should probably help test them, to make sure they all work properly... for safety!</acerolaSpeech>
+<acerola>I, um, don't know if you realize it but, since your cock is your bodily symbol of divinity, having multiple of them...
+W-well, everyone is going to be VERY excited to see this. In fact, I should probably help test them, to make sure they all work properly... for safety!</acerola>
         ]]>
     </string>
     <string name="mod_dual_wield_cost"><![CDATA[<b>+8 Fervor</b>]]></string>
@@ -229,11 +229,11 @@ W-well, everyone is going to be VERY excited to see this. In fact, I should prob
         <![CDATA[
 Your cock grows, from a foot long to at least twice that, with a proportional girth. You can make it even larger if you wish.
 
-<acerolaSpeech>Holy-
+<acerola>Holy-
 Uhm. Well. How to put this...
 Lord, while your followers all do daily stretching exercises to accommodate your normal, expected size, this is...
 Well, no amount of normal stretching could ever be enough to fit all of THIS.
-We'll have to resort to magical means.</acerolaSpeech>
+We'll have to resort to magical means.</acerola>
         ]]>
     </string>
     <string name="mod_zweihander_cost"><![CDATA[<b>+3 Fervor</b>]]></string>
@@ -244,8 +244,8 @@ We'll have to resort to magical means.</acerolaSpeech>
 You gain the ability to shrink down to 2/3 your normal size at smallest, though your cock will stay its full size.
 Optionally, you can also have your body take a youthful form while shrunken. Cost becomes <b>+3 Fervor</b> if you make the shrunken form permanent.
 
-<acerolaSpeech>I can imagine a lot of the more forward followers will enjoy this form and teasing you in it.
-My quarters are always open if you need a place to hide out! I promise I won't be as insistent as the others!</acerolaSpeech>
+<acerola>I can imagine a lot of the more forward followers will enjoy this form and teasing you in it.
+My quarters are always open if you need a place to hide out! I promise I won't be as insistent as the others!</acerola>
         ]]>
     </string>
     <string name="mod_miniature_cost"><![CDATA[<b>-2 Fervor</b>]]></string>
@@ -256,7 +256,7 @@ My quarters are always open if you need a place to hide out! I promise I won't b
 You gain the ability to grow to 1.5x your normal size at largest, with your cock growing to match. Optionally, you can also have your body bulk up to a strong, muscular form while giant.
 Cost becomes <b>+2 Fervor</b> if you make the giant form permanent. Towering and Miniature's permanent height changes are mutually exclusive.
 
-<acerolaSpeech>I've caught Erina talking about something like this, being gripped and used like an, "own-a-hole"? I'm not certain what that is.</acerolaSpeech>
+<acerola>I've caught Erina talking about something like this, being gripped and used like an, "own-a-hole"? I'm not certain what that is.</acerola>
         ]]>
     </string>
     <string name="mod_towering_cost"><![CDATA[<b>-2 Fervor</b>]]></string>
@@ -266,9 +266,9 @@ Cost becomes <b>+2 Fervor</b> if you make the giant form permanent. Towering and
         <![CDATA[
 Your entire body becomes more sensitive, with your holes all becoming erogenous zones.
 
-<acerolaSpeech>This is a great opportunity to understand your followers better!
+<acerola>This is a great opportunity to understand your followers better!
 What better way to get closer to us than to share in our struggles, enduring the endless fight against your own shivering, licentious flesh, craving a sensual touch across every inch of your skin?
-It's nice!</acerolaSpeech>
+It's nice!</acerola>
         ]]>
     </string>
     <string name="mod_amplified_touch_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
@@ -279,7 +279,7 @@ It's nice!</acerolaSpeech>
 Your cock will be unable to reach orgasm unless it is inside a partner's hole. Even just the head is enough, but if you try to pull out then the orgasm will halt mid-spurt until it's put back in.
 If stimulated outside of a partner, the pleasure will build and just stay teetering at the edge of orgasm until put into a hole.
 
-<acerolaSpeech>Your seed is one of the greatest gifts you can give, so making sure that it always ends up inside one of us where it can be most appreciated is truly a blessing!</acerolaSpeech>
+<acerola>Your seed is one of the greatest gifts you can give, so making sure that it always ends up inside one of us where it can be most appreciated is truly a blessing!</acerola>
         ]]>
     </string>
     <string name="mod_all_in_cost"><![CDATA[<b>+4 Fervor</b>]]></string>
@@ -290,7 +290,7 @@ If stimulated outside of a partner, the pleasure will build and just stay teeter
 You become unable to reach orgasm unless your partner is either just about to or has just orgasmed. If you reach your limit without a partner, then you will stay on the edge of orgasm until your partner is ready.
 If having sex with multiple partners, any of them work for the window of opportunity.
 
-<acerolaSpeech>Your consideration is truly boundless, refusing to achieve your own pleasure unless your followers do as well.</acerolaSpeech>
+<acerola>Your consideration is truly boundless, refusing to achieve your own pleasure unless your followers do as well.</acerola>
         ]]>
     </string>
     <string name="mod_synchronized_cost"><![CDATA[<b>+4 Fervor</b>]]></string>
@@ -301,8 +301,8 @@ If having sex with multiple partners, any of them work for the window of opportu
 Your cum is enhanced, making your loads huge and voluminous, and your cum itself will stay hot for hours even in the open air.
 Take this a second time, and your cum will constantly shift and flow in any large amounts, causing stimulation for whoever it's touching.
 
-<acerolaSpeech>Mm, just imagining how this would feel on my skin or my face... wonderful. Or, even more lovely, inside of me...
-I bet I could orgasm from that sensation alone.</acerolaSpeech>
+<acerola>Mm, just imagining how this would feel on my skin or my face... wonderful. Or, even more lovely, inside of me...
+I bet I could orgasm from that sensation alone.</acerola>
         ]]>
     </string>
     <string name="mod_maximum_load_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
@@ -312,7 +312,7 @@ I bet I could orgasm from that sensation alone.</acerolaSpeech>
         <![CDATA[
 The stimulation your erogenous zones receive is doubled. Can be taken up to five times, each doubling the amount of stimulation (2x, 4x, 8x, 16x, 32x). At its maximum, the slightest touch will be a wave of pleasure and sex will be mind melting without a counter-balance.
 
-<acerolaSpeech>The divine contract states that as we are pleasured, so do we pleasure our lord. I've always felt that we got the bigger side of the exchange, but this can even the scales back out! Of course, too much can be difficult to handle, so take care.</acerolaSpeech>
+<acerola>The divine contract states that as we are pleasured, so do we pleasure our lord. I've always felt that we got the bigger side of the exchange, but this can even the scales back out! Of course, too much can be difficult to handle, so take care.</acerola>
         ]]>
     </string>
     <string name="mod_tenfold_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
@@ -323,7 +323,7 @@ The stimulation your erogenous zones receive is doubled. Can be taken up to five
 Your refractory period no longer causes overstimulation and you feel pleasure normally during it. You can't cum during the period, but pleasure can still accumulate towards orgasm, potentially leading to a strange edging where you're ready to cum but simply unable to until the period ends.
 Take this a second time to entirely remove your refractory period.
 
-<acerolaSpeech>Your divinity doesn't mitigate a need for rest by default, but that doesn't mean it can't be done!</acerolaSpeech>
+<acerola>Your divinity doesn't mitigate a need for rest by default, but that doesn't mean it can't be done!</acerola>
         ]]>
     </string>
     <string name="mod_super_armor_cost"><![CDATA[<b>-2 Fervor</b>]]></string>
@@ -334,7 +334,7 @@ Take this a second time to entirely remove your refractory period.
 Your threshold for reaching orgasm is doubled, making it take more stimulation to cum. Can be taken up to five times, each doubling the amount of stimulation needed (2x, 4x, 8x, 16x, 32x).
 Each level of <b>Tenfold</b> taken reduces the gain of the corresponding level of <b>Vast Depths</b> to <b>+1 Fervor</b>.
 
-<acerolaSpeech>Iam happy that you wish to avoid having to take breaks with us, but I also fear that this will reduce how much cum we can receive...</acerolaSpeech>
+<acerola>Iam happy that you wish to avoid having to take breaks with us, but I also fear that this will reduce how much cum we can receive...</acerola>
         ]]>
     </string>
     <string name="mod_vast_depths_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
@@ -345,7 +345,7 @@ Each level of <b>Tenfold</b> taken reduces the gain of the corresponding level o
 If you have sex with anyone wearing more than lingerie and accessories, you'll feel an instinctive desire to rip their clothes and expose their body during sex.
 If they're wearing a choker, you'll also have the irresistible urge to snap it through rough oral sex.
 
-<acerolaSpeech>Our vestments are certainly not free, but I think the raw animal appeal of having them literally ripped offof us is worth the cost, now and again at least.</acerolaSpeech>
+<acerola>Our vestments are certainly not free, but I think the raw animal appeal of having them literally ripped offof us is worth the cost, now and again at least.</acerola>
         ]]>
     </string>
     <string name="mod_rip_and_tear_cost"><![CDATA[<b>+3 Fervor</b>]]></string>
@@ -356,7 +356,7 @@ If they're wearing a choker, you'll also have the irresistible urge to snap it t
 You gain control over your own fertility, able to dial it from guaranteed impregnation from a drop of cum to absolutely incapable of creating a baby.
 If you've taken <b>Body Remodeling</b>, you can also set the sex and appearance of any child you sire at the time of impregnation, with the same limits.
 
-<acerolaSpeech>This is a very wise choice. Some followers have strong opinions about limiting how much you, ahem, 'gift us with child', but it's absolutely not an action to be taken lightly.</acerolaSpeech>
+<acerola>This is a very wise choice. Some followers have strong opinions about limiting how much you, ahem, 'gift us with child', but it's absolutely not an action to be taken lightly.</acerola>
         ]]>
     </string>
     <string name="mod_ammo_switcher_cost"><![CDATA[<b>-3 Fervor</b>]]></string>
@@ -366,8 +366,8 @@ If you've taken <b>Body Remodeling</b>, you can also set the sex and appearance 
         <![CDATA[
 Your body will maintain comfortable conditions around it at all time, including temperature, pressure, humidity, and stickiness. This will also affect anything you touch and your partners, and can be enabled/disabled at will.
 
-<acerolaSpeech>This sounds simple, but don't underestimate the value of comfort, cold, wet sheets can be an absolute mood killer in the middle of lovemaking!
-It also means almost any discrete location is a good spot for a quickie!</acerolaSpeech>
+<acerola>This sounds simple, but don't underestimate the value of comfort, cold, wet sheets can be an absolute mood killer in the middle of lovemaking!
+It also means almost any discrete location is a good spot for a quickie!</acerola>
         ]]>
     </string>
     <string name="mod_comfort_layer_cost"><![CDATA[<b>-1 Fervor</b>]]></string>
@@ -378,7 +378,7 @@ It also means almost any discrete location is a good spot for a quickie!</acerol
 You can only have sex with partners either one-on-one, or only in groups of 2 or more.
 Which mode is active cycles back and forth on a regular schedule (every 4 hours, daily, 3 times a week, ete). The schedule can be changed once a month. Can be taken twice to stay in one of the modes permanently.
 
-<acerolaSpeech>Limiting yourself is inspiring to us! Ifour lord can temper themself with restriction, then surely we can as well.</acerolaSpeech>
+<acerola>Limiting yourself is inspiring to us! Ifour lord can temper themself with restriction, then surely we can as well.</acerola>
         ]]>
     </string>
     <string name="mod_group_dynamic_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
@@ -389,7 +389,7 @@ Which mode is active cycles back and forth on a regular schedule (every 4 hours,
 When having sex with multiple partners, the pleasure they feel is maintained when you switch off one and focus on another. They can be kept at a pleasant thrum or on the edge of orgasm until it's their turn again.
 Anyone else pleasuring them while they wait will feel like a second, distinct line of pleasure.
 
-<acerolaSpeech>How thoughtful of you! It really is such a disappointment when your partner switches their attention and you're left high and dry for a bit, ruins the mood.</acerolaSpeech>
+<acerola>How thoughtful of you! It really is such a disappointment when your partner switches their attention and you're left high and dry for a bit, ruins the mood.</acerola>
         ]]>
     </string>
     <string name="mod_sustained_highs_cost"><![CDATA[<b>-3 Fervor</b>]]></string>
@@ -399,8 +399,8 @@ Anyone else pleasuring them while they wait will feel like a second, distinct li
         <![CDATA[
 Your hair will grow extremely fast, depending on how long it is. Shaved bald you grow 2 feet of hair a day, scaling all the way down to human normal rate at floor-length.
 
-<acerolaSpeech>Well this is a surprise, but a pleasant one! Don't worry, I'Il organize a rotation for the followers trim your hair, they'Il ADORE pampering you.
-And as a bonus, materials from your divine body make for fantastic ritual components!</acerolaSpeech>
+<acerola>Well this is a surprise, but a pleasant one! Don't worry, I'Il organize a rotation for the followers trim your hair, they'Il ADORE pampering you.
+And as a bonus, materials from your divine body make for fantastic ritual components!</acerola>
         ]]>
     </string>
     <string name="mod_rapunzel_cost"><![CDATA[<b>+2 Fervor</b>]]></string>
@@ -416,12 +416,12 @@ And as a bonus, materials from your divine body make for fantastic ritual compon
 By the time you're done going over all the options for your body, the other Priestesses have all stirred and made their way over to drape themselves across you, happily providing small caresses and coos of enjoyment as they lounge and observe the changes to your remade body.
 Meanwhile, Acerola's hand never stops, still running up and down your length with the same wonderfully slow pace, never enough to really build up an orgasm, just slowly inch towards one. Finally, almost as if she planned it that way, you reach your limit seconds after you've wrapped up your selections and your cock sprays another thick load of cum into the air, which all of the Priestesses are quick to catch with their hands and mouths.
 
-<acerolaSpeech>Even after that stunning display earlier, you still manage to produce so much for us, and so soon as well. I cannot wait to see you in action with your extra changes...
+<acerola>Even after that stunning display earlier, you still manage to produce so much for us, and so soon as well. I cannot wait to see you in action with your extra changes...
 Well! I can feel my hips again, so the other Priestesses and I have to get to work. There will be a lot to take care of with your return to us!
 ...oh, I hate to have to leave you already, but there really is so much to do. Well, I'll check back in later, alright? And you'll be in good hands with the others for now. It will be a good chance to get to know us all better, as well. Both inside and out, mm~
 
 Ugh, alright, enough stalling. I have dozens of missives to send, meetings to arrange, and celebrations to plan, and that's only for this week. Hell, I bet half the congregation is clamoring at my office for an explanation as to why our Brands suddenly lit up with your aura. I shouldn't keep them waiting.
-Erina, would you do the honors and start things off with the Covenants?</acerolaSpeech>
+Erina, would you do the honors and start things off with the Covenants?</acerola>
 
 The red haired priestess, Erina, breaks out in an excited, naughty smile as she looks to you, still only halfway dressed.
         ]]>
@@ -431,10 +431,10 @@ The red haired priestess, Erina, breaks out in an excited, naughty smile as she 
 
     <string name="section_covenants_description">
         <![CDATA[
-<erinaSpeech>Oh I have been waiting for this moment for YEARS! Gosh, I can hardly believe it's finally actually happening... Let us go, my Lord!</erinaSpeech>
+<erina>Oh I have been waiting for this moment for YEARS! Gosh, I can hardly believe it's finally actually happening... Let us go, my Lord!</erina>
 
 She yanks her robes back to a barely presentable state, and takes your hand to lead you away. The others are sad to see you go, but Erina wastes no time. A few halls and rooms later, you're in a different, similar looking stone room, this one covered in candles and what look like magic diagrams. Right, magic is real now. She grabs a small kit and begins rapidly drawing intricate lines on the floor with a stick of plain white chalk, while making strange signs with her free hand. As she works, her chatter resumes.
-<erinaSpeech>I shall explain! Covenants are magical compacts between we, the followers of the Church of the Divine Rod, and our god, You! In more practical terms, they're church-wide spells that affect all followers, embodying your tenets and values in some way or another. It's kind of a broad umbrella, but most fall under the realm of mental shifts and lesser body modifications.
+<erina>I shall explain! Covenants are magical compacts between we, the followers of the Church of the Divine Rod, and our god, You! In more practical terms, they're church-wide spells that affect all followers, embodying your tenets and values in some way or another. It's kind of a broad umbrella, but most fall under the realm of mental shifts and lesser body modifications.
 Though a few even reach beyond just the church's followers to affect the noospheric shape of the church! Ah, that is, its... perception, in the public eye? The mental "shape" to people, both outsiders and followers? It's hard to explain but super fascinating stuff, and ties into the nature of gods and divinity in general, we should talk about it later! Gosh, this is your first time with magic too, so exciting!
 
 But no time for that now. The other important thing is that all Covenants, due to reinforcing the church's tenets in all its followers, increase Fervor rather than draining it. In theory this is good, we could definitely use a good Fervor boost these days, but too much of a good thing can still turn bad, especially when it's divine mana and it makes your earthly form explode. Hm? Yes, literally explode.
@@ -444,10 +444,10 @@ What else... <b>In terms of Fervor, each Covenant will raise it by 4</b>, no var
 Covenants only affect followers fully after they receive their first Brand. Before that, only the 'perception' covenants are in full effect, the mental ones are at about half strength, and the physical don't kick in at all. It's hard to channel the magic without the Brand as a... hm. Like an antenna, yeah. Desuri will go over that!
 Perception covenants will affect outsiders that align with it, and anyone affected will find themselves drawn to the church similar to how you were, in addition to the covenant's primary effect. And lastly, you can affect yourself with any selected covenants too, but you CAN disable the effect on yourself! Very handy!
 
-There, all ready!</erinaSpeech>
+There, all ready!</erina>
 She makes the last mark in a shockingly complex magical circle, with two open spots in the middle for people. A snap of her fingers makes a pink spark run through the whole thing, and it begins glowing softly. She then guides you over to one spot, while kneeling in the other spot directly in front of you.
 
-<erinaSpeech>I'll be running the main Covenant ritual from down here, my favorite spot to be~. I'll also explain the options as you go through them by speaking into your mind via contact prayer. Technically I could just talk out loud, but that would be no fun~</erinaSpeech>
+<erina>I'll be running the main Covenant ritual from down here, my favorite spot to be~. I'll also explain the options as you go through them by speaking into your mind via contact prayer. Technically I could just talk out loud, but that would be no fun~</erina>
 You don't have time to ask why before she answers your question by grabbing your cock, restoring it back to full hardness in just a few quick strokes, and taking it into her mouth. Erina then clasps her hands and begins to pray as her head gently bobs back and forth.
         ]]>
     </string>
@@ -459,7 +459,7 @@ Female followers have a mana bud form in their clitoris. If properly stimulated 
 The penises are fertile and vary in attributes by normal amounts. Growing balls is a secondary, optional bud.
 The bud, bloomed or not, also amplifies any desires to have and use a penis that the follower feels.
 
-<erinaSpeech>What a way to start! I suppose we are the Church of the Divine Rod after all. It's a truly fascinating idea, even if it is a one-way change... it's kind of exciting~</erinaSpeech>
+<erina>What a way to start! I suppose we are the Church of the Divine Rod after all. It's a truly fascinating idea, even if it is a one-way change... it's kind of exciting~</erina>
         ]]>
     </string>
 
@@ -468,8 +468,8 @@ The bud, bloomed or not, also amplifies any desires to have and use a penis that
         <![CDATA[
 Followers' ass, mouth, and pussy can now stretch to fit almost any penetration. They will also naturally massage and stroke anything penetrating them.
 
-<erinaSpeech>This is nice to have normally, but if you've got anything that will make your already prodigiously sized cock even bigger, it's practically a necessity.
-It also opens the door to some creative punishments and meditation techniques involving unusual seating devices. Personally, I'm interested in finding the upper limit of what can fit, or if there even IS one. Heheh, I sure hope not.</erinaSpeech>
+<erina>This is nice to have normally, but if you've got anything that will make your already prodigiously sized cock even bigger, it's practically a necessity.
+It also opens the door to some creative punishments and meditation techniques involving unusual seating devices. Personally, I'm interested in finding the upper limit of what can fit, or if there even IS one. Heheh, I sure hope not.</erina>
         ]]>
     </string>
 
@@ -480,8 +480,8 @@ The average size of followers' assets (breasts, hips, and ass) doubles.
 Their assets can also grow further if the follower drinks sexual fluids. The more they drink, the more they grow.
 They will maintain their size as long as they keep drinking a smaller maintenance amount daily.
 
-<erinaSpeech>Worth noting, this is ONLY when we drink some. Pumping a fat load into our pussies won't make us grow besides the cum bulge.
-Oh, and it doesn't have to come from you, anyone's fluids can fuel growth.</erinaSpeech>
+<erina>Worth noting, this is ONLY when we drink some. Pumping a fat load into our pussies won't make us grow besides the cum bulge.
+Oh, and it doesn't have to come from you, anyone's fluids can fuel growth.</erina>
         ]]>
     </string>
 
@@ -491,9 +491,9 @@ Oh, and it doesn't have to come from you, anyone's fluids can fuel growth.</erin
 Followers have their sexual preferences expand over time, learning to see the appeal of both sexes and all inbetween. This includes developing a love of cock, particularly yours, if they didn't already.
 Outsiders of all sexualities will now be drawn to the church, instead of just those who like dick.
 
-<erinaSpeech>I think half the upper ranks of the church already usually align with this, but I don't object to spreading it around!
+<erina>I think half the upper ranks of the church already usually align with this, but I don't object to spreading it around!
 Expect there to be a lot more, hehe, fraternization among the followers.
-It's amazing what happens when people realized they're surrounded by hotties~</erinaSpeech>
+It's amazing what happens when people realized they're surrounded by hotties~</erina>
         ]]>
     </string>
 
@@ -503,7 +503,7 @@ It's amazing what happens when people realized they're surrounded by hotties~</e
 Male followers will have their bodies grow more feminine according to their self image. This can change hair growth, muscle definition, fat distribution, bone structure, vocal range, and form subtle breasts. Genitals will be unaffected.
 Male outsiders with a feminine build or a desire to be feminine will now be more strongly drawn to the church.
 
-<erinaSpeech>Us girls shouldn't have all the fun! There's plenty of cuties out there ready and willing to get their holes pounded til they take your shape, just a different hole is all! Everyone deserves the chance to know your cock's glory!</erinaSpeech>
+<erina>Us girls shouldn't have all the fun! There's plenty of cuties out there ready and willing to get their holes pounded til they take your shape, just a different hole is all! Everyone deserves the chance to know your cock's glory!</erina>
         ]]>
     </string>
 
@@ -513,8 +513,8 @@ Male outsiders with a feminine build or a desire to be feminine will now be more
 Followers will find themselves more attracted to people they're directly related to, and any genetic effects of inbreeding are counteracted.
 Outsiders with a family member in the church will now be drawn more strongly to the church.
 
-<erinaSpeech>A real spicy one, almost a shame I'm an only child...
-Anyway, this kind of makes blood relation be a reason to fuck, instead of a reason not to. It'll be harder to talk family members out of a threesome than into one, not to mention what they'll get up to on their own.</erinaSpeech>
+<erina>A real spicy one, almost a shame I'm an only child...
+Anyway, this kind of makes blood relation be a reason to fuck, instead of a reason not to. It'll be harder to talk family members out of a threesome than into one, not to mention what they'll get up to on their own.</erina>
         ]]>
     </string>
 
@@ -525,7 +525,7 @@ Followers' holes become very tight without losing any stretchiness, exerting gre
 They also become plentifully self lubricating, and the temperature inside increases to be tantalizingly hot.
 Just the act of being inside one of their orifices will be a powerful sensation.
 
-<erinaSpeech>Just reading about this one is turning me on. Turn our boxes into scorching hot velvet vices, dripping with need and ready to be penetrated, almost daring you to try and handle the pleasure they'll inflict... Oooh yesss...</erinaSpeech>
+<erina>Just reading about this one is turning me on. Turn our boxes into scorching hot velvet vices, dripping with need and ready to be penetrated, almost daring you to try and handle the pleasure they'll inflict... Oooh yesss...</erina>
         ]]>
     </string>
 
@@ -534,8 +534,8 @@ Just the act of being inside one of their orifices will be a powerful sensation.
         <![CDATA[
 Followers' holes can accommodate far more cum than their size should allow and they can hold cum in extremely well, not letting any leak unless the follower wants it to. Being filled with cum past their ability to hold it in now induces violent orgasmic pleasure.
 
-<erinaSpeech>Basically, we'll never overflow and waste your precious seed with this, we can hold it all in until we absorb it or choose to let it out.
-Though you can still make a huge mess out of us if you cum hard enough! And wow, will it ever feel GOOD if you do.</erinaSpeech>
+<erina>Basically, we'll never overflow and waste your precious seed with this, we can hold it all in until we absorb it or choose to let it out.
+Though you can still make a huge mess out of us if you cum hard enough! And wow, will it ever feel GOOD if you do.</erina>
         ]]>
     </string>
 
@@ -545,8 +545,8 @@ Though you can still make a huge mess out of us if you cum hard enough! And wow,
 Followers' holes are now always clean and ready for use.
 Any waste their body produces is purified, and expelled as either a clear odorless liquid or a smooth clean white sphere.
 
-<erinaSpeech>I'll have to try the purified liquid, never liked the normal stuff, this sounds nicer. Gulping down with your mouth clamped to a girl's pussy as she relaxes herself, what a warming thought...
-As for the uh, 'eggs', well I expect that to be close to a large anal bead, so nothing I haven't had a dozen of before.</erinaSpeech>
+<erina>I'll have to try the purified liquid, never liked the normal stuff, this sounds nicer. Gulping down with your mouth clamped to a girl's pussy as she relaxes herself, what a warming thought...
+As for the uh, 'eggs', well I expect that to be close to a large anal bead, so nothing I haven't had a dozen of before.</erina>
         ]]>
     </string>
 
@@ -556,8 +556,8 @@ As for the uh, 'eggs', well I expect that to be close to a large anal bead, so n
 Followers gain an increased sense of taste for sexual fluids and a strong desire to taste them, especially yours.
 All followers' fluids and bodies take on a matching unique flavor and scent. Each follower's taste is unique to them, always pleasant and not overpowering, and reminiscent of fruit or flowers.
 
-<erinaSpeech>I can already see the kind of antics everyone will get up to with this, trading tastes and taking samples of their favorites for flavoring foods or making perfumes. Especially yours!
-And if they don't, I'll make sure to get the practice started!</erinaSpeech>
+<erina>I can already see the kind of antics everyone will get up to with this, trading tastes and taking samples of their favorites for flavoring foods or making perfumes. Especially yours!
+And if they don't, I'll make sure to get the practice started!</erina>
         ]]>
     </string>
 
@@ -567,8 +567,8 @@ And if they don't, I'll make sure to get the practice started!</erinaSpeech>
 Followers have fluid production increase (min of 2x, max of 100x) and begin lactating if they aren't already.
 All follower fluids become aphrodisiacs that stoke lust on contact or consumption, with reduced effect on you compared to other followers.
 
-<erinaSpeech>A lot of very pleasurable messes await you with this one. Beware of endless loops of release, drinking the output, and getting back in the mood!
-The exact increase varies person to person, but you can also influence it yourself to amp someone's output up or down temporarily.</erinaSpeech>
+<erina>A lot of very pleasurable messes await you with this one. Beware of endless loops of release, drinking the output, and getting back in the mood!
+The exact increase varies person to person, but you can also influence it yourself to amp someone's output up or down temporarily.</erina>
         ]]>
     </string>
 
@@ -578,8 +578,8 @@ The exact increase varies person to person, but you can also influence it yourse
 Followers' holes naturally try to pull anything in them deeper when aroused. Muscular holes (mouth, ass, pussy) will practically feel like they have suction.
 Toys that would normally need a harness to keep them in place will easily stay in their hole for hours without effort.
 
-<erinaSpeech>Well that just sounds convenient. I like some good straps as much as the next girl (far more actually), but I have to admit they can get in the way at times.
-I'm sure it'll feel fantastic for the cock too, a hole that doesn't want to let you go~</erinaSpeech>
+<erina>Well that just sounds convenient. I like some good straps as much as the next girl (far more actually), but I have to admit they can get in the way at times.
+I'm sure it'll feel fantastic for the cock too, a hole that doesn't want to let you go~</erina>
         ]]>
     </string>
 
@@ -589,8 +589,8 @@ I'm sure it'll feel fantastic for the cock too, a hole that doesn't want to let 
 Followers will feel arousal just from touching your body.
 They will also outright feel pleasure from touching your cock, as if the point of contact were an erogenous zone.
 
-<erinaSpeech>Expect the amount of skinship and outercourse you experience to absolutely skyrocket with this Covenant.
-Not that there won't already be plenty, but with this followers will go out of their way for it instead of just sneaking it in whenever it's convenient!</erinaSpeech>
+<erina>Expect the amount of skinship and outercourse you experience to absolutely skyrocket with this Covenant.
+Not that there won't already be plenty, but with this followers will go out of their way for it instead of just sneaking it in whenever it's convenient!</erina>
         ]]>
     </string>
 
@@ -600,8 +600,8 @@ Not that there won't already be plenty, but with this followers will go out of t
 Followers are able to breathe even when their throats are filled or constricted, or their lungs are full.
 Relying on this instead of normal breathing leads to a pleasant lightheadedness and mental fog until normal breathing resumes.
 
-<erinaSpeech>I, think this one is meant to allow non-stop sucking of dick without having to pause for breath.
-Though the way it works means you can actually get a lot of other (usually more dangerous) play out of it too. Choke me at your leisure, or just cum buckets down our throats!</erinaSpeech>
+<erina>I, think this one is meant to allow non-stop sucking of dick without having to pause for breath.
+Though the way it works means you can actually get a lot of other (usually more dangerous) play out of it too. Choke me at your leisure, or just cum buckets down our throats!</erina>
         ]]>
     </string>
 
@@ -613,8 +613,8 @@ Above 33% coverage, it will cause intoxication like a drug, leaving them pleasan
 Above 66% coverage, it outright causes pleasure and can even lead to orgasm.
 Coverage % only considers skin, but internal cum still has the same effects.
 
-<erinaSpeech>We're DEFINITELY setting up some cum baths if you take this.
-I also expect wearing cum in your daily life will come into fashion. The smart girls will be leaking it out into their panties and down their thighs all day~</erinaSpeech>
+<erina>We're DEFINITELY setting up some cum baths if you take this.
+I also expect wearing cum in your daily life will come into fashion. The smart girls will be leaking it out into their panties and down their thighs all day~</erina>
         ]]>
     </string>
 
@@ -624,9 +624,9 @@ I also expect wearing cum in your daily life will come into fashion. The smart g
 While wearing restraints or bondage, a third of the follower's lust is stockpiled  and split across each item without affecting the wearer.
 When the restraints are removed or released, all the stockpiled lust for that item affects the follower at once.
 
-<erinaSpeech>Acerola will probably be a fan of this. Oooh, look at me, I'm so productive by wearing a choker and bottling it all up, then I pop it off after work and go wild in a storm of lust, wheeee!
+<erina>Acerola will probably be a fan of this. Oooh, look at me, I'm so productive by wearing a choker and bottling it all up, then I pop it off after work and go wild in a storm of lust, wheeee!
 ...
-Ok, that does sound pretty good.</erinaSpeech>
+Ok, that does sound pretty good.</erina>
         ]]>
     </string>
 
@@ -636,8 +636,8 @@ Ok, that does sound pretty good.</erinaSpeech>
 Followers have their imagination enhanced regarding sexual things and imagery.
 Having sex acts described to them will put them in a trance and rapidly increase arousal while they vividly imagine whatever is being described. Enough exposure can lead to stimulation-free orgasm
 
-<erinaSpeech>The ultimate level of dirty talk I suppose, not that we have any trouble getting turned on from you telling us all the hot and sexy things you'll do to us.
-I do have some scripts you can read if you want some real spicy material~</erinaSpeech>
+<erina>The ultimate level of dirty talk I suppose, not that we have any trouble getting turned on from you telling us all the hot and sexy things you'll do to us.
+I do have some scripts you can read if you want some real spicy material~</erina>
         ]]>
     </string>
 
@@ -647,7 +647,7 @@ I do have some scripts you can read if you want some real spicy material~</erina
 Followers are weak to assertiveness. Taking the lead, flirting aggressively, and even being a bit forceful will all make their hearts race and lust rise.
 Fighting these feelings only strengthens the effects, and when a follower finally gives in and submits to their suitor, all the accumulated feelings burst forth and overwhelm them with happiness.
 
-<erinaSpeech>Don't worry, this is basically playing magical hard-to-get. If anyone genuinely dislikes it, it stokes anger instead. Also, if anyone seems afraid, that's because they REALLY like it. It feels so tempting that it's a bit scary, so comfort them, eh~?</erinaSpeech>
+<erina>Don't worry, this is basically playing magical hard-to-get. If anyone genuinely dislikes it, it stokes anger instead. Also, if anyone seems afraid, that's because they REALLY like it. It feels so tempting that it's a bit scary, so comfort them, eh~?</erina>
         ]]>
     </string>
 
@@ -658,10 +658,10 @@ Though you end up doing that a few times as well, each time resting a hand on th
 
 Finally, all your choices made and the magic glow fading from the circle around you, Erina pulls backward and slips off your length with a wet pop, then gazes up at you with a dreamy look while gently swaying side to side.
 
-<erinaSpeech><size value="0.8">Perfect... Just perfect...</size>
+<erina><size value="0.8">Perfect... Just perfect...</size>
 Um. Please do that again to me... Later. Or, now. Maybe. I-I can't live without you anymore. I mean, yes, but, I don't mean to...
 Wow. I, think I need to go. Go and take a shower. I'm, going to lose it if I stay here with you any longer. Right now.
-Um. Desuri, she's next, she'll... she'll want to talk about Brands. They're nice, you'll like them.</erinaSpeech>
+Um. Desuri, she's next, she'll... she'll want to talk about Brands. They're nice, you'll like them.</erina>
 
 She staggers back to her feet, gives you a quick peck on the cheek, then teeters off to freshen up. As she leaves, you realize Desuri is standing in the doorway watching the two of you with a knowing grin, and has been for... you have no idea how long.
         ]]>
@@ -670,16 +670,16 @@ She staggers back to her feet, gives you a quick peck on the cheek, then teeters
     <string name="section_history_title"><![CDATA[<anglo>History</anglo>]]></string>
     <string name="section_history_description">
         <![CDATA[
-<desuriSpeech>Glad you're acclimating well~.
+<desuri>Glad you're acclimating well~.
 I hope Erina didn't frighten you there. She's got a sharp mind and a ferocious libido, but is... very very clumsy in matters of affection. Be firm with her and give her some more experience getting dicked from an actual person, and she'll sort herself out soon enough.
 Or hey, if you want it, cuddle up and show her some lovin'! With your position, it'd be strange for you to NOT have a bunch of wives!
-Anyway, let's go to my workshop. I can properly show you off the Brands there, and give a quick history lesson!</desuriSpeech>
+Anyway, let's go to my workshop. I can properly show you off the Brands there, and give a quick history lesson!</desuri>
 
 Desuri leads you out and through the halls of the church. It's your first time seeing them properly, and you're all but certain it's larger inside than it is on the outside. The two of you pass by several followers in your walk through the warm, slightly smokey halls, who are sent into stunned silence or giddy whispering at your (still nude) passing. You're not sure whether to feel embarrassed or proud.
 Before long you reach the promised workshop, a cluttered room that looks like a cross between a tattoo parlor and an alchemist's laboratory, with vials of ingredients and wild alchemical tube and beaker systems strewn among artistic prints of tattoo patterns and anatomy charts.
 Desuri invites you to a padded tattooing chair while she looks over one of the messes of papers on a nearby desk.
 
-<desuriSpeech>Don't worry, no ink for you today, hehe. So before I get into Brands, let's get you some overall context, since I'm sure you're still pretty shocked by all this. I mean hell, you just learned magic is real, that alone will take a few weeks to sink in. Let alone your new life as a sex god.
+<desuri>Don't worry, no ink for you today, hehe. So before I get into Brands, let's get you some overall context, since I'm sure you're still pretty shocked by all this. I mean hell, you just learned magic is real, that alone will take a few weeks to sink in. Let alone your new life as a sex god.
 My position as Head Inscriptionist concerns the Brands, but I wear other hats too. Namely I am primary lorekeeper for the church, so aside from Acerola I'm the best one to tell you about the past. And boy oh boy, is there some history to go over...
 
 You, the High God of Sex, have been around since... oh, I don't even know, probably as long as gods have existed. There are other gods by the way, but interacting with them is more Acerola's department. Anyway, been around for years, and with you has been the Church. It's gone by different names over the years, but the deity behind it has been the same and it's followed the same cycle. The Lord manifests into a mortal body, becoming the living avatar of Sex and the leader and icon of the Church. When you felt like you'd lived enough, you'd retire from life and return to your heaven to rest for a bit. Followers go there too after they pass, but it's been damn hard to get in contact with them from down here.
@@ -687,14 +687,14 @@ Usually you'd appear to us in your new incarnation, stay on Earth for a century 
 
 In the late Renaissance era, the meteoric rise of artifice and the power of Mankind was looking more and more like the magical and divine factions would be left in the dust, or even worse, vilified. Some groups hid, others were wiped out, others just... died off. What YOU did in that era was use up your body early to enact a great blessing upon the Church. A grand spell that would hide us from eyes that didn't align with our tenets, letting us exist in plain sight as an ordinary religious order, while anyone who would be willing to join could see us for what we really were. But obviously, something went wrong. Oh, the spell still works to this day, but... you vanished without a peep, and never come back.
 
-Well... with our god gone for centuries and recruitment drying up, the Church declined. We and our predecessors have been staving it off as best we can, but without true Divine inspiration, there's only so much we can do. Thankfully... You're back~</desuriSpeech>
+Well... with our god gone for centuries and recruitment drying up, the Church declined. We and our predecessors have been staving it off as best we can, but without true Divine inspiration, there's only so much we can do. Thankfully... You're back~</desuri>
         ]]>
     </string>
 
     <string name="section_brands_title"><![CDATA[<anglo>Brands</anglo>]]></string>
     <string name="section_brands_description">
         <![CDATA[
-<desuriSpeech>So, Brands! My very favorite thing! In the simplest possible words, they're magic lewd tattoos.
+<desuri>So, Brands! My very favorite thing! In the simplest possible words, they're magic lewd tattoos.
 To be specific, they're a direct conduit through which your divinity can flow which has a few effects; it gives us a connection to you, serves as a way for your power to fuel Covenants and other magical or divine effects on us, and most notably, each has its own individual effect on the bearer, usually an erotic one!
 
 There's two generic effects that all Brands also have. Firstly the Brand itself becomes a weak erogenous zone, and secondly there'll be... well, it kind of feels like there's a warm, gentle touch on the Brand at all times from you, in an ethereal way. Not really sexual, mostly just comforting. Like you're always with us, which is true in a way. Not distracting, easy to forget about, but nice. Especially with a bunch of them.
@@ -706,7 +706,7 @@ Followers can take <b>1 Brand for each 6 months</b> of being an active follower,
 While we can only bear so many Brands based on our time in the Church, we also don't really have many to use right now. The classic Womb tattoo, and a handful of others. That's it.
 A lot of the knowledge on the Church's art and science of Branding is lost thanks to that rough few centuries. The good news is, with research and some testing, I can rediscover it!
 It might take a bit of Fervor though, to convince followers to be test subjects and fuel the exploratory research.
-So where you come in is, how do you want us to get inked up? You could define a full "uniform" of markings, with or without the Brand magic, or establish a minimum set and let people choose what they want on top of that, or even just tell me what to research and let everyone choose for themselves.</desuriSpeech>
+So where you come in is, how do you want us to get inked up? You could define a full "uniform" of markings, with or without the Brand magic, or establish a minimum set and let people choose what they want on top of that, or even just tell me what to research and let everyone choose for themselves.</desuri>
 
 You have the Womb Brand unlocked to start, and can choose two more normal Brands to unlock for free. To unlock more Brands past that costs -1 Fervor per Brand.
 Followers can have any normal tattoos they (or you) want, and can upgrade them to Brands later, if the Brand for that location is unlocked.
@@ -719,8 +719,8 @@ You can take any unlocked Brands on your own body, with no limit to number, and 
         <![CDATA[
 The bearer's womb becomes easily and pleasurably penetrable, and will descend to 'kiss' dicks at their entrance.
 
-<desuriSpeech>Really, this is THE lewd tattoo, and by far the most popular among followers. Iconic, effective, and instantly recognizable for what it means. What's not to love?
-Unsurprisingly, all of us Priestesses have one of these bad boys.</desuriSpeech>
+<desuri>Really, this is THE lewd tattoo, and by far the most popular among followers. Iconic, effective, and instantly recognizable for what it means. What's not to love?
+Unsurprisingly, all of us Priestesses have one of these bad boys.</desuri>
         ]]>
     </string>
 
@@ -729,8 +729,8 @@ Unsurprisingly, all of us Priestesses have one of these bad boys.</desuriSpeech>
         <![CDATA[
 The bearer has tension build up in their core as they feel pleasure, and upon orgasm the built up tension emanates as soft, warm waves throughout their body, amplifying sensations and sexual pleasure while taking their edge off.
 
-<desuriSpeech>I say Stomach, specifically it's the navel, but the general stomach area above the "womb" zone all works.
-The build up can be almost painful, having a knot in your stomach while you feel so good. But the mind-melting fluffy white payoff is sooo worth it.</desuriSpeech>
+<desuri>I say Stomach, specifically it's the navel, but the general stomach area above the "womb" zone all works.
+The build up can be almost painful, having a knot in your stomach while you feel so good. But the mind-melting fluffy white payoff is sooo worth it.</desuri>
         ]]>
     </string>
 
@@ -739,8 +739,8 @@ The build up can be almost painful, having a knot in your stomach while you feel
         <![CDATA[
 Tracing the contours of a bearer's body with your fingers sends "sparks" of tingling pleasure into them along the path of your hand. With enough sparks, the traced area will go limp, unable to resist the pleasure.
 
-<desuriSpeech>The back is an absolute canvas, I really hope we get a good number of girls who want this one.
-Fun fact, if you create the sparks on a Brand or another erogenous zone, the sensation takes on a distinct lustful ache that begs to be relieved.</desuriSpeech>
+<desuri>The back is an absolute canvas, I really hope we get a good number of girls who want this one.
+Fun fact, if you create the sparks on a Brand or another erogenous zone, the sensation takes on a distinct lustful ache that begs to be relieved.</desuri>
         ]]>
     </string>
 
@@ -748,8 +748,8 @@ Fun fact, if you create the sparks on a Brand or another erogenous zone, the sen
     <string name="brands_lower_back_description">
         <![CDATA[
 As long as the bearer is on all fours, they have increased sensitivity and their desire constantly builds up.
-<desuriSpeech>I really admire the name "Tramp Stamp". There's a bawdy artistry to it that "Lower Back" doesn't quite capture.
-It suits the kind of person that'll be on their hands and knees, beckoning and begging for a pounding from behind.</desuriSpeech>
+<desuri>I really admire the name "Tramp Stamp". There's a bawdy artistry to it that "Lower Back" doesn't quite capture.
+It suits the kind of person that'll be on their hands and knees, beckoning and begging for a pounding from behind.</desuri>
         ]]>
     </string>
 
@@ -758,8 +758,8 @@ It suits the kind of person that'll be on their hands and knees, beckoning and b
         <![CDATA[
 Painful stimulus against the bearer's Brands (such as a slap, pinch, shock, etc) will cause no damage and convert half the pain to pleasure.
 
-<desuriSpeech>Simple and sweet, makes us prime targets for a good swat on the ass, and the location makes for a really enjoyable grope on our end.
-Also, any Brands on symmetrical parts like the ass cheeks affect both sides, but anything that involves the Brand itself doesn't mirror unless you have a second symmetrical Brand.</desuriSpeech>
+<desuri>Simple and sweet, makes us prime targets for a good swat on the ass, and the location makes for a really enjoyable grope on our end.
+Also, any Brands on symmetrical parts like the ass cheeks affect both sides, but anything that involves the Brand itself doesn't mirror unless you have a second symmetrical Brand.</desuri>
         ]]>
     </string>
 
@@ -768,7 +768,7 @@ Also, any Brands on symmetrical parts like the ass cheeks affect both sides, but
         <![CDATA[
 When the bearer's holes are being penetrated, any movements of the intruding object will be accentuated, making even subtle motions be more noticeable. The effect is far stronger for any movement caused by the bearer.
 
-<desuriSpeech>This doesn't directly increase pleasure, more like it raises the stimulation floor. Normally you can eventually get used to a plug or a dildo and forget about it unless it pokes you just right. But with this, EVERY poke is a 'just right' poke!</desuriSpeech>
+<desuri>This doesn't directly increase pleasure, more like it raises the stimulation floor. Normally you can eventually get used to a plug or a dildo and forget about it unless it pokes you just right. But with this, EVERY poke is a 'just right' poke!</desuri>
         ]]>
     </string>
 
@@ -778,7 +778,7 @@ When the bearer's holes are being penetrated, any movements of the intruding obj
 Pleasure gained from touching Brands will accumulate past the point of orgasm, without ever actually triggering orgasm.
 Non-Brand stimulation will trigger the orgasm with all stockpiled pleasure.
 
-<desuriSpeech>As if you needed more of an excuse to grope our chests for hours on end, now you can do it to build us up for an absolutely mind-breaking orgasm at the end. Not to mention how much we'll be squirming in pleasure up until then!</desuriSpeech>
+<desuri>As if you needed more of an excuse to grope our chests for hours on end, now you can do it to build us up for an absolutely mind-breaking orgasm at the end. Not to mention how much we'll be squirming in pleasure up until then!</desuri>
         ]]>
     </string>
 
@@ -787,8 +787,8 @@ Non-Brand stimulation will trigger the orgasm with all stockpiled pleasure.
         <![CDATA[
 Any body parts placed into an external crevice of the bearer (cleavage, ass crack, thigh gap, etc) will slide as if it had been lubed, feel hot on the bearer's skin, and raise the area's sensitivity and arousal for the bearer.
 
-<desuriSpeech>I should warn you, with this Brand available someone will be trying to sandwich some part or another of yours basically 24/7. Particularly your cock, naturally. It's just so fun!
-Not that I expect you mind, but hey, fair warning!</desuriSpeech>
+<desuri>I should warn you, with this Brand available someone will be trying to sandwich some part or another of yours basically 24/7. Particularly your cock, naturally. It's just so fun!
+Not that I expect you mind, but hey, fair warning!</desuri>
         ]]>
     </string>
 
@@ -797,9 +797,9 @@ Not that I expect you mind, but hey, fair warning!</desuriSpeech>
         <![CDATA[
 The bearer's high sensitivity erogenous zones (nipples, clitoris, etc) will be immune to stimulation overload or oversensitivity.
 
-<desuriSpeech>Finding good photos for this one is a bitch.
+<desuri>Finding good photos for this one is a bitch.
 So I gotta clarify, ones like this or Anus don't have to be ON the spot, though it can be. It works as long as it's close and focuses on the spot.
-A ring around it like in the photo works just fine, for instance.</desuriSpeech>
+A ring around it like in the photo works just fine, for instance.</desuri>
         ]]>
     </string>
 
@@ -808,7 +808,7 @@ A ring around it like in the photo works just fine, for instance.</desuriSpeech>
         <![CDATA[
 The bearer's perceived warmth and skin sensitivity both rise as their heart rate rises. The effect is stronger the higher it goes, with 2x, 5x, and 10x sensation at 1.33x, 1.66, and 2x resting heart rate. The increased warmth is not unpleasant, but can overwhelm the bearer from its intensity.
 
-<desuriSpeech>"Chest" is anywhere above the boobs and below the neck, by the by. The warming effect feels somewhat like arousal, but it's not quite the same. Still great at getting us hot and bothered though!</desuriSpeech>
+<desuri>"Chest" is anywhere above the boobs and below the neck, by the by. The warming effect feels somewhat like arousal, but it's not quite the same. Still great at getting us hot and bothered though!</desuri>
         ]]>
     </string>
 
@@ -817,10 +817,10 @@ The bearer's perceived warmth and skin sensitivity both rise as their heart rate
         <![CDATA[
 Physical exertion becomes pleasurable for the bearer, and they can achieve a "coregasm" through exercise alone.
 
-<desuriSpeech>The sounds of the gym will still have weights clanging, but expect moans and panting to replace grunts of exertion.
+<desuri>The sounds of the gym will still have weights clanging, but expect moans and panting to replace grunts of exertion.
 Of course sex also counts as exercise, so anyone in the throes of passion will be double dipping with this as well.
 
-Synergizes amazingly with the Chest Brand, as I'm sure you can imagine.</desuriSpeech>
+Synergizes amazingly with the Chest Brand, as I'm sure you can imagine.</desuri>
         ]]>
     </string>
 
@@ -829,7 +829,7 @@ Synergizes amazingly with the Chest Brand, as I'm sure you can imagine.</desuriS
         <![CDATA[
 Any pleasure the bearer causes by external rubbing or stroking will echo back to them as a general sourceless pleasure through their whole body.
 
-<desuriSpeech>Makes handjobs a treat, that's for sure. It's not super distinct like being touched is, but feeling just... good, from causing someone else to feel good, is a very delicious sensation. And you can get some excellent feedback loops out of it; two people all wrapped around each other, feeling better and better as they hug and rub for hours on end... Mmm~!</desuriSpeech>
+<desuri>Makes handjobs a treat, that's for sure. It's not super distinct like being touched is, but feeling just... good, from causing someone else to feel good, is a very delicious sensation. And you can get some excellent feedback loops out of it; two people all wrapped around each other, feeling better and better as they hug and rub for hours on end... Mmm~!</desuri>
         ]]>
     </string>
 
@@ -838,7 +838,7 @@ Any pleasure the bearer causes by external rubbing or stroking will echo back to
         <![CDATA[
 The bearer gains a detailed sense of touch for their entire throat. The bearer's gag reflex also becomes much weaker, and is easily ignored unless they intentionally focus on it.
 
-<desuriSpeech>I'd say the whole passage is about as sensitive as our hands, which is pretty damn sensitive. We'll be able to feel every curve, bump, and vein as any intruding objects push down our warm, wet, squeezing holes... Do you like it when a partner chokes on your cock? Or would you prefer we take it like champs~?</desuriSpeech>
+<desuri>I'd say the whole passage is about as sensitive as our hands, which is pretty damn sensitive. We'll be able to feel every curve, bump, and vein as any intruding objects push down our warm, wet, squeezing holes... Do you like it when a partner chokes on your cock? Or would you prefer we take it like champs~?</desuri>
         ]]>
     </string>
 
@@ -847,8 +847,8 @@ The bearer gains a detailed sense of touch for their entire throat. The bearer's
         <![CDATA[
 The bearer's face becomes markedly more beautiful. Blemishes clear, symmetry and bone structure improve, lips plumpen and shine, eyes sparkle and deepen in color, and they'll have an innate "natural" makeup look.
 
-<desuriSpeech>A bit of an odd one honestly, most of these are outright sexual while this is more... aesthetic.
-Then again, if I'm right then anyone with one of these will be so pretty you'll spring to three quarters hard just from seeing their face.</desuriSpeech>
+<desuri>A bit of an odd one honestly, most of these are outright sexual while this is more... aesthetic.
+Then again, if I'm right then anyone with one of these will be so pretty you'll spring to three quarters hard just from seeing their face.</desuri>
         ]]>
     </string>
 
@@ -857,9 +857,9 @@ Then again, if I'm right then anyone with one of these will be so pretty you'll 
         <![CDATA[
 The bearer's tongue gains superhuman control, flexibility, endurance, and speed. It will also gain several inches of usable length.
 
-<desuriSpeech>They'll be able to move it fast enough to feel like vibration, gently caress an object with the lightest of touches, or tongue-wrestle any invader in their mouth into submission.
+<desuri>They'll be able to move it fast enough to feel like vibration, gently caress an object with the lightest of touches, or tongue-wrestle any invader in their mouth into submission.
 
-This doesn't grant oral skills, but even the clumsiest novice blowjob will feel great with this upgrade. An actual pro with this will be mind blowing~</desuriSpeech>
+This doesn't grant oral skills, but even the clumsiest novice blowjob will feel great with this upgrade. An actual pro with this will be mind blowing~</desuri>
         ]]>
     </string>
 
@@ -869,7 +869,7 @@ This doesn't grant oral skills, but even the clumsiest novice blowjob will feel 
 The bearer's legs become smooth and pleasant to the touch, and more sensitive to touch in general.
 Wearing anything tight on the legs (pants, stockings, thigh highs, etc) will slowly but steadily raise the bearer's minimum lust, making them hornier and sexier as long as they wear them.
 
-<desuriSpeech>It's a bit further down than Hip or Thigh, but the main thing is having it loop all the way around the leg. If you can find thigh highs that cinch right across it, the lust floor skyrockets!</desuriSpeech>
+<desuri>It's a bit further down than Hip or Thigh, but the main thing is having it loop all the way around the leg. If you can find thigh highs that cinch right across it, the lust floor skyrockets!</desuri>
         ]]>
     </string>
 
@@ -879,8 +879,8 @@ Wearing anything tight on the legs (pants, stockings, thigh highs, etc) will slo
 The bearer's breasts will be more bouncy and mobile, jiggling with even light movements. The breasts also become more aesthetically pleasing, particularly from below or the side, which also intensifies even further when the breasts are in motion.
 Smaller breasts increasingly shift these effects to the ass, hips, and thighs.
 
-<desuriSpeech>This one is just fun! Boing boing boing~
-Took me weeks of tweaking to get that lower half shift working, too. Won't ever be as strong as with boobs, but still!</desuriSpeech>
+<desuri>This one is just fun! Boing boing boing~
+Took me weeks of tweaking to get that lower half shift working, too. Won't ever be as strong as with boobs, but still!</desuri>
         ]]>
     </string>
 
@@ -889,9 +889,9 @@ Took me weeks of tweaking to get that lower half shift working, too. Won't ever 
         <![CDATA[
 Ticklishness is converted into a feeling of shiversome arousal, enticing and enjoyable instead of uncomfortable. Holding the sides or hips of the bearer lightly induces the feeling constantly.
 
-<desuriSpeech>This one is a personal victory, I hate being tickled, bleh. And instead, we get this absolutely delicious feeling instead!
+<desuri>This one is a personal victory, I hate being tickled, bleh. And instead, we get this absolutely delicious feeling instead!
 And boy, it really is so nice. Just keep stroking up and down someone's side and they're putty in your hands, it feels too good to even want to get up...
-Stellar for slow, tender lovemaking.</desuriSpeech>
+Stellar for slow, tender lovemaking.</desuri>
         ]]>
     </string>
 
@@ -900,8 +900,8 @@ Stellar for slow, tender lovemaking.</desuriSpeech>
         <![CDATA[
 The bearer's erogenous zones radiate their sensitivity out to the flesh around them, and any pleasure from the surrounding body also radiates back to the original zone.
 
-<desuriSpeech>I'm a huge fan of thigh sex as is, I've cum more than once from rubbing a dildo between my pussy and thighs before, but oh man, I would ADORE giving you a ride with this bad boy.
-Every inch of that little gap being a hot spot, mmph.</desuriSpeech>
+<desuri>I'm a huge fan of thigh sex as is, I've cum more than once from rubbing a dildo between my pussy and thighs before, but oh man, I would ADORE giving you a ride with this bad boy.
+Every inch of that little gap being a hot spot, mmph.</desuri>
         ]]>
     </string>
 
@@ -910,9 +910,9 @@ Every inch of that little gap being a hot spot, mmph.</desuriSpeech>
         <![CDATA[
 Rhythmic movement by the bearer will create a light hypnotic effect, making it hard for viewers to look away and increasing their lust the longer they watch.
 
-<desuriSpeech>Some of us just like to be seen and put on a show, and this is a gold mine for us!
+<desuri>Some of us just like to be seen and put on a show, and this is a gold mine for us!
 I'm certain this was originally made to work with belly dancers, but I'm taking it as a personal challenge to figure out how to activate it with a pole dance, too.
-As for thigh vs hip location, this has to be on the outer third or so of the leg. Easy!</desuriSpeech>
+As for thigh vs hip location, this has to be on the outer third or so of the leg. Easy!</desuri>
         ]]>
     </string>
 
@@ -921,15 +921,15 @@ As for thigh vs hip location, this has to be on the outer third or so of the leg
         <![CDATA[
 The bearer's feet will be comfortable in any footwear or on any surface, and will always stay soft, clean, and delicate. Their feet also become more dexterous, about half as precise as their hands.
 
-<desuriSpeech>I'm not a big feet gal, but I can see the appeal. And there's always that thrill of enjoying something strange and unusual and taboo!
-Now, half as dexterous as hands might not sound like much, and true, if you want to do calligraphy it's no good. But if your goal is footjob? Oh, it's plenty.</desuriSpeech>
+<desuri>I'm not a big feet gal, but I can see the appeal. And there's always that thrill of enjoying something strange and unusual and taboo!
+Now, half as dexterous as hands might not sound like much, and true, if you want to do calligraphy it's no good. But if your goal is footjob? Oh, it's plenty.</desuri>
         ]]>
     </string>
 
     <string name="section_brands_interlude">
         <![CDATA[
-<desuriSpeech>That's all for the normal Brands. That said, there are some... experiments I've been looking into.
-A couple in places you can't actually paint or tattoo it on, some alternative mediums to a tattoo, those modifiers and complex enchants I mentioned, that sort of thing. They'll be more expensive to research since I'm blazing new territory here, but the bleeding edge of science and eroticism is never free!</desuriSpeech>
+<desuri>That's all for the normal Brands. That said, there are some... experiments I've been looking into.
+A couple in places you can't actually paint or tattoo it on, some alternative mediums to a tattoo, those modifiers and complex enchants I mentioned, that sort of thing. They'll be more expensive to research since I'm blazing new territory here, but the bleeding edge of science and eroticism is never free!</desuri>
 
 All experimental Brands cost <b>-2 Fervor</b> to unlock. Options marked with (M) are modifiers, and can be assigned to any Brand individually. Modifiers do not take up a slot.
         ]]>
@@ -940,9 +940,9 @@ All experimental Brands cost <b>-2 Fervor</b> to unlock. Options marked with (M)
         <![CDATA[
 The bearer is able to see peoples' sensitivity, erogenous zones, and arousal like a sexual map of their body when they look at them. This can be toggled on and off.
 
-<desuriSpeech>These become more visible as the owner gets more aroused, so as a bonus you'll always have a barometer for the owner's mood.
+<desuri>These become more visible as the owner gets more aroused, so as a bonus you'll always have a barometer for the owner's mood.
 ...then again, around you my arousal floor has basically been a low simmer, so maybe that's not so helpful after all.
-...You busy after this?</desuriSpeech>
+...You busy after this?</desuri>
         ]]>
     </string>
 
@@ -951,9 +951,9 @@ The bearer is able to see peoples' sensitivity, erogenous zones, and arousal lik
         <![CDATA[
 The bearer remains fertile for their entire lifespan and can get pregnant again while already pregnant. At the moment of fertilization, the bearer is consumed by an enormous orgasm, and will have pleasurable aftershocks for weeks.
 
-<desuriSpeech>For those who enjoy being pregnant itself rather than just the process of getting there.
+<desuri>For those who enjoy being pregnant itself rather than just the process of getting there.
 It's very easy to stay preggo forever with this, just get a new one blasted in you every few months.
-Hard to not, with how good it'll feel.</desuriSpeech>
+Hard to not, with how good it'll feel.</desuri>
         ]]>
     </string>
 
@@ -962,9 +962,9 @@ Hard to not, with how good it'll feel.</desuriSpeech>
         <![CDATA[
 The bearer becomes able to feel positive and pleasurable sensations from their hair, while painful ones are muted (cutting does not hurt, etc). Their hair will also grow a foot per month.
 
-<desuriSpeech>This manifests by straight up changing the owner's hair color, rather than painting a pattern on it.
+<desuri>This manifests by straight up changing the owner's hair color, rather than painting a pattern on it.
 Any color works, even multiple, blends, or simple patterns like one color inside and another outside.
-And yes, it DOES mean (lightly) erogenous hair.</desuriSpeech>
+And yes, it DOES mean (lightly) erogenous hair.</desuri>
         ]]>
     </string>
 
@@ -974,8 +974,8 @@ And yes, it DOES mean (lightly) erogenous hair.</desuriSpeech>
 (You cannot use this Brand to make yourself completely dick-less)
 When placed on a penis, the penis inverts into a fully functional vagina and womb, and the Brand shifts to cover the outside of the vagina. If the bearer already has a vagina, the penis shrinks back to a clitoris. The bearer can only maintain the transformation for 4 hours per day.
 
-<desuriSpeech>My CROWNING ACHIEVEMENT!
-A lot more than just ink goes into making this tattoo, but oh boy, it's worth it!</desuriSpeech>
+<desuri>My CROWNING ACHIEVEMENT!
+A lot more than just ink goes into making this tattoo, but oh boy, it's worth it!</desuri>
         ]]>
     </string>
 
@@ -984,11 +984,11 @@ A lot more than just ink goes into making this tattoo, but oh boy, it's worth it
         <![CDATA[
 The tattoo for a Brand can be replaced with a piercing in the same spot.
 
-<desuriSpeech>PLEASE take this one, oh my gosh I want this to proliferate so bad.
+<desuri>PLEASE take this one, oh my gosh I want this to proliferate so bad.
 I have experienced few things more gratifying than seeing a cute girl's reaction when I stroke her newly healed barbell and the sensation from it makes her moan involuntarily.
 It's sooo good, try it on me later!
 
-Oh, and uh, these can only go in sensible places. No pupil or hair piercings.</desuriSpeech>
+Oh, and uh, these can only go in sensible places. No pupil or hair piercings.</desuri>
         ]]>
     </string>
 
@@ -997,10 +997,10 @@ Oh, and uh, these can only go in sensible places. No pupil or hair piercings.</d
         <![CDATA[
 The Brand's mark will be minimized, being small and simple. It will be easy to overlook it, and others tend not to notice them unless inspecting the body part or it is pointed out.
 
-<desuriSpeech>Not everyone is a fan of getting inked up, sad but true.
+<desuri>Not everyone is a fan of getting inked up, sad but true.
 It might sound strange that making a Brand small is a modifier, but it actually takes some work to compress it all down into one tiny spot.
 I can do tiny crosses, dots, lines, stars, hearts, and shapes like that.
-Ah, sadly the erogenous zone shrinks as well. Tragic, really.</desuriSpeech>
+Ah, sadly the erogenous zone shrinks as well. Tragic, really.</desuri>
         ]]>
     </string>
 
@@ -1009,9 +1009,9 @@ Ah, sadly the erogenous zone shrinks as well. Tragic, really.</desuriSpeech>
         <![CDATA[
 The marking for a Brand dissolves upon conversion to a Brand, instead glowing in the former design when the Brand's effect is active.
 
-<desuriSpeech>The stealth approach, huh.
+<desuri>The stealth approach, huh.
 A bit of a shame in my opinion, I really do like seeing the art we etch onto followers.
-But on the other hand, seeing a pure and innocent girl's body light up as you play with her, and you realize how dirty she really is... there's a charm there for sure.</desuriSpeech>
+But on the other hand, seeing a pure and innocent girl's body light up as you play with her, and you realize how dirty she really is... there's a charm there for sure.</desuri>
         ]]>
     </string>
 
@@ -1020,8 +1020,8 @@ But on the other hand, seeing a pure and innocent girl's body light up as you pl
         <![CDATA[
 Any Brand can be applied as a short lived talisman, letting the bearer try the Brand before they commit to it. If the max Brand limit is already reached, the talismans will not apply any location-specific effects, only the generic effects.
 
-<desuriSpeech>I got the idea for this from Shinto shrines in Japan, or rather some saucy shrine maidens wearing these over their naughty bits.
-Fun trick: the erogenous zone intensifies if you stack multiple on the same spot.</desuriSpeech>
+<desuri>I got the idea for this from Shinto shrines in Japan, or rather some saucy shrine maidens wearing these over their naughty bits.
+Fun trick: the erogenous zone intensifies if you stack multiple on the same spot.</desuri>
         ]]>
     </string>
 
@@ -1030,9 +1030,9 @@ Fun trick: the erogenous zone intensifies if you stack multiple on the same spot
         <![CDATA[
 You can create Brands yourself by leaving a mark on a follower (of any kind) and imbuing it with intent to be a Brand. The mark will be left on the follower's body permanently.
 
-<desuriSpeech>Mark your dominance over us with your own hands!
+<desuri>Mark your dominance over us with your own hands!
 Body writing, a hickey, a lipstick kiss, a tattoo of your own making, or just a good old fashioned smack across the ass!
-Whatever it is gets immortalized forever by the magic of the Brand!</desuriSpeech>
+Whatever it is gets immortalized forever by the magic of the Brand!</desuri>
         ]]>
     </string>
 
@@ -1041,9 +1041,9 @@ Whatever it is gets immortalized forever by the magic of the Brand!</desuriSpeec
         <![CDATA[
 The bearer is able to see peoples' sensitivity, erogenous zones, and arousal like a sexual map of their body when they look at them. This can be toggled on and off.
 
-<desuriSpeech>These become more visible as the owner gets more aroused, so as a bonus you'll always have a barometer for the owner's mood.
+<desuri>These become more visible as the owner gets more aroused, so as a bonus you'll always have a barometer for the owner's mood.
 ...then again, around you my arousal floor has basically been a low simmer, so maybe that's not so helpful after all.
-...You busy after this?</desuriSpeech>
+...You busy after this?</desuri>
         ]]>
     </string>
 
@@ -1052,9 +1052,9 @@ The bearer is able to see peoples' sensitivity, erogenous zones, and arousal lik
         <![CDATA[
 The bearer remains fertile for their entire lifespan and can get pregnant again while already pregnant. At the moment of fertilization, the bearer is consumed by an enormous orgasm, and will have pleasurable aftershocks for weeks.
 
-<desuriSpeech>For those who enjoy being pregnant itself rather than just the process of getting there.
+<desuri>For those who enjoy being pregnant itself rather than just the process of getting there.
 It's very easy to stay preggo forever with this, just get a new one blasted in you every few months.
-Hard to not, with how good it'll feel.</desuriSpeech>
+Hard to not, with how good it'll feel.</desuri>
         ]]>
     </string>
 
@@ -1063,9 +1063,9 @@ Hard to not, with how good it'll feel.</desuriSpeech>
         <![CDATA[
 The bearer becomes able to feel positive and pleasurable sensations from their hair, while painful ones are muted (cutting does not hurt, etc). Their hair will also grow a foot per month.
 
-<desuriSpeech>This manifests by straight up changing the owner's hair color, rather than painting a pattern on it.
+<desuri>This manifests by straight up changing the owner's hair color, rather than painting a pattern on it.
 Any color works, even multiple, blends, or simple patterns like one color inside and another outside.
-And yes, it DOES mean (lightly) erogenous hair.</desuriSpeech>
+And yes, it DOES mean (lightly) erogenous hair.</desuri>
         ]]>
     </string>
 
@@ -1075,8 +1075,8 @@ And yes, it DOES mean (lightly) erogenous hair.</desuriSpeech>
 (You cannot use this Brand to make yourself completely dick-less)
 When placed on a penis, the penis inverts into a fully functional vagina and womb, and the Brand shifts to cover the outside of the vagina. If the bearer already has a vagina, the penis shrinks back to a clitoris. The bearer can only maintain the transformation for 4 hours per day.
 
-<desuriSpeech>My CROWNING ACHIEVEMENT!
-A lot more than just ink goes into making this tattoo, but oh boy, it's worth it!</desuriSpeech>
+<desuri>My CROWNING ACHIEVEMENT!
+A lot more than just ink goes into making this tattoo, but oh boy, it's worth it!</desuri>
         ]]>
     </string>
 
@@ -1085,11 +1085,11 @@ A lot more than just ink goes into making this tattoo, but oh boy, it's worth it
         <![CDATA[
 The tattoo for a Brand can be replaced with a piercing in the same spot.
 
-<desuriSpeech>PLEASE take this one, oh my gosh I want this to proliferate so bad.
+<desuri>PLEASE take this one, oh my gosh I want this to proliferate so bad.
 I have experienced few things more gratifying than seeing a cute girl's reaction when I stroke her newly healed barbell and the sensation from it makes her moan involuntarily.
 It's sooo good, try it on me later!
 
-Oh, and uh, these can only go in sensible places. No pupil or hair piercings.</desuriSpeech>
+Oh, and uh, these can only go in sensible places. No pupil or hair piercings.</desuri>
         ]]>
     </string>
 
@@ -1098,10 +1098,10 @@ Oh, and uh, these can only go in sensible places. No pupil or hair piercings.</d
         <![CDATA[
 The Brand's mark will be minimized, being small and simple. It will be easy to overlook it, and others tend not to notice them unless inspecting the body part or it is pointed out.
 
-<desuriSpeech>Not everyone is a fan of getting inked up, sad but true.
+<desuri>Not everyone is a fan of getting inked up, sad but true.
 It might sound strange that making a Brand small is a modifier, but it actually takes some work to compress it all down into one tiny spot.
 I can do tiny crosses, dots, lines, stars, hearts, and shapes like that.
-Ah, sadly the erogenous zone shrinks as well. Tragic, really.</desuriSpeech>
+Ah, sadly the erogenous zone shrinks as well. Tragic, really.</desuri>
         ]]>
     </string>
 
@@ -1110,9 +1110,9 @@ Ah, sadly the erogenous zone shrinks as well. Tragic, really.</desuriSpeech>
         <![CDATA[
 The marking for a Brand dissolves upon conversion to a Brand, instead glowing in the former design when the Brand's effect is active.
 
-<desuriSpeech>The stealth approach, huh.
+<desuri>The stealth approach, huh.
 A bit of a shame in my opinion, I really do like seeing the art we etch onto followers.
-But on the other hand, seeing a pure and innocent girl's body light up as you play with her, and you realize how dirty she really is... there's a charm there for sure.</desuriSpeech>
+But on the other hand, seeing a pure and innocent girl's body light up as you play with her, and you realize how dirty she really is... there's a charm there for sure.</desuri>
         ]]>
     </string>
 
@@ -1121,8 +1121,8 @@ But on the other hand, seeing a pure and innocent girl's body light up as you pl
         <![CDATA[
 Any Brand can be applied as a short lived talisman, letting the bearer try the Brand before they commit to it. If the max Brand limit is already reached, the talismans will not apply any location-specific effects, only the generic effects.
 
-<desuriSpeech>I got the idea for this from Shinto shrines in Japan, or rather some saucy shrine maidens wearing these over their naughty bits.
-Fun trick: the erogenous zone intensifies if you stack multiple on the same spot.</desuriSpeech>
+<desuri>I got the idea for this from Shinto shrines in Japan, or rather some saucy shrine maidens wearing these over their naughty bits.
+Fun trick: the erogenous zone intensifies if you stack multiple on the same spot.</desuri>
         ]]>
     </string>
 
@@ -1131,9 +1131,9 @@ Fun trick: the erogenous zone intensifies if you stack multiple on the same spot
         <![CDATA[
 You can create Brands yourself by leaving a mark on a follower (of any kind) and imbuing it with intent to be a Brand. The mark will be left on the follower's body permanently.
 
-<desuriSpeech>Mark your dominance over us with your own hands!
+<desuri>Mark your dominance over us with your own hands!
 Body writing, a hickey, a lipstick kiss, a tattoo of your own making, or just a good old fashioned smack across the ass!
-Whatever it is gets immortalized forever by the magic of the Brand!</desuriSpeech>
+Whatever it is gets immortalized forever by the magic of the Brand!</desuri>
         ]]>
     </string>
 
@@ -1141,12 +1141,12 @@ Whatever it is gets immortalized forever by the magic of the Brand!</desuriSpeec
         <![CDATA[
 Desuri steps back and stretches after finishing explaining all the Brands and her ideas, then gives you a warm smile.
 
-<desuriSpeech>It's... nice to have you back. Here for the first time, for us. It's one thing to know your god is in their heaven, watching over the world. It's another to feel them directly, standing in front of you. Or their, your, presence, directly on us and in us, through the Brand.
-And well, speaking of "in us"...</desuriSpeech>
+<desuri>It's... nice to have you back. Here for the first time, for us. It's one thing to know your god is in their heaven, watching over the world. It's another to feel them directly, standing in front of you. Or their, your, presence, directly on us and in us, through the Brand.
+And well, speaking of "in us"...</desuri>
 
 Her smile turns much more playful as she struts over to the chair you're still reclining in and leans over it, pressing her remarkable chest against yours and her hands along your arms.
 
-<desuriSpeech>I'm sure you could tell, but by the end of all that, I've gotten myself pretty damn worked up. All that talk of hot bodies and the wonderful things I'll be making them do... it kind of gets my engine going. You don't mind helping me relieve myself, right?</desuriSpeech>
+<desuri>I'm sure you could tell, but by the end of all that, I've gotten myself pretty damn worked up. All that talk of hot bodies and the wonderful things I'll be making them do... it kind of gets my engine going. You don't mind helping me relieve myself, right?</desuri>
 
 Naturally, it's not a problem at all.
 She climbs up onto your lap fully, taking your already erect cock and passing it through her thighs for a few quick strokes, then lowering herself down on it so it enters her pussy, with a long throaty moan as it pushes through her folds.
@@ -1158,22 +1158,22 @@ Round three has you swap places, you pounding her into the chair with her legs w
 By the fourth round she's lost most of her strength and can barely speak, so you've pushed her knees up by her head as you pump her hard enough to make the chair creak.
 
 Celeste walks in as you're pulling out after dumping your fourth load in Desuri's depths, unleashing a cum flood upon the chair. She doesn't bat an eye at Desuri being in flagrante.
-<celesteSpeech>Ah, Desuri. I was wondering where you were, you missed our status meeting... 45 minutes ago. I suppose you had a good reason though.
+<celeste>Ah, Desuri. I was wondering where you were, you missed our status meeting... 45 minutes ago. I suppose you had a good reason though.
 Hm. Actually... Lord, we haven't finalized the exact designs yet, but there's enough for you to make decisions. Erina should have mentioned plans for balancing out Fervor, I'm here for that.
-Since you're done with Desuri, could I borrow you so that we may discuss Demons?</celesteSpeech>
+Since you're done with Desuri, could I borrow you so that we may discuss Demons?</celeste>
         ]]>
     </string>
 
     <string name="section_demons_title"><![CDATA[<anglo>Demons</anglo>]]></string>
     <string name="section_demons_description">
         <![CDATA[
-<celesteSpeech>Ah... if it's alright, shall we relocate to my room? I wouldn't mind changing into something more pleasant, and Desuri is...</celesteSpeech>
+<celeste>Ah... if it's alright, shall we relocate to my room? I wouldn't mind changing into something more pleasant, and Desuri is...</celeste>
 She gestures at Desuri, still panting and dripping sweat and cum, but your Inscriptionist gives you an affirmative wave to go ahead.
 Well if she's fine, then you could use a shower with how much you've fucked today.
 
 Celeste takes you back to her room, which is relatively spartan in terms of decorations save for an impressive collection of well cared for succulent plants. While you wash yourself in the room's master bath, she changes into a much more revealing and curve hugging dress, curiously already laid out on her bed. As she dresses, she talks loud enough to be heard over your shower.
 
-<celesteSpeech>Demons. They are venomous parasites that should be eliminated from the world.
+<celeste>Demons. They are venomous parasites that should be eliminated from the world.
 ...Acerola wants me to be nicer for this undertaking, so... parasites may be a strong word. They are... energy vampires, having to feed directly on living creatures for their sustenance when they're outside a demonic domain, such as one of the Hells. The sight of a demon on Earth means that they're taking from someone else to survive. So that is one of the reasons I hate them.
 
 Their chief method for doing so is a demonic contract, a form of reciprocal magic unique to demons that all can innately cast. You get something from them, usually facilitated by their other magic, and they get energy from you. For most mortals that means life force, which isn't dangerous in small amounts, but if taken repeatedly over a long period it results in declining health and a shortened lifespan. Not that normal people have the senses to realize this, and of course the demons rarely tell them.
@@ -1183,7 +1183,7 @@ And you, as a god, have the tastiest demon food of all, divinity, or divine mana
 If that was the whole of it, they would be irritating but not outrageous existences. If only. Sadly, the real problem is their interactions with the divine.
 I am no expert on Gods, but as I understand all gods have various concepts at their core. Yours are all centered around Sex, of course. Demons are able to feed off such highly refined concepts to fuel their own growth. It's not just the tastiest energy, but also the most nutritious by a wide margin. Getting a direct feed from a god is extremely unlikely, but harvesting it from their followers is far more manageable, thus leading to the common sight of demons preying on clergy and those of the faith. The more pious the person, the tastier they are.
 
-Even this much would be... forgivable, if that was all. However, demons will further "season" their chosen victims by adding their own personal concepts to the victim's thoughts and energy, shifting them to be more perfectly aligned with the demon than their god. To put it bluntly, tempting and corrupting them so that they stray from their god to make for a better meal. Reprehensible behavior, and such things directly damage the god's power as well. Minutely for each lost follower, but nonetheless. Which is why this next part is so vexatious...</celesteSpeech>
+Even this much would be... forgivable, if that was all. However, demons will further "season" their chosen victims by adding their own personal concepts to the victim's thoughts and energy, shifting them to be more perfectly aligned with the demon than their god. To put it bluntly, tempting and corrupting them so that they stray from their god to make for a better meal. Reprehensible behavior, and such things directly damage the god's power as well. Minutely for each lost follower, but nonetheless. Which is why this next part is so vexatious...</celeste>
         ]]>
     </string>
 
@@ -1192,7 +1192,7 @@ Even this much would be... forgivable, if that was all. However, demons will fur
         <![CDATA[
 As you exit the bath, she nods appreciatively at your clean nude body with only a quick look downwards and a hint of blush, and hands you a large fluffy towel.
 
-<celesteSpeech>This is what we've devised to handle the potential Fervor imbalance; cajole some demons into making a contract with you to drain off some over-abundant Fervor. A very unorthodox method all in all, but many of the balancing forces the Church used in the past are, not workable. Not many wars to fight, and sacrifice is flat out these days.
+<celeste>This is what we've devised to handle the potential Fervor imbalance; cajole some demons into making a contract with you to drain off some over-abundant Fervor. A very unorthodox method all in all, but many of the balancing forces the Church used in the past are, not workable. Not many wars to fight, and sacrifice is flat out these days.
 There are technically dozens of kinds of demon contracts, but most are very niche and we're only concerned with the most common handful today. We've prepared a pair of standardized contracts for each demon to agree to, and considering the value you provide compared to the terms we want out of them, I don't expect any to refuse.
 
 The first type of contract is a <b>Servant</b> contract. They follow your orders and they get the Fervor. If you give them an order they don't like, they can refuse, and the Fervor signed over to them will temporarily return back to you until reciprocity is restored. This is understandably disruptive for both parties, so it's best avoided. Erina also insisted on adding a provision to allow them some 'obligation' out of you, generally a preferred activity or behavior they want you to engage in with them. Something about magical balance, I don't understand the particulars. You can ignore the obligation for a bit, but do so too long and the contract suspends itself, same as if they disobey you.
@@ -1206,7 +1206,7 @@ Unsurprisingly, this kind of contract is often offered at the tip of a blade, or
 Putting that aside, here. We've prepared dossiers on various potential contractees for you to look at. Helena is a saint for dealing with them, I don't think I'd have managed it without losing my temper and starting a one-woman crusade... If you feel any are acceptable, then we can go ahead with a summoning and a binding ritual, we've a space set up for that sort of thing. Of course, if you already have a handle on the Fervor balance without all this, then we've no need to involve ourselves with these troublesome creatures.
 And... Well, it should be said, we've mostly approached this from the angle of Fervor management, but with any contract you will still have them as a powerful, useful underling. Even the weaker demons have noteworthy stealth, combat, or other miscellaneous useful abilities. They CAN be put to good use, besides just being a pack of unruly, leeching doxies.
 
-As for the temptation and corruption I mentioned... Well, as a High God, I don't believe any of these demons have enough power to actually influence you and your divinity. Even the influence of a Familiar is only a temporary thing since it's filtered through you, and it will ultimately align with your concepts one way or another. In short, this IS safe. Just, irritating...</celesteSpeech>
+As for the temptation and corruption I mentioned... Well, as a High God, I don't believe any of these demons have enough power to actually influence you and your divinity. Even the influence of a Familiar is only a temporary thing since it's filtered through you, and it will ultimately align with your concepts one way or another. In short, this IS safe. Just, irritating...</celeste>
 
 You can make contracts with Demons to intentionally reduce your Fervor.
 To bind them as a <b>Servant</b> costs <b>-2 Fervor</b>, and servants will follow your orders as long as you fulfill your obligation. If the obligation is ignored for long (generally three "cycles" of their effect), they will refuse to listen to you and the Fervor spent on them will come back to you until you resume their obligation.
@@ -1232,7 +1232,7 @@ Your followers gain a spirit of "brattiness", still following your orders and st
     </string>
     <string name="contract_felic_lusch_description_priestess">
         <![CDATA[
-<celesteSpeech>...I knew reading these dossiers was going to test my patience. But I did not expect it to happen so soon and so thoroughly.</celesteSpeech>
+<celeste>...I knew reading these dossiers was going to test my patience. But I did not expect it to happen so soon and so thoroughly.</celeste>
         ]]>
     </string>
 
@@ -1254,7 +1254,7 @@ Your followers will gain uncommon cravings for ropes and being tied up, at least
     </string>
     <string name="contract_barishi_description_priestess">
         <![CDATA[
-<celesteSpeech>Ok, improving, she knows her place at least. Maybe these won't be so bad. Though, bondage for everyone... H-hrm.</celesteSpeech>
+<celeste>Ok, improving, she knows her place at least. Maybe these won't be so bad. Though, bondage for everyone... H-hrm.</celeste>
         ]]>
     </string>
 
@@ -1276,7 +1276,7 @@ Your followers will develop noticeable muscle tone and prioritize physical fitne
     </string>
     <string name="contract_iustitia_description_priestess">
         <![CDATA[
-<celesteSpeech>Well. I actually don't hate her. At least she has an admirable pursuit, compared to degrading you. Unless you... like that?</celesteSpeech>
+<celeste>Well. I actually don't hate her. At least she has an admirable pursuit, compared to degrading you. Unless you... like that?</celeste>
         ]]>
     </string>
 
@@ -1298,7 +1298,7 @@ Your followers' bodies will soften and thicken, with significant growth to their
     </string>
     <string name="contract_ithaca_description_priestess">
         <![CDATA[
-<celesteSpeech>She seems nice enough, a bit respectful even. Though, what is this sense of danger I feel... Like a predator staring at me...</celesteSpeech>
+<celeste>She seems nice enough, a bit respectful even. Though, what is this sense of danger I feel... Like a predator staring at me...</celeste>
         ]]>
     </string>
 
@@ -1320,7 +1320,7 @@ Your followers become clingy, wanting to keep in contact with your body as much 
     </string>
     <string name="contract_adoria_description_priestess">
         <![CDATA[
-<celesteSpeech>Clearly the years have not been kind to her mind. Addicted to affection and scarred by loss. She needs a hug.</celesteSpeech>
+<celeste>Clearly the years have not been kind to her mind. Addicted to affection and scarred by loss. She needs a hug.</celeste>
         ]]>
     </string>
 
@@ -1342,8 +1342,8 @@ Your followers become more catty and competitive, all trying to outdo each other
     </string>
     <string name="contract_harlan_description_priestess">
         <![CDATA[
-<celesteSpeech>Where is my sword, I need my sword, I will FUCKING-</celesteSpeech>
-<acerolaSpeech>Ah, Celeste dear, why don't you go make yourself some tea?</acerolaSpeech>
+<celeste>Where is my sword, I need my sword, I will FUCKING-</celeste>
+<acerola>Ah, Celeste dear, why don't you go make yourself some tea?</acerola>
         ]]>
     </string>
 
@@ -1365,7 +1365,7 @@ Mieru will randomly split followers into a "good" and "evil" twin, with her rule
     </string>
     <string name="contract_mieru_description_priestess">
         <![CDATA[
-<acerolaSpeech>How curious. Two bodies, but one existence? Does each think separately despite the link? It might explain her spaciness.</acerolaSpeech>
+<acerola>How curious. Two bodies, but one existence? Does each think separately despite the link? It might explain her spaciness.</acerola>
         ]]>
     </string>
 
@@ -1387,7 +1387,7 @@ Followers will begin wearing collars and leashes casually. If anyone takes hold 
     </string>
     <string name="contract_estra_description_priestess">
         <![CDATA[
-<acerolaSpeech>Cerberi are typically quite dominant, so she's an oddity. I bet her sisters will be looking for her. We'd better prepare for that...</acerolaSpeech>
+<acerola>Cerberi are typically quite dominant, so she's an oddity. I bet her sisters will be looking for her. We'd better prepare for that...</acerola>
         ]]>
     </string>
 
@@ -1409,8 +1409,8 @@ Your followers become attracted to your entire body, often more interested in yo
     </string>
     <string name="contract_boudica_description_priestess">
         <![CDATA[
-<acerolaSpeech>I don't think I'd at all mind getting lost in your body, Lord.</acerolaSpeech>
-<celesteSpeech>She seems like an unrepentant floozy... but I don't disagree...</celesteSpeech>
+<acerola>I don't think I'd at all mind getting lost in your body, Lord.</acerola>
+<celeste>She seems like an unrepentant floozy... but I don't disagree...</celeste>
         ]]>
     </string>
 
@@ -1432,7 +1432,7 @@ Followers will sometimes fall into a contagious trance where they try to gently 
     </string>
     <string name="contract_kalim_eter_description_priestess">
         <![CDATA[
-<celesteSpeech>Another dangerous one! W-what is it with the ones that are so, massive and... and motherly that makes them so menacing?!</celesteSpeech>
+<celeste>Another dangerous one! W-what is it with the ones that are so, massive and... and motherly that makes them so menacing?!</celeste>
         ]]>
     </string>
 
@@ -1454,7 +1454,7 @@ Your followers will gain sexual amnesia, unable to consciously access any sexual
     </string>
     <string name="contract_virgo_description_priestess">
         <![CDATA[
-<celesteSpeech>She's making a mockery of our hard work and practice without even trying! I suppose it's unintentional... but, still!</celesteSpeech>
+<celeste>She's making a mockery of our hard work and practice without even trying! I suppose it's unintentional... but, still!</celeste>
         ]]>
     </string>
 
@@ -1476,7 +1476,7 @@ Your followers gain great mental fortitude, and it will take enormous peaks of p
     </string>
     <string name="contract_murcielago_description_priestess">
         <![CDATA[
-<celesteSpeech>Where in Hell did Helena find an Archdaemon for this?! Well, she'll make good on her words, I can promise you that.</celesteSpeech>
+<celeste>Where in Hell did Helena find an Archdaemon for this?! Well, she'll make good on her words, I can promise you that.</celeste>
         ]]>
     </string>
 
@@ -1498,7 +1498,7 @@ Your followers will each independently choose a random sex thing you enjoy every
     </string>
     <string name="contract_sirococo_description_priestess">
         <![CDATA[
-<celesteSpeech>She gets points for variety, at least. Not content to stick to any one theme in her bottomless demonic thirst for cock.</celesteSpeech>
+<celeste>She gets points for variety, at least. Not content to stick to any one theme in her bottomless demonic thirst for cock.</celeste>
         ]]>
     </string>
 
@@ -1520,7 +1520,7 @@ Followers have a reduced sense of pain, and enjoy energetic sex more. Their firs
     </string>
     <string name="contract_vivianne_description_priestess">
         <![CDATA[
-<celesteSpeech>Hm. Being lifted up and held still in your strong arms, while you drill your cock deep in me. That's, not the worst thought.</celesteSpeech>
+<celeste>Hm. Being lifted up and held still in your strong arms, while you drill your cock deep in me. That's, not the worst thought.</celeste>
         ]]>
     </string>
 
@@ -1531,10 +1531,10 @@ Followers have a reduced sense of pain, and enjoy energetic sex more. Their firs
     <string name="section_servant_conduct_title"><![CDATA[<anglo>Servant Conduct</anglo>]]></string>
     <string name="section_servant_conduct_description">
         <![CDATA[
-<celesteSpeech>Is... is that all of them? Oh thank goodness... I don't think I could take reading about another stress-inducing demonic problem-injection without popping a blood vessel...
+<celeste>Is... is that all of them? Oh thank goodness... I don't think I could take reading about another stress-inducing demonic problem-injection without popping a blood vessel...
 Phew. Okay.
 There's just one thing left to nail down for these contracts before we can start summoning, and that's how you want to treat them. Obviously they'll be under your command, but there's a lot of room for flexibility beyond just that. Do you want to reign them in more, hopefully? Or alternatively let them run loose and make a ruckus in the Church. It's up to you. And of course, you can treat each contractee differently if you wish, no need to paint them all with the same brush.
-Oh, Desuri slipped in a note here, she says that she can Brand the demons as well. 3, 6, or 9 Brands each, depending on how much you subdue them. Maybe that will help them behave.</celesteSpeech>
+Oh, Desuri slipped in a note here, she says that she can Brand the demons as well. 3, 6, or 9 Brands each, depending on how much you subdue them. Maybe that will help them behave.</celeste>
 
 Decide how to treat your contracted demons. Your treatment will affect their usual outfit, their day to day behavior while living with you in the Church, how often they try to get you to engage with their Servant activities, and how many followers are affected by their Familiar effects. You can treat each demon differently, or just do the same for all of them. How you treat them will have a small effect on Fervor. The further a demon is restricted, the more Brands you can apply to them.
         ]]>
@@ -1579,9 +1579,9 @@ Affects 1/3 of followers as a Familiar.
 Celeste writes down the last of the info, drops the pen to the table, and tosses the dossier aside with a small sigh of relief. She then looks over to you, opens her mouth for a moment, halts, then closes it with a small shake of her head. Something she wants to say?
 Acerola, still quietly here since Celeste's tea break, gives you a sly smile from next to the silent knight.
 
-<acerolaSpeech>Lord. Celeste has worked so hard on this for you, even in spite of her dislike of demons. Don't you think she deserves a reward~?</acerolaSpeech>
+<acerola>Lord. Celeste has worked so hard on this for you, even in spite of her dislike of demons. Don't you think she deserves a reward~?</acerola>
 Celeste's head snaps to look at Acerola, then back to you. She almost says something, probably an objection, but stops herself again with a lip bite. A long moment passes, her eyes searching your face, before giving a small nod.
-<celesteSpeech>I... I would, like that... if, if you think I deserve it, for something so insignificant... It's just my duty after all...</celesteSpeech>
+<celeste>I... I would, like that... if, if you think I deserve it, for something so insignificant... It's just my duty after all...</celeste>
 
 You don't bother to answer with words, instead sweeping her into a short princess carry over to her bed, where you gently lay the blushing maiden down on her covers. Compared to Desuri or Erina, your approach with Celeste is much more intimate, beginning with a chain of kisses down her neck, across her chest and stomach, and all over her body. Meanwhile your hands go to work slowly removing her dress, exposing more spots for you to kiss and caress. It takes a while to get down to her pussy, but once there your tongue goes to work and Celeste loses the battle to hold back her voice. Meanwhile, Acerola sits fully clothed next to you both on the bed, feeding you advice and instructions on Celeste's likes and most sensitive places while watching everything with a satisfied smile.
 
@@ -1598,13 +1598,13 @@ Sitting there on the edge of the bed, covered in the results of your passion, wi
 After being woken by Celeste stirring, and a shower together that involved a lot of mutual washing and wet skin on skin (and only a bit of fooling around), Acerola comes by to fetch you with a change of clothes. You're not sure if it's a god's outfit, but it does feel... somewhat pious?
 A pair of loose, thin pants with plentiful room in the groin, plus a similarly voluminous hooded shirt that only reaches halfway to center, enough to leave you barely modest while most of your stomach and chest are still bared to the world. Lastly, an ornamental sash goes over your shoulders.
 You graciously ignore the excited looks she sends Celeste's way as you change, and once done Acerola claps her hands together.
-<acerolaSpeech>Lovely! I hope your night was restful my Lord, because we have more to do today! With the immediate magical things out of the way, we can attend to more down-to-earth matters of the Church itself. Fear not, you don't need to involve yourself with spreadsheets or allocations or other such things, much. Rather, we all want to show you how your Church operates, how your followers fit in, and make sure it all aligns with your desires. And if not, then we shall change things so they do! We just need to stop by my office first.</acerolaSpeech>
+<acerola>Lovely! I hope your night was restful my Lord, because we have more to do today! With the immediate magical things out of the way, we can attend to more down-to-earth matters of the Church itself. Fear not, you don't need to involve yourself with spreadsheets or allocations or other such things, much. Rather, we all want to show you how your Church operates, how your followers fit in, and make sure it all aligns with your desires. And if not, then we shall change things so they do! We just need to stop by my office first.</acerola>
 
 The three of you head out, Celeste seemingly part of the agenda too. Acerola confirms the other Priestesses will be joining you later too. It's a short walk to the office, and upon entry you're greeted with a pleasant sight.
 A short, petite, daintily cute girl in a frilly maid dress is busying around the room, and when you enter she stops to give a quick bow to both Priestesses, then a deep curtsy with a fairly blatant skirt lift straight to you. Wait... was that-
 <sashaSpeech>Greetings, my Lord! It is my utmost honor and delight to be blessed with meeting you in person. I am Sasha, your humble Devotee and Acerola's assistant. Please ask if you ever have need of anything, I am always at your service!</sashaSpeech>
-<acerolaSpeech>Assistant, hah, more like my right hand. Sasha handles almost all the mundane logistics for the Church, without which we'd grind to a halt by the end of the month. Also an enjoyer of playing the maid from time to time, as you can see. How 'fortunate' your timing on cleaning is, hmm~?
-Heh, it's fine. While all our followers are beloved, none besides us Priestesses are such a linchpin as Sasha is. Now, there was a folder here... Sasha?</acerolaSpeech>
+<acerola>Assistant, hah, more like my right hand. Sasha handles almost all the mundane logistics for the Church, without which we'd grind to a halt by the end of the month. Also an enjoyer of playing the maid from time to time, as you can see. How 'fortunate' your timing on cleaning is, hmm~?
+Heh, it's fine. While all our followers are beloved, none besides us Priestesses are such a linchpin as Sasha is. Now, there was a folder here... Sasha?</acerola>
 Sasha is already at Acerola's side with the desired document. With a happy nod she leads you off again, the follower-maid behind you giving another curtsy goodbye before you go. And you see it again, for sure this time. That was a bulge in those panties.
         ]]>
     </string>
@@ -1613,20 +1613,20 @@ Sasha is already at Acerola's side with the desired document. With a happy nod s
     <string name="section_church_appeal_description">
         <![CDATA[
 Both the Priestesses walking with you notice your surprise, and Acerola has a small laugh before she speaks.
-<acerolaSpeech>Oh dear, I suppose that came as a bit of a shock, didn't it? Everyone you've seen so far has been clearly female, after all. Yes, there are in fact male followers, just not nearly as many as the women. Hmm... I was going to start with touring the chapters, but this is important. So, a detour.
+<acerola>Oh dear, I suppose that came as a bit of a shock, didn't it? Everyone you've seen so far has been clearly female, after all. Yes, there are in fact male followers, just not nearly as many as the women. Hmm... I was going to start with touring the chapters, but this is important. So, a detour.
 
 First a brief theology lesson: almost all divine organizations are built around their deity first, and the concepts they embody second. Many people wish and pray idly, but to serve a god directly requires reverence for the god themselves, often sparked by feeling the god's aura and realizing they have an affinity for it. That is how most of us in the Church of the Divine Rod today first joined. That said, a god and their concepts are intrinsically linked, so a church to a god usually ends up expanding to cover their concepts as well.
 In the ages before your absence, the Church was huge and influential, using your power and the followers' devotion to make the Church the center of all worship of Sex. With you missing, that... slowly fell apart. Within a century, almost all that was left was the Devotees, and even then only the most fervent ones. All they had was relics and wisps of your presence, enough to identify new Devotees but not do much more.
 
 To loop this back to male followers, well, the key is in the name: <b>Church of the Divine Rod</b>. Throughout all of our recorded history, you've had a penis, and it has been the symbol of the Church. The rest of your bodies varied greatly, and there were nearly as many female manifestations as male, but not once were you without that <b>Divine Rod</b>. So it comes as no surprise that almost all the core followers of the Church like a good dick, which is a preference generally far more common in women than men. There ARE some men who do enjoy that though, and it's from that much smaller pool that the current male followers come from.
 Once the Church is back on its feet and momentum is restored, we'll likely see a more even mix in the Believers as we reassert ourselves and  people start coming to the Church to venerate Sex itself once more. There's a lot of men who really like having sex, if you can believe it.
-But Devotees and Priestesses, well, that will almost always be heavily skewed towards us ladies.</acerolaSpeech>
+But Devotees and Priestesses, well, that will almost always be heavily skewed towards us ladies.</acerola>
 
 There's a bit of silence as you walk, Acerola lost in thought and Celeste just watching you calmly, none of this seemingly new to her. Also, you think Acerola may have led you in a few circles through the hallways to give her time to speak.
-<acerolaSpeech>So, with all that said. Sasha back there is one of the blessed few, a male with the desire and drive to devote himself to you and your cock. Some say it's an odd fit here at the Church, but I think anyone who's found their truth among us is welcome. Almost all the boys like that choose to go down the girly route anyway, so they fit in fine. Oh, and on that subject.
+<acerola>So, with all that said. Sasha back there is one of the blessed few, a male with the desire and drive to devote himself to you and your cock. Some say it's an odd fit here at the Church, but I think anyone who's found their truth among us is welcome. Almost all the boys like that choose to go down the girly route anyway, so they fit in fine. Oh, and on that subject.
 The wider world has a motley of terms for feminine boys like trap, femboy, twink, and so on, but our local term is <emphasis>Waif</emphasis>. Any male who is petite, dresses and acts feminine, is sexually attracted to dick, and still sees themselves as a man is a waif. It's an archaic term actually, but modern societal nonsense has made it quite convenient to dust back off.
 I also think it's a bit nicer to the ears than the modern names, and our waifs themselves have no complaints. So, waif it is! Which brings me back around to, an important question.
-It's very obvious you enjoy women, but your followers are not entirely women. How, do you feel about that? Will that be a problem, or is it alright? Or even, perhaps appealing?</acerolaSpeech>
+It's very obvious you enjoy women, but your followers are not entirely women. How, do you feel about that? Will that be a problem, or is it alright? Or even, perhaps appealing?</acerola>
         ]]>
     </string>
 
@@ -1646,7 +1646,7 @@ Believers is fine, but the Devotees will all be women, no men or waifs amongst t
     <string name="section_church_appeal_hard_no_comment">
         <![CDATA[
 Acerola nods, simply keeping a steady expression.
-<acerolaSpeech>They'll be sad of course, but it's best to rip the bandage off early. It would be much worse if anyone built up hope from your return, before having it crushed.</acerolaSpeech>
+<acerola>They'll be sad of course, but it's best to rip the bandage off early. It would be much worse if anyone built up hope from your return, before having it crushed.</acerola>
     ]]>
     </string>
 
@@ -1664,7 +1664,7 @@ You've got no problem with waif followers. If they want to worship you, why stop
     <string name="section_church_appeal_live_and_let_live_comment">
         <![CDATA[
 Acerola quirks her head, but has a small smile.
-<acerolaSpeech>Hm. Interesting choice if I may say so, my Lord. Letting the waifs be close, but keeping your harem closer. I will mention, you can of course revisit this at any time.</acerolaSpeech>
+<acerola>Hm. Interesting choice if I may say so, my Lord. Letting the waifs be close, but keeping your harem closer. I will mention, you can of course revisit this at any time.</acerola>
         ]]>
     </string>
 
@@ -1682,7 +1682,7 @@ You're not saying yes... But, you're also not saying no. Far too much has happen
     <string name="section_church_appeal_well_maybe_comment">
         <![CDATA[
 Acerola's smile is subtle, but hints at warm relief.
-<acerolaSpeech>That's... that's good to hear. Working with Sasha for years has given me a bit of a soft spot for the plight of the waif, so hearing you are understanding is... heartening.</acerolaSpeech>
+<acerola>That's... that's good to hear. Working with Sasha for years has given me a bit of a soft spot for the plight of the waif, so hearing you are understanding is... heartening.</acerola>
         ]]>
     </string>
 
@@ -1692,12 +1692,12 @@ Acerola's smile is subtle, but hints at warm relief.
 The walk comes to an end outside a double door marked GUIDING LIGHT, which you realize is... just a few doors down from Acerola's office, which you left about 20 minutes ago. Acerola gives you a totally innocent smile and swings the doors open, revealing a surprisingly normal office. High ceilings, some religious/erotic art, but mostly just a dozen or so ladies at desks, dressed more business casual than pious nun, tapping away at computers or talking on phones.
 A few wave to Acerola in greeting, but double take upon seeing their god standing in the doorway, staring like a deer in headlights as a smile and blush creep across their faces. A couple claps from your high priestess snaps them out if it and gets them back to work, though the furtive glances over to you and excited whispers are hard to miss.
 
-<acerolaSpeech>Heh, like a bunch of schoolgirls. Not that I was any different when I first saw you awake and at full mast.
+<acerola>Heh, like a bunch of schoolgirls. Not that I was any different when I first saw you awake and at full mast.
 Now then. Our first priority today is to introduce you to the key groups within the Church, the ones that essentially run the organization and make up its backbone, limited though they may be these days. Honestly they're closer to 'departments' right now, but since the days of yore when membership was high and these groups worked across empires and continents, they've been known as <emphasis>Chapters</emphasis>. I hope to see them returned to the size and influence to match the glory days and live up to the name..
 
 A chapter has a narrow scope, concerning themselves with specific functions or services within the Church. They are always headed by a Priestess, though not all Priestesses must lead a chapter. Followers who dedicate themselves to a chapter and the field of work involved are its <emphasis>Adherents</emphasis>. Everyone in the Church benefits from the chapters, but only the adherents devote themselves to the principles of the chapter itself. It's a lot of work and responsibility, but not without its benefits too.
 And of course, almost every chapter naturally ends up with certain slants to their sexual proclivities and behaviors. Nothing too wild, but noticeable when you're with the adherents.
-With that all laid out, I think it's quickest to just meet with each chapter directly and see them with your own eyes instead of just hearing me explain it.</acerolaSpeech>
+With that all laid out, I think it's quickest to just meet with each chapter directly and see them with your own eyes instead of just hearing me explain it.</acerola>
         ]]>
     </string>
 
@@ -1724,9 +1724,9 @@ They flourish within harems, easing tensions, forging strong bonds, and shaping 
     </string>
     <string name="chapter_guiding_light_comment">
         <![CDATA[
-<acerolaSpeech>I think I'm a bit unusual within the Guiding Light, in that I don't, erm, sleep around much? The rest of the adherents have tasted most of the Church's roster, but... I suppose I've always only had eyes for you, Lord.
-Not that I dislike sharing or group play in the slightest~! Just... I think it's only when you're involved... yes, that feels right. Kneeling before you with my sisters, skin slick and tongues at work... gosh, is it warm in here?</acerolaSpeech>
-<celesteSpeech>You really did surprise me with that last night. I'd expected it far earlier, but for years you did nothing. But if anything would awaken a new side of you, our Lord returning would do it. And, perhaps, m-me as well...</celesteSpeech>
+<acerola>I think I'm a bit unusual within the Guiding Light, in that I don't, erm, sleep around much? The rest of the adherents have tasted most of the Church's roster, but... I suppose I've always only had eyes for you, Lord.
+Not that I dislike sharing or group play in the slightest~! Just... I think it's only when you're involved... yes, that feels right. Kneeling before you with my sisters, skin slick and tongues at work... gosh, is it warm in here?</acerola>
+<celeste>You really did surprise me with that last night. I'd expected it far earlier, but for years you did nothing. But if anything would awaken a new side of you, our Lord returning would do it. And, perhaps, m-me as well...</celeste>
         ]]>
     </string>
     <string name="chapter_guiding_light_tenet_divine_diplomacy_title"><![CDATA[<anglo>Divine Diplomacy</anglo>]]></string>
@@ -1736,7 +1736,7 @@ The Guiding Light ends up wearing many hats in the modern day, and the most surp
 Indeed, parleying with literal gods and their devoted is an entirely different skillset than with normal folks, one Acerola and her team have trained heavily for.
 Despite the Church's influence falling greatly, your legacy is not so easy to smother, and even just the name "Church of the Divine Rod" still carries notable weight.
 
-<acerolaSpeech>I rarely have to interact directly with gods, thank goodness... But I have many contacts among their mortal followers, and even a few friends! I'll introduce you, you'll like them for sure~</acerolaSpeech>
+<acerola>I rarely have to interact directly with gods, thank goodness... But I have many contacts among their mortal followers, and even a few friends! I'll introduce you, you'll like them for sure~</acerola>
         ]]>
     </string>
     <string name="chapter_guiding_light_tenet_paper_pushing_title"><![CDATA[<anglo>Paper Pushing</anglo>]]></string>
@@ -1746,7 +1746,7 @@ Indeed, some might say this is the opposite of god, unholy in its banality and s
 Dramatics aside, even a small group of a half dozen members will fall to disarray without organization, let alone a Church with hundreds to thousands of members. Thankfully, enough followers find their calling among numbers and sheets to make the wheels all keep turning.
 On another note, it's astonishing how well they pull off the office lady aesthetic. Plain heels and a button up blouse have never looked so damn sexy, and no one would turn down a quickie, no matter how big their workload.
 
-<acerolaSpeech>A quick clarification, we adherents are generally either divine diplomats or office workers, but not both. The guiding and loving is universal though!</acerolaSpeech>
+<acerola>A quick clarification, we adherents are generally either divine diplomats or office workers, but not both. The guiding and loving is universal though!</acerola>
         ]]>
     </string>
     <string name="chapter_guiding_light_tenet_closeness_title"><![CDATA[<anglo>Closeness</anglo>]]></string>
@@ -1755,7 +1755,7 @@ On another note, it's astonishing how well they pull off the office lady aesthet
 The Guiding Light's adherents are famous within the Church for their lack of personal boundaries and eagerness to spread the love. The amount of casual skinship and flirting is almost shocking to those new to the Church, and things like greeting with a kiss (usually on the cheek) don't get a second thought.
 While the followers in general are quite open minded, nearly every adherent is at least fully bisexual, with most actively polyamorous. Unsurprisingly, almost any sex with them can turn into a group event with just the slightest suggestion of a third participant.
 
-<acerolaSpeech>I think almost anyone looks sexy in your arms my Lord, but beyond that... hmm, I might have picked up a taste for your lovers as well. Some of the others look... <b>very</b> nice today. Mm, Celeste~?</acerolaSpeech>
+<acerola>I think almost anyone looks sexy in your arms my Lord, but beyond that... hmm, I might have picked up a taste for your lovers as well. Some of the others look... <b>very</b> nice today. Mm, Celeste~?</acerola>
         ]]>
     </string>
 
@@ -1764,8 +1764,8 @@ While the followers in general are quite open minded, nearly every adherent is a
         <![CDATA[
 The Chapter of Ardent Blades are the knights and security forces of the Church. It may seem a bit odd for a church of Sex to need knights, but such is the world we live in; security cannot be guaranteed without force backing it. The Church's knights are no army, but the few dozen members are all fighting machines of outstanding caliber, able to go toe-to-toe with adversaries far too strong for any normal warriors.
 When not on duty, the adherents have an air of confidence, temperance, and self control... under which almost always lies an ever burning libido. When seen through, they become the most delicate of flowers.
-<celesteSpeech>"Hyah! Vigilance! The weight of protection falls upon us, put that weight into your swing! Hyah! We don't leave this field until you show me a slash that I can feel! Hyah! And always remember!"
-"Pain before Pleasure!"</celesteSpeech>
+<celeste>"Hyah! Vigilance! The weight of protection falls upon us, put that weight into your swing! Hyah! We don't leave this field until you show me a slash that I can feel! Hyah! And always remember!"
+"Pain before Pleasure!"</celeste>
         ]]>
     </string>
 
@@ -1787,9 +1787,9 @@ Regular patrols and checks are necessary, as demons tend to use subtlety and dec
 
     <string name="chapter_ardent_blades_comment">
         <![CDATA[
-<celesteSpeech>We sometimes do odd jobs, like protection work, suppression of magical creatures, or aiding law enforcement. I suppose it is somewhat adventurous, but ultimately it's only side work. The Church comes first.
-On that note, have you ever wielded a weapon, Lord? It may seem outlandish right now, but there's a high likelihood it will become relevant in your new life. I'd be honored to teach you, i-if you'd like me to, of course.</celesteSpeech>
-<desuriSpeech>Blades clashing, muscles flexing, bodies engaged in a dance of steel and technique. Then later, the swords are laid down, and a wholly different dance between bodies begins... Haha, you can't silence the truth, Celeste!</desuriSpeech>
+<celeste>We sometimes do odd jobs, like protection work, suppression of magical creatures, or aiding law enforcement. I suppose it is somewhat adventurous, but ultimately it's only side work. The Church comes first.
+On that note, have you ever wielded a weapon, Lord? It may seem outlandish right now, but there's a high likelihood it will become relevant in your new life. I'd be honored to teach you, i-if you'd like me to, of course.</celeste>
+<desuri>Blades clashing, muscles flexing, bodies engaged in a dance of steel and technique. Then later, the swords are laid down, and a wholly different dance between bodies begins... Haha, you can't silence the truth, Celeste!</desuri>
         ]]>
     </string>
 
@@ -1799,7 +1799,7 @@ On that note, have you ever wielded a weapon, Lord? It may seem outlandish right
 The most important technique for any divine warrior is called Shine, named so because at its highest levels the user's body literally glows with holy light. Shine channels the divine energy of a follower's patron through their body to reinforce it, giving them great strength and agility. It is only limited by the user's own body and faith, so both exercise and prayer are vital to growing a knight's power.
 To that end, the knights train and pray daily like clockwork, honing their technique and tempering their strength. All followers are welcome to join in the training, though few can keep up with the regimen.
 
-<celesteSpeech>Our routine is a fantastic fat burner, so we end up trim after a few months. Save for the breasts and butt, unsurprisingly, which firm up instead.</celesteSpeech>
+<celeste>Our routine is a fantastic fat burner, so we end up trim after a few months. Save for the breasts and butt, unsurprisingly, which firm up instead.</celeste>
         ]]>
     </string>
 
@@ -1810,7 +1810,7 @@ Shine has a side effect of influencing the user's body depending on the divine a
 It doesn't take long for this to be a problem, so the adherents manage it by enduring and restraining themselves in the week, then letting it all out on the weekend in a frenzy of sexual gratification and satisfaction.
 Many adherents seek out each other or trusted friends, unable to fully satiate themselves alone.
 
-<celesteSpeech>Ahh... it's, embarrassing for you to know this. And I know, it's common within the church and all, but it's just... It's not gay, it's camaraderie!</celesteSpeech>
+<celeste>Ahh... it's, embarrassing for you to know this. And I know, it's common within the church and all, but it's just... It's not gay, it's camaraderie!</celeste>
         ]]>
     </string>
 
@@ -1821,7 +1821,7 @@ Sex fighting is not real and there is no secret art of fucking a foe into submis
 However, Shine scales with the user's affinity to their deity. Meaning if your adherents dress sexily and feel sexy doing so, they will be able to draw out more power. Your knights default to normal metal armor, but in times of duress it can be shed to reveal the curve hugging, skin baring, dress-like uniform beneath, leading to a dramatic spike in their physical abilities.
 The more one embraces being so blatantly sexy, the more lethal they become.
 
-<celesteSpeech>I... still struggle with this. To be seen and lusted after so openly is... uncomfortable. Though, it... it didn't feel bad when it was, you... Um. Perhaps, you might like to, watch us train, my Lord?</celesteSpeech>
+<celeste>I... still struggle with this. To be seen and lusted after so openly is... uncomfortable. Though, it... it didn't feel bad when it was, you... Um. Perhaps, you might like to, watch us train, my Lord?</celeste>
         ]]>
     </string>
 
@@ -1851,8 +1851,8 @@ As such, records must be kept and knowledge preserved and passed on. In time, it
 
     <string name="chapter_vaunted_truth_comment">
         <![CDATA[
-<desuriSpeech>So, it's a bit unorthodox but... I'm barely involved in most of the magic stuff. Turns out I'm, um, magically a dud. Almost no mana control. Brands are the way I found to work around that, so Erina and I ended up kinda... swapping roles to some extent, since she can't draw to save her life and I've been doing it for decades.</desuriSpeech>
-<erinaSpeech>You didn't need to mention that part!! Hmph. But, yes, essentially. Though don't let her fool you, Lord - most of the research we do requires hands on work, but Desuri's got a mind for formation theory like you wouldn't believe. She can't use a magical circle or enchantment, but there's almost no one better at designing them!</erinaSpeech>
+<desuri>So, it's a bit unorthodox but... I'm barely involved in most of the magic stuff. Turns out I'm, um, magically a dud. Almost no mana control. Brands are the way I found to work around that, so Erina and I ended up kinda... swapping roles to some extent, since she can't draw to save her life and I've been doing it for decades.</desuri>
+<erina>You didn't need to mention that part!! Hmph. But, yes, essentially. Though don't let her fool you, Lord - most of the research we do requires hands on work, but Desuri's got a mind for formation theory like you wouldn't believe. She can't use a magical circle or enchantment, but there's almost no one better at designing them!</erina>
         ]]>
     </string>
 
@@ -1862,7 +1862,7 @@ As such, records must be kept and knowledge preserved and passed on. In time, it
 To record the history of the Church, adherents need to first know it. So between research and their own erotic hobbies, most of the adherents are quite adventurous as far as trying new things goes, and you're likely to always find at least one adherent at any event, experiment, or decently sized get together.
 Both during and after, it's common to see them jotting down notes or making small sketches, though they're never shy about joining in the festivities themselves either. In many cases it's required, to properly understand what they will later record! At least that's what they say, as they join in the latest themed orgy.
 
-<desuriSpeech>No one likes a dry note taker stuck in the corner, so it's good that we believe in experiencing what we record firsthand. A ton of fun, too!</desuriSpeech>
+<desuri>No one likes a dry note taker stuck in the corner, so it's good that we believe in experiencing what we record firsthand. A ton of fun, too!</desuri>
         ]]>
     </string>
 
@@ -1872,7 +1872,7 @@ Both during and after, it's common to see them jotting down notes or making smal
 While it's true that the chapter focuses on researching new and exciting sex magic, to call it only that is very reductive.
 The goal is not to find the best spells to give the best orgasms, but rather to delve deep into the nature of Sex as a concept, using magic as a medium. Meditation, study, and philosophy play as much a role as experimentation and orgasm-inducing rituals. The obvious outcome is the sex magic that the Church uses every day, but the adherents treasure their collectively deepened understanding of you far more.
 
-<erinaSpeech>Me again! Mm, this is quite the interesting thing to take in, isn't it? To be clear, we are still a bunch of magical perverts and hedonists chasing the highest highs we can! The chapter just, found a way to make the two goals satisfyingly align~!</erinaSpeech>
+<erina>Me again! Mm, this is quite the interesting thing to take in, isn't it? To be clear, we are still a bunch of magical perverts and hedonists chasing the highest highs we can! The chapter just, found a way to make the two goals satisfyingly align~!</erina>
         ]]>
     </string>
 
@@ -1882,7 +1882,7 @@ The goal is not to find the best spells to give the best orgasms, but rather to 
 To truly expand the realm of human knowledge one must become an expert among experts. The entire Church is already quite well versed in sex, and the chapter makes a science out of it. But the best work is done by those inching forward in their own specialized niches.
 Adherents are encouraged to find something about sex they like, even as small as a single sex act, and fully embrace it. Dive deep, map the possibilities, identify the variables, quantify pleasure. Become an expert in that sexy subject to expand the body of erotic knowledge!
 
-<desuriSpeech>Why am I the head of Vaunted Truth? True, I can't do magic, it is a problem. Well... the others follow the small threads, but there needs to be someone able to compile the tapestry as a whole. And... I suppose it comes naturally to me.</desuriSpeech>
+<desuri>Why am I the head of Vaunted Truth? True, I can't do magic, it is a problem. Well... the others follow the small threads, but there needs to be someone able to compile the tapestry as a whole. And... I suppose it comes naturally to me.</desuri>
         ]]>
     </string>
 
@@ -1911,8 +1911,8 @@ The Vivid Splendor's adherents are by and large the most passionate, and it quic
 
     <string name="chapter_vivid_splendor_comment">
         <![CDATA[
-<erinaSpeech>At last, my turn! Having heard all that, I'm sure you can put together why I'm so excited~! Ahh, I know it's why we're here, but still! Actually meeting and getting to serve you directly is literally a dream come true! I'm still all jittery from yesterday, hehe. Ohh, so much to show you, so much to say! Oh, the holy book! You've never read it, have you? Perfect, perfect! We can read it together, all snuggled up, and re-enact all the scenes!</erinaSpeech>
-<helenaSpeech>Erina, you're buzzing with so much energy my vibrators look tame in comparison, calm down~ Our Lord isn't going anywhere, you have plenty of time. I'm sure there's a passage about taking things slowly, mm?</helenaSpeech>
+<erina>At last, my turn! Having heard all that, I'm sure you can put together why I'm so excited~! Ahh, I know it's why we're here, but still! Actually meeting and getting to serve you directly is literally a dream come true! I'm still all jittery from yesterday, hehe. Ohh, so much to show you, so much to say! Oh, the holy book! You've never read it, have you? Perfect, perfect! We can read it together, all snuggled up, and re-enact all the scenes!</erina>
+<helena>Erina, you're buzzing with so much energy my vibrators look tame in comparison, calm down~ Our Lord isn't going anywhere, you have plenty of time. I'm sure there's a passage about taking things slowly, mm?</helena>
         ]]>
     </string>
 
@@ -1923,7 +1923,7 @@ Most of those who lead services and preach in the Church are adherents of Splend
 However, on stage or in private, get an adherent talking about their favorite bit of gospel and they could go on for hours.
 Interestingly, while most chapters attract their adherents from the outset, Splendor's tend to fall into the role after resonating especially well with the teachings of the Church.
 
-<erinaSpeech>You should come to my sermons! I suppose it's a bit superfluous for you... But, I still think they're a wonderful time, and you do need to acquaint yourself. A-and, it would make me, very happy!</erinaSpeech>
+<erina>You should come to my sermons! I suppose it's a bit superfluous for you... But, I still think they're a wonderful time, and you do need to acquaint yourself. A-and, it would make me, very happy!</erina>
         ]]>
     </string>
 
@@ -1933,7 +1933,7 @@ Interestingly, while most chapters attract their adherents from the outset, Sple
 Early in the Vivid Splendor's history, someone had the idea to express their devotion by using their body as a canvas. An obvious move in hindsight, but it took much longer before the Vaunted Truth found a way to make them directly magical and divine. Since then, the two chapters have collaborated closely on Brands, with the Vaunted delving into the magic, and the Splendor focusing on the body itself.
 The chapter usually lacks focus in its pursuits, but thanks to Brands, those of Splendor are the foremost experts of anatomy in the Church, both physical and magical.
 
-<desuriSpeech>And that's where I fit in. The fact that I can directly augment a person's mana flows with just some sanctified ink and a needle really fascinates me, you know? And tattoos are sexy, too!</desuriSpeech>
+<desuri>And that's where I fit in. The fact that I can directly augment a person's mana flows with just some sanctified ink and a needle really fascinates me, you know? And tattoos are sexy, too!</desuri>
         ]]>
     </string>
 
@@ -1943,8 +1943,8 @@ The chapter usually lacks focus in its pursuits, but thanks to Brands, those of 
 Some see the Splendor's adherents as overly excited or delusional, making the teachings of the Church their entire personality. This misguided impression is most often cured by the chapter's more tangible output.
 Sermons and preaching are easy to pass off, but few can deny the depth and sincerity of the adherents' feelings when seeing it take physical form. For some reason, any art that adherents produce has the emotions they feel embedded within them, stoking reverence and appreciation in even the most jaded philistines.
 
-<erinaSpeech>...don't laugh, okay? I can't do 'normal' art. Like, at all. It's so bad that it barely even captures any emotion, it's nothing like the other adherents...
-But when I work on magic, making a new erotic spell... that, THAT is when it comes alive for me.</erinaSpeech>
+<erina>...don't laugh, okay? I can't do 'normal' art. Like, at all. It's so bad that it barely even captures any emotion, it's nothing like the other adherents...
+But when I work on magic, making a new erotic spell... that, THAT is when it comes alive for me.</erina>
         ]]>
     </string>
 
@@ -1975,9 +1975,9 @@ Self improvement here is taken remarkably seriously, with every day a chance to 
 
     <string name="chapter_captive_allure_comment">
         <![CDATA[
-<helenaSpeech>A-ah! I am so sorry, my Lord, for one of my adherents to grab you like that is unacceptable. The girls here haven't interacted with divinity enough, they don't have a PROPER SENSE OF DECORUM, APPARENTLY! A forward approach usually serves us well in our line of work, but for a mere Believer to do so to her Lord is-</helenaSpeech>
-<acerolaSpeech>Helena! Helena, take a deep breath! Goodness, it's alright. I don't think our Lord minded, judging by the reaction. Not often that a beautiful woman grabs you by the collar and offers to fuck on the alter, after all.</acerolaSpeech>
-<helenaSpeech>Wha? O-oh! Oh... Hmm. Do you like the aggressive type, my Lord? Or... more of a soft seducer? Hmm, I see~</helenaSpeech>
+<helena>A-ah! I am so sorry, my Lord, for one of my adherents to grab you like that is unacceptable. The girls here haven't interacted with divinity enough, they don't have a PROPER SENSE OF DECORUM, APPARENTLY! A forward approach usually serves us well in our line of work, but for a mere Believer to do so to her Lord is-</helena>
+<acerola>Helena! Helena, take a deep breath! Goodness, it's alright. I don't think our Lord minded, judging by the reaction. Not often that a beautiful woman grabs you by the collar and offers to fuck on the alter, after all.</acerola>
+<helena>Wha? O-oh! Oh... Hmm. Do you like the aggressive type, my Lord? Or... more of a soft seducer? Hmm, I see~</helena>
         ]]>
     </string>
 
@@ -1987,7 +1987,7 @@ Self improvement here is taken remarkably seriously, with every day a chance to 
 The simple but never ending work of connecting with the local community. Every branch of the Church has some adherents that will lead the efforts to find compatible people and work with local groups and organizations. This goes beyond just recruiting, as boosting the good name of the Church's mundane face is important to ensuring it can existent in the modern world.
 As you might guess, the nun on the street who handed you a flyer and lead to you stepping through the Church's doors was an adherent doing this sort of work.
 
-<helenaSpeech>Far from glamorous, but vitally important. Without new blood, the Church will die. Without the community around us, a branch will wither. But that won't ever happen on my watch!</helenaSpeech>
+<helena>Far from glamorous, but vitally important. Without new blood, the Church will die. Without the community around us, a branch will wither. But that won't ever happen on my watch!</helena>
         ]]>
     </string>
 
@@ -1997,7 +1997,7 @@ As you might guess, the nun on the street who handed you a flyer and lead to you
 A far more exciting line of work, and generally left to the more experienced adherents, the missionary group travels to far off locales for all manner of scouting. The main goal of their trips are to either to identify promising places for new branches, or to establish strong relations with far off groups and governments.
 And regardless of the trip, they always bring along a calling card artifact bearing a trace of your energy, an undeniable hint of the Church's aura. Any undiscovered sexual talents who feel it are immediately drawn to it, and some of the Church's finest have been such discoveries.
 
-<helenaSpeech>There's so much that goes into these trips and no two are the same, but I've never had one where I don't put my skills as a charmer to work. Sadly for them, they never get a *real* taste of me~</helenaSpeech>
+<helena>There's so much that goes into these trips and no two are the same, but I've never had one where I don't put my skills as a charmer to work. Sadly for them, they never get a *real* taste of me~</helena>
         ]]>
     </string>
 
@@ -2009,7 +2009,7 @@ An erotic figure that arrests the gaze backed by a simmering sensuality in every
 Conversational partners will hang on every delicately enunciated word, dripping like honey with subtle double meanings and hints of sex, carried on a voice itself like music.
 When the adherents go all out, no one on earth can resist their seductive might.
 
-<helenaSpeech>It's rare that we have to turn it up to 11 and bust out the full charm, but it's damn near hypnosis when we do. As you just saw, some adherents might get ambitious ideas on who to use it on.</helenaSpeech>
+<helena>It's rare that we have to turn it up to 11 and bust out the full charm, but it's damn near hypnosis when we do. As you just saw, some adherents might get ambitious ideas on who to use it on.</helena>
         ]]>
     </string>
 
@@ -2017,12 +2017,12 @@ When the adherents go all out, no one on earth can resist their seductive might.
         <![CDATA[
 Every Chapter you visit reacts much the same as the first; hard at work up until they realize you're present, then falling over themselves to catch a glimpse of you. Knowing that almost all of them joined the Church because your energy filled a part of themselves they didn't even realize was empty (as Desuri phrased it), seeing and feeling the genuine article before them for the first time in their lives must be a religious experience in a lot of ways. But sadly for the adherents, your Priestesses hustle you through things without stopping for sex even once (though a few promises of visiting later are thrown out). Voicing an idle thought, you wonder if everyone in the Church is so exemplary as all the adherents seem to be.
 
-<acerolaSpeech>Why thank you~! But the short answer is no. The Chapters generally attract the best of the best by their nature, while the more ordinary followers are just... followers! Nothing wrong with that at all. Though, right now the follower base is rather, hm... let's say distilled. Even putting aside the slant towards Devotees, all the Church's followers right now are with the strongest connections to you, the Church, and sex in general.
+<acerola>Why thank you~! But the short answer is no. The Chapters generally attract the best of the best by their nature, while the more ordinary followers are just... followers! Nothing wrong with that at all. Though, right now the follower base is rather, hm... let's say distilled. Even putting aside the slant towards Devotees, all the Church's followers right now are with the strongest connections to you, the Church, and sex in general.
 Also, being a big enough pervert to join a magic sex church tends to coincide with a certain level of competence and drive. While I won't say we're the best in the world, I will say that the talent in all of our chapters is world class, and we Priestesses truly are the cream of the crop. Not to brag.
 When our numbers start to grow properly again, then things will even out more on the whole. The Believers especially run a wide range from casual to dedicated, but it applies to both sides. There will be Devotees that are only casually devoted, odd as it may sound!
 But we'll also draw in more top notch talent, so I don't expect the Chapters to change much in that regard!
 
-And here we are, our last stop for a bit. Your office! Or, well, it will be soon. Only so much can be done in a day, but the vitals are ready.</acerolaSpeech>
+And here we are, our last stop for a bit. Your office! Or, well, it will be soon. Only so much can be done in a day, but the vitals are ready.</acerola>
 
 The "office" she steps into is a massive open room, with comfortably high ceilings and a wall of windows overlooking the street surrounding the church building.
 Right now there's a... distinct lack of furnishing. Just a large sturdy desk, a plush couch, and what looks like a bed straight out of an upper class brothel. Huge, luxurious, firm and inviting... All in all, likely a fantastic bed to have sex on.
