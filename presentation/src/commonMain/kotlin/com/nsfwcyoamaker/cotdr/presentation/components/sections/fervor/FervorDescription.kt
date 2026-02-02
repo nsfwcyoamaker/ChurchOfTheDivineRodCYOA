@@ -12,8 +12,8 @@ import com.nsfwcyoamaker.cotdr.composableTextFlow.TextFlow
 import com.nsfwcyoamaker.cotdr.composableTextFlow.TextWrapPlacement
 import com.nsfwcyoamaker.cotdr.presentation.components.shadowBorder
 import com.nsfwcyoamaker.cotdr.resources.Res
-import com.nsfwcyoamaker.cotdr.resources.fervor_intro
 import com.nsfwcyoamaker.cotdr.resources.section_fervor_description
+import com.nsfwcyoamaker.cotdr.resources.section_fervor_intro
 import org.jetbrains.compose.resources.painterResource
 
 @Composable
@@ -28,7 +28,7 @@ fun FervorDescription(
         verticalGap = 4.dp,
         component = {
             Image(
-                painter = painterResource(Res.drawable.fervor_intro),
+                painter = painterResource(Res.drawable.section_fervor_intro),
                 contentDescription = null,
                 contentScale = ContentScale.FillWidth,
                 modifier = Modifier

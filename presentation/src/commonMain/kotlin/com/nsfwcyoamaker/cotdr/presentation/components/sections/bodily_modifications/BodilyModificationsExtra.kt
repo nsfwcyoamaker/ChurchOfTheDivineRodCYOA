@@ -14,6 +14,7 @@ import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.presentation.components.shadowBorder
 import com.nsfwcyoamaker.cotdr.resources.Res
 import com.nsfwcyoamaker.cotdr.resources.bodily_modifications_extra
+import com.nsfwcyoamaker.cotdr.resources.section_bodily_modifications_extra
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
@@ -29,7 +30,7 @@ fun BodilyModificationsExtra(
         verticalGap = 4.dp,
         component = {
             Image(
-                painter = painterResource(Res.drawable.bodily_modifications_extra),
+                painter = painterResource(Res.drawable.section_bodily_modifications_extra),
                 contentDescription = null,
                 contentScale = ContentScale.FillWidth,
                 modifier = Modifier
