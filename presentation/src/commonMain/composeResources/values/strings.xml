@@ -1546,7 +1546,8 @@ Decide how to treat your contracted demons. Your treatment will affect their usu
 They're demons. Whether it's because you only care about your followers, you don't want to deny them their true natures, or perhaps something else, you let them live more freely.
 
 The demon will dress how they want, often keeping their skimpier and more devilish clothing.
-They will also recruit followers for their schemes every so often, inflicting a temporary demonization and including them in their obligation activities. Affects all followers as a Familiar.
+They will also recruit followers for their schemes every so often, inflicting a temporary demonization and including them in their obligation activities.
+Affects all followers as a Familiar.
         ]]>
     </string>
     <string name="servant_conduct_unrestrained_cost"><![CDATA[<b>-1 Fervor per Demon</b>]]></string>
