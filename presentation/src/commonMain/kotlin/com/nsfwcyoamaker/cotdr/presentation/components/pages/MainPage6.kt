@@ -8,6 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.AppScope
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.chapters.ChaptersDescription
+import com.nsfwcyoamaker.cotdr.presentation.components.sections.chapters.ChaptersExtra
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.chapters.ChaptersItemsGrid
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.chapters.ChaptersTitle
 import com.nsfwcyoamaker.cotdr.presentation.components.sections.church_appeal.ChurchAppealDescription
@@ -69,6 +70,11 @@ fun LazyListScope.MainPage6(
     ChaptersItemsGrid()
 
     item { Spacer(modifier = Modifier.height(12.dp)) }
+
+    item(
+        key = "ChaptersExtra",
+        contentType = "ChaptersExtra",
+    ) { ChaptersExtra() }
 
 }
 
