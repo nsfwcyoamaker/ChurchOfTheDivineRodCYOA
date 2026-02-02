@@ -1,6 +1,8 @@
 package com.nsfwcyoamaker.cotdr.presentation.components.sections.servant_conduct
 
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -107,10 +109,10 @@ private fun ContractConductCard(
     heightDp = 1080,
 )
 @Composable
-private fun ServantConductGridItemPreview() {
+private fun ContractCardExtendedPreview() {
     AppScope {
         Box(
-            modifier = Modifier.fillMaxSize(),
+            modifier = Modifier.fillMaxSize().verticalScroll(rememberScrollState()),
             contentAlignment = Alignment.Center,
         ) {
             ContractCardExtended(
@@ -118,9 +120,7 @@ private fun ServantConductGridItemPreview() {
                 onSelected = {},
                 onContractLevelSelected = {},
                 onContractConductSelected = {},
-                modifier = Modifier
-                    .fillMaxWidth(0.2f)
-                    .wrapContentHeight(),
+                modifier = Modifier.fillMaxWidth(0.4f),
             )
         }
     }

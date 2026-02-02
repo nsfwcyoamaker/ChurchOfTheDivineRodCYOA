@@ -41,7 +41,7 @@ fun LazyListScope.ServantConductGridItem(
                     val state = contractConductStateProvider(itemIndex)
                     Box(Modifier.weight(1f).fillMaxHeight()) {
                         state?.let { contractConductState ->
-                            ContractCardExtended(
+                            ConductCard(
                                 state = contractConductState,
                                 onSelected = { onContractConductAction(ToggleContractAction(contractConductState.option.parentContractOption.choice)) },
                                 onContractLevelSelected = { onContractConductAction(ToggleContractLevelAction(it)) },
