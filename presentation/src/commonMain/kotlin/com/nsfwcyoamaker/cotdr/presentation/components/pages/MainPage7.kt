@@ -74,7 +74,22 @@ fun LazyListScope.MainPage7(
 
     item { Spacer(modifier = Modifier.height(12.dp)) }
 
-    //todo
+    item(
+        key = "ChurchRulingsSubTitle",
+        contentType = "ChurchRulingsSubTitle",
+    ) { ChurchRulingsSubTitle() }
+
+    item { Spacer(modifier = Modifier.height(12.dp)) }
+
+    item(
+        key = "ChurchRulingsGrid",
+        contentType = "ChurchRulingsGrid",
+    ) {
+        ChurchRulingsGrid(
+            rulingStateProvider = rulingStateProvider,
+            onRulingAction = onRulingAction,
+        )
+    }
 }
 
 @Preview(

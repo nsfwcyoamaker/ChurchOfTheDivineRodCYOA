@@ -1,5 +1,6 @@
 package com.nsfwcyoamaker.cotdr.presentation.screens.rulings
 
+import com.nsfwcyoamaker.cotdr.presentation.model.ChurchRulingOption
 import com.nsfwcyoamaker.cotdr.presentation.model.FollowersRulingOption
 import com.nsfwcyoamaker.cotdr.presentation.model.RulingOption
 import com.nsfwcyoamaker.cotdr.presentation.model.RulingState
@@ -12,6 +13,7 @@ data class RulingsSelectionState(
         fun defaultState() = buildMap<RulingOption, Map<RulingOption.Option, RulingState.RulingOptionState>> {
             listOf(
                 FollowersRulingOption.entries,
+                ChurchRulingOption.entries,
                 //todo others
             ).flatten().forEach { rulingOption ->
                 put(
