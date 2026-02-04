@@ -1,37 +1,32 @@
 package com.nsfwcyoamaker.cotdr.presentation.components
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.material3.Text
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
-import com.nsfwcyoamaker.cotdr.composableRichText.rememberRichTextResource
-import com.nsfwcyoamaker.cotdr.presentation.theme.mediumTitleTextStyle
 import com.nsfwcyoamaker.cotdr.resources.Res
+import com.nsfwcyoamaker.cotdr.resources.divider_horizontal
 import com.nsfwcyoamaker.cotdr.resources.section_fervor_title
-import org.jetbrains.compose.resources.StringResource
+import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @Composable
-fun SectionTitle(
-    title: StringResource,
+fun SectionSeparator(
     modifier: Modifier = Modifier,
-    iconSize: Dp = 64.dp,
-    style: TextStyle = mediumTitleTextStyle,
 ) {
-    HighlightCenter(
-        iconSize = iconSize,
+    Image(
+        painter = painterResource(Res.drawable.divider_horizontal),
+        contentDescription = null,
+        contentScale = ContentScale.FillHeight,
         modifier = modifier
-    ) {
-        Text(
-            text = rememberRichTextResource(title),
-            maxLines = 1,
-            style = style,
-        )
-    }
+            .height(24.dp)
+            .wrapContentWidth(),
+    )
 }
 
 @Preview(

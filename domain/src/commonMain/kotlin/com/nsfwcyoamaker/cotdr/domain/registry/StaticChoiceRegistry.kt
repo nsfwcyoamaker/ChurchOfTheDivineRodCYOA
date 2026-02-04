@@ -13,6 +13,7 @@ object StaticChoiceRegistry: ChoiceRegistry {
         ExperimentalBrand.entries,
         Contract.entries,
         ContractConduct.all,
+        FollowersRuling.entries,
     ).flatten()
 
     override fun getAllChoices(): List<Choice> = allChoices

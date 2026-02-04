@@ -1,0 +1,5 @@
+package com.nsfwcyoamaker.cotdr.presentation.screens.rulings
+
+import com.nsfwcyoamaker.cotdr.presentationToadHandler.ViewAction
+
+interface RulingsSelectionAction: ViewAction<RulingsSelectionActionDependencies, RulingsSelectionState, Nothing>

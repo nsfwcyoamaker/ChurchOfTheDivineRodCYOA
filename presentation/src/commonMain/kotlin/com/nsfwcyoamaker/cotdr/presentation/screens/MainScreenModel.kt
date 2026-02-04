@@ -12,6 +12,7 @@ import com.nsfwcyoamaker.cotdr.presentation.screens.contract_conduct.ContractCon
 import com.nsfwcyoamaker.cotdr.presentation.screens.contracts.ContractsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.experimental_brands.ExperimentalBrandsSelectionViewModel
+import com.nsfwcyoamaker.cotdr.presentation.screens.rulings.RulingsSelectionViewModel
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.map
@@ -34,4 +35,5 @@ class MainScreenModel: ScreenModel, KoinComponent {
     val contractsSelectionViewModel by inject<ContractsSelectionViewModel> { parametersOf(screenModelScope) }
     val contractConductsSelectionViewModel by inject<ContractConductsSelectionViewModel> { parametersOf(screenModelScope) }
     val churchAppealSelectionViewModel by inject<ChurchAppealSelectionViewModel> { parametersOf(screenModelScope) }
+    val rulingsSelectionViewModel by inject<RulingsSelectionViewModel> { parametersOf(screenModelScope) }
 }

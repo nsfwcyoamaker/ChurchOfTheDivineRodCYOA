@@ -10,6 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.scale
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.rememberVectorPainter
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.nsfwcyoamaker.cotdr.presentation.svg.Sword
 import org.jetbrains.compose.ui.tooling.preview.Preview
@@ -18,10 +19,17 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 fun HighlightCenter(
     modifier: Modifier = Modifier,
     inverted: Boolean = false,
+    iconSize: Dp = 64.dp,
+    highlightContent: @Composable (modifier: Modifier) -> Unit = { modifier ->
+        Icon(
+            painter = rememberVectorPainter(Sword),
+            contentDescription = null,
+            modifier = modifier,
+            tint = Color.White,
+        )
+    },
     content: @Composable RowScope.() -> Unit,
 ) {
-    val iconSize = 64.dp
-    val iconColor = Color.White
 
     Row(
         verticalAlignment = Alignment.CenterVertically,
@@ -32,14 +40,12 @@ fun HighlightCenter(
             modifier = Modifier.weight(1f),
             contentAlignment = Alignment.CenterEnd,
         ) {
-            Icon(
-                painter = rememberVectorPainter(Sword),
-                contentDescription = null,
-                modifier = Modifier.height(iconSize)
+            highlightContent(
+                Modifier
+                    .height(iconSize)
                     .then(
                         if(inverted) Modifier.scale(scaleX = -1f, scaleY = 1f) else Modifier
-                    ),
-                tint = iconColor,
+                    )
             )
         }
 
@@ -49,14 +55,12 @@ fun HighlightCenter(
             modifier = Modifier.weight(1f),
             contentAlignment = Alignment.CenterStart,
         ) {
-            Icon(
-                painter = rememberVectorPainter(Sword),
-                contentDescription = null,
-                modifier = Modifier.height(iconSize)
+            highlightContent(
+                Modifier
+                    .height(iconSize)
                     .then(
                         if(!inverted) Modifier.scale(scaleX = -1f, scaleY = 1f) else Modifier
-                    ),
-                tint = iconColor,
+                    )
             )
         }
     }

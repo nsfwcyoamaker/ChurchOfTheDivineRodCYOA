@@ -98,6 +98,15 @@ object MainScreen: Screen {
             }
         }
 
+        val rulingStateProvider = remember(screenModel) {
+            @Composable { rulingOption: RulingOption.Option ->
+                val state by screenModel.rulingsSelectionViewModel.state.mapAsState(rulingOption) { rulingsState ->
+                    rulingsState.items[rulingOption.rulingOption]?.get(rulingOption)
+                }
+                state ?: RulingState.RulingOptionState(rulingOption)
+            }
+        }
+
         Scaffold(
             containerColor = Color.Transparent,
             bottomBar = {
@@ -150,7 +159,13 @@ object MainScreen: Screen {
                 MainPage6(
                     churchAppealProvider = churchAppealProvider,
                     onChurchAppealAction = screenModel.churchAppealSelectionViewModel::runAction,
+                )
 
+                item { Spacer(modifier = Modifier.height(60.dp)) }
+
+                MainPage7(
+                    rulingStateProvider = rulingStateProvider,
+                    onRulingAction = screenModel.rulingsSelectionViewModel::runAction,
                 )
             }
         }

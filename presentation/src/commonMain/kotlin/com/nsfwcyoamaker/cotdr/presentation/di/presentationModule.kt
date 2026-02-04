@@ -16,6 +16,8 @@ import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelection
 import com.nsfwcyoamaker.cotdr.presentation.screens.covenants.CovenantsSelectionViewModel
 import com.nsfwcyoamaker.cotdr.presentation.screens.experimental_brands.ExperimentalBrandsSelectionActionDependencies
 import com.nsfwcyoamaker.cotdr.presentation.screens.experimental_brands.ExperimentalBrandsSelectionViewModel
+import com.nsfwcyoamaker.cotdr.presentation.screens.rulings.RulingsSelectionActionDependencies
+import com.nsfwcyoamaker.cotdr.presentation.screens.rulings.RulingsSelectionViewModel
 import org.koin.core.module.dsl.factoryOf
 import org.koin.dsl.module
 
@@ -36,4 +38,6 @@ fun presentationModule() = module {
     factoryOf(::ContractConductsSelectionActionDependencies)
     factoryOf(::ChurchAppealSelectionViewModel)
     factoryOf(::ChurchAppealSelectionActionDependencies)
+    factoryOf(::RulingsSelectionViewModel)
+    factoryOf(::RulingsSelectionActionDependencies)
 }
