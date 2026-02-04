@@ -70,7 +70,7 @@ fun RulingsGrid(
                         ) {
                             Row(
                                 horizontalArrangement = Arrangement.spacedBy(4.dp),
-                                modifier = Modifier.fillMaxWidth(),
+                                modifier = Modifier.fillMaxSize(),
                             ) {
                                 Image(
                                     painter = painterResource(alternative.image),
