@@ -2243,11 +2243,11 @@ Yes they're still perverts, but for other reasons; the Church is holy!
 <acerola>Alright, this will be a particularly odd one... what should the Church's public stance be on marriage? Monogamy, or polygamy? You are an obvious exception, my Lord, it will be stranger if you don't take multiple wives... but for everyone else, should it be one-to-one, groups in shared mutual love, or can a single person have multiple spouses?</acerola>
         ]]>
     </string>
-    <string name="section_rulings_church_marriage_left_title"><![CDATA[<anglo>Winner Take All!</anglo>]]></string>
+    <string name="section_rulings_church_marriage_left_title"><![CDATA[<anglo>One Plus One!</anglo>]]></string>
     <string name="section_rulings_church_marriage_left_description">
         <![CDATA[
-No double standards here. If you can get two people to marry you, then more power to you. If you can swing it with like a dozen, enjoy your harem! And good luck, you'll need it!
-Obviously, everyone liking each other is the most compatible arrangement, but the Church will consider that a suggestion.
+Maybe your sensibilities are still thoroughly mortal, or maybe you truly feel that way through and through, but you're sticking with the traditional structure.
+The Church will advocate for marriage between two people, you can stay unmarried if you want more. Keeps things more intimate and passionate that way.
         ]]>
     </string>
     <string name="section_rulings_church_marriage_middle_title"><![CDATA[<anglo>Shared Love!</anglo>]]></string>
@@ -2257,11 +2257,11 @@ There's only one rule: marriage is between those who love each other. As long as
 It's a celebration and recognition of love towards one another, and the details are unimportant as long as that core idea is followed.
         ]]>
     </string>
-    <string name="section_rulings_church_marriage_right_title"><![CDATA[<anglo>One Plus One!</anglo>]]></string>
+    <string name="section_rulings_church_marriage_right_title"><![CDATA[<anglo>Winner Take All!</anglo>]]></string>
     <string name="section_rulings_church_marriage_right_description">
         <![CDATA[
-Maybe your sensibilities are still thoroughly mortal, or maybe you truly feel that way through and through, but you're sticking with the traditional structure.
-The Church will advocate for marriage between two people, you can stay unmarried if you want more. Keeps things more intimate and passionate that way.
+No double standards here. If you can get two people to marry you, then more power to you. If you can swing it with like a dozen, enjoy your harem! And good luck, you'll need it!
+Obviously, everyone liking each other is the most compatible arrangement, but the Church will consider that a suggestion.
         ]]>
     </string>
     <string name="section_rulings_church_focus_title"><![CDATA[<anglo>Soft Touch, Strong Fist</anglo>]]></string>
