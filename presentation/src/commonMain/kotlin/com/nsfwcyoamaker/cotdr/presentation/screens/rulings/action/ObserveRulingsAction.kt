@@ -1,12 +1,12 @@
 package com.nsfwcyoamaker.cotdr.presentation.screens.rulings.action
 
 import com.nsfwcyoamaker.cotdr.domain.engine.model.ComputedChoice
+import com.nsfwcyoamaker.cotdr.domain.model.BelieversRuling
 import com.nsfwcyoamaker.cotdr.domain.model.ChurchRuling
+import com.nsfwcyoamaker.cotdr.domain.model.DevoteesRuling
 import com.nsfwcyoamaker.cotdr.domain.model.FollowersRuling
 import com.nsfwcyoamaker.cotdr.presentation.mapper.UiChoiceMapper
-import com.nsfwcyoamaker.cotdr.presentation.model.ChurchRulingOption
-import com.nsfwcyoamaker.cotdr.presentation.model.FollowersRulingOption
-import com.nsfwcyoamaker.cotdr.presentation.model.RulingState
+import com.nsfwcyoamaker.cotdr.presentation.model.*
 import com.nsfwcyoamaker.cotdr.presentation.screens.rulings.RulingsSelectionAction
 import com.nsfwcyoamaker.cotdr.presentation.screens.rulings.RulingsSelectionActionDependencies
 import com.nsfwcyoamaker.cotdr.presentation.screens.rulings.RulingsSelectionState
@@ -21,12 +21,14 @@ object ObserveRulingsAction: RulingsSelectionAction {
             items = listOf(
                 FollowersRuling.entries,
                 ChurchRuling.entries,
-                //++the others?
+                BelieversRuling.entries,
+                DevoteesRuling.entries,
             ).flatten(),
             options = listOf(
                 FollowersRulingOption.entries,
                 ChurchRulingOption.entries,
-                //++the others?
+                BelieversRulingOption.entries,
+                DevoteesRulingOption.entries,
             ).flatten(),
             getComputedChoicesUseCase = dependencies.getComputedChoicesUseCase,
             makeState = { computed, option ->

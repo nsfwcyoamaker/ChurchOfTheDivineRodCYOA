@@ -2070,6 +2070,11 @@ Rightmost is the <b>Devoted</b> option, encouraging devotion and focus in Sex, n
 The Rulings are split into four sections: ones that affect all Followers, ones that affect the Church as an organization, ones for Believers, and ones for Devotees.
         ]]>
     </string>
+
+    <string name="rulings_relaxed_cost"><![CDATA[<b>Reduce Fervor by -1</b>]]></string>
+    <string name="rulings_neutral_cost"><![CDATA[<b>Doesn't affect Fervor</b>]]></string>
+    <string name="rulings_devoted_cost"><![CDATA[<b>Increase Fervor by 1</b>]]></string>
+
     <string name="section_rulings_followers_title"><![CDATA[<anglo>Followers</anglo>]]></string>
     <string name="section_rulings_followers_sex_title"><![CDATA[<anglo>The Shape of Sex</anglo>]]></string>
     <string name="section_rulings_followers_sex_description">
@@ -2285,7 +2290,256 @@ Strengthening the Church's martial and magical power will mean it can always sta
 Let our actions speak for themselves, and let us be the ones that other groups seek out for favors and alliances.
         ]]>
     </string>
-    <string name="rulings_relaxed_cost"><![CDATA[<b>Reduce Fervor by -1</b>]]></string>
-    <string name="rulings_neutral_cost"><![CDATA[<b>Doesn't affect Fervor</b>]]></string>
-    <string name="rulings_devoted_cost"><![CDATA[<b>Increase Fervor by 1</b>]]></string>
+
+    <string name="section_rulings_interlude">
+        <![CDATA[
+There's a pause in the questions, though not in the softness or stroking. You stay comfortably enveloped in your trance, but it still makes you happy when touches suddenly begin all across your body. Wandering hands, gliding over your arms, your chest, your stomach, your legs. There's the barest bit of tickle to some spots, but mostly just delicate fingertips stroking across your form, sending even more delightful feelings all throughout you. A slow, deep inhale from the cleavage around your face gives you another big dose of entrancing feminine aroma, pushing you way back down into your dozy, warm, trance. You wouldn't mind staying like this forever.
+
+There are murmurs above that you can't make out, or maybe your mind chooses to not comprehend them. They sound calm and happy and pleasant, so it's not a problem. Two of the hands stroking across you have stopped at your nipples, and are now teasing them exclusively. This is also nice, sparking a different sort of pleasure into your body that compliments all the others.
+
+Then, something new happens. A different voice speaks, whispering huskily with a taunting tone into your ear from inches away...
+<erina>...Are you enjoying this, Lord? Mm, hehehe... you sure seem like you are... Would you like it if we did this for you more often? I think it might be a bit blasphemous, but to see our Lord laid out and at our mercy, being played with and looking oh-so-cute... hehe, it's worth it~</erina>
+Involuntary shivers crawl down your spine in delight, as another voice whispers from the other side, this one much gentler...
+<celeste>We would never take advantage of our Lord like that... To abuse their trust that has been placed in us would be... unacceptable. But if our Lord wished it, and were to command us... to service and enjoy, as we pleasure them in turn... a blasphemy would become sanctified worship...</celeste>
+A third new voice, from... behind? But, you're on your back, so it couldn't be... yet it is, and you can almost feel her breath on your nape...
+<desuri>Indeed it would... from the border of sin comes immaculate comfort, this decadent pleasure you're enjoying now... In public you must be the noble God above all, but for us alone you can let go, just for a bit... Hmm~, but first Ms. Acerola has a few more questions for you...</desuri>
+        ]]>
+    </string>
+
+    <string name="section_rulings_believers_title"><![CDATA[<anglo>Believers</anglo>]]></string>
+
+    <string name="section_rulings_believers_rod_title"><![CDATA[<anglo>Acts of Service</anglo>]]></string>
+    <string name="section_rulings_believers_rod_description">
+        <![CDATA[
+<acerola>Now we get more specific. Shall Believers have sex with cocks from outside the Church? Non-sex contact will happen regardless, so this is for what you defined as sex before. It'll be impossible to forbid them entirely, but there are reasonable limits we can set instead. Maybe true sex with a Follower of Sex could be something only followers enjoy?</acerola>
+        ]]>
+    </string>
+    <string name="section_rulings_believers_rod_left_title"><![CDATA[<anglo>Go Ahead!</anglo>]]></string>
+    <string name="section_rulings_believers_rod_left_description">
+        <![CDATA[
+You're not about to tell the entire Church of Sex to not have sex, that would just be weird.
+Go forth and copulate, practice your faith and spread the good word! And also your legs!
+You've got plenty of followers all to yourself if you want them, no reason to tie the masses down.
+        ]]>
+    </string>
+    <string name="section_rulings_believers_rod_middle_title"><![CDATA[<anglo>For the Church!</anglo>]]></string>
+    <string name="section_rulings_believers_rod_middle_description">
+        <![CDATA[
+This is the Church of the Divine Rod, you'd better believe your followers can handle any rod they come across. But that's just work.
+The Believers will spare no effort to pleasure a patron, but it will only be their duty, not done for fun. It's only between followers that they really can blow off some steam and enjoy it.
+        ]]>
+    </string>
+    <string name="section_rulings_believers_rod_right_title"><![CDATA[<anglo>Members Only!</anglo>]]></string>
+    <string name="section_rulings_believers_rod_right_description">
+        <![CDATA[
+It may be somewhat controversial, but you've made up your mind. Sex with outsider cocks is entirely a no-go. Relief services and any other pleasure that followers bestow is to be done without true sex, no exceptions.
+Of course, with fewer outlets, the sex the followers do have with each other will be all the wilder.
+        ]]>
+    </string>
+
+    <string name="section_rulings_believers_love_title"><![CDATA[<anglo>What The Heart Wants</anglo>]]></string>
+    <string name="section_rulings_believers_love_description">
+        <![CDATA[
+<acerola>A far more contentious subject, romance... separating love from lust can be difficult at the best of times, and when awash in sex and surrounded by wildly attractive people it will be even rockier. Should we let the Believers love as they wish, careless of problems or sanctity? Or should the Church have restrictions on romantic relationships?</acerola>
+        ]]>
+    </string>
+    <string name="section_rulings_believers_love_left_title"><![CDATA[<anglo>Love is Free!</anglo>]]></string>
+    <string name="section_rulings_believers_love_left_description">
+        <![CDATA[
+You've no good reason to tell the Believers who to love, so yeah, they should follow their hearts. If love blooms, then as long as it doesn't get in their way of their duties or faith, all the better.
+Their variety of sexual partners may drop, but quality will almost certainly replace quantity.
+        ]]>
+    </string>
+    <string name="section_rulings_believers_love_middle_title"><![CDATA[<anglo>Love is Holy!</anglo>]]></string>
+    <string name="section_rulings_believers_love_middle_description">
+        <![CDATA[
+Love is a special thing, so for the sake and safety of everyone, you'll drop the hammer; no romance between Believers and outsiders.
+But with other followers? Oh, it's game on. They've got a common faith and interests, frequent proximity, and the sex will be to die for. If anything, this is almost a matchmaking service.
+        ]]>
+    </string>
+    <string name="section_rulings_believers_love_right_title"><![CDATA[<anglo>Lust Isn't Love!</anglo>]]></string>
+    <string name="section_rulings_believers_love_right_description">
+        <![CDATA[
+This is the Church of Sex, not Love. Serious romance for Believers is outright forbidden. Fuck all you want, but don't get attached to your partner(s).
+Though, there may be exceptions. Casual relationships may be fine, or perhaps there's an approval process? If so, such star-crossed romance will be treated like gold.
+        ]]>
+    </string>
+
+    <string name="section_rulings_believers_group_title"><![CDATA[<anglo>All for One, and One for All</anglo>]]></string>
+    <string name="section_rulings_believers_group_description">
+        <![CDATA[
+<acerola>Next, how should the Believers focus their efforts in terms of training and practicing sex? Shall they excel at the oh-so-common group sex and learn to handle and pleasure multiple partners? Or concentrate more on the individual, giving their full undivided attention to their lover in all its intensity?</acerola>
+        ]]>
+    </string>
+    <string name="section_rulings_believers_group_left_title"><![CDATA[<anglo>Spread the Love!</anglo>]]></string>
+    <string name="section_rulings_believers_group_left_description">
+        <![CDATA[
+There are far more outsiders than followers, and leaving anyone out at an orgy is a bad look.
+Believers should master the art of group sex, training every hole and technique so that no one is left dry. Also, group stuff can get out of control pretty quickly, so having some practice wrangling unruly guests will be vital.
+        ]]>
+    </string>
+    <string name="section_rulings_believers_group_middle_title"><![CDATA[<anglo>Teamwork!</anglo>]]></string>
+    <string name="section_rulings_believers_group_middle_description">
+        <![CDATA[
+Rather than focusing on one or the other, the Believers should try to maximize their flexibility and adapt to anything that comes up. And while they're at it, focus on teamwork. No one can do it all, so whether servicing one or a dozen people, no Believer should worry about working alone. Many hands make for light strokes, after all.
+        ]]>
+    </string>
+    <string name="section_rulings_believers_group_right_title"><![CDATA[<anglo>One on One!</anglo>]]></string>
+    <string name="section_rulings_believers_group_right_description">
+        <![CDATA[
+Groups are great and humans are social, but at it's most basic form, sex is two people. To not master their ability to pleasure their singular partner would be a disservice to the Church's name.
+So while the throughput may drop, quality rises in turn.
+The Believers should be providing sex that visitors never forget.
+        ]]>
+    </string>
+
+    <string name="section_rulings_believers_decorum_title"><![CDATA[<anglo>Shades of Enthusiasm</anglo>]]></string>
+    <string name="section_rulings_believers_decorum_description">
+        <![CDATA[
+<acerola>Last for Believers, the public face. Within the Church they will act as they will, but how should outsiders see our Believers in the throes of passion? This is specifically for during sex, rather than their general demeanor. Depending on your other choices, this may align with their true feelings or be just a facade to better please outsiders.</acerola>
+        ]]>
+    </string>
+    <string name="section_rulings_believers_decorum_left_title"><![CDATA[<anglo>Down and Dirty!</anglo>]]></string>
+    <string name="section_rulings_believers_decorum_left_description">
+        <![CDATA[
+When it comes to Sex, there's only one option; pleasure. People don't come here for family fun, they come here to climax like crazy and taste the decadent pleasure that only the Church can provide. If we live up to that idea, all the better. Believers should be acting like the pleasure-chasing sluts they all are deep down.
+        ]]>
+    </string>
+    <string name="section_rulings_believers_decorum_middle_title"><![CDATA[<anglo>Holy and Holey!</anglo>]]></string>
+    <string name="section_rulings_believers_decorum_middle_description">
+        <![CDATA[
+This is a Believer's sacred duty, and enjoy it or not they'll won't be bringing shame to the Church by acting any less than the holy agent of Sex that they are.
+They'll act with the dignity, calm, and subdued allure required to make sure that nobody will think the Church is just a bunch of horny perverts.
+        ]]>
+    </string>
+    <string name="section_rulings_believers_decorum_right_title"><![CDATA[<anglo>Sweet and Caring!</anglo>]]></string>
+    <string name="section_rulings_believers_decorum_right_description">
+        <![CDATA[
+It's gonna be hard to pull off for certain things, like the orgies... but Believers should be gentle and adoring. Sex is more than just a wild bout of animalesque fucking, it's a joining of two people and a crossing of their bodies and hearts. Visitors should leave us feeling more than just sucked dry, they should feel healed by Sex.
+        ]]>
+    </string>
+
+    <string name="section_rulings_devotees_title"><![CDATA[<anglo>Devotees</anglo>]]></string>
+
+    <string name="section_rulings_devotees_dicks_title"><![CDATA[<anglo>The Mortal Rod</anglo>]]></string>
+    <string name="section_rulings_devotees_dicks_description">
+        <![CDATA[
+<acerola>And on to Devotees. Should they be touching dicks besides yours at all? Remember, Devotees are primarily faithful to you yourself, rather than the concepts of Sex. To order them to abstain from any cock besides yours is not unreasonable, and in fact may even stoke some excitement in a roundabout way. They are here for you, after all...</acerola>
+        ]]>
+    </string>
+    <string name="section_rulings_devotees_dicks_left_title"><![CDATA[<anglo>Touch Freely!</anglo>]]></string>
+    <string name="section_rulings_devotees_dicks_left_description">
+        <![CDATA[
+Sure, why not? If they're a Devotee and know the glory of your dick and are still interested in others, then it doesn't make much sense to stop them.
+Let them stray, drink deep from the cup of life, taste the world. And when they return and experience you once more, they'll know your splendor all the better.
+        ]]>
+    </string>
+    <string name="section_rulings_devotees_dicks_middle_title"><![CDATA[<anglo>Followers Only!</anglo>]]></string>
+    <string name="section_rulings_devotees_dicks_middle_description">
+        <![CDATA[
+That's fine... as long as the dicks are also of followers. Keep things within the group. Your Devotees will not be colored by the impure rods of the unanointed.
+Or, less dramatically, you want them to build stronger bonds internally, perhaps. Nothing quite strengthens a relationship like a simultaneous orgasm!
+        ]]>
+    </string>
+    <string name="section_rulings_devotees_dicks_right_title"><![CDATA[<anglo>None But Me!</anglo>]]></string>
+    <string name="section_rulings_devotees_dicks_right_description">
+        <![CDATA[
+There is only one Divine Rod and it belongs to you. While the many other ways to get off may still be on the table, no Devotee will even be touching another dick besides yours. Such a hardline stance of cock prohibition may lead to some pent up lust, but that also means when they finally get time with yours, it'll be mind blowing.
+        ]]>
+    </string>
+
+    <string name="section_rulings_devotees_outsiders_title"><![CDATA[<anglo>Practice Makes Perfect</anglo>]]></string>
+    <string name="section_rulings_devotees_outsiders_description">
+        <![CDATA[
+<acerola>The identifying feature of Devotees is their strong faith for you, so we have developed many mental techniques to deepen it while practicing what we preach. Even during sex apart from you, our faith and love can grow deeper... though, how far should the Devotees take this? The full repertoire requires quite a lot of sexual encounters.</acerola>
+        ]]>
+    </string>
+    <string name="section_rulings_devotees_outsiders_left_title"><![CDATA[<anglo>Full Speed!</anglo>]]></string>
+    <string name="section_rulings_devotees_outsiders_left_description">
+        <![CDATA[
+The Devotees are thoroughly smitten with you and don't tend to wander much, but if there's a good chance, they'll take it. None can compare to your personal attentions, but joining their bodies furthers their faith, so they won't turn it down. Not like it feels bad, either... they'll just be thinking of someone even better.
+        ]]>
+    </string>
+    <string name="section_rulings_devotees_outsiders_middle_title"><![CDATA[<anglo>Draw a Line!</anglo>]]></string>
+    <string name="section_rulings_devotees_outsiders_middle_description">
+        <![CDATA[
+Maybe you feel a bit possessive, or you want a stricter difference between the two groups, but no, Devotees shouldn't go all out.
+The obvious stop is to have them refrain from their practices that require full-on sex, but you could simply rule out certain acts or with certain types of partners... Maybe followers only is fine?
+        ]]>
+    </string>
+    <string name="section_rulings_devotees_outsiders_right_title"><![CDATA[<anglo>Who Needs Em!</anglo>]]></string>
+    <string name="section_rulings_devotees_outsiders_right_description">
+        <![CDATA[
+To put it simply... who needs 'em!
+This won't eliminate Devotees getting up to things with others entirely, but they'll not be going out of their way to do so for faith anymore. Instead, it'll all be done solo. Fingers, toys, porn, and a lot of creativity. Of course, if you or your presence is involved, then everything is back on the table!
+        ]]>
+    </string>
+
+    <string name="section_rulings_devotees_sisters_title"><![CDATA[<anglo>Fellowship and Fondness</anglo>]]></string>
+    <string name="section_rulings_devotees_sisters_description">
+        <![CDATA[
+<acerola>The Devotees are a tight knit group, unified in their wants and passions, so it's no surprise that things... flare up between them. How should they treat their fellow Sisters of the Rod? Not just sexually, but, well... in general. There will be a lot of strong emotion flowing, and it can take many forms. A bit of guidance here would go a long way.</acerola>
+        ]]>
+    </string>
+    <string name="section_rulings_devotees_sisters_left_title"><![CDATA[<anglo>Sisters in Faith!</anglo>]]></string>
+    <string name="section_rulings_devotees_sisters_left_description">
+        <![CDATA[
+You'd prefer things stay more... platonic between the Devotees. Sure, they may hook up and group activities will certainly be a thing, but at the end of the day it's all just fellowship, no grand meaning to it.
+There will still be a great sense of "camaraderie" as Celeste calls it, but that's as far as it goes.
+        ]]>
+    </string>
+    <string name="section_rulings_devotees_sisters_middle_title"><![CDATA[<anglo>Love Thy Sister!</anglo>]]></string>
+    <string name="section_rulings_devotees_sisters_middle_description">
+        <![CDATA[
+They'll love you most of all, of course, but everyone has room in their heart for more than just one person. In fact, it'll be healthy for them to find a loved one or two among their fellow Devotees, and form a couple or even a cute little polycule. Share their triumphs and burdens, and become strong together for the Lord.
+        ]]>
+    </string>
+    <string name="section_rulings_devotees_sisters_right_title"><![CDATA[<anglo>One Big Family!</anglo>]]></string>
+    <string name="section_rulings_devotees_sisters_right_description">
+        <![CDATA[
+Oh, why fight it? No holds barred, let the love flow like wine! If the Devotees really wish to be your harem, then they should start acting like it!
+Anyone who calls themselves a Devotee will be available to each other, no restrictions. There may be smaller cliques, but all are part of a greater, free-loving whole.
+        ]]>
+    </string>
+
+    <string name="section_rulings_devotees_identity_title"><![CDATA[<anglo>Aspirations of Devotion</anglo>]]></string>
+    <string name="section_rulings_devotees_identity_description">
+        <![CDATA[
+<acerola>And... well, this one is more about you than us, I suppose... how will you view the Devotees? This goes both ways, deciding how you will treat them and what they should aim to become. Should they be simply devoted followers, or will you show more favor and expectation towards them? Or perhaps, even beyond that? A-ahem.</acerola>
+        ]]>
+    </string>
+    <string name="section_rulings_devotees_identity_left_title"><![CDATA[<anglo>Adoring Followers!</anglo>]]></string>
+    <string name="section_rulings_devotees_identity_left_description">
+        <![CDATA[
+You... think that they should stay as just followers. It's heartening that they follow you instead of the ideas you bear, but there are hundreds of Devotees as is, and that'll only get bigger with time.
+You can't justify, or maybe even maintain, giving extra attention to so many people. Maybe to a few, but not to the whole of them.
+        ]]>
+    </string>
+    <string name="section_rulings_devotees_identity_middle_title"><![CDATA[<anglo>Beloved Faithful!</anglo>]]></string>
+    <string name="section_rulings_devotees_identity_middle_description">
+        <![CDATA[
+You've got a lot of feelings on this. The fact that so many people are head over heels for you is hard to take in. You think you like it.
+Treating the Devotees with more, well, devotion only seems natural.
+You can't say how far it'll go, but it's safe to assume that at least one adoring Devotee will always be present for you from now on.
+        ]]>
+    </string>
+    <string name="section_rulings_devotees_identity_right_title"><![CDATA[<anglo>Wives in Training!</anglo>]]></string>
+    <string name="section_rulings_devotees_identity_right_description">
+        <![CDATA[
+This is a bad idea. Even the most mythical lovers could never dream of handling hundreds of relationships at once. But fuck it, you'll sure try. No one expects a traditional partnership with you, but even so, you'll have your work cut out keeping track and making time for everyone. But in return, the love they give is boundless.
+        ]]>
+    </string>
+
+    <string name="section_rulings_extra">
+        <![CDATA[
+One question finishes, and no more follow it. You don't mind. This world of softness is perfect anyway. You just lay there and enjoy it for a while more. Finally though, something changes. A warmth has been building in your groin for quite some time, simmering and growing pleasantly, and has just hit a tipping point. The warmth begins to flow out through your cock in small pulsing waves. Each wave feels very VERY good, hot and potent and supremely pleasurable. Slowly, steadily, they march forward through a valley of perfect softness to a hot, wet, hole that teases the tip of your cock and pulls more and more out of you.
+The waves grow larger and even better as the steamy force urges more and more out of your cock, until you lose track entirely of the size and length of each wave, just lost in an endless surging river of pleasurable heat, on and on, flowing and growing... but tragically, it stops as the wonderful suction on your dick halts.
+
+A larger movement around your penis and the loss of the sublime softness breaks your trance, dragging you back to reality. The tail end of a massive orgasm shocks you first thing, your whole body tense and arched from raw pleasure. Looking down, Helena has entirely released your cock from her breasts and is slumped down against your hips, your wet dick laying across her cheek and pumping a few final splurts of cum onto her hair. She looks completely out of it and drenched in cum, awash in bliss as she rubs her face against your shaft.
+Then you realize that's only the half of it: her stomach looks 6 months pregnant, and the copious trails of cum all over her give you a good idea how much of your thick, hot, pearly white liquid she must have swallowed.
+She has to take a few more gulps to clear her mouth before she can speak (and even then it's still sticky with remnants of cum), but she meets your gaze, eyes half lidded and starry, and drunkenly giggles.
+<helena>Ehehehe... did I do good, Lord? I really tried my besht... and it felt sho goooood... ehehehe~ I did'n know it could feel sho nice... Did you girlsh have it this nishe yesserday, and not tell me? Thash... thash sho meeean... ehehehe~</helena>
+        ]]>
+    </string>
+
 </resources>

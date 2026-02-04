@@ -169,6 +169,13 @@ object MainScreen: Screen {
                     rulingStateProvider = rulingStateProvider,
                     onRulingAction = screenModel.rulingsSelectionViewModel::runAction,
                 )
+
+                item { Spacer(modifier = Modifier.height(60.dp)) }
+
+                MainPage8(
+                    rulingStateProvider = rulingStateProvider,
+                    onRulingAction = screenModel.rulingsSelectionViewModel::runAction,
+                )
             }
         }
     }

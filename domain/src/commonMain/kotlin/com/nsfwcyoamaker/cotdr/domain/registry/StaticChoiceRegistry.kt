@@ -14,6 +14,9 @@ object StaticChoiceRegistry: ChoiceRegistry {
         Contract.entries,
         ContractConduct.all,
         FollowersRuling.entries,
+        ChurchRuling.entries,
+        BelieversRuling.entries,
+        DevoteesRuling.entries,
     ).flatten()
 
     override fun getAllChoices(): List<Choice> = allChoices
